@@ -1,0 +1,247 @@
+/* Installs the Use Scrolls Engine and related Blade and Shapeshifter hacks.
+
+- Create trueres, a Thief clone.
+  - Script to turn pure thieves into trueres.
+- Create magetw, a Mage clone.
+  - Script to trun pure mages into magetw.
+- Create shaptF and shaptw from Shapeshifter.
+  - Alter the Clab file.
+- Create bladetw from Blade.
+  - Alter the Clab file.
+- Initiates a loop in kitlist.2da and edits kits in the following manner:
+  - thief, cleric, fighter kit (including trueres):
+    - creates a tF copy with empty clab file
+    - creates a fw copy with base clab file
+    - adds the Undead Hunter unusable (0x00000020), unless it uses exactly
+        Assassin and/or Bounty Hunter unusables.
+    - adds scripts for Use Scrolls (or other HLAs) and/or Dual Class handling.
+*/
+
+//Set the correct flags to Scrolls, copy additional fixes and other needed files
+
+COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
+  READ_BYTE     0x2f current ELSE 0
+  READ_BYTE     0x2b current2 ELSE 0
+
+  // Analyze items; if:
+  // 1) Have 2 extended headers
+  // 2) one contains ~cast spell~ (0x92 or 0x94) on a wizard spell
+  // 3) The other contains ~Learn Spell~ (0x93) on the same spell
+  // then it's a wizardly spell scroll: update for Use Scrolls!
+  READ_LONG 0x64 headoffset  ELSE 0
+  READ_SHORT 0x68 headcount  ELSE 0
+  READ_LONG 0x6a effectsoffset  ELSE 0
+
+  haslearn = 0
+  hascast = 0
+
+  PATCH_IF (headcount = 2) BEGIN
+    FOR (headcyc = 0; headcyc < headcount ; headcyc = headcyc + 1) BEGIN
+      thishead = 0
+      READ_SHORT (headoffset + (headcyc * 0x38) + 0x1e) effcount  ELSE 0
+      READ_SHORT (headoffset + (headcyc * 0x38) + 0x20) effectsindex  ELSE 0
+
+      FOR (effcyc = 0; effcyc < effcount; effcyc = effcyc + 1) BEGIN
+        READ_SHORT (effectsoffset + (effectsindex + effcyc)* 0x30) opcode ELSE 0
+
+        PATCH_IF (opcode = 0x93) AND (thishead = 0) BEGIN
+          READ_ASCII (effectsoffset + 0x14 + (effectsindex + effcyc)* 0x30) resref_learn  ELSE 0
+
+          INNER_PATCH_FILE ~%resref_learn%.spl~ BEGIN
+            READ_SHORT 0x1c type
+          END
+
+          PATCH_IF (type = 1) BEGIN //wizardly
+            thishead = 1
+            haslearn = 1
+          END
+        END // PATCH_IF (opcode = learn spell)
+
+        PATCH_IF ((opcode = 0x92) OR (opcode = 0x94)) AND (thishead = 0) BEGIN
+          READ_ASCII (effectsoffset + 0x14 + (effectsindex + effcyc)* 0x30) resref_cast  ELSE 0
+
+          INNER_PATCH_FILE ~%resref_cast%.spl~ BEGIN
+            READ_SHORT 0x1c type
+          END
+
+          PATCH_IF (type = 1) BEGIN //wizardly
+            thishead = 1
+            hascast = 1
+          END
+        END // PATCH_IF (opcode = cast spell)
+      END // FOR.. effect_cycle
+    END // FOR.. header cycle
+  END // PATCH_IF... have exactly 2 headers
+
+  PATCH_IF (haslearn = 1) AND (hascast = 1) AND (~%resref_cast%~ STRING_EQUAL_CASE ~%resref_learn%~) BEGIN
+		READ_BYTE ~0x1f~ ~byte1~
+		WRITE_BYTE ~0x1f~ (~%byte1%~ BAND ~0b11111101~)
+		READ_BYTE ~0x20~ ~byte2~
+		WRITE_BYTE ~0x20~ (~%byte2%~ BAND ~0b10111101~)
+		WRITE_SHORT 0x2f current BOR 0b00100000
+    WRITE_SHORT 0x2b current2 BOR 0b00001100
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+
+COPY ~refinements/Hlab/Thief/fix~	  	~override~
+
+//Make Wizardslayers not ~duallable~ to mage
+COPY_EXISTING ~DUALCLAS.2DA~     ~override/DUALCLAS.2DA~
+  SET_2DA_ENTRY 27 3 7 0
+
+// Patches if the player has Nalia Mod installed (= nalia is mage->thief).
+ACTION_IF FILE_EXISTS ~override/tb#nalia_M_to_T.txt~ THEN
+BEGIN
+	COPY_EXISTING ~NALIA10.cre~ ~override~
+                  ~NALIA11.cre~ ~override~
+                  ~NALIA13.cre~ ~override~
+                  ~NALIA15.cre~ ~override~
+                  ~NALIA8.cre~  ~override~
+                  ~NALIA18.cre~ ~override~
+		WRITE_SHORT   0x244 0    //needed to change the the kit
+		WRITE_BYTE    0x246 magetw   //swashbuckler
+		WRITE_BYTE    0x247 0x40 //needed to change the kit
+END
+
+//Creates a new CLAB file for the Blade twin kit
+COPY_EXISTING ~CLABBA02.2DA~     ~override/CLABBLTW.2DA~
+REPLACE_TEXTUALLY ~GA_SPCL521~     ~GA_LI#FINO~
+REPLACE_TEXTUALLY ~GA_SPCL522~     ~GA_LI#FIND~
+
+//Fixes the original shapeshifter CLAB
+COPY_EXISTING ~clabdr03.2da~ ~override~
+  REPLACE_TEXTUALLY ~GA_SPCL644  ~ ~****        ~
+  SET_2DA_ENTRY 1 13 5 ~GA_SPCL644~
+
+//Creates a new one for shapeshifters who pick 
+//Feral Spirit and then dual to fighter!
+COPY_EXISTING ~clabdr03.2da~ ~override/CLABSHTW.2DA~
+  REPLACE_TEXTUALLY ~GA_SPCL644  ~ ~****        ~
+  REPLACE_TEXTUALLY ~GA_SPCL643  ~ ~****        ~
+
+COPY_EXISTING CLABTH01.2da override
+SILENT
+ADD_KIT ~trueres~
+~trueres                1       1       1       1       1       0       0       0~
+~trueres  0 1 0 0 1 0 0 1 0 1 1 0 0 1 1 1 0 1 0 0 0 0 1 1 0 1 1 1 1 1 1 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+~trueres    0       9       0       0       0       0~
+~trueres    0       0       0       0       0       0~
+~trueres    0       17      0       0       0       0~
+~trueres    0       15      0       0       0       0~
+~trueres    0       1       1       1       1       1       1       1       1~
+~trueres    1       1       1       0       0       0~
+~override/clabth01.2da~
+~~
+~0x00004000     4~
+~Th0~
+~* * * * * * * * * * * * * * * * * * * *~
+SAY #30530
+SAY #30530
+SAY #9561
+
+ADD_KIT ~magetw~
+~magetw         1       0       1       1       0       0       0       0~
+~magetw  0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+~magetw     0       0       0       9       0       0~
+~magetw     0       0       0       0       0       0~
+~magetw     0       0       0       17      0       0~
+~magetw     0       0       0       15      0       0~
+~magetw     1       1       1       1       1       1       1       1       1~
+~magetw     1       1       0       1       0       0~
+~refinements/Hlab/Thief/clab/CLABEMPT.2DA~
+~~
+~0x00004000     1~
+~Ma0~
+~* * * * * * * * * * * * * * * * * * * *~
+SAY #30497
+SAY #30497
+SAY #9563
+
+COPY_KIT SHAPESHIFTER shaptw (
+CLAB ~override/clabshtw.2da~
+)
+COPY_KIT SHAPESHIFTER shaptF (
+CLAB ~refinements/hlab/thief/clab/clabempt.2da~
+)
+
+COPY_KIT BLADE bladetw (
+CLAB ~override/clabbltw.2da~
+)
+
+EXTEND_TOP li#stri.bcs ~refinements/hlab/thief/li#stribase.baf~ EVALUATE_BUFFER
+OUTER_FOR (i = 1; i <= 6; i +=1) BEGIN
+	EXTEND_TOP baldur.bcs ~refinements/hlab/thief/baldurbase.baf~ EVALUATE_BUFFER
+	EXTEND_TOP baldur25.bcs ~refinements/hlab/thief/baldurbase.baf~ EVALUATE_BUFFER
+END
+VERBOSE
+
+COPY_EXISTING - kitlist.2da ~/tmp/kitlist.2da~
+  READ_2DA_ENTRIES_NOW _kitlist 9
+  FOR (kitnumber = 1; kitnumber < _kitlist; kitnumber = kitnumber + 1) BEGIN
+    READ_2DA_ENTRY_FORMER _kitlist kitnumber 8 class
+    READ_2DA_ENTRY_FORMER _kitlist kitnumber 1 oldName
+    PATCH_IF !(~%oldName%~ STRING_COMPARE_CASE ~C!ArcSyl~) BEGIN
+    	INNER_ACTION BEGIN
+    		PRINT ~The Archer of Sylvanus kit is incompatible with Refinements.~
+    		FAIL ~Incompatible mod detected~
+    	END
+    END
+    PATCH_IF ((class = 2) || (class = 4) || (class = 3)) &&
+        (FILE_CONTAINS_EVALUATED (~dualclas.2da~ ~%oldName%~)) &&
+				(~%oldName%~ STRING_COMPARE_CASE ~yrkensai~) BEGIN
+      PATCH_IF class = 2 BEGIN
+        SPRINT oldClass FIGHTER_MAGE
+      END
+      PATCH_IF class = 3 BEGIN
+        SPRINT oldClass CLERIC_MAGE
+      END
+      PATCH_IF class = 4 BEGIN
+        SPRINT oldClass MAGE_THIEF
+      END
+      SPRINT oldKit ~%oldName%~
+      PATCH_IF ~%oldKit%~ STRING_EQUAL TALOS BEGIN
+        SPRINT oldKit GODTALOS
+      END
+      PATCH_IF ~%oldKit%~ STRING_EQUAL HELM BEGIN
+        SPRINT oldKit GODHELM
+      END
+      PATCH_IF ~%oldKit%~ STRING_EQUAL LATHANDER BEGIN
+        SPRINT oldKit GODLATHANDER
+      END
+      PATCH_IF ~%oldKit%~ STRING_EQUAL BOUNTY_HUNTER BEGIN
+        SPRINT oldKit BOUNTYHUNTER
+      END
+      PATCH_IF ~%oldKit%~ STRING_EQUAL WIZARD_SLAYER BEGIN
+        SPRINT oldKit WIZARDSLAYER
+      END
+      PATCH_PRINT ~Duplicating %oldName%~
+      READ_2DA_ENTRY_FORMER _kitlist kitnumber 7 unusable
+      PATCH_IF (unusable != 0x00040000) && (unusable != 0x00080000) BEGIN
+        SET_2DA_ENTRY_LATER   kitlist kitnumber 7 unusable | 0x00000020
+      END
+      INNER_ACTION BEGIN
+        SILENT
+        COPY_KIT ~%oldName%~ ~%oldKit%tF~ (
+          CLAB ~refinements/hlab/thief/clab/clabempt.2da~
+        )
+        COPY_KIT ~%oldName%~ ~%oldKit%tw~ ()
+        EXTEND_TOP li#stri.bcs ~refinements/hlab/thief/li#strikit.baf~
+            EVALUATE_BUFFER
+        OUTER_FOR (i = 1; i <= 6; i +=1) BEGIN
+          EXTEND_TOP baldur.bcs ~refinements/hlab/thief/baldurkit.baf~
+              EVALUATE_BUFFER
+          EXTEND_TOP baldur25.bcs ~refinements/hlab/thief/baldurkit.baf~
+              EVALUATE_BUFFER
+        END
+        VERBOSE
+      END
+    END
+  END
+
+// the kitlist.2da was edited by COPY_KIT inside a COPY kitlist, I need to
+// SET_2DA_ENTRIES_NOW in a different copy action.
+COPY_EXISTING ~kitlist.2da~ ~override~
+  SET_2DA_ENTRIES_NOW kitlist 9
+  PRETTY_PRINT_2DA
+

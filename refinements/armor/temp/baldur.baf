@@ -1,0 +1,19 @@
+IF
+	!GlobalTimerNotExpired("TB#ResistancePlayer1","GLOBAL")
+	CheckStatGT(Player1,75,24)
+	!Kit(Player1,BARBARIAN)
+THEN
+	RESPONSE #100
+		ApplySpellRes("TB#resi4",Player1)
+		SetGlobalTimer("TB#ResistancePlayer1","GLOBAL",1)
+END
+
+IF
+	!GlobalTimerNotExpired("TB#ResistancePlayer1","GLOBAL")
+	CheckStatGT(Player1,85,24)
+	Kit(Player1,BARBARIAN)
+THEN
+	RESPONSE #100
+		ApplySpellRes("TB#res14",Player1)
+		SetGlobalTimer("TB#ResistancePlayer1","GLOBAL",1)
+END

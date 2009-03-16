@@ -1,0 +1,16 @@
+// Used for Blades and improved spins:
+IF
+        Kit(LastSummonerOf(Myself),BLADE)
+THEN
+        RESPONSE #100
+                ActionOverride(LastSummonerOf(Myself),AddKit(bladetw))
+                DestroySelf()
+END
+// Used for Shapeshifters and the dualling bug:
+IF
+        Kit(LastSummonerOf(Myself),SHAPESHIFTER)
+THEN
+        RESPONSE #100
+                ActionOverride(LastSummonerOf(Myself),AddKit(shaptw))
+                DestroySelf()
+END

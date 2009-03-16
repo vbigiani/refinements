@@ -1,0 +1,7 @@
+IF
+	Kit(LastSummonerOf(Myself),%oldKit%)
+THEN
+	RESPONSE #100
+		ActionOverride(LastSummonerOf(Myself),AddKit(%oldKit%tw))
+		DestroySelf()
+END

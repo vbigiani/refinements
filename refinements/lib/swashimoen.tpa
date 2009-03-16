@@ -1,0 +1,374 @@
+// we add the relevant code if missing.
+// REQUIRE_COMPONENT ~setup-refinements.tp2~ ~10~ @11
+
+// as above
+//REQUIRE_FILE ~Data/25Dialog.bif~ @10
+AT_INTERACTIVE_EXIT ~VIEW refinements/Docs/Swashimoen.txt~
+
+// old lazy version of the whole component code  ;D
+// COPY ~refinements/swashimoen~	  	 ~override~
+
+// adding the Swashtf/tw stuff if missing
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~tg#ussc.spl~ THEN
+BEGIN
+  SILENT
+  OUTER_SPRINT oldName SWASHBUCKLER
+  OUTER_SPRINT oldKit SWASHBUCKLER
+  OUTER_SPRINT oldClass MAGE_THIEF
+  COPY_KIT ~%oldName%~ ~%oldKit%tF~ (
+    CLAB ~refinements/hlab/thief/clab/clabempt.2da~
+  )
+  COPY_KIT ~%oldName%~ ~%oldKit%tw~ ()
+  OUTER_FOR (i = 1; i <= 6; i +=1) BEGIN
+    EXTEND_TOP baldur.bcs ~refinements/hlab/thief/baldurkit.baf~
+        EVALUATE_BUFFER
+    ACTION_IF FILE_EXISTS_IN_GAME ~baldur25.bcs~ THEN BEGIN
+      EXTEND_TOP baldur25.bcs ~refinements/hlab/thief/baldurkit.baf~
+          EVALUATE_BUFFER
+    END
+  END
+  VERBOSE
+END
+
+// if TOB is not there (and there isn't an imoen15.cre) create it by copying from swashimoen213.cre
+// (cheesy, but works  ;) )
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~imoen15.cre~ THEN
+BEGIN
+	COPY_EXISTING ~imoen213.cre~ ~override/imoen15.cre~
+END
+
+// the_bigg's impressive dynamical code for Swashimoen!
+// It should now be compatible with Imoen's Romance Mod (bah! :) sick!)
+
+COPY_EXISTING ~imoen10.cre~ ~override~  //Chateau Irenicus
+WRITE_LONG 0x18 0 //XP
+WRITE_BYTE 0x52 20 //thac0
+WRITE_BYTE 0x234 1 //level 1st class, AKA mage
+//read the offset and number table.
+READ_LONG 0x2a0 spellko  //spell known offet
+READ_LONG 0x2a4 spellkn  //spell known number
+READ_LONG 0x2a8 spellmo  //spell memorization offset
+READ_LONG 0x2ac spellmn  //spell memorization number
+READ_LONG 0x2b0 spellio  //spell in memory offset
+READ_LONG 0x2b4 spellin  //spell in memory number
+READ_LONG 0x2b8 sloto    //item slot offset
+READ_LONG 0x2bc itemo    //item offset
+READ_LONG 0x2c4 effecto  //effects offset
+
+//remove all known spells, except identify and magic missile.
+DELETE_BYTES spellko 12 * spellkn  //delete the current known spell info
+
+INSERT_BYTES spellko 24 // space for 2 spells
+WRITE_ASCII spellko ~SPWI110~  // name
+WRITE_SHORT spellko + 10 1     // wizard
+WRITE_ASCII spellko + 12 ~SPWI112~
+WRITE_SHORT spellko + 22 1
+
+WRITE_LONG 0x2a4 2 //update # of known spells
+
+SET spellmo = spellmo - 12 * (spellkn - 2)
+WRITE_LONG 0x2a8 spellmo //will write the new value to the file.
+
+SET spellio = spellio - 12 * (spellkn - 2)
+WRITE_LONG 0x2b0 spellio //will write the new value to the file.
+
+SET sloto = sloto - 12 * (spellkn - 2)
+WRITE_LONG 0x2b8 sloto //will write the new value to the file.
+
+SET itemo = itemo - 12 * (spellkn - 2)
+WRITE_LONG 0x2bc itemo //will write the new value to the file.
+
+SET effecto = effecto - 12 * (spellkn - 2)
+WRITE_LONG 0x2c4 effecto //will write the new value to the file.
+
+
+// slightly worse memorization rules  ;)
+//luckily, this time I don't have to up-date the offset table :lucky:
+SET spellml = 0 //spell memorization loop variable
+WHILE (spellml < spellmn) BEGIN
+			READ_SHORT ((spellml * 0x10) + spellmo) level //level of spell -1
+			READ_SHORT ((spellml * 0x10) + spellmo + 6)  type //0=priest, 1=wizard, 3=innate
+			SET spellmfoundn = 0 //# of memorized spells found
+			SET patchdone = 0 //avoids loops
+			PATCH_IF ((level = 0) AND (type= 1)) BEGIN  //if it is 1st mage level
+						WRITE_SHORT ((spellml * 0x10) + spellmo + 2) 1 //# of spells memorizable
+						WRITE_SHORT ((spellml * 0x10) + spellmo + 4) 1 //# of spells memorizable, double value (?)
+						WRITE_LONG ((spellml * 0x10) + spellmo + 8) 0 //spell memorization index
+						WRITE_LONG ((spellml * 0x10) + spellmo + 12) 1 //# of memorized spells
+						SET spellmfoundn = 1 //alters index of other spells
+			END
+			PATCH_IF (NOT( (level = 0) AND (type= 1))) BEGIN  //if it is not 1st mage level
+						WRITE_SHORT ((spellml * 0x10) + spellmo + 2) 0 //# of spells memorizable
+						WRITE_SHORT ((spellml * 0x10) + spellmo + 4) 0 //# of spells memorizable, double value (?)
+						WRITE_LONG ((spellml * 0x10) + spellmo + 8) spellmfoundn //spell memorization index
+						WRITE_LONG ((spellml * 0x10) + spellmo + 12) 0 //# of memorized spells
+			END
+			SET spellml = spellml + 1
+END
+
+//actually memorized spells.
+DELETE_BYTES spellio spellin * 12
+INSERT_BYTES spellio 12
+WRITE_ASCII spellio ~SPWI112~
+WRITE_LONG spellio + 8 1
+
+WRITE_LONG 0x2b4 1 //update # of spell know
+
+SET sloto = sloto - 12 * (spellin - 1)
+WRITE_LONG 0x2b8 sloto //will write the new value to the file.
+
+SET itemo = itemo - 12 * (spellin - 1)
+WRITE_LONG 0x2bc itemo //will write the new value to the file.
+
+SET effecto = effecto - 12 * (spellin - 1)
+WRITE_LONG 0x2c4 effecto //will write the new value to the file.
+
+
+
+COPY_EXISTING ~imoen213.cre~ ~override~
+~imoen211.cre~ ~override~
+~imoen15.cre~ ~override~
+WRITE_BYTE 0x52 19 //thac0
+WRITE_BYTE 0x234 5 //level 1st class, AKA mage
+
+COPY_EXISTING ~imoen15.cre~ ~override~  //Pocket Plane
+WRITE_LONG 0x18 2350000 //XP
+//read the offset and number table.
+READ_LONG 0x2a0 spellko  //spell known offet
+READ_LONG 0x2a8 spellmo  //spell memorization offset
+READ_LONG 0x2ac spellmn  //spell memorization number
+READ_LONG 0x2b0 spellio  //spell in memory offset
+READ_LONG 0x2b4 spellin  //spell in memory number
+READ_LONG 0x2b8 sloto    //item slot offset
+READ_LONG 0x2bc itemo    //item offset
+READ_LONG 0x2c4 effecto  //effects offset
+//back-up the above values, if needed.
+
+// slightly worse memorization rules  ;)
+//luckily, this time I don't have to up-date the offset table :lucky:
+SET spellml = 0 //spell memorization loop variable
+SET spellmfoundn = 0 //# of memorized spells found
+WHILE (spellml < spellmn) BEGIN
+			READ_SHORT ((spellml * 0x10) + spellmo) level //level of spell -1
+			READ_SHORT ((spellml * 0x10) + spellmo + 6)  type //0=priest, 1=wizard, 3=innate
+			SET offset = (spellml * 0x10) + spellmo
+			WRITE_LONG ((spellml * 0x10) + spellmo + 8) spellmfoundn //spell memorization index
+			// temp values that might change
+			WRITE_SHORT ((spellml * 0x10) + spellmo + 2) 0 //# of spells memorizable
+			WRITE_SHORT ((spellml * 0x10) + spellmo + 4) 0 //# of spells memorizable, double value (?)
+			WRITE_LONG ((spellml * 0x10) + spellmo + 12) 0 //# of memorized spells
+			PATCH_IF ( (level = 0) AND (type= 1)) BEGIN  //if it is 1st mage level
+						WRITE_SHORT ((spellml * 0x10) + spellmo + 2) 4 //# of spells memorizable
+						WRITE_SHORT ((spellml * 0x10) + spellmo + 4) 4 //# of spells memorizable, double value (?)
+						WRITE_LONG ((spellml * 0x10) + spellmo + 12) 4 //# of memorized spells
+						SET spellmfoundn = spellmfoundn + 4 //alters index of other spells
+			END
+			PATCH_IF ( (level = 1) AND (type= 1)) BEGIN  //if it is 2nd mage level
+						WRITE_SHORT ((spellml * 0x10) + spellmo + 2) 2 //# of spells memorizable
+						WRITE_SHORT ((spellml * 0x10) + spellmo + 4) 2 //# of spells memorizable, double value (?)
+						WRITE_LONG ((spellml * 0x10) + spellmo + 12) 2 //# of memorized spells
+						SET spellmfoundn = spellmfoundn + 2 //alters index of other spells
+			END
+			PATCH_IF ( (level = 2) AND (type= 1)) BEGIN  //if it is 3rd mage level
+						WRITE_SHORT ((spellml * 0x10) + spellmo + 2) 1 //# of spells memorizable
+						WRITE_SHORT ((spellml * 0x10) + spellmo + 4) 1 //# of spells memorizable, double value (?)
+						WRITE_LONG ((spellml * 0x10) + spellmo + 12) 1 //# of memorized spells
+						SET spellmfoundn = spellmfoundn + 1 //alters index of other spells
+			END
+			SET spellml = spellml + 1
+END
+
+// re-memorize
+DELETE_BYTES spellio spellin * 12 //remove all
+INSERT_BYTES spellio 12 * 7 //add space for new ones
+WRITE_ASCII spellio ~SPWI110~ //add new
+WRITE_LONG  spellio + 8 1     // castable
+WRITE_ASCII spellio + 12 ~SPWI110~
+WRITE_LONG  spellio + 20 1
+WRITE_ASCII spellio + 24 ~SPWI112~
+WRITE_LONG  spellio + 32 1
+WRITE_ASCII spellio + 36 ~SPWI112~
+WRITE_LONG  spellio + 44 1
+WRITE_ASCII spellio + 48 ~SPWI211~
+WRITE_LONG  spellio + 56 1
+WRITE_ASCII spellio + 60 ~SPWI212~
+WRITE_LONG  spellio + 68 1
+WRITE_ASCII spellio + 72 ~SPWI305~
+WRITE_LONG  spellio + 80 1
+
+SET spellilost = spellin - 7  //count # of lost known spells
+WRITE_LONG 0x2b4 7 //update # of spell know
+
+SET sloto = sloto - (spellilost * 0xc)
+WRITE_LONG 0x2b8 sloto //will write the new value to the file.
+
+SET itemo = itemo - (spellilost * 0xc)
+WRITE_LONG 0x2bc itemo //will write the new value to the file.
+
+SET effecto = effecto - (spellilost * 0xc)
+WRITE_LONG 0x2c4 effecto //will write the new value to the file.
+
+
+
+
+
+
+COPY_EXISTING ~imoen211.cre~ ~override~  //Spellhold, less xp
+WRITE_LONG 0x18 350000 //XP
+
+COPY_EXISTING ~imoen213.cre~ ~override~  //Spellhold, more xp
+WRITE_LONG 0x18 1100000 //XP
+
+
+
+COPY_EXISTING ~imoen213.cre~ ~override~
+~imoen211.cre~ ~override~
+READ_LONG 0x2a0 spellko  //spell known offet
+READ_LONG 0x2a4 spellkn  //spell known number
+READ_LONG 0x2a8 spellmo  //spell memorization offset
+READ_LONG 0x2ac spellmn  //spell memorization number
+READ_LONG 0x2b0 spellio  //spell in memory offset
+READ_LONG 0x2b4 spellin  //spell in memory number
+READ_LONG 0x2b8 sloto    //item slot offset
+READ_LONG 0x2bc itemo    //item offset
+READ_LONG 0x2c4 effecto  //effects offset
+
+//remove all known spells, except identify and magic missile.
+DELETE_BYTES spellko 12 * spellkn  //delete the current known spell info
+
+INSERT_BYTES spellko 24 // space for 2 spells
+WRITE_ASCII spellko ~SPWI110~  // name
+WRITE_SHORT spellko + 8 1     // wizard
+WRITE_ASCII spellko + 12 ~SPWI112~
+WRITE_SHORT spellko + 22 1
+
+WRITE_LONG 0x2a4 2 //update # of known spells
+
+SET spellmo = spellmo - 12 * (spellkn - 2)
+WRITE_LONG 0x2a8 spellmo //will write the new value to the file.
+
+SET spellio = spellio - 12 * (spellkn - 2)
+WRITE_LONG 0x2b0 spellio //will write the new value to the file.
+
+SET sloto = sloto - 12 * (spellkn - 2)
+WRITE_LONG 0x2b8 sloto //will write the new value to the file.
+
+SET itemo = itemo - 12 * (spellkn - 2)
+WRITE_LONG 0x2bc itemo //will write the new value to the file.
+
+SET effecto = effecto - 12 * (spellkn - 2)
+WRITE_LONG 0x2c4 effecto //will write the new value to the file.
+
+
+// slightly worse memorization rules  ;)
+//luckily, this time I don't have to up-date the offset table :lucky:
+SET spellml = 0 //spell memorization loop variable
+WHILE (spellml < spellmn) BEGIN
+			READ_SHORT ((spellml * 0x10) + spellmo) level //level of spell -1
+			READ_SHORT ((spellml * 0x10) + spellmo + 6)  type //0=priest, 1=wizard, 3=innate
+			SET spellmfoundn = 0 //# of memorized spells found
+			SET patchdone = 0 //avoids loops
+			PATCH_IF ( (level = 0) AND (type= 1)) BEGIN  //if it is 1st mage level
+						WRITE_SHORT ((spellml * 0x10) + spellmo + 2) 4 //# of spells memorizable
+						WRITE_SHORT ((spellml * 0x10) + spellmo + 4) 4 //# of spells memorizable, double value (?)
+						WRITE_LONG ((spellml * 0x10) + spellmo + 8) 0 //spell memorization index
+						WRITE_LONG ((spellml * 0x10) + spellmo + 12) 4 //# of memorized spells
+						SET spellmfoundn = 1 //alters index of other spells
+			END
+			PATCH_IF ( NOT( (level = 0) AND (type= 1))) BEGIN  //if it is not 1st mage level
+						WRITE_SHORT ((spellml * 0x10) + spellmo + 2) 0 //# of spells memorizable
+						WRITE_SHORT ((spellml * 0x10) + spellmo + 4) 0 //# of spells memorizable, double value (?)
+						WRITE_LONG ((spellml * 0x10) + spellmo + 8) spellmfoundn //spell memorization index
+						WRITE_LONG ((spellml * 0x10) + spellmo + 12) 0 //# of memorized spells
+			END
+			SET spellml = spellml + 1
+END
+
+//actually memorized spells.
+DELETE_BYTES spellio spellin * 12
+INSERT_BYTES spellio 12 * 4
+WRITE_ASCII spellio ~SPWI110~
+WRITE_LONG  spellio + 8 1
+WRITE_ASCII spellio + 12 ~SPWI110~
+WRITE_LONG  spellio + 20 1
+WRITE_ASCII spellio + 24 ~SPWI112~
+WRITE_LONG  spellio + 32 1
+WRITE_ASCII spellio + 36 ~SPWI112~
+WRITE_LONG  spellio + 44 1
+
+WRITE_LONG 0x2b4 4 //update # of spell know
+
+SET sloto = sloto - 12 * (spellin - 4)
+WRITE_LONG 0x2b8 sloto //will write the new value to the file.
+
+SET itemo = itemo - 12 * (spellin - 4)
+WRITE_LONG 0x2bc itemo //will write the new value to the file.
+
+SET effecto = effecto - 12 * (spellin - 4)
+WRITE_LONG 0x2c4 effecto //will write the new value to the file.
+
+
+
+COPY_EXISTING ~imoen10.cre~ ~override~
+~imoen15.cre~ ~override~
+~imoen211.cre~ ~override~
+~imoen213.cre~ ~override~
+
+//update simpler values: kit, class, level...
+//these are almost all standard.
+WRITE_SHORT 0x24 43  //current HP
+WRITE_SHORT 0x26 43  //max HP
+WRITE_BYTE 0x45 30 //hide in shadows
+WRITE_BYTE 0x54 12 //Save Death
+WRITE_BYTE 0x55 11 //save wands
+WRITE_BYTE 0x56 13 //save poly
+WRITE_BYTE 0x57 15 //save breath
+WRITE_BYTE 0x58 12 //save spells
+WRITE_BYTE 0x65 60 //set traps
+WRITE_BYTE 0x66 18 //lore
+WRITE_BYTE 0x67 70 //open lock
+WRITE_BYTE 0x68 5 //move silently
+WRITE_BYTE 0x69 85 //F/R traps
+WRITE_BYTE 0x6a 15 //pickpockets
+WRITE_BYTE 0x235 10 //level 2nd class, AKA thief
+WRITE_SHORT   0x244 0    //needed to change the the kit
+WRITE_BYTE    0x246 12   //swashbuckler
+WRITE_BYTE    0x247 0x40 //needed to change the kit
+
+//read the offset and number table.
+READ_LONG 0x2a0 spellko  //spell known offet
+READ_LONG 0x2a8 spellmo  //spell memorization offset
+READ_LONG 0x2b0 spellio  //spell in memory offset
+READ_LONG 0x2b8 sloto    //item slot offset
+READ_LONG 0x2bc itemo    //item offset
+READ_LONG 0x2c4 effecto  //effects offset
+READ_LONG 0x2c8 effectn  //effects number
+SET beffectn = effectn
+SET effectl = 0
+
+WHILE effectn > 0 BEGIN
+			SET effectn = effectn - 1
+			READ_LONG (effecto + 0x08 + (effectn * 0x108)) opcode
+			PATCH_IF opcode = 233 BEGIN
+								DELETE_BYTES effecto + effectn * 0x108 0x108
+								SET effectl = effectl + 1
+			END
+END
+INSERT_FILE effecto  ~refinements/swashimoen/imoen.eff~
+
+
+SET effectlost = effectl - 5  //count lost effects (actually, I'll *gain* some, but I don't care. Minus multiplied minus yields plus, so this will work anyway.)
+WRITE_LONG 0x2c8 beffectn - effectlost //update # of effect
+SET sloto = sloto - (effectlost * 0x108)
+WRITE_LONG 0x2b8 sloto //will write the new value to the file.
+
+SET itemo = itemo - (effectlost * 0x108)
+WRITE_LONG 0x2bc itemo //will write the new value to the file.
+
+//if using universal weapons
+PATCH_IF ((FILE_EXISTS_IN_GAME ~j#swsoa.txt~)
+			OR (FILE_EXISTS_IN_GAME ~J#ToBAoE.txt~)
+			OR (FILE_EXISTS_IN_GAME ~j#sensibleweaponsmods.txt ~))
+	BEGIN
+	WRITE_SHORT effecto + 0x330 91 //short sword instead of long one
+	END

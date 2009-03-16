@@ -1,0 +1,1007 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<script type="text/javascript">
+<!--
+function mail(text)
+{
+	bits=text.split("###");
+	document.write("<a href=\"mailto:"+bits[0]+"@"+bits[2]+"\">"+bits[4]+"</a>");
+}
+-->
+		</script>
+
+		<style type="text/css">
+		/*<![CDATA[*/
+		<!--
+		body {
+	cursor: default;
+    text-align: center;
+    color: #000;
+    background-color: #A1A1A1;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    xwidth: 98%;
+}
+  
+#headerdiv-top {
+	text-align: center;
+    font-family: Verdana, Trebuchet MS, Arial, serif;
+    font-size: 200%;
+    font-weight: bold;
+    line-height: 73%;
+    color #020f1d;
+    background-color: #fff;
+    padding: 15px 0px 15px 0px;
+    margin: 0px auto;
+    border-left: solid 1px #532529;
+    border-right: solid 1px #532529;
+    border-bottom: solid 1px #532529;
+    border-top: solid 3px #532529;
+    width: 90%;
+    position: relative;
+    display: block;
+}
+  
+#headerdiv-middle {
+	text-align: center;
+    font: italic 75% Verdana, Trebuchet MS, Arial, serif;
+    color: #bbb;
+    font-weight: normal;
+    background-color: #F1F1F1;
+    width: 90%;
+    border-left: solid 1px #532529;
+    border-right: solid 1px #532529;
+    margin: 0px auto;
+    padding: 10px 0px 10px 0px;
+    position: relative;
+    display: block;
+}
+  
+  .headerdiv-line {
+	color: #532529;
+}
+  
+#headerdiv-middle a:link, #headerdiv-middle a:visited {
+	text-decoration: underline;
+    background-color: transparent;
+    color: #000;
+}
+  
+#headerdiv-middle a:focus, #headerdiv-middle a:hover {
+	text-decoration: underline;
+    color: #532539;
+}
+  
+#headerdiv-middle a:active {
+	color: #000;
+    text-decoration: line-through;
+    border: none;
+}
+
+#headerdiv-bottom {
+	text-align: center;
+    font: 83% Verdana, Trebuchet MS, Arial, serif;
+    color: #aaa;
+    padding: 8px 0px 8px 0px;
+    margin: 0px auto;
+    border-left: solid 1px #532529;
+    border-right: solid 1px #532529;
+    border-bottom: solid 3px #532529;
+    border-top: solid 1px #bbb;
+    width: 90%;
+    background-color: #F1F1F1;
+    position: relative;
+    display: block;
+}
+
+#maindiv {
+	text-align: center;
+    font-family: Verdana, Trebuchet MS, Arial, serif;
+}
+  
+#maindiv div {
+	background-color: #F1F1F1;
+    color: #020F1D;
+    padding: 11px 0px 25px 0px;
+    margin: 50px auto;
+    border-width: 1px 1px 4px 10px;
+    border-style: solid;
+    border-color: #532529;
+    width: 80%;
+    position: relative;
+    display: block;
+}
+  
+#maindiv div::before {
+	content: counter(kman, lower-roman);
+    counter-increment: kman;
+    font-size: 100%;
+    font-weight: bold;
+    color: #fff;
+    background-color: #532529;
+    width: 42px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+  
+#maindiv p {
+	font-size: 83%;
+    font-style: normal;
+    text-align: justify;
+    line-height: 160%;
+    padding: 0px;
+    margin: 10px auto;
+    width: 90%;
+    display: block;
+}
+  
+#headerdiv-bottom a:link, #headerdiv-bottom a:visited {
+	font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+    color: #000;
+}
+  
+#headerdiv-bottom a:focus, #headerdiv-bottom a:hover {
+	text-decoration: none;
+    color: #532539;
+}
+  
+#headerdiv-bottom a:active {
+	color: #000;
+    text-decoration: line-through;
+    border: none;
+}
+  
+#maindiv address a:link, #maindiv address a:visited {
+	font-weight: bold;
+    text-decoration: underline;
+    background-color: transparent;
+    color: #fff;
+}
+  
+#maindiv address a:focus, #maindiv address a:hover {
+	text-decoration: underline;
+    color: #532539;
+}
+  
+#maindiv address a:active {
+	color: #fff;
+    text-decoration: line-through;
+    border: none;
+}
+  
+#maindiv address {
+	font-size: 70%;
+    font-style: normal;
+    text-decoration: none;
+    color: #959FAA;
+    background-color: #532529;
+    padding: 3px 0px 0px;
+    margin: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    display: block;
+    text-align: right;
+}
+
+  .address-footer-1 {
+	letter-spacing: 0.2em;
+}
+  
+  h4 {
+	font-family: Verdana, Trebuchet MS, Arial, serif;
+    font-size: 150%;
+    text-align: left;
+    text-indent: 30px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: dotted 2px #ddd;
+}
+
+  h5 {
+	font-family: Verdana, Trebuchet MS, Arial, serif;
+    font-size: 120%;
+    text-align: left;
+    text-indent: 30px;
+    padding: 0px 0px 0px 0px;
+}
+
+  h4::first-letter {
+	color: #532529;
+    background-color: transparent;
+}
+  
+  body h1, body #maindiv h3, h1+h2, body #maindiv h4 {
+	font-weight: bold;
+  display: block;
+}
+  
+#maindiv .divimp {
+	font-size: 80%;
+    font-family: Verdana;
+    text-align: left;
+    background-color: #E1E1E1;
+    border-top: solid 1px #bbb;
+    border-bottom: solid 1px #bbb;
+    border-left: solid 6px #bbb;
+    border-right: solid 6px #bbb;
+    padding: 10px;
+    margin: 20px auto;
+    line-height: 150%;
+}
+  
+#maindiv .divimp::before {
+	display: none;
+}
+  
+#maindiv .divimp p {
+	font-size: 100%;
+    text-indent: 0px;
+} 
+  
+  .list-numbered {
+	list-style-type: decimal;
+    margin-top: 0px;
+}
+  
+#headerdiv-top-fw {
+	font-size: 40%;
+    color: #532529;
+    margin: 0px;
+		padding-top: 9px;
+		display: block;
+}
+  
+  .faq-q {
+	font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+}
+    
+  .faq-a {
+	text-align: justify;  
+}
+  
+#maindiv .version {
+	display: block;
+    width: 100%;
+    background-color: #F1F1F1;
+    text-align: left;
+    text-indent: 30px;
+    font-style: italic;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-bottom: solid 1px #bbb;
+    border-top: solid 1px #bbb;
+}
+  
+  .version-list {
+	line-height: 150%;
+    font-size: 80%;
+    text-align: left;
+    list-style-type: square;
+}
+-->
+		/*]]>*/
+		</style><title>TOB: Refinements Mod Readme</title>
+
+
+
+		<!--<script language="javascript" src="SPELLHOLD%20STUDIOS%20-%20readme_files/js.js"></script>--></head>
+
+
+		<body>
+		<a name="top" id="top"></a>
+		<div id="headerdiv-top">
+		TOB: Refinements<br>
+		<span id="headerdiv-top-fw">A Spellhold Studios mod</span>
+		</div>
+		<div id="headerdiv-middle">
+		<span class="headerdiv-line">Authors: T.G.Maestro, Littiz and the bigg</a></span> | <span class="headerdiv-line"><a href="http://forums.spellholdstudios.net/index.php?showforum=116" target="_blank">Forum</a> (opens new window)</span> | <span class="headerdiv-line"><a href="http://www.final-exodus.net/~refinements/" target="_blank">Mod homepage</a> (opens new window)</span> | <span class="headerdiv-line">Version: 3.02</span>
+		</div>
+		<div id="headerdiv-bottom">
+		<a href="#intro">Introduction</a> | <a href="#compatibility">Compatibility notes</a> | <a href="#installation">Installation</a> | <a href="#components">Components</a> | <a href="#faq">FAQ</a> | <a href="#version">Version history</a> | <a href="#credits">Credits</a> | <a href="#contact">Contact info</a>
+		</div><a name="intro" id="intro"></a>
+		<div id="maindiv">
+
+		<!-- ================== I n t r o d u c t i o n ================== -->
+		<div>
+		<h4>
+		Introduction
+		</h4>
+		<p>
+		The Refinements Mod is somewhat of an arrogant project.
+		<br>We feel that many things in the game are somehow misplaced, not detailed enough, not balanced enough, not cool enough, or... you get the picture.
+		<br>So we've tried to fix them, with the aim to provide a fitting new standard form for the game.
+		<br>We don't know how many people will agree with this presumption, but we'll act as if they are many.
+		<br>
+		<br>This project started with one us (Littiz) offering to WeiDU-code some material the other author (T.G.Maestro) was producing for personal use (new HLAs and tables for various classes, to be exact).
+		<br>Some things don't deserve to be wasted :)
+		<br>We have focused on different things, but "kept an eye" on each other, shared ideas, corrected things and much more.
+		<br>Now we feel this mod is our "common property"!
+		<br>
+		<br>It's still an evolving work; you never know how many things you may want to refine, given time  :D
+						<br>We provide separate, detailed documentation for each installable component, so some advice for the lazy player: 
+		</p>
+		<div class="divimp">
+		<b>CHECK THE DOCS! They ARE part of the mod!!!</b>
+		</div>
+		<p>
+		We try to provide as much in-game documentation as possible, but these docs will always be more detailed.
+		</p>
+		<address>
+		<span class="address-footer-1">Refinements &gt; Introduction</span>
+		<a href="#top">BACK TO TOP</a>
+		</address>
+		</div>
+
+		<!-- ================== C o m p a t i b i l i t y ================== -->
+		<a name="compatibility" id="compatibility"></a>
+		<div>
+		<h4>
+		Compatibility notes
+		</h4>
+		<p>
+		<br>Some components of this mod are meant to be used along with other mods (we strongly suggest to use aVENGER's Rogue Rebalancing Mod, and Sim's Virtue Mod). Furthermore, some components raise issues with the order of installation.
+		<br>We detail case by case what you need to know, but here's our...
+		</p>
+
+		<div class="divimp">
+						<strong>"Simplified" ordering rule:
+
+		<br>Install Refinements AFTER other mods, but BEFORE starting a new game.
+		<br>These mods make an exception and should be installed AFTER Refinements:</strong>
+		<ul class="version-list">
+		<!--		          <li>Virtue</li> -->
+		<li>The Bigg's Tweak Pack</li>
+		<li>Kivan of Shilmista</li>
+		<!--		          <li>Return to Windspear (this one depends on <em>actual</em> availability of
+		that mod)</li> -->
+		</ul>
+		</div>
+		<p>
+		This is the quickest way to deal with all the aforementioned issues. It will work fine, but you might lose some alternatives granted by other mods. If you want full control over the installation, read our docs and choose how to proceed ;)</p>
+
+		<div class="divimp">
+		<strong>Also note that item mods need to receive manual handling on our part, so they aren't compatible unless explicitly listed.</strong>
+		</div>
+		<p>The currently compatible item mods are:</p>
+		<ul class="version-list">
+		<li>Rogue Rebalancing</li>
+		<li>Item Upgrade</li>
+		<li>Ruad</li>
+		<li>Freedom's Reign</li>
+		<li>Reign of Virtue</li>
+		</ul>
+		<p>If your favorite mod isn't listed here, please <a href=#contact>contact us</a> and we'll try to rectify for the next release. (note: we won't make the needed work for TDD / BP kits; we might do it for the items, though.)</p>
+
+		<address>
+		<span class="address-footer-1">Refinements &gt; Compatibility Notes</span>
+		<a href="#top">BACK TO TOP</a>
+		</address>
+		</div>
+
+		<!-- ================== I n s t a l l a t i o n ================== -->
+		<a name="installation" id="installation"></a>
+		<div>
+		<h4>
+		Installation
+		</h4>
+		<h5>
+		Windows
+		</h5>
+		<p>
+		Refinements is packaged and installed with WeiDU and is distributed as a self-extracting archive. To install, simply double-click the archive and follow the instructions on screen.
+		<br>
+		<br>Alternatively the files can be extracted from the archive using WinRAR. If properly extracted, you should have a Refinements folder, setup-Refinements.tp2 and Setup-Refinements.exe in your BG2 folder. To install, simply double-click Setup-Refinements.exe and follow the instructions on screen.
+		<br>
+		<br>Please re-run Setup-Refinements.exe in your BG2 folder to reinstall, uninstall or otherwise change components.
+		</p>
+
+        <h5>
+         Macintosh
+        </h5>
+        <p>
+					<i>If the mod was previously installed, uninstall it before extracting the
+					new version. Please note that this mod is incompatible with Mod Organizer. </i>
+					Refinements is packaged and installed with WeiDU. To install, simply extract
+					the contents of the mod into your BG2 folder. If properly extracted, you should
+					have a Refinements folder, setup-Refimenents.tp2, Setup-Refinements, and
+					Setup-Refinements.command in your BG2 folder. To install, simply double-click
+					Setup-Refinements.command and follow the instructions on screen.
+        </p>
+
+		<h5>
+		Linux
+		</h5>
+		<p>
+		Download the latest version of WeiDU for Linux from
+		<a href="http://www.weidu.org/~thebigg">weidu.org</a> and extract (at least)
+		the WeiDU, weinstall and tolower executables in a $PATH directory (E.G.
+		/usr/bin).
+		<br>Following that, open a terminal, cd to your BG2 installation directory,
+	run `tolower' and answer Y to both queries.
+		<br><span class='small'>
+		You can avoid running the second option (linux.ini) if you've already ran it
+		once in the same directory. To save time, the archive is already tolowered,
+	so there's no need to run the first option (lowercasing file names) either
+		if you've extracted only this mod since the last time you lower cased file
+		name.
+		<br>If you're unsure, running tolower and choosing both options is the safe
+		bet.
+		</span>
+		<br>After that, run 'weinstall refinements' from your BG2
+		installation directory to install or uninstall the mod.
+		</p>
+
+		<address>
+          <span class="address-footer-1">Refinements &gt; Installation</span>
+            <a href="#top">BACK TO TOP</a>
+        </address>
+      </div>
+
+			<!-- ================== C o m p o n e n t s ================== -->
+      <a name="components" id="components"></a>
+      <div>
+        <h4>
+          Components
+        </h4>
+        <p>
+          List of currently available components (each component will link
+					to a more complete description):
+        </p>
+        <div class="divimp">
+          <ul class="list-numbered">
+            <li><a href="#c10">New HLAs Tables for all classes</a> *,**<br>
+            </li>
+            <li><a href="#c20">"SwashImoen"</a><br>
+            </li>
+            <li><a href="#c30">Shapeshifting Fix</a><br>
+            </li>
+            <li><a href="#c40">Universal lesser mage robes</a><br>
+            </li>
+            <li><a href="#c50">Sword Angel Kit</a> *<br>
+            </li>
+            <li><a href="#c60">Revised Armor and Shields</a> **<br>
+            </li>
+          </ul><em>* this component includes a complete fix for the
+					5th level spell "Spell Shield". Don't ask. Technical reasons.
+			<br>** this component will cap the phisical damage resistance
+			(slashing, piercing, crushing and missile) to 75% for all classes, except
+			Barbarians, whose cap is 85%.</em>
+        </div>
+        </p>
+
+				<a name="c10" id="Revised HLA"></a>
+        <h5>
+					New HLAs Tables for all classes
+				</h5>
+        <p>
+        <div class="divimp">
+        	Entirely re-designed and re-built HLAs tables for all classes and kits in
+					the game to provide distinctive class specific HLAs.
+					<br>The following items will be slightly modified for reasons of balance and coherency: Cloack of Vecna
+					(will give only -2 to spellcasting speed to Sorcerors, while still giving a full
+					-4 to other classes),<!-- Defender of EastHeaven (gives +10 rather than +20 bonus to
+					the resistances),--> and the cloack of Montolio (which now gives +1 thac0 to primary
+					and secondary hand, rather than +2 to secondary).
+					<br>
+          <br>See: <a href="Docs/Revised_HLAs.txt" target="_blank">Complete Description</a>
+          (will launch a new page).
+          <br><b>This component is incompatible with the Archer of Sylvanus kit from Sorcerer's Place and/or
+          SPStuff.
+          </b>
+        </div>
+        </p>
+
+        <a name="c20" id="SwashImoen"></a>
+        <h5>
+					"SwashImoen"
+				</h5>
+        <p>
+        <div class="divimp">
+					Turns Imoen in a Swashbuckler/Mage and makes other changes.
+					<br>Used to Require the Revised High Level Abilities component, the first install
+					choice (for technical reasons), but this has been solved.
+					<br>
+          <br>See: <a href="Docs/Swashimoen.txt" target="_blank">Complete Description</a> (will launch a new page).
+        </div>
+        </p>
+
+        <a name="c30" id="Shapeshifting Fix"></a>
+        <h5>
+					Shapeshifting fix
+				</h5>
+        <p>
+        <div class="divimp">
+					Complete fixes for all druids' shapeshifting forms.
+					<br>
+          <br>See: <a href="Docs/Shapefix.txt" target="_blank">Complete Description</a>
+          (will launch a new page).
+        </div>
+        </p>
+
+        <a name="c40" id="Robes"></a>
+        <h5>
+					Universal Lesser Mage Robes
+				</h5>
+        <p>
+        <div class="divimp">
+					Complete fixes for all druids' shapeshifting forms.
+					<br>This component alters the lesser mage robes to be useable by monks too.
+					<br>The complete list of robes affected is the following:
+	        <ul class="version-list">
+	          <li>Robe of Cold Resistance</li>
+	          <li>Robe of Fire Resistance</li>
+	          <li>Robe of Electrical Resistance</li>
+	          <li>Knave's Robe</li>
+	          <li>Traveler's Robe</li>
+	          <li>Adventurer's Robe</li>
+	        </ul>
+        </div>
+        </p>
+
+        <a name="c50" id="Sword Angel"></a>
+        <h5>
+					Sword Angel Kit
+				</h5>
+        <p>
+        <div class="divimp">
+					A noble fighter, with a focus on "spiritual" abilities and HLAs.
+					<br>If you want to play an extremely good character, and try a new challenge...
+					<br>*Not* for powergamers!!!
+					<br>
+					<br><strong>The S.A. Kit can (and SHOULD!!!) be used in combination with Sim's VIRTUE mod!
+					<br>
+					<br>See also the <a href="#compatibility">Compatibility notes</a> for mod ordering issues!</strong>
+					<br>
+          <br>See: <a href="Docs/Sword_Angel.txt" target="_blank">Complete Description</a>
+          (will launch a new page).
+        </div>
+        </p>
+
+        <a name="c60" id="revised armors"></a>
+        <h5>
+					Revised Armors and Shields
+				</h5>
+        <p>
+        <div class="divimp">
+					This component revises all armors and shields in game, adding new elements
+					(both to the roleplaying and to the tactical level) to be considered when
+					choosing your equipment.
+					<br>
+          <br>See: <a href="Docs/Revised_Armors.txt" target="_blank">Complete Description</a>
+          (will launch a new page).
+        </div>
+        </p>
+
+        <address>
+          <span class="address-footer-1">Refinements &gt; Components</span>
+          <a href="#top">BACK TO TOP</a>
+        </address>
+      </div>
+
+			<!-- ================== F A Q ================== -->
+      <a name="faq" id="faq"></a>
+      <div>
+        <h4>
+          Frequently Asked Questions
+        </h4>
+        <p>
+          <span class="faq-q">Q: I've found a bug / incompatibility / have a suggestion!</span><br>
+          <span class="faq-a">A: <a href="#contact">Contact us</a> and we'll deal with it 
+					as soon as possible.</span>
+        </p>
+        <p>
+          <span class="faq-q">Q: Are there any more questions?</span><br>
+          <span class="faq-a">A: Well, so far it seems our docs are detailed enough :D</span>
+        </p>
+        <p>
+          <span class="faq-q">Q: But I do have a question!</span><br>
+          <span class="faq-a">A: <a href="#contact">Contact us</a> and we'll add it here.</span>
+        </p>
+        <address>
+          <span class="address-footer-1">Refinements &gt; Frequently Asked
+          Questions</span>       <a href="#top">BACK TO TOP</a>
+        </address>
+      </div>
+
+			<!-- ================== Version History ================== -->
+      <a name="version" id="version"></a>
+      <div>
+        <h4>
+          Version History
+        </h4>   
+				<p class="version">
+          ?? - Version 3.20:
+				</p>
+				<ul class="version-list">
+					<li>Compatible with CtB - Tracking is patched rather than overwritten. TBT.</li>
+					<li>Fixed some minor typoes in the AIs for two elementals.</li>
+					<li>Endurance HLA doesn't stack or stacks or something with Boots of Speed.</li>
+					<li>Sword Angel, should be compatible with pretty much all mod items under the sun
+					(where compatible = not wearable by a SA if it's a vile item). TBT</li>
+					<li>Removed the stutter-causing Damage Resistance Cap. Feel free to get 127% slashing
+					damage, you dirty cheater  :)</li>
+					<li>Armor Revision is now compatible with many more item mods, also thanks to code
+					made by Caedwyr and CamDawg. Needs testing, and item descriptions might be suboptimal.</li>
+					<li>Thanks to Acheron for pointing out that some scroll-related code was causing some
+					compatibility issues (and giving the code to fix this).</li>
+				</ul>
+
+				<p class="version">
+          ?? - Version 3.12:
+				</p>
+				<ul class="version-list">
+					<li>Incompatibility with Archer of Sylvanus spelled out.</li>
+					<li>WeiDU 203 - installable over the Morituri kit.</li>
+				</ul>
+
+				<p class="version">
+          ?? - Version 3.11:
+				</p>
+				<ul class="version-list">
+					<li>WeiDU V 202.</li>
+					<li>Chloe's weapons are usable by her again.</li>
+				</ul>
+
+			<p class="version">
+          ?? - Version 3.10:
+				</p>
+				<ul class="version-list">
+					<li>WeiDU V 200.</li>
+					<li>Can choose to install Armor Revision without movement rate
+		            penalties.</li>
+					<li>Kit-editing code heavily changed - should be more mod-friendly and
+		         reliable.</li>
+					<li>Moved code for longer components in INCLUDEd files for better
+		         readability.</li>
+					<li>Probably some install-time (or game-time) fixes.</li>
+				</ul>
+
+		<p class="version">
+          16 January 2006 - Version 3.02:
+        </p>
+        <ul class="version-list">
+          <li>WeiDU v188 contains a vital bugfix.</li>
+          <li>SwashImoen will no longer report as a Fighter/Mage.</li>
+          <li>Infinite loop at install-time solved.</li>
+        </ul>
+
+        <p class="version">
+          25 December 2005 - Version 3.01:
+        </p>
+        <ul class="version-list">
+          <li>An attempt to fix the bard songs. Our engine is struggling to be uncooperative, sadly, which means
+          that issues will arise from time to time.
+          <li>New subcomponent: swashImoen has Detect Illusions rather than Set Traps.
+          <li>New subcomponent: heal on morphing to animal form, rather than on morphing back to human.
+          This component was coded by Borsook.
+          <li>Armors from the Ashes of Embers mod are patched by AR. Scale are assimilated to Hide, Banded to Splint,
+          and Field to Plate, except that plate starts from 2 AC rather than 3. This may not be 100% realistic,
+          however AR was coded with the equation 'higher base AC = heavier' in mind.
+          <li>WeiDU v187 allows me to code sligtly different choices more easily, so part of the nonsense
+          when installing the Armor Revision is removed. Also, a number of other changes for faster installation.
+          <li>Polish Translation by Yarpen.
+        </ul>
+        <p class="version">
+          17 October 2005 - Version 3:
+        </p>
+        <ul class="version-list">
+				  <li>Added the Armor Revisions component!
+				  <li>XP cap remover added to the HLA component.
+				  <li>Fixed two entries in Diviner HLA table.
+				  <li>*Good* Celestials don't cast Globe of Blades any longer, to avoid the
+				   risk of causing harm to the party.
+				  <li>Added an alternate SwashImoen, which will just change her kit.
+				  <li>Trueclass thieves now correctly "forget" thief innates upon dualling
+			   	to Fighter or Cleric (until reactivation of the starting class).
+				  <li>Added a small tweak to allow compatibility between the SA component
+				   and Kido NPC.
+				  <li>Rewritten most of tp2 for faster execution and shorter size.
+				  <li>Fixed minor typ0es.
+				  <li>Prompt customization implemented.
+				  <li>SFX-RAR will auto-update and re-launch!
+				  <li>Using DESIGNATED to better allow for future mod development.
+				  <li>Additional notes on mod compatibility.
+				  <li>HTML Readme.
+				  <li>SwashImoen can now work without the Revised HLA component or TOB installed.
+				  <li>French translation by Sir Crapoilleau.
+				  <li>Japanese translation by Kuroukume Veland.
+        </ul>
+
+        <p class="version">
+          10 May 2005 - Version 2.01:
+        </p>
+        <ul class="version-list">
+				  <li>Fixed three little problems with the installer.
+				  <li>Fixed a problem with the code for the Cleric-Remix mod compatibility.
+				  <li>Endurance slightly reworked, nasty bug killed.
+				  <li>Racial Nemesis fixed (it wasn't applied at all...).
+				  <li>Various fixes to the scripts.
+				  <li>Minor fixes to Divine Intervention.
+				  <li>Fixed a nasty new bug with Merciful Fighting.
+				  <li>Various additional improvements to the installer.
+				  <li>Elven Sword Angels are now allowed.
+				  <li>Shapeshifters who dual to fighter after picking Feral Spirit no longer
+				   gain additional forms upon reactivation of the kit.
+				  <li>Fixed a pathological case where a Sword Angel/Mage was actually able
+				   to learn the 10th level spell Death Field.
+				  <li>Adjustments to the regeneration rates for shapeshifters' werewolf forms.
+				  <li>Fixed a bug with Regeneration (Monk and Sword Angel).
+        </ul>
+
+        <p class="version">
+          20 March 2005 - Version 2:
+        </p>
+        <ul class="version-list">
+				  <li>"Shockwave" for Sorcerers added.
+				  <li>Extended compatibility with kits added by other mods.
+				   Compatible kits now include:
+				    <br> &nbsp; &nbsp; &nbsp; * Generic Archer, Anti-Paladin (Tactics mod)
+				    <br> &nbsp; &nbsp; &nbsp; * Peerless Archer (Warrior Kit Pack)
+				    <br> &nbsp; &nbsp; &nbsp; * SharpShooter
+				    <br> &nbsp; &nbsp; &nbsp; * Selune, Shar, Tempus (Cleric Remix mod)
+				  <li>Ancestral Spirit now has a specific script.
+				  <li>Dynamic Weapon Proficiencies component added.
+				  <li>Save required by Quivering Palm changed to save vs. Death.
+				  <li>Faster than the Eye visuals improved.
+				  <li>Evasion and Greater Evasion are no longer stackable. 
+				  <li>Precision and Tracking have been slightly rebalanced.
+				  <li>Fixes to Animal Affinity, Acrobatic, Inner Focus, Sustaining Will.
+				  <li>Merciful Fighting implemented again with a better system.
+				  <li>Monk HLA table entirely rebuilt, with several new abilities.
+				  <li>"Finesse" for Blades added. 
+				  <li>Removed a bug concerning Energy Storm and the Free Action effect.
+				  <li>Fixed a couple of bugs with the druidic elemental forms.
+				  <li>S.A. can no longer score critical hits while using Merciful Fighting.
+				  <li>Added "Toughness" and "Improved Critical".
+				  <li>Minor adjustments to the settings of various tables. 
+				  <li>Removed a bug with the installer (thanx Sim!)
+				  <li>Killed a nasty bug introduced by our fix for Spell Shield (ehm...)
+				  <li>Brew Poison re-implemented, now gold is consumed by the process.
+				  <li>Various fixes and improvements to the installer.
+				  <li>Added a small "fix" to the projectile used by Meteor Swarm.
+				  <li>Sword Angel's HLA Banish slightly rebalanced.
+				  <li>Adjustments and visual changes to Shield of Law and Circle of Law.
+				  <li>Added "Holy Aura"; applied further adjustments to the Paladin's tables.
+				  <li>Improvements to Dragon Fist visuals.
+				  <li>New visuals for Whirlwind Attacks.
+				  <li>Added "Freedom of Spirit", "Soul Touch" and Improved Critical to the
+  				 Sword Angel's table.
+				  <li>Fallen Paladins now lose any previously acquired HLA added by Refinements.
+				  <li>"Elemental Transformation" added; further adjustments and bugfixes related
+  				 to shapeshifting.
+				  <li>"Whirlwind" for druids added.
+				  <li>Fixed a bug with Endurance.
+				  <li>Dynamic Weapon Proficiencies component merged with the HLAs system.
+				  <li>Added "Combat Reflexes", "Resist Magic Damage", "Slippery Mind" and
+   				"Feral Lash" (multiclass specific abilities).
+				  <li>Repulse Undead replaced by "Smite Undead" for Undead Hunters.
+				  <li>"Concealment" for Cleric/Thieves added.
+				  <li>Swashimoen has now a dynamic installer (to grant wider compatibility).
+				  <li>Robe of Vecna slightly tweaked for sorcerers.
+				  <li>Summoned Magic Golems are now immune to magical weapons.
+				  <li>Added "Racial Nemesis" for Rangers.
+				  <li>Extended the list of item mods checked by the Sword Angel's installer.
+				   The list now includes:
+				   <br> &nbsp; &nbsp; &nbsp;* Rogue Rebalancing
+				   <br> &nbsp; &nbsp; &nbsp;* Item Upgrade
+				   <br> &nbsp; &nbsp; &nbsp;* Ruad
+				   <br> &nbsp; &nbsp; &nbsp;* Freedom's Reign
+				   <br> &nbsp; &nbsp; &nbsp;* Reign of Virtue
+				  <li>"Union" for Cleric/Mages added.
+				  <li>Wildstrike rebalanced and fixed (the penalty to the wild surge roll is
+				   now actually applied). New visuals implemented, too.
+				  <li>Finally included the newly and entirely revised Celestials!
+				  <li>New visuals for Teleport Without Error (used by the Revised Elemental
+				   Princes and the Revised Celestials).
+				  <li>Toxic Trap's venom is now cleared by Zone of Sweet Air (or a druid's
+				   Whirlwind).
+				  <li>"Recitation" for Clerics added.
+				  <li>Divine Intervention slightly revised.
+				  <li>New scripts for our Celestials, Elemental Princes, Demons and other
+				   creatures.
+        </ul>
+
+        <p class="version">
+          30 June 2004 - Version 1.05:
+        </p>
+        <ul class="version-list">
+				  <li>Removed the components "World Map Fixes" and "Weapon Animation Tweaks":
+			   they're now exclusively included in G3 Tweak Pack (www.gibberling3.net).
+        </ul>
+
+        <p class="version">
+          25 June 2004 - Version 1.04:
+        </p>
+        <ul class="version-list">
+				  <li>Repulse Undead now appears properly for Undead Hunters.
+				  <li>Cavalier's Virtue is now applied correctly.
+				  <li>True Kai changed to use the "rising" spirit animation when needed.
+				  <li>Aura Cleansing's casting time raised to 9.
+				  <li>Fixed the wrong setting of SwashImoen's AC.
+				  <li>Removed a nasty "feedback-bug" with Shadowless Kick.
+				  <li>Fixed (again!) a bug with Wong Fei's Ioun Stone and the Sword Angel component.
+				  <li>Added a 2 rounds Miscast effect (no-save) to Spell Worm.
+				  <li>Improvements to the installing procedures (for better compatibility).
+				  <li>TONS of refinements and additions to some creatures' scripts:
+				   HUGE WORK done by the_bigg, who joined the team for future components!
+        </ul>
+
+        <p class="version">
+          8 May 2004 - Version 1.03:
+        </p>
+        <ul class="version-list">
+				  <li>Divine Shell now properly works and is undispellable.
+				  <li>Paladins' Righteous Magic now displays the proper name.
+				  <li>Channel Magic's duration increased to 3 rounds.
+				  <li>Fixed some typos.
+        </ul>
+
+        <p class="version">
+          1 May 2004 - Version 1.02:
+        </p>
+        <ul class="version-list">
+				  <li>Improvements to Volcano's visuals.</li>
+				  <li>Skalds' specialization HLAs now affect even two-handed weapons.</li>
+				  <li>Adjustments to Energy Storm's effects and visuals.</li>
+        </ul>
+
+        <p class="version">
+					27 April 2004 - Version 1.01
+				</p>
+        <ul class="version-list">
+				  <li>Additional fixes and adjustments to the whole druidic shapeshifting system.</li>
+				  <li>Sword Angel may no longer use the Shadow Dragon Scale.</li>
+				  <li>Fixed an issue with the Sword Angel and katanas added by external mods (the
+				   proper order of installation is still required).</li>
+				  <li>Fixed some triggers for the Sword Angel's falling.</li>
+				  <li>Good Necromancers may now summon a Planetar.</li>
+				  <li>Ancestral Spirit is no longer immune to ALL weapons.</li>
+				  <li>Just try to Shadowless Kick yourself NOW...</li>
+        </ul>
+
+        <p class="version">
+					21 April 2004 - Version 1, second attempt :-/
+				</p>
+
+        <p class="version">
+					16 April 2004 - Version 1
+				</p>
+
+        <p class="version">
+					16 March 2004 - Version 1 BETA
+				</p>
+
+        <address>
+          <span class="address-footer-1">Refinements &gt; Version History</span>
+                <a href="#top">BACK TO TOP</a>
+        </address>
+      </div>
+
+			<!-- ================== Credits ================== -->
+      <a name="credits" id="credits"></a>
+      <div>
+        <h4>
+          Credits
+        </h4>
+        <p>
+          This mod was made by T.G.Maestro, Littiz and (starting from 1.04) the bigg.
+        </p>
+
+				<h5>Big Thanks:</h5>
+
+        <p class="faq-q">
+          The people who made this possible, by creating amazing modding tools:
+        </p>
+        <ul class="version-list">
+					<li>Westley Weimer, for WeiDU and his willingness to constantly improve it.</li>
+					<li>Jon Olav Hauglid, for NearInfinity and... as above :)</li>
+					<li>Andrew Bridges, author of BAMWorkshop</li>
+					<li>Gustov Montessi, author of IEEP</li>
+        </ul>
+
+        <p class="faq-q">
+          People who contributed (smaller or larger) portions of code to the mod:
+        </p>
+        <ul class="version-list">
+					<li>Caedwyr, who helped and helps a lot with his proofreading, and several new
+					 abilities, additional coding, ideas and suggestions as well.</li>
+					<li>CamDawg, who has also been our "host" for a while :)</li>
+					<li>aVENGER, for his concessions about the use of some material from his Rogue
+					 Rebalancing Mod. This ALSO allowed us to make Refinements compatible
+					 with his mod itself (details in "Refinements/Revised_HLAs.txt"). </li>
+					<li>Dyara, the one who originally found the correct settings for the KIT.IDS
+					 file. A really important discovery for our mod!!</li>
+					<li>Sir Kill for his help with the new elemental forms' attack BAMs!</li>
+					<li>Weimer (again) for the XP cap removal code.</li>
+					<li>Borsook for the Heal When Morphing To Animal part of the Shapefix group.</li>
+        </ul>
+
+        <p class="faq-q">
+          Web Issues related thanks:
+        </p>
+        <ul class="version-list">
+					<li>Seifer, for his gracious help with web-hosting and several other issues.</li>
+					<li>SConrad, for hosting the forum and mirroring.</li>
+					<li>khayman, who designed and built the site :)</li>
+					<li>Michel, TheWizard and Baronius for the additional Mirrors!</li>
+        </ul>
+
+        <p class="faq-q">
+          Translation team:
+        </p>
+        <ul class="version-list">
+					<li>French Translation: Sir Crapoilleau.</li>
+					<li>Japanese Translation: Kuroukome Veland.</li>
+					<li>Polish Translation: Yarpen.</li>
+        </ul>
+
+        <p class="faq-q">
+          Miscellaneous thanks:
+        </p>
+        <ul class="version-list">
+					<li>Ghreyfain for allowing us to tweak his excellent Sensible Weapons (from the
+					 Ashes of Embers mod) for best interaction with the Armor tweak.</li>
+					<li>Domi, for having coded a 'guest' interjection for the Sword Angel in her
+					 Kivan of Shilmista mod.</li>
+					<li>Our BETA testers: Caedwyr, Caveman, Jolyth, khayman, Rathwellin the Bard,
+					 Harbinger :)</li>
+					<li>-All the guys at the FWStudios forums (now SpellHold Studios), always helpful
+					 providers of knowledge and advices, either directly or indirectly (from our PoV).
+					 To name a few: JCompton, Idobek, Sim, GreyViper...</li>
+        </ul>
+
+        <address>
+          <span class="address-footer-1">Refinements &gt; Credits</span>
+          <a href="#top">BACK TO TOP</a>
+        </address>
+      </div>
+
+      <!-- ================== C O N T A C T   I N F O ================== -->
+      <a name="contact" id="contact"></a>
+      <div>
+        <h4>
+          Contact Info:
+        </h4>
+        <p>
+        	We welcome any kind of bug report, incompatibility issue report, suggestion and constructive
+        	criticism, and we'll take it in highest consideration - please, keep the trolling to yourself.
+          <br>The method of contacting us we prefer is via
+					<a href="http://forums.spellholdstudios.net/index.php?showforum=116" target="_blank">the forum</a>,
+					since this way all of us three and all the interested players will be able to contribute their ideas.
+					<br>However, if you prefer to contact only one of us, these are the e-mail addresses: </p>
+        	<script type="text/javascript">
+						<!--
+							document.write("<ul class=\"version-list\">");
+								document.write("<li>");
+								mail("littiz2003### fuck@off.spammers ###yahoo.com### you.won.t.get@this.one ###Littiz");
+								document.write("</li>");
+
+								document.write("<li>");
+								mail("thebigg### fuck@off.spammers ###spellholdstudios.net### you.won.t.get@this.one ###The Bigg");
+								document.write("</li>");
+							document.write("</ul>");
+						-->
+					</script>
+        <p>If you turned off JavaScript and didn't see a link above, you'll have to
+				work out the real address by hand (sorry, protecting against spammers is a
+				necessity right now):</p>
+        <ul class="version-list">
+					<li>Littiz: yahoo.com after the usual symbol, littiz2003 before.</li>
+        	<li>The Bigg: spellholdstudios.net after the usual symbol, thebigg before.</li>
+        </ul>
+        <address>
+          <span class="address-footer-1">Refinements &gt; Contact Info</span>
+					<a href="#top">BACK TO TOP</a>
+        </address>
+      </div>
+
+    </div>
+  <!--<script language="javascript">postamble();</script>-->
+</body></html>

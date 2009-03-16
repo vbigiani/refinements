@@ -1,0 +1,46 @@
+IF
+  Global("Display","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Display","LOCALS",1)
+    SetGlobalTimer("action_interruptible","locals",1)
+    Enemy()
+    Continue()
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  OR(2)
+    !Exists(LastSummonerOf(Myself))
+    !See(LastSummonerOf(Myself))
+  OR(2)
+    !Exists(LastAttackerOf(Myself))
+    !See(LastAttackerOf(Myself))
+  See(NearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+    Continue()
+END
+
+IF
+    ActionListEmpty()
+  !See([0.0.DEMONIC.0.0.0.LAWFUL_EVIL])
+  OR(2)
+    Allegiance(Myself,GOODCUTOFF)
+    Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  OR(2)
+    Allegiance(Myself,EVILCUTOFF)
+    !Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  CheckStatLT(LastSeenBy(Myself),3,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("action_interruptible","locals",1)
+    AttackOneRound(LastSeenBy(Myself))
+END

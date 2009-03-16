@@ -1,0 +1,137 @@
+IF
+  Global("Display","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Display","LOCALS",1)
+    SetGlobalTimer("action_interruptible","locals",1)
+    Continue()
+END
+
+// Gate summons a devil and is inadequate for a lesser _demon_ lord.
+
+//IF
+//  OR(2)
+//    ActionListEmpty()
+//    GlobalTimerNotExpired("action_interruptible","locals")
+//  !GlobalTimerNotExpired("cast","locals")
+//  !GlobalTimerNotExpired("summ","locals")
+//  HaveSpell(WIZARD_GATE)
+//THEN
+//  RESPONSE #100
+//    SetGlobalTimer("cast","locals",ONE_ROUND)
+//    SetGlobalTimer("summ","locals",TWO_ROUNDS)
+//    Spell(Myself,WIZARD_GATE)
+//END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  !GlobalTimerNotExpired("summ","locals")
+  HaveSpell(WIZARD_SUMMON_FIEND)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SetGlobalTimer("summ","locals",TWO_ROUNDS)
+    Spell(Myself,WIZARD_SUMMON_FIEND)
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  !GlobalTimerNotExpired("summ","locals")
+  HaveSpell(WIZARD_CACOFIEND)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SetGlobalTimer("summ","locals",TWO_ROUNDS)
+    Spell(Myself,WIZARD_CACOFIEND)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  OR(2)
+    !Exists(LastSummonerOf(Myself))
+    !See(LastSummonerOf(Myself))
+  OR(2)
+    !Exists(LastAttackerOf(Myself))
+    !See(LastAttackerOf(Myself))
+  See(NearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+    Continue()
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !See([0.0.DEMONIC.0.0.0.LAWFUL_EVIL])
+  OR(2)
+    Allegiance(Myself,GOODCUTOFF)
+    Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  OR(2)
+    Allegiance(Myself,EVILCUTOFF)
+    !Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+//  OR(2)
+    ActionListEmpty()
+    GlobalTimerExpired("action_interruptible","locals")
+  GlobalTimerNotExpired("cast","locals")
+  CheckStatLT(LastSeenBy(Myself),3,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("action_interruptible","locals",1)
+    AttackOneRound(LastSeenBy(Myself))
+END
+
+IF
+OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  Global("malis","locals",0)
+  HaveSpell(WIZARD_GREATER_MALISON)
+  CheckStatLT(LastSeenBy(Myself),5,SAVEVSSPELL)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SetGlobal("malis","locals",1)
+    Spell(LastSeenBy(Myself),WIZARD_GREATER_MALISON)
+END
+
+IF
+OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  HaveSpell(WIZARD_DOMINATION)
+  CheckStatGT(LastSeenBy(Myself),7,SAVEVSSPELL)
+  CheckStatLT(LastSeenBy(Myself),75,RESISTMAGIC)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    Spell(LastSeenBy(Myself),WIZARD_DOMINATION)
+END
+
+IF
+//  OR(2)
+    ActionListEmpty()
+    GlobalTimerExpired("action_interruptible","locals")
+  GlobalTimerExpired("cast","locals")
+  CheckStatLT(LastSeenBy(Myself),3,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("action_interruptible","locals",1)
+    AttackOneRound(LastSeenBy(Myself))
+END

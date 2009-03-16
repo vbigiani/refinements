@@ -1,0 +1,35 @@
+IF
+	Kit(Player1,SWANG)
+	OR(3)
+		!Alignment(Player1,NEUTRAL_GOOD)
+                ReputationLT(Player1,8)
+                GlobalGT("LISwaFal","GLOBAL",2)
+THEN
+	RESPONSE #100
+                ActionOverride(Player1,AddKit(KENSAI))
+                Wait(1)		
+		ApplySpellRES("LI#FALL",Player1) // No such index
+                DisplayStringNoName(Player1,@1053)
+                PlaySound("REPDOWN")                
+END
+
+IF
+   // Virtue is actually installed/working
+   Global("VirtueSetup","GLOBAL",1)
+   GlobalGT("D0VMIRROR","GLOBAL",0)
+
+   // A Virtue drop has occured
+   GlobalsLT("D0VIRTUE","D0VMIRROR")
+
+    // I have the Sword Angel Kit
+   Kit(Player1,SWANG) 
+
+   // Any pending Virtue changes have been applied
+   Global("D0Change","GLOBAL",0)
+
+   // The console command to disable Virtue has not been used
+   !Global("D0VirtueDisable","GLOBAL",1)
+THEN
+   RESPONSE #100
+     SetGlobal("LISwaFal","GLOBAL",3)
+END

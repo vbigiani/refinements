@@ -1,0 +1,391 @@
+*****************************************************
+** Sword Angel, new fighter kit: the missing Hero  **
+*****************************************************
+
+
+
+************IMPORTANT NOTES!!****************
+*                                           *
+* The S.A. Kit can (and SHOULD!!!) be used  *
+* in combination with Sim's VIRTUE mod!     *
+* See the relative section below.           *
+*                                           *
+* Install AFTER any Item Pack mod!!!        *
+* Otherwise, some items could unproperly    *
+* result as "usable" by this kit.           *
+*                                           *
+* For optimal compatibility with the        *
+* Ascension Mod, this component should be   *
+* installed AFTER it.                       *
+*                                           *
+* It is also suggested to install Kivan of  *
+* Shilmista AFTER this mod.                 *
+*                                           *
+* See also the note on compatibility at the *
+* bottom of this file.                      *
+*                                           *
+*********************************************
+
+
+
+
+Contents:
+--------
+
+1) An "inspired" work
+2) In-game KIT's Description
+3) Sword Angel's High Level Abilities
+4) Descriptions of the new HLAs
+5) "Fallen" status
+6) Built-in compatibility with Sim's VIRTUE Mod
+7) Engine's (or authors'...) limits and hints
+
+
+
+
+
+                        1) An "inspired" work
+                        --------------------
+
+(Maddest of the authors speaking!)
+
+[rant]
+
+I've always thought that extreme and desperate situations (like, say, war), 
+have an interesting side effect: they may bring to the surface the true souls
+of men. No authorities watching, no society holding you back, freedom to do 
+vile and savage things...as the ultimate mirror of yourself, they can show your 
+cowardice or your bravery, your malice or your humanity.
+I've never seen myself in such a mirror, probably I wouldn't even like to, but
+at least in a game, let me play the character I want! :D
+ 
+At start I just wanted to create a "nobler" version of the kensai, as I consider 
+existing classes not enough fitting for a really, purely good character.
+Paladins are too concerned with Law, Clerics are too concerned with their gods, 
+Monks are too concerned with themselves.
+So, what if I want to play a REAL hero, of the kind only met in fantastic 
+stories??? 
+
+This kit is *shamelessly* inspired to Nausicaa (no, not the Omero's one!), 
+the heroine created and brought to life by Hayao Miyazaki in his graphic novel 
+-should say *book*- "Nausicaa of the Valley of the Wind". 
+
+I won't praise that work here. Suffice to say that Nausicaa is an atheist but 
+a "fervent humanist", she considers life sacred, and she's always sustained 
+by an unbreakable spirit. The HLAs Spiritual Integrity, Banish, Heroism, are an 
+attempt to capture the sheer, physical strength of that spirit, and the effect
+it has on others.
+Incidentally, she is indeed a "swordswoman" in the story, and close to the end 
+of it many do consider her sort of an "angel", maybe evocated by the sufferings 
+of the world.
+Not the believable, ordinary, next-door adventurer. 
+Just the real "hero" the game lacked! :)
+
+It's only a bonus component of the mod, but seeing how our work defined it in 
+the end, I really consider it a little... jewel.
+I hope it'll be tried and appreciated by someone out there!
+Hey don't tell me it's only a game. Everything is just as serious as you make
+it! :D
+
+[/rant]
+
+                        2) In-game KIT's Description
+                        ---------------------------
+
+
+SWORD ANGEL:
+A pure-hearted fighter, capable to transcend his own training thanks to an unequaled spiritual strength. It is fabled that two warriors of such virtue never lived in the same historical time! Although not servants of any deity, these noble combatants reunite the spirit of self sacrifice of a paladin, the martial focus of a kensai, and the mystical pulsion of a monk. Their training is aimed to develop discipline and body-control, so their blows rarely strike deep or furious, and never viciously: Sword Angels don't learn treacherous moves to kill, or to penetrate armors. They fight with honour and clear souls, and avoid violence when they can.
+
+Advantages:
+- +1 to hit and AC for every 6 levels
+- +1 bonus to speed factor for every 4 levels
+- Lay on Hands ability 1/day
+- Immunity to fear and morale failure
+- "Spiritual Harmony" 1/day for every 4 levels
+- "Merciful Fighting" activatable at will
+
+Disadvantages:
+- Requires 13 WIS (primary), 10 INT and 13 DEX
+- May only be Human, Elf or Half-Elf
+- May only be Neutral Good
+- May not use armor, shields, helmets, excessively STR-enhancing equipment
+- May not use missile, poisoned or other vile weapons
+- May surpass "proficient" level only in one-handed blades or staves 
+- May not place stars in Dual Wielding Style
+- May dual only to mage, with the same restrictions as an illusionist (but no additional spells).
+- Suffers a -3 penalty to damage with all weapons
+
+Spiritual Harmony (5+2 rounds):
+When body and spirit become truly as one, both benefit from the intense union: reactions are improved, while the mind finds stability in its inseparable shelter. This state grants -3 to AC, +2 to Thac0, increased movement rate, immunity to spells like Domination or Confusion, and +2 to saves vs. Death, Breath and Polymorph. Such a perfect integration is consuming for a mortal being, so a state of great stress shortly follows (penalties to Thac0, AC, movement; spell casting is disabled for dual-classed characters).
+
+Merciful Fighting:
+Attempts to fight with limited harmful effects result in a penalty to damage (-6), but every blow which leaves an opponent with less than 20 HPs has a chance to make him unconscious for 5 rounds (save vs. Death at -2). This possibly removes the immediate need to kill, yet some creatures may be immune to the effect.
+Critical hits cannot be scored while this ability is active.
+
+
+
+                      3) Sword Angel's High Level Abilities
+                      ------------------------------------
+
+The table includes the following special abilities (a "*" follows the new ones):
+
+-Power Attack 
+-Critical Strike            (requires: Power Attack)
+-Banish*                    (requires: Sustaining Will*) 
+-Improved Merciful Fighting*
+-Heroism*    
+-Body Purge*                (requires: Sustaining Will*)
+-Spiritual Integrity*       (requires: Sustaining Will*)
+-Regeneration*              (requires: Sustaining Will*)
+-Freedom of Spirit*         (requires: Spiritual Integrity*)
+-Soul Touch*                (requires: Heroism*)
+-Improved Critical*         (requires: Critical Strike)
+-Sustaining Will*
+
+ 
+
+
+                      4) Descriptions of the new HLAs
+                      ------------------------------
+
+
+
+*****************************
+
+
+Banish
+Founding his path on the sacrality of life, a Sword Angel has pity for the undead and the beings they once were, and a strong aversion for demonic creatures that come from other planes of existence to spread suffering. 
+Using this ability he emits a powerful outburst out of his life force, a cry to set things in place again: undead close to the caster are sent to eternal rest, while nearby demons are "killed" and vanquished from the plane. Said creatures are entitled a save vs. death (at -2 for undead), but the ones who resist are still repulsed far away from the caster and suffer a 4 points penalty to THAC0, AC and saves for 2 rounds. 
+This tremendous use of willpower is extremely consuming and depletes the caster's life force almost entirely. 
+Banish can only be picked once.
+
+Requires: Sustaining Will
+
+
+
+*****************************
+
+
+Improved Merciful Fighting
+Using this ability a Sword Angel focuses on disabling attacks, raising the odds of avoiding unwanted bloodshed while fighting. 
+Damage is reduced by 6 points per blow, but any creature hit in melee falls unconscious for 5 rounds unless a save vs. Death at -2 is made (if not immune to the effect). If a creature is left with less than 20 HPs after being hit, then they fall unconscious with no save.
+Critical hits cannot be scored for the duration of this ability, which is one round.
+
+
+
+*****************************
+
+
+Heroism
+This ability improves the caster's valor in battle, inspiring also an unshakable courage on his party members, who will naturally perceive him as a real hero and a leader to follow without hesitation.
+The caster's attack rate is doubled for 2 rounds, and his base HPs are increased by 20% for 5 rounds. Meanwhile party members are rallied (and protected) from any fear or morale effect. 
+Heroism can't be used more than once per turn.
+
+  
+
+*****************************
+
+
+Body Purge
+A Sword Angel is in touch with the natural powers that connect all life forms, and may improve his thaumaturgic abilities.  
+Body Purge allows the cleansing of ill effects from the body of a touched person: poison, deafness, blindness and diseases are removed; in addition, 3d8 HPs are instantly healed.
+
+Requires: Sustaining Will
+
+
+
+*****************************
+
+
+Spiritual Integrity
+For 5 rounds the Sword Angel manages to sustain not only perfect harmony within him, but even partial integration and empathic connection with the environment itself and the nearby beings.
+All the bonuses granted by Spiritual Harmony are gained, while fatigue effects do not occur. In addition all resistances are raised by 25%, and the caster's life force becomes impossible to drain. 
+Since beings are directly perceived rather than sensed, for the entire duration of the ability the caster can't be fooled by illusions, and becomes aware of the alignment of any nearby creature.
+There are other consequences though: if he hurts any living creature in melee while in this state, he'll share part of the suffering inflicted!
+
+Requires: Sustaining Will
+
+
+
+*****************************
+
+
+Regeneration
+A Sword Angel can train his body to improve the natural healing process, till it reaches an almost visible effect. 
+The natural regeneration rate is permanently increased by 2 HP/round, and this bonus is cumulative with every other regeneration effect on the character. 
+This ability can be picked only once.
+
+Requires: Sustaining Will
+
+
+
+*****************************
+
+
+Freedom of Spirit
+As the Sword Angel's spirit gets stronger and stronger, it becomes almost impossible to cage or subdue it in any way.
+Each time the Sword Angel becomes hindered in body or mind he finds within himself the strength of will to break free, releasing a powerful outburst that also pushes away all the menacing creatures around him.
+This power is draining to his soul however, so he cannot use it more than once every 5 hours. 
+
+Requires: Spiritual Integrity
+
+
+
+*****************************
+
+
+Soul Touch
+A Sword Angel's influence can manifest as an aura affecting his nearby companions. His presence can inspire and motivate them, either for the desire to help and protect him, or simply to emulate him. At times this effect becomes powerful enough to touch their minds and wills, fully protecting them against any kind of fear (including magically induced fear). 
+In addition, the Sword Angel is able to embrace the souls of all but the most selfish of his companions: such a spiritual link grants them temporary immunity to most kinds of mind-affecting effects, as per the effect of a Mind Shield.
+Already active fear and mind effects are not removed by this influence.
+
+Requires: Heroism
+
+
+
+*****************************
+
+
+Improved Critical
+Trained fighters are able to improve the accuracy of their blows and the control they have over them.
+This passive ability increases the character's chances to score critical hits by 5%.
+
+Requires: Critical Strike
+
+
+
+*****************************
+
+
+Sustaining Will
+As a natural result of an instinctive, innate and introspective research, a Sword Angel may reach a higher level of awareness about himself, his body, and his role in the greater scheme of things: acceptance of his own sufferings and the uncertain outcomes of human actions strengthen his determination to push himself always forward, whatever the circumstances.
+Choosing this ability grants to the character a permanent increase in Wisdom (+1 bonus) and in saves vs. Spells (+2 bonus). Furthermore, disciplines that require exceptional inner serenity and strength of will become accessible. 
+
+
+
+*****************************
+
+
+
+
+
+
+                        5)"Fallen" status
+                        -----------------
+
+
+If the Sword Angel deviates from his path, he reaches somehow a "fallen" status.
+This is not quite a "punishment" and it doesn't work as it does for Paladins or
+Rangers, since... But wait, a step back is on order.
+This is the right place to explain and clarify a few things about this character.
+Some may wonder why we didn't make a Paladin kit or something. The answer is
+this character is NOT a follower of a deity, and most importantly, NOT a servant 
+of Law!! 
+
+The concept is that of a hero guided only by a pure heart. No Laws or codes are
+allowed to narrow such a path. Keldorn for instance, is concerned in the preserving
+of just *innocent* lives. This kit tries to portray a truly unique character, who 
+doesn't really care about such distinctions: life is a sacred value, the fighting
+training and all the abilities of the Sword Angel reflect this.
+Spiritual Integrity is enough of an example: creating an empathic bond with the
+nearby living creatures, the Sword Angel actually is in the condition to share the
+pain he inflicts on others. There's no possible distinction between different kinds
+of creatures... as long as they're alive and they are able to suffer.
+This all also explains the reason of the alignment restrictions.
+Neutral Good is the only possible alignment, since the only dominating aspect is 
+that a Sword Angel must good and noble at heart.
+ 
+At the moment we're not handling many events which can trigger the falling (we may 
+add some in the future...).
+But know that, in theory, even becoming Lawful Good would cause it!!
+The consequence is that the Sword Angel becomes just a regular Kensai, somehow its 
+"base class". There's no possible returning to the Sword Angel status, since the 
+point is whether you may be that unique, absolutely pure character, or not.
+As a Kensai it's possible to develop normally and gain abilities, but the fallen 
+character is initially at a disadvantage since he lacks the starting abilities of 
+a Kensai; the training has been different after all.
+
+
+
+
+
+                      6) Built-in compatibility with Sim's VIRTUE Mod
+                      ----------------------------------------------
+
+
+The title says it all.
+Now, if you have VIRTUE installed, the behaviour of the "falling" mechanism becomes 
+close to ideal!
+A single evil act will cause it.
+No matter if you install VIRTUE before or after the S.A. kit, so, go and grab that 
+great mod!
+
+Info page:   http://www.pocketplane.net/mambo/index.php?option=content&task=blogcategory&id=107&Itemid=82
+			 ( http://tinyurl.com/au8eo in case the above link appears broken)
+
+
+...and many thanks again to Sim for his help!!
+
+
+
+
+
+
+                      7) Engine’s (or authors'...) limits and hints
+                      --------------------------------------------
+
+
+
+About fighting styles: dual-wielding is almost prevented for several reasons.
+First, it's too offense-oriented.
+Second, single weapon fighting is cool!
+Third.. well, the game is not very inclined to such things, but you should be
+allowed to spare your enemies any time you're able to.
+If you fight with one single weapon, and keep your other main-hand weapon slots
+clear, you can *simulate* the fact that -being your other hand free- you're
+able to switch to fist at ANY time...
+Don't underestimate the fun and satisfaction that "forcing" the game this way
+may induce!!! :D
+S.A. indeed has Merciful Fighting, but even that seems more fitting if he's
+keeping one hand free (or he's using staves), thus being capable of alternative
+moves.
+
+Indeed we bend the rules sometimes (example: WIS as primary requisite, STR
+disregarded), but it's done for the sake of role-playing, not powergaming, so
+we feel it's fine.
+
+Don't make the mistake of considering this Kit too weak. It's not a powerhouse,
+but remember that its abilities are, essentially, not magical... ;)
+
+
+
+*** A NOTE ON COMPATIBILITY ***
+
+The restrictions on items couldn't come without cost, but it is a VERY negligible
+cost, as long as you know what's happening (or even if you don't, actually).
+First, we had to use the UNUSABLE values of some existing Kits. Nothing new. But,
+second, we had to *steal completely* the UNUSABLE value of another one, in order
+to bend it to our needs. So, we "sacrificed" the Jester Kit.
+Ok, but What does it mean?
+
+Nothing to really worry about.
+There are indeed many items usable only by Bards, or UN-usable by Bards.
+But there are *not* items available -say- to Skalds while not to Jesters.
+This is true for the regular game, and all the mods we've seen so far.
+There's never a discrimination, and the UNUSABLE value is really needed *only* for
+discrimination between kits of the same class.
+
+You should get the point: the UNUSABLE value of Jesters is somehow a "wasted value"!
+(there are others)
+
+So, *only while the Sword Angel Kit is installed*, Jesters "share" the same UNUSABLE
+value as Skalds, while S.A. uses the Jesters' one, and involved items are temporarily
+modified in an appropriate way!
+Tricky? Sure. Inelegant? Maybe. But it's also a *solution*, which allowed us to make
+the present kit as perfect as possible.
+And where's the problem? Jesters and Skalds work **NORMALLY**!!!
+Should EVER, in a FAR future, a new mod provide some items that'll treat Skalds and
+Jesters differently, then Jesters would still use the same items as Skalds if the
+Sword Angel Kit is installed.
+OK, but how many protagonists do you run at the same time? :)
+

@@ -1,0 +1,42 @@
+@-1000= ~Witamy w instalatorze moda Refinments!
+
+Refinments posiada~
+@-1001= ~oddzielnie komponenty.
+Dla zachowania czasu, mo¿esz na razie pominac komponenty, którze przydadza ci sie na wyzszych poziomach.
+Polecamy przed pierwsza instalacja  przeczytac README.
+~
+@-1002= ~Co zrobic z komponentami ktore nie zostaly jeszcze zainstalowane?
+[I]nstaluj, [S]opuszczaj je, [A]pytaj sie o kazdy? ~
+@-1003= ~Co zrobic z komponentami, ktore zostaly juz zainstalowane?
+[R]reinstaluj, [U]sun, [S]opusc, [A]pytaj sie o kazdy? ~
+
+@-1004= ~Wyslij wiadomosc~
+@-1005= ~na~
+
+@-1006= ~Co zamierzasz zrobic z tym komponentem `~
+@-1007= ~'?
+[R]einstaluj, [N] brak zmian [U] odinstaluj [Q] wyjdz? ~
+@-1008= ~'?
+[Y] tak [N]ie [Q] wyjdz? ~
+// note that the keys are always R,N,U,Q,Y !!
+
+@-1009= ~Enter component of a module name: ~
+
+@-1010= ~Reinstaluj `~
+@-1011= ~' komponent ~
+@-1012= ~Reinstaluj uzywajac jazyka~
+
+@-1013= ~Usun stara instalacje `~
+@-1014= ~' pierwszy komponent ...~
+@-1015= ~USUWANIE ZAKONCZONO~
+
+@-1016= ~Instaluje~
+@-1017= ~BLAD przy instalowaniu `~
+@-1018= ~' komponentu, powracam do starego stanu.~
+@-1019= ~INSTALACJE ZAKONCZONO~
+@-1020= ~Opuszczam~
+@-1021= ~Usuwam `~
+@-1022= ~' komponent o numerze ~
+@-1023= ~~
+@-1024= ~ZAKONCZONO USUWANIE `~
+

@@ -1,0 +1,16 @@
+/*
+THIS COMPONENT IS CURRENTLY INACTIVE.
+*/
+
+
+***********************************
+** Revised Balthazar's Abilities **
+***********************************
+
+No need for a pompous readme here! :)
+
+This component aims to make him and his pupils more tactical and harder to beat. The files contained in this package are highly relying on David Gaider's Balthazar modifications for Ascension, and should be installed AFTER that mod. 
+Balthazar receives some new equipment and he uses his abilities more "precisely" and more often.
+
+This component will be made larger in the future, since we intend to give him the option to use the monk abilities of our new HLA System instead of his own innates (Dragon Fist, Shadowless Kick! for example...)
+ 

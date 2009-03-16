@@ -1,0 +1,48 @@
+************************
+** Shapeshifting Fix  **
+************************
+
+
+
+
+                      1)New fix for Shapeshifting
+                      ---------------------------
+
+
+Refinements includes a new fix for the infamous Shapeshifting bug. Shapeshifting in the original
+game didn't get the intended bonuses in the target forms, and also the paws (or specific weapons) 
+were dispellable!
+Unfortunately the problem resides in the inner code of the game, so only work-arounds can be 
+attempted. 
+Westley Weimer provided (for some of the forms) a really smart and revolutionary solution, which 
+unfortunately still has some problems, especially for players who are concerned with "roleplaying" 
+consistency: the player has to equip the paws himself and this may seem a bit odd. 
+So, we've taken the really good idea from Weimer and added some thought of our own :)
+With this fix the player can finally use shapeshifting as originally intended: they gain all the
+resistances and immunities of the target forms, but they also lose the capability to cast spells
+and talk (otherwise you'd just want to remain a werewolf or a Fire Elemental forever...).
+Yes, the paws can still be dispelled, unluckily, but... they will reappear after a short while,
+so the player has nothing to bother with.
+The current maximum delay for this to happen has been choosen after some performance tests.
+
+All the forms available to the various kinds of druids have been fixed: wolf, bear, spider, wyvern, 
+salamander, and werewolf.
+Furthermore, turning back to the natural form now heals the druid somewhat. 
+Regarding the elemental forms gained as HLAs, a fix and a complete revision are included in the 
+first component of this mod, for which we added the two missing elemental forms (air and water) 
+and reunited them all under the same ability.
+
+The cost of this fix is tolerable in our opinion: a few portrait icons cannot be displayed for
+the character while shapeshifted. Hey... The world is not perfect :)
+Last thing: turning back to a humanoid from the Shapeshifters' werewolf forms now requires a round.
+The other forms do not have enough fitting animations for such an adjustment and we also wanted to 
+emphasize the difference with the other cases (shapeshifters are affected by lycanthropy, they 
+really have to dominate their "beast side"). Werewolf forms are also very powerful after all,
+especially if you pick the "Feral Spirit" HLA (included again in the first component of this mod). 
+
+
+                        3) Install time choices
+                        --------------
+
+-You can choose wether the healing happens when reverting to human (standard choice) or when
+ morphing to an animal (or lycantrop, or whatever). The second choice was coded by Borsook.

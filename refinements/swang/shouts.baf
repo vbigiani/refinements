@@ -1,0 +1,23 @@
+IF
+        Kit(Player1,SWANG)
+        OR(2)
+          AttackedBy([PC],DEFAULT)
+	  HitBy([PC],CRUSHING)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+         IncrementGlobal("LISwaFal","GLOBAL",1)
+         Continue()
+END
+
+IF
+        Kit(Player1,SWANG)
+        OR(2)
+          AttackedBy(Player1,DEFAULT)
+	  HitBy(Player1,CRUSHING)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+         SetGlobal("LISwaFal","GLOBAL",3)
+         Continue()
+END

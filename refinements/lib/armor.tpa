@@ -1,0 +1,157 @@
+////////////////////////////////////////////////////////////////////////////////////
+//Revised Armors & Shields
+
+// note: this is the modder only code, to-be-installed code is different  :)
+// note by Littiz: time to remove the above note? :)
+// note by Bigg: yes  :D
+
+AT_INTERACTIVE_EXIT ~VIEW refinements/Docs/Revised_Armors.txt~
+
+// ACTION_IF NOT FILE_EXISTS ~override/tb#resisttweak.txt~ THEN
+// 	BEGIN
+// 	COPY_EXISTING ~sw1h01.itm~ ~override/tb#resisttweak.txt~
+// 	COPY ~refinements/armor/copy~ ~override~
+// 	EXTEND_TOP ~baldur.bcs~ ~refinements/armor/baldur.baf~
+// 	ACTION_IF FILE_EXISTS_IN_GAME ~baldur25.bcs~ THEN
+// 		BEGIN
+// 		EXTEND_TOP ~baldur.bcs~ ~refinements/armor/baldur.baf~
+// 		END
+// 	END
+
+INCLUDE ~refinements/lib/armor/init.tpa~
+
+COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
+/* note: this section can't use READ_2DA_ENTRY_NOW/FORMER, since the files containing
+	* the statistics are regulated by variables. One for WeiDU v189  :-/
+	*
+	* Done  :D
+*/
+
+	// cutoff values
+	SPRINT ~fromfiles~ ~___NOT_REALLY_ANYTHING___~
+	SPRINT ~file_name~ ~%SOURCE_RES%~
+	SET base_ac = 10
+	found = 0
+	magic_level = 0
+	torem = 0
+// 	10 = not armour
+// 	9  = special armour
+// 	8- = normal armour
+
+
+	// find out the type of item
+	SPRINT armortype ~arghargh~
+	SET base_unide = 0
+	
+	PATCH_INCLUDE ~refinements/lib/armor/detect.tpp~
+
+	PATCH_IF (base_ac < 10) && base_ac != 0 THEN BEGIN //if it's an armor
+		PATCH_INCLUDE ~refinements/lib/armor/armor.tpp~
+	END
+	PATCH_IF (base_ac > 10) THEN BEGIN //if it's a shield
+		PATCH_INCLUDE ~refinements/lib/armor/shield.tpp~
+	END // base_ac != 10: is shield
+
+	PATCH_IF (base_ac = 10) THEN BEGIN // attempt to detect other armors
+		PATCH_INCLUDE ~refinements/lib/armor/detect-other.tpp~
+		PATCH_IF (base_ac < 10) && base_ac != 0 THEN BEGIN //if it's an armor
+			PATCH_INCLUDE ~refinements/lib/armor/armor.tpp~
+		END
+		PATCH_IF (base_ac > 10) THEN BEGIN //if it's a shield
+			PATCH_INCLUDE ~refinements/lib/armor/shield.tpp~
+		END // base_ac != 10: is shield
+	END
+
+	PATCH_IF (base_ac != 10) && base_ac != 0 // it's either armor or shield
+		BEGIN
+		PATCH_INCLUDE ~refinements/lib/armor/description.tpp~
+		END // base_ac != 10
+	PATCH_IF base_ac = 10 || base_ac = 0 THEN
+		BEGIN // neither armour nor shield: may be weapon; if AoE is present, I'll tweak Dex requiresments.
+		PATCH_IF ((FILE_EXISTS_IN_GAME ~j#swsoa.txt~) OR (FILE_EXISTS_IN_GAME ~J#ToBAoE.txt~)
+										OR (FILE_EXISTS_IN_GAME ~j#sensibleweaponsmods.txt ~))
+			BEGIN
+			READ_LONG  0x64 ext_off
+			READ_SHORT 0x68 ext_cnt
+			FOR (i = 0; i < ext_cnt; i+= 1)
+				BEGIN
+				READ_BYTE ext_off + i * 0x38 type
+				PATCH_IF type = 1 || type = 2 || type = 4
+						// if it's a melee, launcher or missile attack, reduce by 3 the dex requirement
+					BEGIN
+					READ_BYTE  0x2c min_dex
+					WRITE_BYTE 0x2c (((min_dex - 3) < 0) ? 0 : (min_dex - 3))
+					ext_cnt = 0 // to avoid applying more than once this effect
+					END
+				END
+			END // PATCH_IF AoE
+		END
+BUT_ONLY_IF_IT_CHANGES
+
+// now, we have to turn all cases of "movement modifier - set % of" to "movement modifier - add + x."
+COPY_EXISTING_REGEXP GLOB ~.*\.spl~ ~override~
+						~.*\.itm~ ~override~
+	PATCH_IF SOURCE_SIZE > 0 BEGIN
+		READ_ASCII 0 whatis (3)
+		PATCH_IF (~%whatis%~ STRING_EQUAL_CASE ~ITM~) // if it's a ITM
+			BEGIN
+				extended_header_size = 0x38
+				END
+		ELSE
+			BEGIN // otherwise it's a SPL
+				extended_header_size = 0x28
+				END
+			READ_LONG 0x64 ext_off
+			READ_SHORT 0x68 ext_count
+		READ_LONG 0x6a eff_off
+		READ_SHORT 0x6e eq_eff_indx
+		READ_SHORT 0x70 eq_eff_count
+		// check all equiped / global EFFS
+		FOR (i = 0; i < eq_eff_count; i += 1)
+			BEGIN
+			READ_SHORT (0x30 * i + eq_eff_indx) + eff_off     opcode ELSE 0
+			READ_LONG  (0x30 * i + eq_eff_indx) + eff_off + 4 par1 ELSE 0
+			READ_LONG  (0x30 * i + eq_eff_indx) + eff_off + 8 par2 ELSE 0
+			PATCH_IF (opcode = 0x7e) && (par2 = 2)
+				BEGIN
+				WRITE_LONG (0x30 * i + eq_eff_indx) + eff_off + 8 0
+				WRITE_LONG (0x30 * i + eq_eff_indx) + eff_off + 4 (par1 - 100) / 10
+				END
+			END
+
+		// extended header EFFS
+		FOR (j = 0; j < ext_count; j += 1)
+			BEGIN
+				READ_SHORT (ext_off + (j * extended_header_size) + 0x1e) ext_eff_count ELSE 0
+				READ_SHORT (ext_off + (j * extended_header_size) + 0x20) ext_eff_indx ELSE 0
+
+				FOR (i = 0; i < ext_eff_count; i += 1)
+				BEGIN
+				READ_SHORT (0x30 * i + ext_eff_indx) + eff_off     opcode ELSE 0
+				READ_LONG  (0x30 * i + ext_eff_indx) + eff_off + 4 par1 ELSE 0
+				READ_LONG  (0x30 * i + ext_eff_indx) + eff_off + 8 par2 ELSE 0
+
+				PATCH_IF (opcode = 0x7e) && (par2 = 2)
+					BEGIN
+					WRITE_LONG (0x30 * i + ext_eff_indx) + eff_off + 8 0
+					WRITE_LONG (0x30 * i + ext_eff_indx) + eff_off + 4 (par1 - 100) / 10
+					END
+				END
+			END
+	END
+BUT_ONLY_IF_IT_CHANGES
+
+// EFF files
+COPY_EXISTING_REGEXP GLOB ~.*\.eff~ ~override~
+		READ_LONG 0x10 opcode
+		READ_LONG 0x1c par1
+		READ_LONG 0x20 par2
+	PATCH_IF (opcode = 0x7e) && (par2 = 2)
+		BEGIN
+		WRITE_LONG 0x1c 0
+		WRITE_LONG 0x20 (par1 - 100) / 10
+		END
+BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~shld07.itm~ ~override~ // shield of the falling stars: originally named +1, +4 vs. missile
+	SAY NAME2 @2001

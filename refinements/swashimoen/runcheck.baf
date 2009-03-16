@@ -1,0 +1,106 @@
+/////////////////////////////////////////////////////////////
+// Use Scrolls madness by Littiz :D
+// Scripts to "free" characters dualled to mage from
+// scrolls restrictions, + additional cases for multiclasses
+// and such.
+
+// Extracted the snippet for Swashbucklers, to allow swashimoen without HLA/Use Scrolls
+
+IF
+	Kit(Player1,SWASHBUCKLER)
+	Class(Player1,MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,AddKit(sswashtF))
+END
+IF
+	OR(2)
+		Kit(Player1,SWASHBUCKLER)
+		Kit(Player1,sswashtF)
+	Class(Player1,MAGE_THIEF)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,AddKit(sswashtw))
+END
+
+
+IF
+	Kit(Player2,SWASHBUCKLER)
+	Class(Player2,MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player2,AddKit(sswashtF))
+END
+IF
+	OR(2)
+		Kit(Player2,SWASHBUCKLER)
+		Kit(Player2,sswashtF)
+	Class(Player2,MAGE_THIEF)
+THEN
+	RESPONSE #100
+		ActionOverride(Player2,AddKit(sswashtw))
+END
+IF
+	Kit(Player3,SWASHBUCKLER)
+	Class(Player3,MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player3,AddKit(sswashtF))
+END
+IF
+	OR(2)
+		Kit(Player3,SWASHBUCKLER)
+		Kit(Player3,sswashtF)
+	Class(Player3,MAGE_THIEF)
+THEN
+	RESPONSE #100
+		ActionOverride(Player3,AddKit(sswashtw))
+END
+IF
+	Kit(Player4,SWASHBUCKLER)
+	Class(Player4,MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player4,AddKit(sswashtF))
+END
+IF
+	OR(2)
+		Kit(Player4,SWASHBUCKLER)
+		Kit(Player4,sswashtF)
+	Class(Player4,MAGE_THIEF)
+THEN
+	RESPONSE #100
+		ActionOverride(Player4,AddKit(sswashtw))
+END
+IF
+	Kit(Player5,SWASHBUCKLER)
+	Class(Player5,MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player5,AddKit(sswashtF))
+END
+IF
+	OR(2)
+		Kit(Player5,SWASHBUCKLER)
+		Kit(Player5,sswashtF)
+	Class(Player5,MAGE_THIEF)
+THEN
+	RESPONSE #100
+		ActionOverride(Player5,AddKit(sswashtw))
+END
+IF
+	Kit(Player6,SWASHBUCKLER)
+	Class(Player6,MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player6,AddKit(sswashtF))
+END
+IF
+	OR(2)
+		Kit(Player6,SWASHBUCKLER)
+		Kit(Player6,sswashtF)
+	Class(Player6,MAGE_THIEF)
+THEN
+	RESPONSE #100
+		ActionOverride(Player6,AddKit(sswashtw))
+END

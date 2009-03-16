@@ -1,0 +1,415 @@
+IF
+  Die()
+THEN
+  RESPONSE #100
+    CreateVisualEffectObject("SPHOLY",Myself)
+    DestroySelf()
+END
+
+IF
+  HotKey(K)
+  Global("scriptoff","locals",0)
+THEN
+  RESPONSE #100
+    SetGlobal("scriptoff","locals",1)
+    DisplayStringHead(Myself,@1)
+END
+
+IF
+  HotKey(K)
+  Global("scriptoff","locals",1)
+THEN
+  RESPONSE #100
+    SetGlobal("scriptoff","locals",0)
+    DisplayStringHead(Myself,@2)
+END
+
+IF
+  Global("scriptoff","locals",1)
+THEN
+  RESPONSE #100
+END
+
+IF
+  Global("Init","locals",0)
+THEN
+  RESPONSE #100
+    SetGlobal("init","locals",1)
+    SetGlobalTimer("action_interruptible","locals",1)
+    Continue()
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  HaveSpellRES("tg#rc15") //cure critical wounds
+  HPPercentLT(Myself,25)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SpellRES("tg#rc15",Myself)
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  See([ANYONE])
+  HPPercentLT(LastSeenBy(Myself),25)
+  OR(2)
+    Allegiance(Myself,GOODCUTOFF)
+    Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  OR(2)
+    Allegiance(Myself,EVILCUTOFF)
+    Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  HaveSpellRES("tg#rc15") //cure critical wounds
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+//    ReallyForceSpellRES("ca#twoe",LastSeenBy(Myself)
+    SpellRES("tg#rc15",LastSeenBy(Myself))
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  HaveSpellRES("tg#rc12") //remove disease on self; high priority due to spell failure
+  StateCheck(Myself,STATE_DISEASED)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SpellRES("tg#rc12",Myself)
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  HaveSpellRES("tg#rc13") //cure serious wounds
+  HPPercentLT(Myself,50)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SpellRES("tg#rc13",Myself)
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  See([ANYONE])
+  HPPercentLT(LastSeenBy(Myself),50)
+  OR(2)
+    Allegiance(Myself,GOODCUTOFF)
+    Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  OR(2)
+    Allegiance(Myself,EVILCUTOFF)
+    Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  HaveSpellRES("tg#rc13") //cure serious wounds
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+//    ReallyForceSpellRES("ca#twoe",LastSeenBy(Myself)
+    SpellRES("tg#rc13",LastSeenBy(Myself))
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  CombatCounter(0) //no casting cure medium wounds or lesser in combat, better to cast offensive spells...
+  !GlobalTimerNotExpired("cast","locals")
+  HaveSpellRES("tg#rc10") //cure medium wounds
+  HPPercentLT(Myself,75)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SpellRES("tg#rc10",Myself)
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  See([ANYONE])
+  HPPercentLT(LastSeenBy(Myself),75)
+  OR(2)
+    Allegiance(Myself,GOODCUTOFF)
+    Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  OR(2)
+    Allegiance(Myself,EVILCUTOFF)
+    Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  HaveSpellRES("tg#rc10") //cure medium wounds
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+//    ReallyForceSpellRES("ca#twoe",LastSeenBy(Myself)
+    SpellRES("tg#rc10",LastSeenBy(Myself))
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  CombatCounter(0) //no casting cure medium wounds or lesser in combat, better to cast offensive spells...
+  !GlobalTimerNotExpired("cast","locals")
+  HaveSpellRES("tg#rc02") //cure light wounds
+  HPPercentLT(Myself,75)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SpellRES("tg#rc02",Myself)
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  See([ANYONE])
+  HPPercentLT(LastSeenBy(Myself),75)
+  OR(2)
+    Allegiance(Myself,GOODCUTOFF)
+    Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  OR(2)
+    Allegiance(Myself,EVILCUTOFF)
+    Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  HaveSpellRES("tg#rc02") //cure light wounds
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SpellRES("tg#rc02",LastSeenBy(Myself))
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  !GlobalTimerNotExpired("rem_fear","locals")
+  See([ANYONE])
+  StateCheck(LastSeenBy(Myself),STATE_PANIC)
+  OR(2)
+    Allegiance(Myself,GOODCUTOFF)
+    Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  OR(2)
+    Allegiance(Myself,EVILCUTOFF)
+    Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  HaveSpellRES("tg#rc05") //remove fear
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SetGlobalTimer("rem_fear","locals",THREE_ROUNDS)
+    SpellRES("tg#rc05",LastSeenBy(Myself))
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  !GlobalTimerNotExpired("rem_para","locals")
+  See([ANYONE])
+  OR(2)
+    StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+    StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+  OR(2)
+    Allegiance(Myself,GOODCUTOFF)
+    Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  OR(2)
+    Allegiance(Myself,EVILCUTOFF)
+    Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  HaveSpellRES("tg#rc09") //remove paralysis
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SetGlobalTimer("rem_para","locals",THREE_ROUNDS)
+    SpellRES("tg#rc09",LastSeenBy(Myself))
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  See([ANYONE])
+  CheckStatGT(LastSeenBy(Myself),4,LEVELDRAIN)
+  OR(2)
+    Allegiance(Myself,GOODCUTOFF)
+    Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  OR(2)
+    Allegiance(Myself,EVILCUTOFF)
+    Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  HaveSpellRES("tg#rc14") //lesser restoration
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SpellRES("tg#rc12",LastSeenBy(Myself))
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  !GlobalTimerNotExpired("rem_dis","locals")
+  See([ANYONE])
+  StateCheck(LastSeenBy(Myself),STATE_DISEASED)
+  OR(2)
+    Allegiance(Myself,GOODCUTOFF)
+    Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  OR(2)
+    Allegiance(Myself,EVILCUTOFF)
+    Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  HaveSpellRES("tg#rc12") //cure disease
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SetGlobalTimer("rem_dis","locals",THREE_ROUNDS)
+    SpellRES("tg#rc12",LastSeenBy(Myself))
+END
+
+// IF
+//   OR(2)
+//     ActionListEmpty()
+//     GlobalTimerNotExpired("action_interruptible","locals")
+//   !GlobalTimerNotExpired("cast","locals")
+//   !GlobalTimerNotExpired("buff","locals")
+//   HaveSpellRES("tg#rc16")
+// THEN
+//   RESPONSE #100
+//     SetGlobalTimer("cast","locals",ONE_ROUND)
+//     SetGlobalTimer("buff","locals",THREE_ROUNDS)
+//     SpellRES("tg#rc16",Myself)  // ~Blade Barrier~
+// END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  !GlobalTimerNotExpired("buff","locals")
+  See([ANYONE])
+  !StateCheck(LastSeenBy(Myself),STATE_BLESS)
+  OR(2)
+    Allegiance(Myself,GOODCUTOFF)
+    Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  OR(2)
+    Allegiance(Myself,EVILCUTOFF)
+    Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  HaveSpellRES("tg#rc01") //bless
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SetGlobalTimer("buff","locals",THREE_ROUNDS)
+    SpellRES("tg#rc01",LastSeenBy(Myself))
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  OR(2)
+    !Exists(LastAttackerOf(Myself))
+    !See(LastAttackerOf(Myself))
+  OR(4)
+    !Exists(NearestEnemyOf(Myself))
+    !Class(NearestEnemyOf(Myself),LONG_BOW)
+    !Class(NearestEnemyOf(Myself),SORCERER)
+    !See(NearestEnemyOf(Myself))
+  OR(4)
+    !Exists(SecondNearestEnemyOf(Myself))
+    !Class(SecondNearestEnemyOf(Myself),LONG_BOW)
+    !Class(SecondNearestEnemyOf(Myself),SORCERER)
+    !See(SecondNearestEnemyOf(Myself))
+  OR(4)
+    !Exists(NearestEnemyOf(Myself))
+    !Class(NearestEnemyOf(Myself),CLERIC_ALL)
+    !Class(NearestEnemyOf(Myself),DRUID_ALL)
+    !See(NearestEnemyOf(Myself))
+  OR(4)
+    !Exists(SecondNearestEnemyOf(Myself))
+    !Class(SecondNearestEnemyOf(Myself),CLERIC_ALL)
+    !Class(SecondNearestEnemyOf(Myself),DRUID_ALL)
+    !See(SecondNearestEnemyOf(Myself))
+  See(NearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+    Continue()
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  OR(2)
+    Allegiance(Myself,GOODCUTOFF)
+    Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  OR(2)
+    Allegiance(Myself,EVILCUTOFF)
+    !Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+//  OR(2)
+    ActionListEmpty()
+    GlobalTimerExpired("action_interruptible","locals")
+  GlobalTimerNotExpired("cast","locals")
+  CheckStatLT(LastSeenBy(Myself),2,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("action_interruptible","locals",1)
+    AttackOneRound(LastSeenBy(Myself))
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  HaveSpellRES("tg#rc18")
+  Alignment(LastSeenBy(Myself),MASK_EVIL)
+  Range(LastSeenBy(Myself),7)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SpellRES("tg#rc18",Myself)  // ~Holy Word~
+END
+
+IF
+OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  HaveSpellRES("tg#rc11")
+  Alignment(LastSeenBy(Myself),MASK_EVIL)
+  CheckStatLT(LastSeenBy(Myself),75,MAGICDAMAGERESISTANCE)
+  CheckStatLT(LastSeenBy(Myself),75,RESISTMAGIC)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SpellRES("tg#rc11",LastSeenBy(Myself))  // ~Holy Smite~
+END
+
+IF
+//  OR(2)
+    ActionListEmpty()
+    GlobalTimerExpired("action_interruptible","locals")
+  GlobalTimerExpired("cast","locals")
+  CheckStatLT(LastSeenBy(Myself),2,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("action_interruptible","locals",1)
+    AttackOneRound(LastSeenBy(Myself))
+END
+

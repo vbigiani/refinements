@@ -1,0 +1,18 @@
+IF
+	Global("cinder","locals",0)
+THEN
+	RESPONSE #100
+		ReallyForceSpell(Nearest([ANYONE]),BURNING_MAN_KEENING)
+		SetGlobal("cinder","locals",1)
+END
+
+IF
+//OR(2)
+    ActionListEmpty()
+//    !GlobalTimerExpired("action_interruptible","locals")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("action_interruptible","locals",6)
+    AttackReevaluate(Nearest([ANYONE]),15)
+END
+

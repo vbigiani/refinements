@@ -1,0 +1,2927 @@
+BRUENPLA
+--------
+Mitrylowa pe³na zbroja p³ytowa +2
+
+To jest osobista zbroja Bruenora Battlehammera i trudno znaleŸæ lepszy pancerz. To prawdziwy cud rzemios³a p³atnerskiego.
+
+PARAMETRY:
+
+Klasa pancerza: -1
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 35%
+
+Mobilnoœæ:
+ zrêcznoœæ -5
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -60%
+ szukanie pu³apek -65%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 45
+Nie mo¿e u¿ywaæ:
+ Z³odziej
+ Bard
+ Druid
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2ANOM01
+--------
+Tarcza Rodziny Delrynów +4
+To jest rodzinna tarcza Anomena, podarowana mu przez jego ojca. Oprócz magicznej ochrony tarcza promieniuje aur¹, któr¹ zapewnia osobie, która jej u¿ywa, odpornoœæ na ogieñ i zimno. W celu ochrony przed atakami z dystansu, Anomen mo¿e u¿yæ tej tarczy, ¿eby wznieœæ pole energetyczne. Taka ochrona przed pociskami mo¿e byæ u¿yta 3 razy na dzieñ.
+
+Doœæ niedawno <CHARNAME> wzmocni³ tarczê ochronn¹ magi¹ p³yn¹c¹ z £aski Ocalenia, uzyskanej podczas spotkania z awatarem Amaunatora, co spowodowa³o, ¿e sta³a siê ona jeszcze potê¿niejsza.
+
+PARAMETRY:
+
+Specjalne:
+ +30% do odpornoœci na ogieñ
+ +30% do Odpornoœci na zimno
+ Trzy razy dziennie mo¿e rzuciæ czar Ochrona przed pociskami.
+
+Klasa Pancerza: +5, +6 przeciwko pociskom
+
+Mo¿e u¿ywaæ:
+ Anomen
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2CHAN01
+--------
+Niesamowita Zbroja Elfów
+Wykuta zosta³a na proœbê <CHARNAME> z ³usek czerwonego smoka i zaczarowanej magicznej zbroi elfów, Niesamowita Zbroja Elfów zapewnia nosz¹cej j¹ osobie niezwyk³¹ kombinacjê defensywnych mo¿liwoœci. Bandyci i czarodzieje zachowuj¹ swe zdolnoœci kiedy nosz¹ tê zbrojê. 
+
+PARAMETRY:
+
+Klasa Pancerza: 0
+Ochrona przed obra¿eniami:
+ sieczne 20%
+ k³ute 15%
+ obuchowe 10%
+ pociskowe 10%
+ ogieñ 25%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ kradzie¿ kieszonkowa -20%
+ otwieranie zamków -5%
+ szukanie pu³apek -5%
+ ciche chodzenie -10%
+
+Waga: 15
+Wymagana si³a: 5
+Nie mo¿e u¿ywa:
+Druid
+Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2HIDE01
+--------
+Skóra Aegera +5
+Ta ciê¿ka i gruba niedŸwiedzia skóra jest wszystkim co zosta³o ze s³ynnego Aegera. Kilkaset lat temu Aeger, olbrzymi niedŸwiedŸ, terroryzowa³ setki wiosek wzd³u¿ ca³ego Wybrze¿a Mieczy. NiedŸwiedŸ by³ niewra¿liwy na ogieñ, zimno i kwas. Wreszcie zebrali siê m³odzi mê¿czyŸni i kobiety z kilku wiosek, tworz¹c grupê licz¹c¹ prawie dwieœcie osób. Aeger zosta³ otoczony i zg³adzony. Prze¿y³ mniej ni¿ tuzin ludzi, którzy podzielili miêdzy siebie skórê Aegera. Zbroja zosta³a wykonana z jednego z tych kawa³ków.
+
+<CHARNAME> ulepszy³ j¹ jeszcze bardziej dodatkowymi umagicznieniami.
+
+PARAMETRY:
+
+Specjalne:
+ Odpornoœæ na zamêt
+
+Klasa Pancerza: 1
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 10%
+ pociskowe 10%
+ ogieñ 25%
+ zimno 25%
+ kwas 25%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -10%
+ kradzie¿ kieszonkowa -15%
+ otwieranie zamków -5%
+ szukanie pu³apek -5%
+ ciche chodzenie -5%
+ krycie siê w cieniu -5%
+
+Waga: 35
+Wymagana si³a: 6
+Nie mo¿e u¿ywaæ:
+Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2KELD01
+--------
+Ulepszona Pe³na Zbroja P³ytowa Firecama
+Ta zbroja zosta³a zaprojektowana specjalnie dla Keldorna. Zbroja zosta³a póŸniej umagiczniona, gdy za¿yczy³ sobie tego <CHARNAME>, aby zapewnia³a Keldornowi lepsz¹ ochronê. Bêd¹c na wyposa¿eniu zapewnia w³aœcicielowi premiê +2 do wszystkich rzutów obronnych oraz pozwala na Swobodne dzia³anie (np. przechodzenie przez pajêczyny) oraz odpornoœæ na strach. Poza byciem niesamowicie siln¹, zbroja prawie nic nie wa¿y. 
+
+PARAMETRY:
+
+Specjalne:
+ Swoboda Ruchów
+ Odpornoœæ na Strach
+ +2 do wszystkich rzutów obronnych
+
+Klasa Pancerza: -2
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 40%
+
+Mobilnoœæ:
+ zrêcznoœæ -4
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -40%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -60%
+ szukanie pu³apek -60%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 10
+Mo¿e u¿ywaæ:
+ Keldorn Firecam
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2LEAT01
+--------
+Ulepszona Ludzka Skóra
+Ta zbroja jest wykonana z ludzkiej skóry i oblana krwi¹ szlachetnego smoka. Wydziela ostry odór œmierci. Ta nikczemna zbroja mo¿e byæ u¿ywana tylko prze naprawdê z³¹ osobê.
+
+PARAMETRY:
+
+Specjalne:
+ +4 do wszystkich rzutów obronnych
+ +20% odpornoœci na magiê
+ Odpornoœæ na trucizny
+ Ochrona przed dobrem
+ +1 do Zrêcznoœci i Kondycji
+
+Klasa Pancerza: 0 
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 5%
+
+Waga: 5 
+Wymagana si³a: 3
+Nie mo¿e u¿ywaæ:
+ Mag
+ Postaci o dobrym lub neutralnym charakterze
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2PLAT01
+--------
+Zbroja p³ytowa z ankhega
+Ta zbroja p³ytowa to istne cacko. Powleczona chitynow¹ ³usk¹ ankhega zapewnia lepsz¹ ochronê ni¿ pancerz wykonany z metalu i nie jest podatna na rdzê. Jednak¿e, jak powie ci to ka¿dy doœwiadczony poszukiwacz przygód, jej najwiêksz¹ zalet¹ jest niewielka waga. Potwory przychodz¹ i odchodz¹, wyczerpanie natomiast jest sta³ym zagro¿eniem. 
+
+Ta szczególna zbroja zosta³a przekuta na twoj¹ proœbê. Zapewnia ona teraz dodatkow¹ ochronê i pozwala nosz¹cemu j¹ na naœladowanie kwasowo-pluj¹cych ataków Ankhega.
+
+PARAMETRY:
+
+Specjalne:
+ 3 razy dziennie umo¿liwia rzucenie Kwasowej strza³y melfa
+
+Klasa Pancerza: -1
+Ochrona przed obra¿eniami:
+ sieczne 25%
+ k³ute 20%
+ obuchowe 5%
+ pociskowe 20%
+ kwas 50%
+
+Mobilnoœæ:
+ zrêcznoœæ -3
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -40%
+ kradzie¿ kieszonkowa -70%
+ otwieranie zamków -40%
+ szukanie pu³apek -40%
+ ciche chodzenie -80%
+ krycie siê w cieniu -65%
+
+Waga: 25
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+Bard
+Druid
+Mag
+Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2SHLD01
+--------
+Tarcza Harmonii +3
+Audn z Pola, rycerz i czempion czarodzieja Kekkima, nosi³ tê tarczê przez wiêkszoœæ swojego ¿ycia. Chroni ona nosiciela przed wiêkszoœci¹ form kontroli umys³u, co jest zalet¹ dla czarodzieja, który potrzebowa³ przyjaznych mu wojowników, aby stali wiernie po jego stronie. Zarówno Kekkim, jak i Audn dawno ju¿ gryz¹ ziemiê, pozostawiwszy tarczê temu, kto wydostanie j¹ z wie¿y czarodzieja..
+
+Niedawno tarcza ta zosta³a dodatkowo umagiczniona przez ciebie. Zapewnia teraz dodatkow¹ fizyczn¹ ochronê i sprawia, ¿e nosz¹cy j¹ jest odporny na psionikê (ale nie na wysysanie inteligencji Illithidów). 
+
+PARAMETRY: 
+
+Specjalne:
+ Odpornoœæ na uroki, psionikê, zamêt, dominacjê oraz unieruchomienie osoby
+
+Klasa Pancerza: +4, +5 przeciwko pociskom
+Waga: 2
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+Bard
+Druid
+Mag
+Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2VALY01
+--------
+Rodowa zbroja Corthalów
+Ta kolczuga, od dawien dawna w³asnoœæ rodu Corthala, chroni nosz¹cego j¹ przed wszystkimi rodzajami ataków. Widaæ jednak¿e, ¿e musia³a byæ niedawno modernizowana. Zbroja jest magiczna i zapewnia premiê +5 do klasy pancerza Valygara. Daje te¿ premiê do odpornoœci na kwas, ogieñ i obra¿enia magiczne. Dopóki Valygar ma na sobie tê zbrojê, jest te¿ odporny na zauroczenia. W koñcu nosz¹cego zbrojê nie mo¿na wykryæ. Niewiele osób mo¿e j¹ na siebie za³o¿yæ, gdy¿ dopasowano j¹ specjalnie do sylwetki Valygara..
+
+PARAMETRY:
+
+Specjalne:
+ Odpornoœæ na zauroczenie
+ Niewykrywalnoœæ
+
+Klasa Pancerza: 0
+Ochrona przed obra¿eniami:
+ sieczne 20%
+ k³ute 10%
+ obuchowe 10%
+ pociskowe 10%
+ ogieñ 50%
+ kwas 50%
+ magiczne 50%
+
+Mobilnoœæ:
+ zrêcznoœæ -2
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -30%
+ kradzie¿ kieszonkowa -45%
+ otwieranie zamków -15%
+ szukanie pu³apek -15%
+ ciche chodzenie -50%
+ krycie siê w cieniu -40%
+
+Waga: 9
+Mo¿e u¿ywaæ: 
+Valygar
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHALARM
+--------
+Niewiele sztuk tej zbroi, dawniej u¿ywanej przez legiony Unther, jest dziœ w u¿yciu. Kilka jeszcze istniej¹cych znajduje siê w rêkach bogatych kolekcjonerów. Znalezienie takiego pancerza mo¿e przynieœæ poszukiwaczowi przygód ma³¹ fortunê.
+
+PARAMETRY:
+
+Klasa Pancerza: -1
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 35%
+
+Mobilnoœæ:
+ zrêcznoœæ -5
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -60%
+ szukanie pu³apek -65%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 40
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHALSHLD
+--------
+Jakiœ wiek temu astronomowie odnotowali nieoczekiwany upadek komety do morza w okolicy Wybrze¿a Mieczy. To niecodzienne wydarzenie okaza³o siê byæ jeszcze dziwniejsze, gdy kowal Huffum Fuiruim, którego nie obchodzi³y wydarzenia na niebosk³onie, znalaz³ wyj¹tkowo lekkie fragmenty metalu. Przerobi³ je na tê tarczê, choæ kucie zajê³o mu wiele miesiêcy i potrzebowa³ do pomocy kilku zaklinaczy. "Z niebios? Niiii, spod mojego m³otka!"
+
+PARAMETRY:
+
+Klasa Pancerza: +1, +5 przeciwko pociskom
+Waga: 3
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Bard
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN02
+--------
+Kolczuga jest wykonana z zaczepionych o siebie pierœcieni. Jest zawsze noszona na tkaninê b¹dŸ miêkk¹ skórê, by zapobiec otarciom i os³abiæ si³ê ciosów. Dodatkowa ochrona taj zbroi zosta³a uzyskana dziêki magii.
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 10%
+ obuchowe 0%
+ pociskowe 35%
+
+Mobilnoœæ:
+ zrêcznoœæ -2
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -30%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -15%
+ szukanie pu³apek -20%
+ ciche chodzenie -40%
+ krycie siê w cieniu -30%
+
+Waga: 10
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN03
+--------
+Kolczuga umar³ych +2
+Czarodziej mo¿e staæ siê niezwykle skutecznym zabójc¹, jak to udowodni³ Vorusta ponad 400 lat temu. Tworzy³ on szkielety-wojowników, ubieraj¹c ich w tê magiczn¹ zbrojê i wyposa¿aj¹c w potê¿n¹ broñ, a potem daj¹c diadem mocy upatrzonej ofierze jako przyjacielski podarunek - nie informuj¹c jej oczywiœcie, co to jest. Gdy stworzona przez niego maszyna do zabijania upora³a siê ze swym zadaniem, Vorusta zabiera³ ekwipunek i z³oto ofiary, a potem zaczyna³ ca³y proces od pocz¹tku.
+
+PARAMETRY:
+
+Klasa Pancerza: 3
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 10%
+ obuchowe 0%
+ pociskowe 10%
+
+Mobilnoœæ:
+ zrêcznoœæ -2
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -30%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -15%
+ szukanie pu³apek -15%
+ ciche chodzenie -40%
+ krycie siê w cieniu -30%
+
+Waga: 10
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN05
+--------
+Zbroja paskowa jest odmian¹ zbroi folgowej, w której metalowe pasy s¹ przynitowane pionowo, a nie poziomo, do spodniej warstwy, miêkkiej, szytej z materia³u i skóry. Poniewa¿ zbroja ta nie jest zbyt elastyczna, w znacznym stopniu ogranicza w walce nosz¹cego j¹ wojownika. Zbroja ta posiada magiczne w³aœciwoœci.
+
+PARAMETRY:
+
+Klasa Pancerza: 3
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 10%
+ obuchowe 0%
+ pociskowe 10%
+
+Mobilnoœæ:
+ zrêcznoœæ -3
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -35%
+ kradzie¿ kieszonkowa -50%
+ otwieranie zamków -20%
+ szukanie pu³apek -20%
+ ciche chodzenie -50%
+ krycie siê w cieniu -40%
+
+Waga: 10
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN06
+--------
+Mitrylowa kolczuga +4
+Jest to osobista zbroja Drizzta, s³ynnego mrocznego elfa ³owcy. Kolczugê tê wyku³ dla niego jego przyjaciel Bruenor.
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Ochrona przed obra¿eniami:
+ sieczne 20%
+ k³ute 20%
+ obuchowe 5%
+ pociskowe 15%
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -25%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -15%
+ szukanie pu³apek -15%
+ ciche chodzenie -35%
+ krycie siê w cieniu -25%
+
+Waga: 7
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN07
+--------
+Kolczuga +3:
+Ta znakomicie wykonana kolczuga jest typow¹ zbroj¹ najlepszych krasnoludzkich wojowników. Zosta³a wykonana z mitrylu i mog¹ j¹ przebiæ jedynie najpotê¿niejsze ciosy.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 10%
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -25%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -15%
+ szukanie pu³apek -15%
+ ciche chodzenie -35%
+ krycie siê w cieniu -30%
+
+Waga: 9
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN08
+--------
+Kolczuga jest wykonana z zaczepionych o siebie pierœcieni. Jest zawsze noszona na tkaninê b¹dŸ miêkk¹ skórê, by zapobiec otarciom i os³abiæ si³ê ciosów. Dodatkowa ochrona taj zbroi zosta³a uzyskana dziêki magii.
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 10%
+ obuchowe 0%
+ pociskowe 10%
+
+Mobilnoœæ:
+ zrêcznoœæ -2
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -30%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -15%
+ szukanie pu³apek -15%
+ ciche chodzenie -40%
+ krycie siê w cieniu -30%
+
+Waga: 10
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN09
+--------
+Albo dziêki wykonaniu lub dziêki wystawieniu na bitewn¹ gor¹czkê, pierœcieniowe po³¹czenia tej zbroi s¹ czarne jak wêgiel. Choæ legendy mówi¹ zwykle o rycerzach w lœni¹cych zbrojach walcz¹cych z wielkimi potworami, to zaklêcie odpornoœci na ogieñ wskazuje na to, ¿e ta zbroja widzia³a wiele bitew z potworami ziej¹cymi ogniem.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 10%
+ ogieñ 20%
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -25%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -15%
+ szukanie pu³apek -15%
+ ciche chodzenie -35%
+ krycie siê w cieniu -30%
+
+Waga: 9
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN10
+--------
+Przyjaciele Dekirha Szybkorêkiego, barda chc¹cego graæ w najg³oœniejszych miastach Wybrze¿a Mieczy, podarowali mu tê kolczugê. Mia³a go chroniæ przed pijanymi widzami czêsto rzucaj¹cymi w Dekirha zgni³ymi warzywami, krzes³ami a nawet no¿ami. Bard doceni³ podarunek, ale pomalowa³ go ostrymi kolorami by lepiej pasowa³ do jego wystêpów.
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 10%
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -25%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -15%
+ szukanie pu³apek -15%
+ ciche chodzenie -35%
+ krycie siê w cieniu -25%
+
+Waga: 8
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN11
+--------
+Mówi siê, ¿e ciemnoczerwony metal u¿yty to stworzenia tej kolczugi pochodzi z ukrytej kopalni w Chmurnych Szczytach. Pewnego razu Krwawy Szlak, grupa poszukiwaczy przygód, by³a ca³a ubrana w zbroje tego rodzaju, ale wszystkie prócz tej zosta³y dawno zagubione.
+
+PARAMETRY:
+
+Klasa Pancerza: 0
+Ochrona przed obra¿eniami:
+ sieczne 20%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 10%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -20%
+ kradzie¿ kieszonkowa -30%
+ otwieranie zamków -15%
+ szukanie pu³apek -15%
+ ciche chodzenie -35%
+ krycie siê w cieniu -25%
+
+Waga: 7
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN13
+--------
+Ta kolczuga, wykonana przez najlepszych elfich rzemieœlników, w dotyku przypomina bardzie tkaninê ni¿ metal. Mog¹ j¹ nosiæ z³odzieje, odczuwaj¹c niewielki dyskomfort, a tak¿e wojownicy-magowie bez utraty zdolnoœci rzucania czarów.
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ kradzie¿ kieszonkowa -5%
+ otwieranie zamków -5%
+ szukanie pu³apek -5%
+
+Waga: 8
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Postaæ o dobrym lub neutralnym charakterze
+ Druid
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN14
+--------
+Ta lekka, ale mocna kolczuga jest wytworem elfów Sylvan, i dlatego jej elegancjê przyæmiewa tylko jej unikatowoœæ. Normalnie by³a ofiarowywana tylko wyj¹tkowo odwa¿nym elfom, wiêc rzadko mo¿na ja spotkaæ poza plemieniem leœnych elfów, a jeszcze rzadziej u kogoœ, kto elfem nie jest.
+
+PARAMETRY:
+
+Klasa Pancerza: 3
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 10%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ kradzie¿ kieszonkowa -5%
+ szukanie pu³apek -5%
+
+Waga: 10
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN15
+--------
+Bardowie Melodii byli niewielk¹ grup¹ pó³elfów wojowników-bardów, zabawiaj¹cych i broni¹cych rozrzucone elfie osiedla w Calimshanie. Zaklêcia pozwala³y by tê zbroje nosili tylko minstrele, magiczne po³¹czenia ocieraj¹ce siê o siebie wydawa³y piêkne melodie gdy tañczyli lub walczyli. Niestety Bardowie Melodii zostali rozwi¹zani setki lat temu a sekret 'grania' na zbroi znikn¹³ razem z nimi.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 10%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ kradzie¿ kieszonkowa -5%
+
+Waga: 12
+Wymagana si³a: 5
+Mo¿e u¿ywaæ:
+ Bard
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN16
+--------
+Wiedza o tym pancerzu jest niewielka, albo przez niecodzienne okolicznoœci w jakich siê pojawi³, lub przez ¿yczenie jej poprzedniego w³aœciciela, chc¹cego zataiæ miejsce jego ukrycia. Tajemnica by³a z pewnoœci¹ niezbêdna, poniewa¿ nawet plotki o pojawieniu siê takiej kolczugi mog¹ wywo³aæ zabójczy konflikt. To szczyt elfiego rzemios³a i naprawdê b³ogos³awiony przedmiot.
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 15%
+ obuchowe 10%
+ pociskowe 10%
+
+Waga: 15
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN17
+--------
+Zamiast pasków metalu ta zbroja wykorzystuje ³uski wiwerny przymocowane do podszycia za pomoc¹ magicznego ognia. W rezultacie zbroja ma szaropopielaty kolor i jest bardziej elastyczna ni¿ zwyk³a kolczuga. £owca Usher Skacan zrobi³ ten pancerz po zg³adzeniu kilku wiwern, które zabija³y jelenie i ³osie w jego lesie.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 10%
+
+Mobilnoœæ:
+ zrêcznoœæ -3
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -35%
+ kradzie¿ kieszonkowa -50%
+ otwieranie zamków -15%
+ szukanie pu³apek -20%
+ ciche chodzenie -50%
+ krycie siê w cieniu -40%
+
+Waga: 18
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN18
+--------
+To by³a zbroja Seffera Ekra i oznaka przychylnoœci bogini Mielikki. Nagrodzi³a ona lojalnoœæ ³owcy obietnic¹, ¿e nigdy nie polegnie on w bitwie, a on przez wiele lat opiera³ siê œmierci, utrzymuj¹c hordy orków z dala od swego rodzinnego lasu. Gdy nadszed³ jego czas, zabi³ go atak serca, a nie ostrze wroga.
+
+PARAMETRY:
+
+Specjalne:
+ +1 do wszystkich rzutów obronnych
+
+Klasa Pancerza: 1
+Ochrona przed obra¿eniami:
+ sieczne 20%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 10%
+
+Mobilnoœæ:
+ zrêcznoœæ -2
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -30%
+ kradzie¿ kieszonkowa -50%
+ otwieranie zamków -15%
+ szukanie pu³apek -15%
+ ciche chodzenie -50%
+ krycie siê w cieniu -40%
+
+Waga: 15
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN19
+--------
+Przebywaj¹c na wygnaniu, z dala od Myth Drannor, Aslyferund pozna³ sekret, pozwalaj¹cy na stworzenie potê¿nej elfiej zbroi przez z³ocenie i obdarzenie silnymi zaklêciami normalnej elfiej kolczugi. Niestety, potem nie chcia³ wyjawiæ tego sekretu swojemu konkurentowi, który w koñcu go zabi³.
+
+PARAMETRY:
+
+Specjalne:
+ Odpornoœæ na nieumagicznion¹ broñ
+
+Klasa Pancerza: 0
+Ochrona przed obra¿eniami:
+ sieczne 20%
+ k³ute 15%
+ obuchowe 10%
+ pociskowe 10%
+
+Waga: 15
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN20
+--------
+Nie budzi zdziwienia fakt, ¿e ta zbroja, wyprodukowana z ³usek m³odego smoka lodowego, chroni swojego w³aœciciela przed ch³odem i lodem.
+
+PARAMETRY:
+
+Specjalne:
+ 3 razy dziennie umo¿liwia rzucenie Sto¿ka zimna
+
+Klasa Pancerza: -2
+Ochrona przed obra¿eniami:
+ sieczne 20%
+ k³ute 15%
+ obuchowe 10%
+ pociskowe 15%
+ ch³ód 50%
+
+Mobilnoœæ:
+ zrêcznoœæ -2
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -35%
+ kradzie¿ kieszonkowa -50%
+ otwieranie zamków -15%
+ szukanie pu³apek -20%
+ ciche chodzenie -50%
+ krycie siê w cieniu -40%
+
+Waga: 5
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN21
+--------
+Typowa kolczuga noszona przez najemników Baltazara.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 10%
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -25%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -15%
+ szukanie pu³apek -15%
+ ciche chodzenie -35%
+ krycie siê w cieniu -30%
+
+Waga: 10
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CLOLTH
+--------
+Ta kolczuga, wykonana przez najlepszych elfich rzemieœlników, w dotyku przypomina bardzie tkaninê ni¿ metal. Mog¹ j¹ nosiæ z³odzieje, odczuwaj¹c niewielki dyskomfort, a tak¿e wojownicy-magowie bez utraty zdolnoœci rzucania czarów.
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ kradzie¿ kieszonkowa -5%
+ otwieranie zamków -5%
+ szukanie pu³apek -5%
+
+Waga: 8
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM053
+--------
+This is a perfect set of armour made from the purest mithril. Mithril is mined by the dwarves, and is fashioned into very exotic and enchanted armours. Dwarven made items are expensive and hard to come by, but they are highly powerful.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+DEX: -1
+Spell failure: +25%
+Pick Pockets: -35%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -35%
+Hide in Shadows: -25%
+Armor Class: 1
+Weight: 7
+Requires: 8 Strength
+Enchantment: +4
+
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Stalker
+ Beast Master
+ Archer
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM086
+--------
+The Armour of the Shield was crafted in the name of the "Order of the Shield". These were a group of paladins following in the name of Tyr.
+This armour was kept by the Order for many, many years and was the symbol of hope for the entire order. 
+The leader of the order was allowed to wear this armour on special occasions, and in times of great need. In battle this armour inspires all of the people nearby to be filled with new hope and courage. 
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +40%
+DEX: -4
+Movement: -20%
+Spell failure: +40%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -60%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armour Class: -2
+Weight: 45
+Requires: 15 Strength
+Enchantment: +3
+SPECIAL EFFECTS:
+Equipped Ability: Immunity to Fear
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM087
+--------
+Brukkar was a mighty barbarian warrior that lived in the mountains along the border between Amn and Tethyr. Brukkar wandered the wilds alone, and was very much a top predator. He was a skilled huntsman, and was wise in the ways of the mountains and of the forest. 
+Brukkar found this armour when he flushed out a cave of many, many giants, all of which he killed single-handed with a few mighty swings of the huge sword he carried. 
+This chain went everywhere with him, and helped the barbarian to many more feats of victory and heroism, unfortunately it also spelled the poor man's doom. He was found by a small group of adventurers, who took pity on the barbarian. Brukkar did not trust them very much, and tried to escape. The group didn't much like the barbarians hasty actions so attacked him. 
+Spell after spell hit Brukkar, but he shook most of them off just with sheer will, his armour protecting him from a large majority of them. But he eventually fell, through sheer weight of numbers.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+DEX: -1
+Spell failure: +25%
+Pick Pockets: -35%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -35%
+Hide in Shadows: -30%
+Armour Class: 2
+Weight: 9
+Requires: 8 Strength
+Enchantment: +3
+SPECIAL EFFECTS:
+Equipped Abilities:
+ +5% Magic Resistance
+ +50% Magical Damage Resistance
+ +20% Fire Resistance 
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM088
+--------
+This armour is also known as the "Hell Plate", as it seems to burn on the surface with a righteous fury. 
+Falgar was a man of many different names, but he was known as Falgar more commonly. The strange man claimed to come from another world, and was said to have hailed from Mount Celestia. It seemed that Falgar had come to save Faerun from peril, and that he did in the form of an Aasimar.
+This armour glows in strange colours, and this glowing seems to protect the wearer from a great many different types of attacks. However nice this plate may be, it is very cumbersome to use, and is heavier than conventional suits of armour of the same style.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +20%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +20%
+DEX: -3
+Movement: -10%
+Spell failure: +40%
+Pick Pockets: -70%
+Lock Picking: -40%
+Find/Remove Traps: -40%
+Move Silently: -80%
+Hide in Shadows: -65%
+Armor Class: -1
+Weight: 87
+Requires: 17 Strength
+Enchantment: +3
+SPECIAL EFFECTS:
+Equipped Abilities:
+ +25% Fire Resistance
+ +25% Cold Resistance
+ +25% Acid Resistance 
+ +25% Magical Damage Resistance 
+
+Not Usable By:
+ Bard 
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM090
+--------
+This full plate is astoundingly well made, and individually crafted, giving the wearer huge resistance to enemy attacks.
+STATISTICS:
+Resistance to slashing damage: +35%
+Resistance to piercing damage: +25%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +40%
+DEX: -3
+Movement: -10%
+Spell failure: +35%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -60%
+Move Silently: -90%
+Hide in Shadows: -80%
+Armour Class: -6
+Weight: 70
+Requires: 15 Strength
+Enchantment: +7
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM096
+--------
+This is the Black Knight's armour. It does not shine, and is completely black. It looks nice on you.
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +40%
+DEX: -4
+Movement: -20%
+Spell failure: +40%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -60%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armour Class: -2
+Weight: 45
+Requires: 15 Strength
+Enchantment: +3
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM119
+--------
+Garraxen, was the lord to a small kingdom, a little north of Waterdeep. The kingdom was only small, and most was farmland. He did not rule over much. His treasury was also small, but one item in particular, was one that he treasured most dear to his heart. It was a shield made from wood, but this was no simple wood. The shield almost seemed alive, and the ground beneath it shuddered below the wielder whenever it was placed on the arm. Garraxen seldom used the shield, only ever to occasionally practice his swordplay, but his love of the shield brought about his downfall.
+Garraxen's land was not much known for its crime, though this time was an exception. A thief from lands afar, namely Calimshan, had heard of the shield. He came to Garraxen's lands in order to steal it; he knew he could sell it on for a tidy profit. The thief snuck into the lord's castle, without any problem and into the treasury, and past the guards. Though, the thief did not find the shield. 
+Garraxen had the shield tightly guarded, near his own bed chamber, and Garraxen was not completely foolish, though when he heard a creak from that very room, Garraxen knew something was amiss. He leaped up with his sword, and charged into the room, to be promptly be dispatched by his own guards, and they found the shield to be gone in one fell swoop. The thief, thereafter, named the shield "Garraxen's Bane".
+STATISTICS:
+AC Bonus: 4
+Extra AC Bonus vs. missiles: 1
+Weight: 4
+Requires: 12 Strength
+Enchantment: +3
+SPECIAL EFFECTS:
+Combat Ability:
+ Entangles Enemies Striking the Shield
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM120
+--------
+This shield was constructed, much like any other, in a forge. The forge was not different to any other, and the smith was possibly much like any normal smith of those parts.
+But an accident occurred while forging this, a potion of some sorts, named a Potion of Many Mirrored Eyes, was poured all over the face of the shield. It gave it strange reactive properties.
+This shield in battle, reflects light like no-other shield in existence. If used correctly, the shield can reflect light in such a way that it will blind anyone the light is reflected at. It also can protect from the gazes of umberhulks and their kin, as well as petrification and others.
+STATISTICS:
+Bonus missile AC: 1
+Armor Class Bonus: 4
+Weight: 8
+Requires: 9 Strength
+Enchantment: +3
+SPECIAL EFFECTS:
+Equipped Abilities:
+ Immunity to Confusion
+ Immunity to Domination
+ Protection from Petrification
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM121
+--------
+This is a very small buckler, and seems to fit easily on the wrist and fits neatly. Although it is unusual for thieves to use a shield, this one seems light enough, and more useful than an average buckler. Tucked inside the top layer of the shield are several small style lock picking tools, among others to help a thief easily get through doors and other such things, and seems even to have a small set of loading weights tucked inside for use on detecting traps. This shield could be useful to even the most big time thief, and it also provides the thief with some minor protection as well.
+STATISTICS:
+Armour Class Bonus: 3
+Other: No Missile/Blunt Attack Protection
+Weight: 2
+Requires: 4 Strength
+Enchantment: +2
+SPECIAL EFFECTS:
+Equipped Abilities:
+ +20% Lock Picking
+ +20% Set Snares
+ +20% Detect Traps
+
+Only Usable By:
+ Thief
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM122
+--------
+Hell hath no fury compared to the might of the warrior known as Vriel. Vriel was a mighty warrior priest of the god, Tempus. She longed for glorious battle, and a glorious death, but it was as if Tempus did not want that to be. Every battle she was in, she seemed almost unstoppable through the power and will of her god, Tempus.
+After a battle one day, against a large tide of orcs, she found a shield on one of her fallen comrades. Tempus willed her to keep the shield, and Tempus filled it with a large amount of godly power and strength, filling the wielder with a boost of energy. Not only does this shield provide protection, but it grants strength also.
+STATISTICS:
+AC Bonus: 5
+Extra AC Bonus vs. missiles: 1
+DEX: -1
+Movement: -10%
+Weight: 4
+Requires: 10 Strength
+Enchantment: +3
+SPECIAL EFFECTS:
+Equipped Abilities:
+ +1 Strength Bonus
+ +10 Maximum Hit Points
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWCHAN01
+--------
+Kolczuga drowów +3
+Delikatne, aczkolwiek wytrzyma³e rzemios³o elfów pozwala im tworzyæ wiele piêknych, a mimo to u¿ytecznych przedmiotów. Wœród nich s¹ kolczugi splecione tak misternie, ¿e mo¿na nosiæ je pod zwyk³ym ubraniem nie ujawniaj¹c ich obecnoœci. To oraz ich lekkoœæ pozwala nosiæ je z³odziejom oraz wojownikom/magom z niewieloma ograniczeniami.
+Ten przedmiot, podobnie jak wiêkszoœæ ekwipunku mrocznych elfów, stworzony zosta³ za pomoc¹ adamantyny, stopu adamantytu, który szybko zmienia siê w py³, gdy wyniesie siê go z Podmroku.
+Ta magiczna kolczuga drowów daje nosicielowi dodatkowe 5% odpornoœci na magiê i zwiêksza szybkoœæ rzucania wszystkich zaklêæ.
+
+PARAMETRY:
+
+Specjalne:
+ +5% do odpornoœci na magiê
+ -1 do opóŸnienia rzucanych zaklêæ
+
+Klasa Pancerza: 2
+Ochrona przed obra¿eniami:
+ sieczne 20%
+ k³ute 15%
+ obuchowe 15%
+ pociskowe 15%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ kradzie¿ kieszonkowa -25%
+ otwieranie zamków -5%
+ szukanie pu³apek -5%
+ ciche chodzenie -10%
+
+Waga: 12
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWCHAN02
+--------
+Adamantynowa kolczuga drowów +5
+Wytrzyma³e rzemios³o drowów pozwala im tworzyæ wiele piêknych, a mimo to u¿ytecznych przedmiotów. Wœród nich s¹ kolczugi splecione tak misternie, ¿e mo¿na nosiæ je pod zwyk³ym ubraniem nie ujawniaj¹c ich obecnoœci. To oraz ich lekkoœæ pozwala nosiæ je z³odziejom oraz wojownikom/magom z niewieloma ograniczeniami.
+Ten przedmiot, podobnie jak wiêkszoœæ ekwipunku mrocznych elfów, stworzony zosta³ za pomoc¹ adamantyny, stopu adamantytu, który szybko zmienia siê w py³, gdy wyniesie siê go z Podmroku.
+
+PARAMETRY:
+
+Klasa Pancerza: 0
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 20%
+ obuchowe 15%
+ pociskowe 15%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ kradzie¿ kieszonkowa -20%
+ otwieranie zamków -5%
+ szukanie pu³apek -5%
+
+Waga: 12
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Mag
+ Druid
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWPLAT01
+--------
+Pe³na zbroja p³ytowa to najlepsza zbroja, w jak¹ wojownik mo¿e siê zaopatrzyæ. Strój taki nie doœæ, ¿e zapewnia doskona³¹ ochronê, to jeszcze œwietnie wygl¹da na ka¿dym rycerzu. Idealnie dopasowane i zachodz¹ce na siebie p³ytki s¹ wyprofilowane pod takim k¹tem, aby odbijaæ strza³y oraz ciosy. Ca³a zbroja jest starannie przystrojona bogatym grawerunkiem i kunsztownymi rytami. Jest to zbroja drowów i rozpadnie siê na proch, jeœli zostanie wyniesiona poza Podmrok.
+
+STATYSTYKA:
+
+Klasa Pancerza: -4
+Ochrona przed obra¿eniami:
+ sieczne 40%
+ k³ute 30%
+ obuchowe 10%
+ pociskowe 40%
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -35%
+ kradzie¿ kieszonkowa -80%
+ otwieranie zamków -50%
+ szukanie pu³apek -55%
+ ciche chodzenie -80%
+ krycie siê w cieniu -70%
+
+Waga: 70
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWSHLD01
+--------
+Tarcza Drowów +3
+Œredni¹ tarczê nosi siê w ten sam sposób jak ma³¹. Jednak¿e w przeciwieñstwie do tej drugiej, jej waga uniemo¿liwia postaci u¿ywanie d³oni, w której jest trzymana, do czegokolwiek innego ni¿ noszenie tarczy. S¹ one przewa¿nie wykonane z metalu, ich œrednice wahaj¹ siê od 1 do 1,3 m, a kszta³ty maj¹ przeró¿ne - od okr¹g³ych przez kwadratowe a¿ do rozpostartych skrzyde³ smoka. Typowa œredniowieczna tarcza przypomina trójk¹t, którego jeden z wierzcho³ków celuje w dó³.
+Ten przedmiot, podobnie jak wiêkszoœæ ekwipunku mrocznych elfów, stworzony zosta³ za pomoc¹ adamantyny, stopu adamantytu, który szybko zmienia siê w py³, gdy wyniesie siê go z Podmroku.
+
+PARAMETRY:
+
+Klasa Pancerza: +4, +5 przeciwko pociskom
+Waga: 7
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+ISHLD02
+--------
+Ma³e tarcze s¹ zazwyczaj okr¹g³e. Mocuje siê je na przedramieniu i dodatkowo przytrzymuje d³oni¹. W odró¿nieniu od tarczy œredniej, ich lekka waga pozwala wojownikowi nosiæ inne przedmioty w zajêtej rêce, chocia¿ nie mo¿e to byæ broñ.
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Waga: 3
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT02
+--------
+Zbroja skórzana, wbrew obiegowym opiniom, nie jest miêkka i elastyczna, jak skóra s³u¿¹ca do wyrobu butów ³owcy czy szaty druida. Taki rodzaj materii nie daje lepszej ochrony przed atakami ni¿ zwyk³e ubranie.
+
+PARAMETRY:
+
+Klasa Pancerza: 7
+Ochrona przed obra¿eniami:
+ sieczne 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -10%
+
+Waga: 15
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT03
+--------
+Zbroja skórzana +2: 'Obroñca zastêpcy'
+By³a niegdyœ elitarna grupa elfich ³owców, nazywaj¹ca siê Mg³a z Cieni, która patrolowa³a las Cormanthor, bêd¹c prawdziwym biczem zarówno na wszelakich bandytów, jak i na potwory. Ta szczególna zbroja by³a noszona przez Indeerê Lakhan, jednego z najbardziej zas³u¿onych oficerów w tej grupie i zastêpcê jej dowódcy. W³aœnie dziêki jej pozycji ta zbroja zyska³a swe imiê, jednak nie wiadomo w jaki sposób Indeera Lakhan j¹ utraci³a.
+
+PARAMETRY:
+
+Klasa Pancerza: 6
+Ochrona przed obra¿eniami:
+ sieczne 5%
+ k³ute 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -10%
+
+Waga: 5
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT05
+--------
+Zbroja skórzana æwiekowana ma niewiele wspólnego ze zwyk³¹ zbroj¹ skórzan¹. Podczas gdy zbroja skórzana jest utwardzan¹ skorup¹, zbroja æwiekowana jest miêkka i wzmocniona setkami, nabitych w niewielkich odleg³oœciach nitów. Znajduj¹ siê one tak blisko siebie, ¿e tworz¹ trudn¹ do przebicia metalow¹ zaporê, która œwietnie powstrzymuje sieczne i k³ute ataki. Miêkkie skórzane podbicie s³u¿y jedynie do utrzymania nitów w miejscu.
+
+PARAMETRY:
+
+Klasa Pancerza: 6
+Ochrona przed obra¿eniami:
+ sieczne 5%
+ k³ute 5%
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -15%
+ kradzie¿ kieszonkowa -15%
+ otwieranie zamków -10%
+ szukanie pu³apek -10%
+ ciche chodzenie -5%
+ krycie siê w cieniu -5%
+
+Waga: 15
+Wymagana si³a: 6
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT06
+--------
+Przeklêta zbroja skórzana æwiekowana
+Ta dziwnie wygl¹daj¹ca zbroja skórzana nie mo¿e zostaæ zdjêta bez pomocy czarodzieja. Zwiêksza ochronê przeciwko wszystkim rodzajom broni do walki wrêcz, ale czyni osobê, która j¹ nosi bardziej podatn¹ na broñ strzeleck¹. Wybór jest prosty, œmiercionoœne strza³y albo zabójcze miecze.
+
+PARAMETRY:
+
+Klasa Pancerza: 5 (15 przeciwko broni strzeleckiej)
+Ochrona przed obra¿eniami:
+ sieczne 5%
+ k³ute 5%
+ obuchowe 5%
+ pociskowe -25%
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -15%
+ kradzie¿ kieszonkowa -15%
+ otwieranie zamków -5%
+ szukanie pu³apek -10%
+ ciche chodzenie -5%
+ krycie siê w cieniu -5%
+
+Waga: 8
+Wymagana si³a: 6
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT07
+--------
+Ta zbroja to standardowe wyposa¿enie jeŸdŸców gryfów i innych wojowników u¿ywaj¹cych wierzchowców. Jest lekka, ale zapewnia dobr¹ ochronê, szczególnie dziêki zawartych w niej magicznych zabezpieczeniach.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Ochrona przed obra¿eniami:
+ sieczne 5%
+ k³ute 5%
+ obuchowe 5%
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -15%
+ kradzie¿ kieszonkowa -15%
+ otwieranie zamków -5%
+ szukanie pu³apek -10%
+ ciche chodzenie -5%
+ krycie siê w cieniu -5%
+
+Waga: 8
+Wymagana si³a 6
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT08
+--------
+Pancerz cienia to skórzana zbroja æwiekowana stworzona przez Mistrzów Cieni z Amn. Mistrzowie Cieni, jak ³atwo siê domyœliæ, stoj¹ najwy¿ej w hierarchii Z³odziei Cienia. Ta zbroja zapewnia modyfikator +3 i pozwala zlewaæ siê z cieniami.
+
+PARAMETRY:
+
+Specjalne:
+ +15% do Krycia siê
+
+Klasa Pancerza: 4
+Ochrona przed obra¿eniami:
+ sieczne 5%
+ k³ute 5%
+ obuchowe 5%
+ pociskowe 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -10%
+ kradzie¿ kieszonkowa -15%
+ otwieranie zamków -5%
+ szukanie pu³apek -10%
+ ciche chodzenie -5%
+
+Waga: 8
+Wymagana si³a: 6
+Mo¿e u¿ywaæ tylko:
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT09
+--------
+Zbroja skórzana +3: '¯ycie i œmieræ Karajaha'
+Karajah przez ponad dziesiêæ lat by³ mistrzem walk gladiatorów w Calimshanie. Ubrany jedynie w cienk¹ zbrojê skórzan¹ i nabijane rêkawice, pokonywa³ wszystkich przeciwników, zaœ sam zdawa³ siê byæ niewra¿liwy na ich ciosy. Gdy jednak okaza³o siê, ¿e jego zbroja jest silnie magiczna, wœciekli widzowie wrzucili go na arenê razem z uzbrojonym w maczugê ogrem. Zbroja wytrzyma³a wszystkie ciosy, ale Karajah - nie.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Ochrona przed obra¿eniami:
+ sieczne 5%
+ k³ute 5%
+ obuchowe 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -5%
+
+Waga: 4
+Wymagana si³a: 3
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT11
+--------
+Podstawowa zbroja wykonana z grubej skóry wzmacnianej woskiem lub wod¹. To mocna ochrona, nie tak miêkka jak buty czy p³aszcz. Miêkkie skórzane szaty, takie jak ta, nie zapewniaj¹ lepszej ochrony ni¿ zwyk³e ubranie. Magiczne wzmocnienia zwiêkszy³y w³aœciwoœci ochronne tej czêœci garderoby.
+
+PARAMETRY:
+
+Klasa Pancerza: 6
+Ochrona przed obra¿eniami:
+ sieczne 5%
+ k³ute 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -10%
+
+Waga: 5
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT12
+--------
+Podstawowa zbroja wykonana z grubej skóry wzmacnianej woskiem lub wod¹. To mocna ochrona, nie tak miêkka jak buty czy p³aszcz. Miêkkie skórzane szaty, takie jak ta, nie zapewniaj¹ lepszej ochrony ni¿ zwyk³e ubranie. Magiczne wzmocnienia zwiêkszy³y w³aœciwoœci ochronne tej czêœci garderoby.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Ochrona przed obra¿eniami:
+ sieczne 5%
+ k³ute 5%
+ obuchowe 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+
+Waga: 4
+Wymagana si³a: 3
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT13
+--------
+Przebieg³y z³odziej, Damien Jeden Nó¿ zawsze próbowa³ skorzystaæ z w³asnoœci swoich wrogów, niezale¿nie od okolicznoœci. Po trudnej walce z kilkoma ghulami, w której zginê³o dwóch jego kompanów, Damien postanowi³ wyrównaæ swe szanse w przysz³ych pojedynkach. Oskalpowa³ jednego z nieumar³ych i zaniós³ tê skórê do nizio³ka p³atnerza wprawnego w umagicznianiu skór. Gdy zbroja zosta³a ukoñczona zabezpiecza³a magicznie przed atakami fizycznymi i parali¿em. Mo¿e to niezbyt epickie, ale praktyczne.
+
+PARAMETRY:
+
+Specjalne:
+ +3 do rzutów obronnych przeciwko parali¿owi/truciŸnie
+
+Klasa Pancerza: 4
+Ochrona przed obra¿eniami:
+ sieczne 5%
+ k³ute 5%
+ obuchowe 5%
+ pociskowe 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -5%
+
+Waga: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT14
+--------
+Ta pob³ogos³awiona przez Shar zbroja ma d³ug¹ i ciekaw¹ historiê. Tylko najlepszy ze z³odziei móg³ nosiæ ten potê¿nie umagiczniony pancerz. Zosta³a w nim zamkniêta esencja nocy co sprawia, ¿e nosi siê go jak zwyk³¹ zbrojê, ale zamyka on w³aœciciela w gêstwinie wiruj¹cych cieni.
+
+PARAMETRY:
+
+Specjalne:
+ +20% do Krycia siê
+
+Klasa Pancerza: 3
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 5%
+ obuchowe 5%
+ pociskowe 5%
+
+Waga: 5
+Nie mo¿e u¿ywaæ:
+  Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT15
+--------
+Ta zbroja to standardowe wyposa¿enie jeŸdŸców gryfów i innych wojowników u¿ywaj¹cych wierzchowców. Jest lekka, ale zapewnia dobr¹ ochronê, szczególnie dziêki zawartych w niej magicznych zabezpieczeniach.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Ochrona przed obra¿eniami:
+ sieczne 5%
+ k³ute 5%
+ obuchowe 5%
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -15%
+ kradzie¿ kieszonkowa -15%
+ otwieranie zamków -5%
+ szukanie pu³apek -10%
+ ciche chodzenie -5%
+ krycie siê w cieniu -5%
+
+Waga: 8
+Wymagana si³a 6
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT16
+--------
+Ten upiorny pancerz zosta³ zdobyty w obozie orków zniszczonym przez barbarzyñców. Zamiast metalowych p³ytek jak normalna wzmocniona skóra, ta jest pokryta setkami koœci hartowanych w ogniu. Koœci palców, ¿eber i czaszek pokrywaj¹ ten pancerz zastêpuj¹c tradycyjne metalowe p³ytki. Potê¿ne zaklêcia orków daj¹ tej zbroi specjaln¹ odpornoœæ na ataki pocisków, ale brzydota zbroi zmniejsza charyzmê w³aœciciela.
+
+PARAMETRY:
+
+Specjalne:
+ -1 do Charyzmy
+
+Klasa Pancerza: 4
+Ochrona przed obra¿eniami:
+ sieczne 5%
+ k³ute 5%
+ obuchowe 5%
+ pociskowe 15%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -10%
+ kradzie¿ kieszonkowa -15%
+ otwieranie zamków -5%
+ szukanie pu³apek -10%
+ ciche chodzenie -5%
+
+Waga: 7
+Wymagana si³a: 6
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT17
+--------
+Zaklête ebonitowe p³ytki pokrywaj¹ czarn¹ skórê tego pancerza. Królowa Mórz, Umberlee, podarowa³a ten pancerz Dami Darn, która zg³adzi³a czarodzieja Looxila. Zabójstwo ucieszy³o Umberlee, poniewa¿ Looxil zdradzi³ j¹ w przesz³oœci. Dami Darn zginê³a wiele lat póŸniej, od ciosu no¿em w plecy zadanego przez jej nastêpcê w gildii z³odziei.
+
+PARAMETRY:
+
+Klasa Pancerza: 3
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 5%
+ obuchowe 5%
+ pociskowe 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -10%
+ kradzie¿ kieszonkowa -15%
+ otwieranie zamków -5%
+ szukanie pu³apek -5%
+ ciche chodzenie -5%
+
+Waga: 7
+Wymagana si³a: 6
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT18
+--------
+W¹¿ jest tylko w nazwie tej zbroi, odnosz¹c siê do drowa-zabójcy Raroha. Trucizna by³a jego wizytówk¹ i gdy odkry³ podatnoœæ tej zbroi na jad, podarowa³ j¹ Avlormowi, obiecuj¹cemu nowicjuszowi z jego gildii. Gdy Avlorm w koñcu zagrozi³ jego pozycji, Raroh ³atwo siê go pozby³ dziêki s³aboœci zbroi, któr¹ Avlorm wci¹¿ nosi³.
+
+PARAMETRY:
+
+Specjalne:
+ -2 to rzutów obronnych przeciwko truciŸnie/parali¿owi
+
+Klasa Pancerza: 2
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -5%
+ kradzie¿ kieszonkowa -15%
+ otwieranie zamków -5%
+ szukanie pu³apek -5%
+
+Waga: 6
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT19
+--------
+Ten pancerz jest wykonany z zachodz¹cych na siebie ³usek smoka cienia. Eleganckie wykonanie i wzglêdy praktyczne czyni¹ tê zbrojê piêkn¹ jak i u¿yteczn¹. £uski smoka cienia daj¹ w³aœcicielowi dodatkow¹ ochronê przed kwasem.
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 10%
+ pociskowe 5%
+ kwas 50%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -15%
+ kradzie¿ kieszonkowa -15%
+ otwieranie zamków -5%
+ szukanie pu³apek -10%
+ ciche chodzenie -5%
+ krycie siê w cieniu -5%
+
+Waga: 10
+Wymagana si³a: 6
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT20
+--------
+Ta ciê¿ka i gruba niedŸwiedzia skóra jest wszystkim co zosta³o ze s³ynnego Aegera. Kilkaset lat temu Aeger, olbrzymi niedŸwiedŸ, terroryzowa³ setki wiosek wzd³u¿ ca³ego Wybrze¿a Mieczy. NiedŸwiedŸ by³ niewra¿liwy na ogieñ, zimno i kwas. Wreszcie zebrali siê m³odzi mê¿czyŸni i kobiety z kilku wiosek, tworz¹c grupê licz¹c¹ prawie dwieœcie osób. Aeger zosta³ otoczony i zg³adzony. Prze¿y³ mniej ni¿ tuzin ludzi, którzy podzielili miêdzy siebie skórê Aegera. Zbroja zosta³a wykonana z jednego z tych kawa³ków.
+
+PARAMETRY:
+
+Specjalne:
+ Odpornoœæ na Zamêt
+
+Klasa Pancerza: 3
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 5%
+ obuchowe 10%
+ pociskowe 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -15%
+ kradzie¿ kieszonkowa -15%
+ otwieranie zamków -5%
+ szukanie pu³apek -5%
+ krycie siê w cieniu -10%
+
+Waga: 35
+Wymagana si³a: 6
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT21
+--------
+Ta zbroja jest wykonana z ludzkiej skóry i oblana krwi¹ szlachetnego smoka. Wydziela ostry odór œmierci. Ta nikczemna zbroja mo¿e byæ u¿ywana tylko prze naprawdê z³¹ osobê.
+
+PARAMETRY:
+
+Specjalne:
+ +4 do rzutów obronnych
+ +20% do odpornoœci na magiê
+
+Klasa Pancerza: 3
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 5%
+ obuchowe 5%
+ pociskowe 5%
+
+Waga: 5
+Wymagana si³a: 3
+Nie mo¿e u¿ywaæ:
+ Mag
+ Postaæ o charakterze dobrym lub neutralnym
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT23
+--------
+Ta zbroja, wyprodukowana przez Hierofantkê Wassaliê, zanim zdecydowa³a siê ona zamieszkaæ na zawsze w Sferze ¯ywio³u Ognia, nie jest pokryta zwyk³ymi metalowymi æwiekami, ale ciê¿kimi czerwonymi kolcami.
+
+PARAMETRY:
+
+Specjalne:
+ Obra¿enia od kolców - ka¿de udane trafienie w osobê, która nosi tê zbrojê, powoduje zadanie napastnikowi 1k4 obra¿eñ od ognia
+
+Klasa Pancerza: 1
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 10%
+ pociskowe 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -5%
+ kradzie¿ kieszonkowa -10%
+ otwieranie zamków -5%
+ szukanie pu³apek -5%
+
+Waga: 5
+Wymagana si³a: 6
+Nie mo¿e u¿ywaæ:
+ Mag
+ Mnich
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT24
+--------
+Stworzona dla Arcymistrza Zabójcy Vita Muerte, ta zbroja stanowi³a nie tylko ochronê, ale umo¿liwia³a równie¿ Muerte skuteczniej œcigaæ jego uciekaj¹ce ofiary... jak te¿ rych³o siê o tym przekona³ pechowy czarodziej, który wymodelowa³ ten przedmiot bezwzglêdnemu zabójcy. 
+
+PARAMETRY:
+
+Specjalne:
+ Przyœpieszenie ruchów
+
+Klasa Pancerza: 1
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 10%
+ pociskowe 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -5%
+ kradzie¿ kieszonkowa -10%
+ otwieranie zamków -5%
+ szukanie pu³apek -5%
+
+Waga: 5
+Wymagana si³a: 6
+Nie mo¿e u¿ywaæ:
+ Mag
+ Mnich
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+NPCHAN
+--------
+Ta kolczuga, od dawien dawna w³asnoœæ rodu Corthala, chroni nosz¹cego j¹ przed wszystkimi rodzajami ataków. Zbroja jest magiczna i zapewnia premiê +3 do klasy pancerza Valygara. Daje te¿ premiê do odpornoœci na kwas, ogieñ i obra¿enia magiczne. Dopóki Valygar ma na sobie tê zbrojê, jest te¿ odporny na zauroczenia. Niewiele osób mo¿e j¹ na siebie za³o¿yæ, gdy¿ dopasowano j¹ specjalnie do sylwetki Valygara.
+
+PARAMETRY:
+
+Specjalne:
+ Odpornoœæ na Zauroczenia
+
+Klasa Pancerza: 2
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 5%
+ ogieñ 25%
+ kwas 25%
+ magia 25%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -5%
+ kradzie¿ kieszonkowa -15%
+ otwieranie zamków -5%
+ szukanie pu³apek -5%
+
+Waga: 9
+Mo¿e u¿ywaæ:
+ Valygar
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+NPPLAT
+--------
+Pe³na Zbroja P³ytowa Firecama
+Pe³na zbroja p³ytowa jest najlepsz¹ zbroj¹, jak¹ wojownik mo¿e zdobyæ - zarówno pod wzglêdem wygl¹du, jak i ochrony, któr¹ zapewnia. Ten egzemplarz zwiêksza klasê pancerza osoby j¹ nosz¹cej o jeden powy¿ej normalnej pe³nej zbroi p³ytowej. Bêd¹c na wyposa¿eniu zapewnia w³aœcicielowi premiê +1 do wszystkich rzutów obronnych oraz pozwala na Swobodne dzia³anie (np. przechodzenie przez pajêczyny). Zbroja zosta³a zaprojektowana specjalnie dla Keldorna.
+
+PARAMETRY:
+
+Specjalne:
+ Swoboda ruchów
+
+Klasa Pancerza: 0
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 30%
+
+Mobilnoœæ:
+ zrêcznoœæ -5
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -65%
+ szukanie pu³apek -65%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 70
+Mo¿e u¿ywaæ:
+ Keldorn
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+NPSHLD
+--------
+Tarcza Rodziny Delrynów +1
+To jest rodzinna tarcza Anomena, podarowana mu przez jego ojca. Oprócz magicznej ochrony tarcza promieniuje aur¹, któr¹ zapewnia osobie, która jej u¿ywa, odpornoœæ na ogieñ i zimno. W celu ochrony przed atakami z dystansu, Anomen mo¿e u¿yæ tej tarczy, ¿eby wznieœæ pole energetyczne. Taka ochrona przed pociskami mo¿e byæ u¿yta 3 razy na dzieñ.
+
+PARAMETRY:
+
+Specjalne:
+ +30% do odpornoœci na ogieñ
+ +30% do Odpornoœci na zimno
+ Trzy razy dziennie mo¿e rzuciæ czar Ochrona przed pociskami.
+
+Klasa Pancerza: +2, +3 przeciwko pociskom
+
+Mo¿e u¿ywaæ:
+ Anomen
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PALPLAT
+--------
+W ca³ych Krainach niewiele jest pancerzy mog¹cych równaæ siê z tym. Wszystkie wiadomoœci na temat pocz¹tków Jelenia pochodz¹ z legend i ludowych przypowieœci. Najpopularniejsza opowiada o straszliwej bitwie stoczonej kiedyœ z orkami przechodz¹cymi przez Prze³êcz Trzech Drzew. Arngor z Dêbu przewodzi³ armii ludzi i elfów i powiada siê, ¿e walczy³ z wodzem orków a¿ do zachodu s³oñca, a ziemia by³a sk¹pana we krwi. W koñcu ork poleg³, ale Arngor odniós³ tak powa¿ne rany, ¿e nie mo¿na by³o go uratowaæ. Jego krew wsi¹k³a w zbroje, któr¹ nosi³, i da³a jej jego odwagê i szlachetnoœæ. Tak ludzie poznali Zbrojê Jelenia.
+
+PARAMETRY:
+
+Klasa Pancerza: -2
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 40%
+
+Mobilnoœæ:
+ zrêcznoœæ -4
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -40%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -60%
+ szukanie pu³apek -60%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 45
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT02
+--------
+Zbroja p³ytowa sk³ada siê z metalowych p³yt, ochraniaj¹cych najwa¿niejsze czêœci cia³a, takie jak klatka piersiowa, brzuch i podbrzusze. Poszczególne jej elementy s¹ osadzone na kolczudze. Prawdziwa zbroja p³ytowa, o budowie podobnej do zbroi p³ytowej z br¹zu, sk³ada siê z kolczugi i skóry. Oprócz tego ten pancerz zosta³ wyposa¿ony w magiczne w³aœciwoœci, dziêki czemu jeszcze lepiej ochrania swojego w³aœciciela.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Ochrona przed obra¿eniami:
+ sieczne 20%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 15%
+
+Mobilnoœæ:
+ zrêcznoœæ -4
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+ kradzie¿ kieszonkowa -70%
+ otwieranie zamków -45%
+ szukanie pu³apek -45%
+ ciche chodzenie -80%
+ krycie siê w cieniu -70%
+
+Waga: 20
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT05
+--------
+Pe³na zbroja p³ytowa to najlepszy pancerz, jaki mo¿e zdobyæ wojownik, zarówno pod wzglêdem wygl¹du, jak i zabezpieczenia, jakie zapewnia. Idealnie dostosowane p³yty i folgi zosta³y umieszczone pod takim k¹tem, ¿eby odbijaæ strza³y i uderzenia. Ca³a zbroja jest bogato grawerowana i ozdobiona t³oczonymi zdobieniami. Dziêki magicznym w³aœciwoœciom idealnie nadaje siê ona dla wojowników.
+
+PARAMETRY:
+
+Klasa Pancerza: 0
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 35%
+
+Mobilnoœæ:
+ zrêcznoœæ -5
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -65%
+ szukanie pu³apek -65%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 35
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT06
+--------
+Ta zbroja p³ytowa to istne cacko. Powleczona chitynow¹ ³usk¹ ankhega zapewnia lepsz¹ ochronê ni¿ pancerz wykonany z metalu i nie jest podatna na rdzê. Jednak¿e, jak powie ci to ka¿dy doœwiadczony poszukiwacz przygód, jej najwiêksz¹ zalet¹ jest niewielka waga. Potwory przychodz¹ i odchodz¹, wyczerpanie natomiast jest sta³ym zagro¿eniem.
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Ochrona przed obra¿eniami:
+ sieczne 25%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 15%
+
+Mobilnoœæ:
+ zrêcznoœæ -2
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+ kradzie¿ kieszonkowa -70%
+ otwieranie zamków -40%
+ szukanie pu³apek -45%
+ ciche chodzenie -80%
+ krycie siê w cieniu -70%
+
+Waga: 25
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT10
+--------
+Zbroja p³ytowa sk³ada siê z metalowych p³yt, ochraniaj¹cych najwa¿niejsze czêœci cia³a, takie jak klatka piersiowa, brzuch i podbrzusze. Poszczególne jej elementy s¹ osadzone na kolczudze. Prawdziwa zbroja p³ytowa, o budowie podobnej do zbroi p³ytowej z br¹zu, sk³ada siê z kolczugi i skóry. Oprócz tego ten pancerz zosta³ wyposa¿ony w magiczne w³aœciwoœci, dziêki czemu jeszcze lepiej ochrania swojego w³aœciciela.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Ochrona przed obra¿eniami:
+ sieczne 20%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 15%
+
+Mobilnoœæ:
+ zrêcznoœæ -4
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+ kradzie¿ kieszonkowa -70%
+ otwieranie zamków -45%
+ szukanie pu³apek -45%
+ ciche chodzenie -80%
+ krycie siê w cieniu -70%
+
+Waga: 20
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT11
+--------
+Ta zbroja by³a noszona przez wielu dobrych ¿o³nierzy, ale najbardziej znanym i tym, od którego wziê³a swe imiê by³ Delver Kinlake. By³ on tu³aczem, który dziêki silnemu ramieniu i przebieg³oœci sta³ siê powa¿anym genera³em w oczach Lordów Waterdeep. Zbroja by³a darem od Lorda Baerona i dobrze s³u¿y³a Delverowi przez trzydzieœci lat, a po jego œmierci nale¿a³a do jego najstarszego syna. Od tej pory przechodzi³a w rêce wielu poszukiwaczy przygód.
+
+PARAMETRY:
+
+Specjalne:
+ W³aœciciel otrzymuje premiê +2 do rzutów obronnych przeciwko czarom
+
+Klasa Pancerza: 1
+Ochrona przed obra¿eniami:
+ sieczne 25%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 15%
+
+Mobilnoœæ:
+ zrêcznoœæ -4
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+ kradzie¿ kieszonkowa -70%
+ otwieranie zamków -40%
+ szukanie pu³apek -45%
+ ciche chodzenie -80%
+ krycie siê w cieniu -70%
+
+Waga: 25
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT12
+--------
+Nazwany tak na czeœæ Adariusa Shina, Pancerz zag³ady zas³u¿y³ na swoj¹ z³owró¿bn¹ nazwê. Adarius chcia³ wzbudzaæ strach w swoich wrogach, ale ustanowi³ ponury precedens gdy zmar³ w tajemniczych okolicznoœciach tu¿ po otrzymaniu zbroi, tak jak ka¿dy poszukiwacz przygód nosz¹cy te zbroje po nim. Ale nale¿y zaznaczyæ, ¿e wiêkszoœæ poszukiwaczy przygód ginie w swoich zbrojach i nie s¹ znani z d³ugowiecznoœci.
+
+PARAMETRY:
+
+Klasa Pancerza: 0
+Ochrona przed obra¿eniami:
+ sieczne 25%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 20%
+
+Mobilnoœæ:
+ zrêcznoœæ -3
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -40%
+ kradzie¿ kieszonkowa -70%
+ otwieranie zamków -40%
+ szukanie pu³apek -40%
+ ciche chodzenie -80%
+ krycie siê w cieniu -70%
+
+Waga: 27
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT13
+--------
+Polowanie na Gorgony to bardzo niebezpieczny sport drowów. Czêsto po udanym polowaniu krew Gorgony jest u¿ywana do stworzenia nowego pancerza. Ten specjalny pancerz drowów mo¿e wytrzymaæ œwiat³o s³oneczne na powierzchni.
+
+PARAMETRY:
+
+Klasa Pancerza: -1
+Ochrona przed obra¿eniami:
+ sieczne 25%
+ k³ute 20%
+ obuchowe 5%
+ pociskowe 20%
+ ogieñ 15%
+ kwas 15%
+
+Mobilnoœæ:
+ zrêcznoœæ -3
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -40%
+ kradzie¿ kieszonkowa -70%
+ otwieranie zamków -40%
+ szukanie pu³apek -40%
+ ciche chodzenie -80%
+ krycie siê w cieniu -65%
+
+Waga: 30
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT14
+--------
+Pe³na zbroja p³ytowa to najlepszy pancerz, jaki mo¿e zdobyæ wojownik, zarówno pod wzglêdem wygl¹du, jak i zabezpieczenia, jakie zapewnia. Idealnie dostosowane p³yty i folgi zosta³y umieszczone pod takim k¹tem, ¿eby odbijaæ strza³y i uderzenia. Ca³a zbroja jest bogato grawerowana i ozdobiona t³oczonymi zdobieniami. Dziêki magicznym w³aœciwoœciom idealnie nadaje siê ona dla wojowników.
+
+PARAMETRY:
+
+Klasa Pancerza: 0
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 30%
+
+Mobilnoœæ:
+ zrêcznoœæ -5
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -65%
+ szukanie pu³apek -65%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 35
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT15
+--------
+Niewiele sztuk tej zbroi, dawniej u¿ywanej przez legiony Unther, jest dziœ w u¿yciu. Kilka jeszcze istniej¹cych znajduje siê w rêkach bogatych kolekcjonerów. Znalezienie takiego pancerza mo¿e przynieœæ poszukiwaczowi przygód ma³¹ fortunê.
+
+PARAMETRY:
+
+Klasa Pancerza: -1
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 35%
+
+Mobilnoœæ:
+ zrêcznoœæ -5
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -60%
+ szukanie pu³apek -65%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 40
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT16
+--------
+W ca³ych Krainach niewiele jest pancerzy mog¹cych równaæ siê z tym. Wszystkie wiadomoœci na temat pocz¹tków Jelenia pochodz¹ z legend i ludowych przypowieœci. Najpopularniejsza opowiada o straszliwej bitwie stoczonej kiedyœ z orkami przechodz¹cymi przez Prze³êcz Trzech Drzew. Arngor z Dêbu przewodzi³ armii ludzi i elfów i powiada siê, ¿e walczy³ z wodzem orków a¿ do zachodu s³oñca, a ziemia by³a sk¹pana we krwi. W koñcu ork poleg³, ale Arngor odniós³ tak powa¿ne rany, ¿e nie mo¿na by³o go uratowaæ. Jego krew wsi¹k³a w zbroje, któr¹ nosi³, i da³a jej jego odwagê i szlachetnoœæ. Tak ludzie poznali Zbrojê Jelenia.
+
+PARAMETRY:
+
+Klasa Pancerza: -2
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 40%
+
+Mobilnoœæ:
+ zrêcznoœæ -4
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -40%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -60%
+ szukanie pu³apek -60%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 45
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT17
+--------
+Bêd¹c w podesz³ym wieku, Baron T'rachie po¿¹da³ ¿ony zwyk³ego ¿o³nierza Libola. Zamiast zwi¹zaæ siê z ni¹ otwarcie i wywo³aæ skandal, stworzy³ ten pancerz. Podarowa³ go owemu ¿o³nierzowi. Przekleñstwo zbroi wywo³a³o chorobê Libola i straszliwie go zdeformowa³o, a ¿ona uciek³a od niego z obrzydzeniem. Libol, uwiêziony w zbroi, ale nie maj¹cy pewnoœci co do zdrady T'rachiego, poprosi³ o przeniesienie na pustkowia, do niebezpiecznej s³u¿by przeciwko panosz¹cym siê tam ogrom. Nigdy nie powróci³, a Baron T'rachie móg³ zwi¹zaæ siê z wdow¹ po Libolu. 
+Pancerz ten jest przeklêty i by go zdj¹æ potrzeba potê¿nej magii.
+
+PARAMETRY:
+
+Specjalne:
+ -5 do Charyzmy
+ -2 do Kondycji
+
+Klasa Pancerza: -2
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 20%
+ obuchowe 5%
+ pociskowe 20%
+
+Mobilnoœæ:
+ zrêcznoœæ -2
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -35%
+ kradzie¿ kieszonkowa -70%
+ otwieranie zamków -40%
+ szukanie pu³apek -40%
+ ciche chodzenie -75%
+ krycie siê w cieniu -65%
+
+Waga: 35
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT18
+--------
+Zbroja z ³usek czerwonego smoka jest lekka, wytrzyma³a, i odporna na ogieñ. Z powodu tych w³aœciwoœci jest po¿¹dana, ale znalezienie, a co dopiero zg³adzenie potê¿nego starego smoka jest prawie niemo¿liwe. £atwiej jest znaleŸæ istniej¹cy ju¿ pancerz, taki jak ten. Nale¿y jednak uwa¿aæ by nie nosiæ go w pobli¿u smoków, szczególnie czerwonych.
+
+PARAMETRY:
+
+Klasa Pancerza: -1
+Ochrona przed obra¿eniami:
+ sieczne 25%
+ k³ute 15%
+ obuchowe 10%
+ pociskowe 15%
+ ogieñ 50%
+
+Mobilnoœæ:
+ zrêcznoœæ -2
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -35%
+ kradzie¿ kieszonkowa -50%
+ otwieranie zamków -15%
+ szukanie pu³apek -20%
+ ciche chodzenie -50%
+ krycie siê w cieniu -40%
+
+Waga: 30
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Bard
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT19
+--------
+Najlepsza (i najciê¿sza) zbroja, jak¹ wojownik mo¿e zdobyæ - zarówno pod wzglêdem wygl¹du, jak i ochrony, któr¹ zapewnia. Jej znakomicie dopasowane, po³¹czone elementy z litego metalu s¹ specjalnie modelowane, by jak najlepiej odbija³y tak uderzenia broni ró¿nego typu, jak i strza³y. Zwykle zbroja tego rodzaju jest bogato zdobiona - artystycznie grawerowana i upiêkszana ró¿nymi dodatkami. Ta zbroja +2 zosta³a stworzona zaklêciem Ograniczone ¿yczenie.
+
+PARAMETRY:
+Klasa Pancerza: -1
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 35%
+
+Mobilnoœæ:
+ zrêcznoœæ -5
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -60%
+ szukanie pu³apek -65%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 50
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT20
+--------
+Lekkie, a mimo to wytrzyma³e ³uski Niebieskiego Smoka zapewniaj¹ doskona³¹ ochronê przed orê¿em wykorzystuj¹cym elektrycznoœæ i przed wszystkimi jej formami.
+
+PARAMETRY:
+
+Klasa Pancerza: -1
+Ochrona przed obra¿eniami:
+ sieczne 35%
+ k³ute 20%
+ obuchowe 10%
+ pociskowe 40%
+ elektrycznoœæ 90%
+
+Mobilnoœæ:
+ zrêcznoœæ -4
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -60%
+ szukanie pu³apek -65%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 20
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT21
+--------
+Zbroja ta zosta³a wykonana dla Enkidu, s³ynnego wojownika Kara-Tur. Choæ nikt nie oœmieli³ siê stawiæ mu czo³a w uczciwej bitwie, Enkidu by³ czêsto celem skrytych ataków zabójców, ninji i Wu-Jen.
+
+PARAMETRY:
+ U¿ytkownik jest odporny na cios w plecy
+ Zwiêksza odpornoœæ na magiê o 5%
+
+Klasa Pancerza: -2
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 40%
+
+Mobilnoœæ:
+ zrêcznoœæ -4
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -40%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -60%
+ szukanie pu³apek -60%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 45
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT22
+--------
+Shuruppak, nies³awna prawa rêka nie¿yj¹cego ju¿ boga Gilgeama, który zdoby³ sobie tytu³ "¯niwiarza" za dokonywanie brutalnych masakr na wszystkich, którzy siê mu przeciwstawili... Przed swoj¹ zgub¹ bóg Gilgeam ofiarowa³ Shuruppakowi magiczn¹ zbrojê, by ten móg³ lepiej zbieraæ ¿niwo œmierci wœród wrogów.
+
+Zbroja Shuruppaka jest zadziwiaj¹co lekka i zapewnia nosz¹cemu nienaturaln¹ szybkoœæ i gracjê. Nie wiadomo w jaki sposób Shuruppak utraci³ swój cenny przedmiot, jednak mo¿na œmia³o przypuszczaæ, ¿e nadal go szuka.
+
+PARAMETRY:
+
+
+Klasa pancerza: -2
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 40%
+ ogieñ 20%
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -40%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -60%
+ szukanie pu³apek -60%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 15
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT23
+--------
+Pe³na zbroja p³ytowa to najlepszy pancerz, jaki mo¿e kupiæ wojownik, zarówno pod wzglêdem wygl¹du i ochrony. Skomplikowane grawiury oraz imponuj¹ce t³oczenia ozdabiaj¹ce tê zbrojê s¹ niewiadomego pochodzenia, podobnie jak sama zbroja.
+
+PARAMETRY:
+
+Klasa Pancerza: -1
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 35%
+
+Mobilnoœæ:
+ zrêcznoœæ -5
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -60%
+ szukanie pu³apek -65%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 50
+Nie mog¹ u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHARARM
+--------
+Albo dziêki wykonaniu lub dziêki wystawieniu na bitewn¹ gor¹czkê, pierœcieniowe po³¹czenia tej zbroi s¹ czarne jak wêgiel. Choæ legendy mówi¹ zwykle o rycerzach w lœni¹cych zbrojach walcz¹cych z wielkimi potworami, to zaklêcie odpornoœci na ogieñ wskazuje na to, ¿e ta zbroja widzia³a wiele bitew z potworami ziej¹cymi ogniem.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Ochrona przed obra¿eniami:
+ sieczne 20%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 15%
+ ogieñ 20%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -20%
+ kradzie¿ kieszonkowa -30%
+ otwieranie zamków -15%
+ szukanie pu³apek -15%
+ ciche chodzenie -30%
+ krycie siê w cieniu -25%
+
+Waga: 9
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD02
+--------
+Ma³e tarcze s¹ zazwyczaj okr¹g³e. Mocuje siê je na przedramieniu i dodatkowo przytrzymuje d³oni¹. W odró¿nieniu od tarczy œredniej, ich lekka waga pozwala wojownikowi nosiæ inne przedmioty w zajêtej rêce, chocia¿ nie mo¿e to byæ broñ.
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Waga: 3
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD04
+--------
+Tarczy œredniej u¿ywa siê podobnie, jak ma³ej. Jednak w przeciwieñstwie do niej, tarcza œrednia wa¿y na tyle du¿o, ¿e wojownik nie mo¿e wykorzystywaæ do innych celów podtrzymuj¹cej j¹ rêki. Tarcze tego typu wykonuje siê zazwyczaj z metalu, maj¹ od 90 do 120 cm œrednicy i dowolny kszta³t, od okr¹g³ych do prostok¹tnych. Typowa tarcza œredniowieczna przypomina³a trójk¹t z jednym z ramion skierowanym w dó³.
+
+PARAMETRY:
+
+Klasa Pancerza: +2, +3 przeciwko pociskom
+Waga: 6
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD06
+--------
+Jest to masywna, metalowa lub drewniana tarcza, siêgaj¹ca od ziemi a¿ do podbródka wojownika. Musi byæ solidnie przymocowana do przedramienia i ca³y czas przytrzymywana, co oznacza, ¿e w rêce, na której opiera siê tarcza nie mo¿na trzymaæ niczego innego.
+
+PARAMETRY:
+
+Klasa Pancerza: +3, +5 przeciwko pociskom
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+ prêdkoœæ ruchu -10%
+
+Waga: 12
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD07
+--------
+Pawê¿ +1, +4 przeciw pociskom: 'Tarcza Spadaj¹cych Gwiazd'
+
+Sam Ilmater nas¹czy³ tê tarczê magi¹, widz¹c, jak m³ody giermek gotów jest oszczêdziæ niewypowiedzianych cierpieñ swemu wiernemu wierzchowcowi. Podczas straszliwej bitwy pomiêdzy kawaleri¹ ludzi a hord¹ hobgoblinów m³odzieniec zosta³ wys³any po posi³ki. Przeciwnicy pos³ali w jego stronê deszcz strza³, który niemal zas³oni³ s³oñce. Giermek wiedzia³, ¿e jemu pewnie uda siê unikn¹æ grotów, ale ¿e wierzchowiec jest stracony. Tarcz¹ i w³asnym cia³em zas³oni³ konia przed strza³ami, przez co zosta³ œmiertelnie ranny. Na szczêœcie wierzchowiec przetrwa³ nie draœniêty, co umo¿liwi³o im ucieczkê. Koñ zaniós³ cia³o m³odzieñca do najbli¿szego miasta, w którym odwa¿nego giermka wskrzeszono.
+
+PARAMETRY:
+
+Klasa Pancerza: +3, +8 przeciw pociskom
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+ prêdkoœæ ruchu -10%
+
+Waga: 12
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD17
+--------
+Puklerz jest bardzo ma³¹ tarcz¹ wykonan¹ z drewna lub ¿elaza, któr¹ mocuje siê do przedramienia. Z powodu swojego rozmiaru jest bardzo lekki i praktycznie nie spowalnia ruchów. Ten ma w sobie pewnego rodzaju magiê, która czyni go bardziej odpornym na ciosy.
+
+PARAMETRY:
+
+Specjalne:
+ Nie chroni przed obra¿eniami obuchowymi i pociskami
+
+Klasa Pancerza: +2
+Waga: 2
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD19
+--------
+Pawê¿ +2:
+Tê tarczê wykonali najlepsi krasnoludzcy kowale na zamówienie Pellana, s³ynnego paladyna Tyra, znanego zarówno z wielkiej odwagi, jak i zupe³nego braku zdrowego rozs¹dku. Gdy us³ysza³ on, ¿e czerwony smok pustoszy okolicê, wsiad³ na konia i wyruszy³ na bitwê. Zarówno on jak i jego zbroja zostali ³atwo strawieni, jednak ta tarcza wywo³a³a u smoka powa¿ne bóle brzucha. Wykrztusi³ j¹ wiêc i przele¿a³a na jego stosie skarbów a¿ do czasu, gdy odzyska³ j¹ syn Pellana - paladyn, który potrafi³ siê skradaæ.
+Jej doskona³e wykonanie wspomagane jest sta³ym zaklêciem lekkoœci, przez co tarcza ta jest bardzo ³atwa w u¿yciu.
+
+PARAMETRY:
+
+Klasa Pancerza: +4, +6 przeciwko pociskom
+Waga: 4
+Wymagana si³a: 10
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD20
+--------
+Jest to puklerz Kiela Zabójcy Legionów, pierworodnego syna Durlaga Zabójcy Trolli i Klanowego Ksiêcia w nieszczêsnej wie¿y swego ojca. Dziêki temu, ¿e jest niezwykle lekki i znakomicie wykonany, zwiêksza Zrêcznoœæ u¿ywaj¹cej go osoby o 1.
+
+PARAMETRY:
+
+Specjalne:
+ Nie chroni przed pociskami i broniami obuchowymi
+ +1 do Zrêcznoœci
+
+Klasa Pancerza: +2
+Waga: 2
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD21
+--------
+Ta tarcza jest kolejnym potê¿nym przedmiotem stworzonym przez czarodzieja Wormsora. Sk³ada siê ze skóry czerwonego smoka rozci¹gniêtej na stalowym szkielecie. Czerwone t³o zdobi¹ zielone i bia³e smocze ³uski, u³o¿one we wzór, który przy odpowiednim spojrzeniu zdaje siê byæ twarz¹ prastarego smoka.
+
+PARAMETRY:
+
+Specjalne:
+ Ustala odpornoœæ na ogieñ, zimno i elektrycznoœæ na poziomie 25%
+
+Klasa Pancerza: +3, +4 przeciwko pociskom
+Waga: 5
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Bard
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD22
+--------
+Jakiœ wiek temu astronomowie odnotowali nieoczekiwany upadek komety do morza w okolicy Wybrze¿a Mieczy. To niecodzienne wydarzenie okaza³o siê byæ jeszcze dziwniejsze, gdy kowal Huffum Fuiruim, którego nie obchodzi³y wydarzenia na niebosk³onie, znalaz³ wyj¹tkowo lekkie fragmenty metalu. Przerobi³ je na tê tarczê, choæ kucie zajê³o mu wiele miesiêcy i potrzebowa³ do pomocy kilku zaklinaczy. "Z niebios? Niiii, spod mojego m³otka!"
+
+PARAMETRY:
+
+Klasa Pancerza: +5, +6 przeciwko pociskom
+Waga: 3
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Bard
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD23
+--------
+Ta tarcza, wysoka jak cz³owiek, ma odpowiedni¹ nazwê. Przy jej pomocy, Fil Pobo¿ny, paladyn Najszlachetniejszego Zakonu Promiennego Serca pewnego razu powstrzyma³ nacieraj¹cy batalion hobgobliñskich i koboldzich ³uczników, dopóki nie wyczerpa³y im siê strza³y. Poniewa¿ tarcza ta jest równie u¿yteczna w walce wrêcz, jak i na odleg³oœæ, wybi³ on ich potem do nogi.
+
+PARAMETRY:
+
+Klasa Pancerza: +5, +12 przeciwko pociskom
+Waga: 3
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Bard
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD24
+--------
+S¹dzono, ¿e jest to tylko zapomniana ozdoba z jakiejœ komnaty, wiêc tarcza ta le¿a³a na ty³ach jakiegoœ sklepu, dopóki pewien m³ody szlachcic nie zakupi³ jej jako czêœæ swojej zbroi paradnej. Jej bierne w³aœciwoœci odkryto póŸniej, gdy podczas nieudanej próby pozbawienia go ¿ycia, tarcza odbija³a ka¿dy atak w stronê niedosz³ych zabójców. PóŸniejsze badania po³¹czy³y j¹ z Myth Rynn albo innymi dawnymi wykopaliskami.
+
+PARAMETRY:
+
+Specjalne:
+ Odbija pociski z powrotem w atakuj¹cego
+
+Klasa Pancerza: +2
+Waga: 3
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Bard
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD25
+--------
+Audn z Pola, rycerz i czempion czarodzieja Kekkima, nosi³ tê tarczê przez wiêkszoœæ swojego ¿ycia. Chroni ona nosiciela przed wiêkszoœci¹ form kontroli umys³u, co jest zalet¹ dla czarodzieja, który potrzebowa³ przyjaznych mu wojowników, aby stali wiernie po jego stronie. Zarówno Kekkim, jak i Audn dawno ju¿ gryz¹ ziemiê, pozostawiwszy tarczê temu, kto wydostanie j¹ z wie¿y czarodzieja.
+
+PARAMETRY:
+
+Specjalne:
+ Odpornoœæ na uroki, zamêt, dominacjê oraz unieruchomienie osoby
+
+Klasa Pancerza: +3
+Waga: 2
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Bard
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD26
+--------
+Tê dziwn¹ tarczê skonstruowali nomadzi, którzy kiedyœ zamieszkiwali las Mir, grupa ju¿ dawno zaabsorbowana do "cywilizowanego" spo³eczeñstwa i zapomniana. Dok³adniejsze badanie ukazuje spl¹tane razem w³osy ludzkie i zwierzêce trzymaj¹ce siê dziêki zaklêciu, choæ sposób, w jaki to wykonano zagin¹³ z czasem.
+
+PARAMETRY:
+
+Specjalne:
+ +5% do odpornoœci na magiê
+
+Klasa Pancerza: +3, +4 przeciwko pociskom
+Waga: 5
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Bard
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD27
+--------
+Kiedyœ by³a to potê¿na tarcza u¿ywana przez kap³anów Bane'a, jednak¿e wraz ze œmierci¹ tego boga, wiêkszoœæ z jej w³aœciwoœci prys³a. Pozostaje tylko podstawowa magiczna ochrona, co czyni j¹ u¿yteczn¹ dla ka¿dego poszukiwacza przygód.
+
+PARAMETRY:
+
+Klasa Pancerza: +4, +5 przeciwko pociskom
+Waga: 5
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Bard
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD28
+--------
+Pomimo skutecznoœci magicznych wzmocnieñ tej tarczy, trudno j¹ opisaæ i precyzyjnie zidentyfikowaæ. Taka standaryzacja pozwala przypuszczaæ, ¿e by³a u¿ywana przez stra¿ jakiejœ zapomnianej baronii, ale to nic pewnego.
+
+PARAMETRY:
+
+Klasa Pancerza: +3
+Waga: 2
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD29
+--------
+Zwyczajna magiczna tarcza, jak¹ wrêcza siê elitarnym jednostkom i osobistym stra¿nikom. Ten konkretny egzemplarz jest doœæ nowy. Zosta³ niedawno wykuty przez Taeroma Fuiruima z Beregostu i mo¿e opowiedzieæ niewiele historii. Mo¿e znajdzie siê jakiœ m³ody dzielny wojownik, który za jej pomoc¹ dokona kilku legendarnych czynów.
+
+PARAMETRY:
+
+Klasa Pancerza: +3, +4 przeciwko pociskom
+Waga: 5
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Bard
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD30
+--------
+Tarcza elitarnej kompanii najemników Niepokonanych Dragonów Calimportu, dawno rozwi¹zanej z powodu rozgrywek politycznych. Byli wyposa¿eni w najlepszy ekwipunek, ich tarcze by³y bardzo lekkie, a w walce zapewnia³y wspania³¹ ochronê. Rozmiary tej tarczy uniemo¿liwiaj¹ wykorzystywanie trzymaj¹cej j¹ rêki do innych czynnoœci.
+
+PARAMETRY:
+
+Klasa Pancerza: +4, +6 przeciwko pociskom
+Waga: 4
+Wymagana si³a: 10
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD31
+--------
+Ta wyprodukowana z krasnoludzkiej mrocznej stali tarcza zosta³a obdarzona niezwykle silnymi zaklêciami, dziêki czemu zapewnia lepsz¹ ochronê ni¿ wiêkszoœæ zbroi. Legenda g³osi, ¿e mia³a ona zostaæ podarowana krasnoludzkiemu bohaterowi Glimredowi Ciê¿korêkiemu, ale ten zagin¹³ w czasie jednej ze swoich wypraw do trzewi Maszeruj¹cych Gór, zanim tarcza by³a gotowa. Wtedy postanowiono sprzedaæ tarczê temu, kto zaoferuje najwy¿sz¹ cenê - jednak krasnoludzcy kowale nie chcieli wyjawiæ to¿samoœci nabywcy.
+
+PARAMETRY:
+
+Specjalne:
+ Zwiêksza o +10% odpornoœæ na ogieñ, zimno, kwas i truciznê
+
+Klasa Pancerza: +6, +8 przeciwko pociskom
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+
+Waga: 8
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD32
+--------
+Peregath Mê¿ny, wielki rycerz Zakonu Promiennego Serca, u¿ywa³ tej tarczy w bitwie przeciw atakuj¹cej hordzie Tanar'ri wlewaj¹cych siê przez bramê do Sfery Astralnej. Opanowany przez ferwor walki potê¿ny paladyn sam odpar³ hordê, a potem nieroztropnie wskoczy³ przez bramê astraln¹, ¿eby ich wykoñczyæ. Brama siê zawali³a i razem z Peragathem i tarcz¹ przepadli na zawsze w Sferach.
+
+PARAMETRY:
+
+Specjalne:
++1 przeciw wszystkim rzutom obronnym
+
+Klasa pancerza: +5, +6 przeciwko pociskom
+Waga: 8
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+Bard
+Druid
+Mag
+Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SKELSHLD
+--------
+Puklerz jest bardzo ma³¹ tarcz¹ wykonan¹ z drewna lub ¿elaza, któr¹ mocuje siê do przedramienia. Z powodu swojego rozmiaru jest bardzo lekki i praktycznie nie spowalnia ruchów. Ten ma w sobie pewnego rodzaju magiê, która czyni go bardziej odpornym na ciosy.
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Specjalne:
+ Nie chroni przed obra¿eniami obuchowymi i pociskami
+Waga: 2
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+TAMCHAIN
+--------
+Albo dziêki wykonaniu lub dziêki wystawieniu na bitewn¹ gor¹czkê, pierœcieniowe po³¹czenia tej zbroi s¹ czarne jak wêgiel. Choæ legendy mówi¹ zwykle o rycerzach w lœni¹cych zbrojach walcz¹cych z wielkimi potworami, to zaklêcie odpornoœci na ogieñ wskazuje na to, ¿e ta zbroja widzia³a wiele bitew z potworami ziej¹cymi ogniem.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Ochrona przed obra¿eniami:
+ sieczne 20%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 15%
+ ogieñ 20%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -20%
+ kradzie¿ kieszonkowa -30%
+ otwieranie zamków -15%
+ szukanie pu³apek -15%
+ ciche chodzenie -30%
+ krycie siê w cieniu -25%
+
+Waga: 9
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+TTLEAT
+--------
+Podstawowa zbroja wykonana z grubej skóry wzmacnianej woskiem lub wod¹. To mocna ochrona, nie tak miêkka jak buty czy p³aszcz. Miêkkie skórzane szaty, takie jak ta, nie zapewniaj¹ lepszej ochrony ni¿ zwyk³e ubranie. Magiczne wzmocnienia zwiêkszy³y w³aœciwoœci ochronne tej czêœci garderoby.
+
+PARAMETRY:
+
+Klasa Pancerza: 6
+Ochrona przed obra¿eniami:
+ sieczne 5%
+ k³ute 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru 10%
+
+Waga: 5
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+TTSHLD01
+--------
+Œredni¹ tarczê nosi siê tak samo jak ma³¹ tarczê. W przeciwieñstwie do ma³ej tarczy jej waga nie pozwala postaci na u¿ywanie rêki, w której trzyma tarczê, do czegokolwiek innego. Œrednie tarcze s¹ zwykle wykonane z metalu, maj¹ od 90 do 120cm œrednicy, i mog¹ mieæ dowolny kszta³t, od okr¹g³ych przez kwadratowe a¿ do rozpostartych smoczych skrzyde³. Typowa œredniowieczna tarcza przypomina trójk¹t z jednym wierzcho³kiem skierowanym w dó³. Ta tarcza jest magiczna.
+
+PARAMETRY:
+
+Klasa Pancerza: +3, +4 przeciwko pociskom
+Waga: 5
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+WA2PLAT
+--------
+Zbroja p³ytowa Baldurana
+
+Ten pancerz nosi³ niegdyœ s³awny bohater Balduran. Jest to czêœæ kompletu broni i zbroi, który zosta³ skradziony z muzeum miejskiego we Wrotach Baldura.
+
+PARAMETRY:
+
+Specjalne:
+ +4 punkty ¿ycia
+ +1 do Charyzmy
+
+Klasa Pancerza: -1
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 15%
+ obuchowe 5%
+ pociskowe 35%
+
+Mobilnoœæ:
+ zrêcznoœæ -5
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -45%
+ kradzie¿ kieszonkowa -90%
+ otwieranie zamków -60%
+ szukanie pu³apek -65%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 50
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+WA2SHIEL
+--------
+Tarcza Baldurana +3
+Tê tarczê dzier¿y³ niegdyœ s³awny Balduran. Jest to czêœæ kompletu broni i zbroi, który zosta³ skradziony z muzeum miejskiego we Wrotach Baldura.
+
+PARAMETRY:
+
+Specjalne:
+ Odbija promienie obserwatorów
+ -1 do Si³y
+
+Klasa Pancerza: +3, +4 przeciwko pociskom
+Waga: 5
+Wymagana si³a: 12 (13)
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o

@@ -1,0 +1,1003 @@
+buckler
+--------
+A buckler, also known as a target shield, is a small shield of wood or metal that fastens to the forearm.  Because of its size it is light and can be worn with very little restriction to movement.
+STATISTICS:
+AC Bonus: 1
+No bonus to Missile and Crushing AC.
+Weight:  2
+Requires: 4 Strength
+
+Unusable By:
+ Mage
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2LEAT01
+--------
+This suit of leather armor is light and supple, and a pleasure to wear.
+STATISTICS:
+Armor Class: 8
+Weight: 15
+Requires: 3 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+chain
+--------
+Chain mail is made of interlocking metal rings.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.  
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +5%
+DEX: -3
+Movement: -10%
+Spell failure: +35%
+Pick Pockets: -35%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -40%
+Hide in Shadows: -30%
+Armor Class: 5
+Weight: 40
+Requires: 8 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN07
+--------
+A chain mail tunic fashioned from some sort of bright metal.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.  
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +5%
+DEX: -3
+Movement: -10%
+Spell failure: +35%
+Pick Pockets: -35%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -40%
+Hide in Shadows: -30%
+Armor Class: 5
+Weight: 40
+Requires: 8 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN09
+--------
+A chain mail tunic fashioned from some sort of bright metal.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.  
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +5%
+DEX: -3
+Movement: -10%
+Spell failure: +35%
+Pick Pockets: -35%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -40%
+Hide in Shadows: -30%
+Armor Class: 5
+Weight: 40
+Requires: 8 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN10
+--------
+A chain mail tunic fashioned from some sort of bright metal.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.  
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +5%
+DEX: -3
+Movement: -10%
+Spell failure: +35%
+Pick Pockets: -35%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -40%
+Hide in Shadows: -30%
+Armor Class: 5
+Weight: 40
+Requires: 8 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN11
+--------
+A chain mail tunic fashioned from some sort of bright metal.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.  
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +5%
+Spell failure: +35%
+Pick Pockets: -35%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -40%
+Hide in Shadows: -30%
+Armor Class: 5
+Weight: 40
+Requires: 8 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWCHAN01
+--------
+This drow armor's lightness allows it to be worn by thieves and fighter/mages with few restrictions.
+This item, like most drow equipment, is created using Adamantine, an alloy of adamantite that quickly turns to dust if removed from the Underdark.
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+Pick Pockets: -10%
+Lock Picking: -5%
+Find/Remove Traps: -5%
+Armor Class: 5
+Weight: 7
+Requires: 5 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Kensai
+ Monk
+ Archer
+ Stalker
+ Beast Master
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWCHAN02
+--------
+This drow armor's lightness allows it to be worn by thieves and fighter/mages with few restrictions.
+This item, like most drow equipment, is created using Adamantine, an alloy of adamantite that quickly turns to dust if removed from the Underdark.
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+Pick Pockets: -10%
+Lock Picking: -5%
+Find/Remove Traps: -5%
+Armor Class: 5
+Weight: 7
+Requires: 5 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Kensai
+ Monk
+ Archer
+ Stalker
+ Beast Master
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWSHLD01
+--------
+A medium shield is carried in the same manner as a small shield.  Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield.  Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings.  A typical medieval shield resembles a triangle with one point facing downward. 
+This item, like most drow equipment, is created using Adamantine, an alloy of adamantite that quickly turns to dust if removed from the Underdark.
+STATISTICS:
+AC Bonus: 1
+Extra AC Bonus vs. missiles: 1 
+Weight: 7
+Requires: 12 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+elvenc
+--------
+The delicate yet sturdy craftsmanship of the Elven races allows them to design many beautiful yet utilitarian goods.  Among these is Elven chain mail, which is so finely wrought that it can be worn under normal clothing without revealing its presence.  This and its lightness allows it to be worn by thieves and fighter/mages with few restrictions.
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+Armor Class: 5
+Weight: 7
+Requires: 5 Strength
+
+Not Usable By:
+ Druid 
+ Mage
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+full
+--------
+Full plate armor is the best armor a warrior can buy, both in appearance and protection.  The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.  
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +30%
+DEX: -6
+Movement: -30%
+Spell failure: +50%
+Pick Pockets: -95%
+Lock Picking: -65%
+Find/Remove Traps: -65%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: 1
+Weight: 70
+Requires: 15 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+hide
+--------
+Hide Armor is made from the thick skin of large animals (elephants, for example) or layers of thinner, more common leather.  It is considered too cumbersome for use in advanced human cultures, but is common among more barbaric humanoids.  It offers better protection than normal leather, but can be hard to maintain, often resulting in an offensive odor or shoddy appearance that prevents effective use.  Thieves can wear this armor, but it has a negative effect on their abilities.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+Spell failure: +25%
+Pick Pockets: -25%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -20%
+Hide in Shadows: -15%
+Armor Class: 6
+Weight: 40
+Requires: 6 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+large
+--------
+The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user.  It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times.  Naturally, this precludes use of the shield hand for anything but holding the body shield in place. 
+STATISTICS:
+AC Bonus: 2
+Extra AC Bonus vs. missiles: 2 
+Movement: -10%
+DEX: -1
+Weight: 15
+Requires: 15 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT09
+--------
+This suit of leather armor is light and supple, and a pleasure to wear.
+STATISTICS:
+Spell failure: +15%
+Armor Class: 8
+Weight: 15
+Requires: 3 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT12
+--------
+This suit of leather armor is light and supple, and a pleasure to wear.
+STATISTICS:
+Spell failure: +15%
+Armor Class: 8
+Weight: 15
+Requires: 3 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT13
+--------
+This suit of leather armor is light and supple, and a pleasure to wear.
+STATISTICS:
+Spell failure: +15%
+Armor Class: 8
+Weight: 15
+Requires: 3 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT14
+--------
+This suit of leather armor is light and supple, and a pleasure to wear.
+STATISTICS:
+Armor Class: 8
+Weight: 15
+Requires: 3 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT21
+--------
+This suit of leather armor is light and supple, and a pleasure to wear.
+STATISTICS:
+Armor Class: 8
+Weight: 15
+Requires: 3 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT22
+--------
+This suit of leather armor is light and supple, and a pleasure to wear.
+STATISTICS:
+Spell failure: +15%
+Armor Class: 8
+Weight: 15
+Requires: 3 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+leather
+--------
+Basic armor made of thick, wax or water-hardened leather.  It is sturdy protection, not supple like boots or a cloak.  Soft garment leathers like that would offer no more protection than common clothing. 
+STATISTICS:
+Spell failure: +15%
+Armor Class: 8
+Weight: 15
+Requires: 4 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+medium
+--------
+A medium shield is carried in the same manner as a small shield.  Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield.  Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings.  A typical medieval shield resembles a triangle with one point facing downward. 
+STATISTICS:
+AC Bonus: 1
+Extra AC Bonus vs. missiles: 1 
+Weight: 7
+Requires: 12 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+plate
+--------
+Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin.  Similar in construction to bronze plate mail, true plate mail comprises of chain and leather. 
+STATISTICS:
+Resistance to slashing damage: +20%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +15%
+DEX: -5
+Movement: -20%
+Spell failure: +50%
+Pick Pockets: -75%
+Lock Picking: -45%
+Find/Remove Traps: -45%
+Move Silently: -80%
+Hide in Shadows: -70%
+Armor Class: 3
+Weight: 50
+Requires: 12 Strength
+
+Not Usable By:
+ Bard 
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHARARM
+--------
+A chain mail tunic fashioned from some sort of bright metal.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.  
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +5%
+Spell failure: +35%
+Pick Pockets: -35%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -40%
+Hide in Shadows: -30%
+Armor Class: 5
+Weight: 40
+Requires: 8 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD19
+--------
+A large shield inlaid with a golden griffin.  This shield, also known as the kite or tower shield, is a massive metal shield reaching nearly from the chin to the toe of the user.  It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times.  Naturally, this precludes use of the shield hand for anything but holding the body shield in place.  Strangely enough, this shield feels unusually light for its size.
+STATISTICS:
+AC Bonus: 4
+Extra AC Bonus vs. missiles: 2
+Weight: 15
+Requires: 10 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD30
+--------
+A large shield inlaid with a golden griffin.  This shield, also known as the kite or tower shield, is a massive metal shield reaching nearly from the chin to the toe of the user.  It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times.  Naturally, this precludes use of the shield hand for anything but holding the body shield in place.  Strangely enough, this shield feels unusually light for its size.
+STATISTICS:
+AC Bonus: 4
+Extra AC Bonus vs. missiles: 2
+Weight: 15
+Requires: 10 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+small
+--------
+A small shield is usually round and is carried on the forearm, gripped with the shield hand.  Its light weight as compared to a medium shield permits the user to carry other items in that hand, although he cannot wield or carry another weapon.  
+STATISTICS:
+AC Bonus: 1
+Weight: 3
+Requires: 4 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage 
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+splint
+--------
+Splint Mail is a variant of banded mail in which the metal strips are applied vertically to the backing of chain, leather, or cloth rather than horizontally as in banded mail.  Since the human body does not swivel in mid-torso as much as it flexes back to front, splint mail is more restrictive in battle. 
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +5%
+DEX: -4
+Movement: -20%
+Spell failure: +40%
+Pick Pockets: -50%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -55%
+Hide in Shadows: -40%
+Armor Class: 4
+Weight: 40
+Requires: 8 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+studded
+--------
+Studded leather armor has little in common with normal leather armor.  Instead of a hardened shell, studded leather offers hundreds of metal rivets affixed to a supple backing.  The numerous studs form a flexible coat of metal that helps to turn aside slashing and cutting attacks, while the leather is little more than a means of securing the rivets in place.  
+STATISTICS:
+Resistance to slashing damage: +5%
+DEX: -2
+Spell failure: +20%
+Pick Pockets: -15%
+Lock Picking: -10%
+Find/Remove Traps: -10%
+Move Silently: -10%
+Hide in Shadows: -5%
+Armor Class: 7
+Weight: 25
+Requires: 6 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Avenger
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+TAMCHAIN
+--------
+A chain mail tunic fashioned from some sort of bright metal.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.  
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +5%
+Spell failure: +35%
+Pick Pockets: -35%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -40%
+Hide in Shadows: -30%
+Armor Class: 5
+Weight: 40
+Requires: 8 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+FLAT01
+--------
+Field plate is actually a more commonly used form of full plate armor. It consists of shaped and fitted metal plates riveted and interlocked to cover the entire body. Like plate mail, a set of field plate usually includes gauntlets, boots, and a visored helmet. A thick layer of padding must be worn under the armor.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +15%
+DEX: -5
+Movement: -20%
+Spell failure: +50%
+Pick Pockets: -80%
+Lock Picking: -50%
+Find/Remove Traps: -50%
+Move Silently: -85%
+Hide in Shadows: -75%
+Armor Class: 2
+Weight: 60
+Requires: 13 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+FLAT02
+--------
+Field plate is actually a more commonly used form of full plate armor. It consists of shaped and fitted metal plates riveted and interlocked to cover the entire body. Like plate mail, a set of field plate usually includes gauntlets, boots, and a visored helmet. A thick layer of padding must be worn under the armor.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +15%
+DEX: -5
+Movement: -20%
+Spell failure: +50%
+Pick Pockets: -80%
+Lock Picking: -50%
+Find/Remove Traps: -50%
+Move Silently: -85%
+Hide in Shadows: -75%
+Armor Class: 2
+Weight: 60
+Requires: 13 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+FLAT03
+--------
+Field plate is actually a more commonly used form of full plate armor. It consists of shaped and fitted metal plates riveted and interlocked to cover the entire body. Like plate mail, a set of field plate usually includes gauntlets, boots, and a visored helmet. A thick layer of padding must be worn under the armor.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +15%
+DEX: -5
+Movement: -20%
+Spell failure: +50%
+Pick Pockets: -80%
+Lock Picking: -50%
+Find/Remove Traps: -50%
+Move Silently: -85%
+Hide in Shadows: -75%
+Armor Class: 2
+Weight: 60
+Requires: 13 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+FLAT04
+--------
+Field plate is actually a more commonly used form of full plate armor. It consists of shaped and fitted metal plates riveted and interlocked to cover the entire body. Like plate mail, a set of field plate usually includes gauntlets, boots, and a visored helmet. A thick layer of padding must be worn under the armor.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +15%
+DEX: -5
+Movement: -20%
+Spell failure: +50%
+Pick Pockets: -80%
+Lock Picking: -50%
+Find/Remove Traps: -50%
+Move Silently: -85%
+Hide in Shadows: -75%
+Armor Class: 2
+Weight: 60
+Requires: 13 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SCAL01
+--------
+Scale Mail armour is made with small scale-like pieces of armour attached to a leather backing.  The interlocking plates are somewhat restrictive, but provide better protection than Studded Leather.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+DEX: -2
+Movement: -10%
+Spell failure: +25%
+Pick Pockets: -15%
+Lock Picking: -10%
+Find/Remove Traps: -10%
+Move Silently: -0%
+Hide in Shadows: -15%
+Armor Class: 6
+Weight: 30
+Requires: 9 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SCAL02
+--------
+Scale Mail armour is made with small scale-like pieces of armour attached to a leather backing.  The interlocking plates are somewhat restrictive, but provide better protection than Studded Leather.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+DEX: -2
+Movement: -10%
+Spell failure: +25%
+Pick Pockets: -15%
+Lock Picking: -10%
+Find/Remove Traps: -10%
+Move Silently: -0%
+Hide in Shadows: -15%
+Armor Class: 6
+Weight: 30
+Requires: 9 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SCAL03
+--------
+Scale Mail armour is made with small scale-like pieces of armour attached to a leather backing.  The interlocking plates are somewhat restrictive, but provide better protection than Studded Leather.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+DEX: -2
+Movement: -10%
+Spell failure: +25%
+Pick Pockets: -15%
+Lock Picking: -10%
+Find/Remove Traps: -10%
+Move Silently: -0%
+Hide in Shadows: -15%
+Armor Class: 6
+Weight: 30
+Requires: 9 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SCAL04
+--------
+Scale Mail armour is made with small scale-like pieces of armour attached to a leather backing.  The interlocking plates are somewhat restrictive, but provide better protection than Studded Leather.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+DEX: -2
+Movement: -10%
+Spell failure: +25%
+Pick Pockets: -15%
+Lock Picking: -10%
+Find/Remove Traps: -10%
+Move Silently: -0%
+Hide in Shadows: -15%
+Armor Class: 6
+Weight: 30
+Requires: 9 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+BAND01
+--------
+Banded Mail is made up of numerous bands of flexible metal, forming a barrier against attacks, but allowing the wearer to move without much restriction.  It is far more comfortable than splint mail.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +5%
+DEX: -4
+Movement: -20%
+Spell failure: +40%
+Pick Pockets: -50%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -55%
+Hide in Shadows: -40%
+Armor Class: 4
+Weight: 40
+Requires: 8 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+BAND02
+--------
+Banded Mail is made up of numerous bands of flexible metal, forming a barrier against attacks, but allowing the wearer to move without much restriction.  It is far more comfortable than splint mail.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +5%
+DEX: -4
+Movement: -20%
+Spell failure: +40%
+Pick Pockets: -50%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -55%
+Hide in Shadows: -40%
+Armor Class: 4
+Weight: 40
+Requires: 8 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+BAND03
+--------
+Banded Mail is made up of numerous bands of flexible metal, forming a barrier against attacks, but allowing the wearer to move without much restriction.  It is far more comfortable than splint mail.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +5%
+DEX: -4
+Movement: -20%
+Spell failure: +40%
+Pick Pockets: -50%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -55%
+Hide in Shadows: -40%
+Armor Class: 4
+Weight: 40
+Requires: 8 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+BAND04
+--------
+Banded Mail is made up of numerous bands of flexible metal, forming a barrier against attacks, but allowing the wearer to move without much restriction.  It is far more comfortable than splint mail.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +5%
+DEX: -4
+Movement: -20%
+Spell failure: +40%
+Pick Pockets: -50%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -55%
+Hide in Shadows: -40%
+Armor Class: 4
+Weight: 40
+Requires: 8 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o

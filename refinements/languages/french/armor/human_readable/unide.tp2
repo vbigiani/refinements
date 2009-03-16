@@ -1,0 +1,719 @@
+buckler
+--------
+La targe est un petit bouclier circulaire de bois ou de métal qui se fixe sur l'avant-bras. Elle peut être portée par un arbalétrier ou un archer sans que ce dernier soit pour autant gêné dans ses attaques avec son arme. 
+
+PARAMETRES :
+
+Classe d'armure : +1
+Aucun bonus à la CA contre les projectiles et les armes contondantes
+Poids :  2
+Force nécessaire : 4
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2LEAT01
+--------
+Cette armure de cuir est légère, souple et agréable à porter.
+
+PARAMETRES :
+
+Classe d'armure : 8
+Poids : 15
+Force nécessaire : 3
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+chain
+--------
+L'armure de cotte de mailles est constituée d'anneaux métalliques imbriqués les uns dans les autres. Elle est toujours portée par-dessus une couche de tissu matelassé ou de cuir souple pour empêcher le frottement et réduire l'impact des chocs. 
+
+PARAMETRES :
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux projectiles
+
+-3 à la dextérité
+-10% à la vitesse de déplacement
++35% de chance de rater un sort
+
+-35% Vol à la tire
+-20% Crochetage
+-20% Détection des pièges
+-40% Déplacements silencieux
+-30% Cacher dans l'ombre
+
+Classe d'armure : 5
+Poids : 40
+Force nécessaire : 8
+Inutilisable par :
+ Druide 
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN07
+--------
+Une cotte de mailles est faite d'anneaux de métal liés les uns aux autres. On la porte sur un rembourrage de tissu ou de cuir souple pour éviter d'irriter la peau et pour amortir les impacts. 
+
+PARAMETRES :
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux projectiles
+
+-3 à la dextérité
+-10% à la vitesse de déplacement
++35% de chance de rater un sort
+
+-35% Vol à la tire
+-20% Crochetage
+-20% Détection des pièges
+-40% Déplacements silencieux
+-30% Cacher dans l'ombre
+
+Classe d'armure : 5
+Poids : 40
+Force nécessaire : 8
+Inutilisable par :
+ Druide 
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN09
+--------
+Une cotte de mailles est faite d'anneaux de métal liés les uns aux autres. On la porte sur un rembourrage de tissu ou de cuir souple pour éviter d'irriter la peau et pour amortir les impacts. 
+
+PARAMETRES :
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux projectiles
+
+-3 à la dextérité
+-10% à la vitesse de déplacement
++35% de chance de rater un sort
+
+-35% Vol à la tire
+-20% Crochetage
+-20% Détection des pièges
+-40% Déplacements silencieux
+-30% Cacher dans l'ombre
+
+Classe d'armure : 5
+Poids : 40
+Force nécessaire : 8
+Inutilisable par :
+ Druide 
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN10
+--------
+Une cotte de mailles est faite d'anneaux de métal liés les uns aux autres. On la porte sur un rembourrage de tissu ou de cuir souple pour éviter d'irriter la peau et pour amortir les impacts. 
+
+PARAMETRES :
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux projectiles
+
+-3 à la dextérité
+-10% à la vitesse de déplacement
++35% de chance de rater un sort
+
+-35% Vol à la tire
+-20% Crochetage
+-20% Détection des pièges
+-40% Déplacements silencieux
+-30% Cacher dans l'ombre
+
+Classe d'armure : 5
+Poids : 40
+Force nécessaire : 8
+Inutilisable par :
+ Druide 
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN11
+--------
+Une cotte de mailles est faite d'anneaux de métal liés les uns aux autres. On la porte sur un rembourrage de tissu ou de cuir souple pour éviter d'irriter la peau et pour amortir les impacts. 
+
+PARAMETRES :
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux projectiles
+
++35% de chance de rater un sort
+
+-35% Vol à la tire
+-20% Crochetage
+-20% Détection des pièges
+-40% Déplacements silencieux
+-30% Cacher dans l'ombre
+
+Classe d'armure : 5
+Poids : 40
+Force nécessaire : 8
+Inutilisable par :
+ Druide 
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWCHAN01
+--------
+Cette armure elfe noir peut être portée par les voleurs et les guerriers/mages sans trop de restrictions.
+Comme pour la plupart des objets elfes noirs, cet armure est faite d'adamantine, alliage d'adamantite qui tourne en poussière s'il quitte les Tréfonds Obscurs.
+
+PARAMETRES :
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
+-10% Vol à la tire
+-5% Crochetage
+-5% Détection des pièges
+
+Classe d'armure : 5
+Poids : 7
+Force nécessaire : 5
+Inutilisable par :
+ Druide 
+ Mage 
+ Kensai
+ Moine
+ Archer
+ Traqueur
+ Belluaire
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWCHAN02
+--------
+Cette armure elfe noir peut être portée par les voleurs et les guerriers/mages sans trop de restrictions.
+Comme pour la plupart des objets elfes noirs, cet armure est faite d'adamantine, alliage d'adamantite qui tourne en poussière s'il quitte les Tréfonds Obscurs.
+
+PARAMETRES :
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
+-10% Vol à la tire
+-5% Crochetage
+-5% Détection des pièges
+
+Classe d'armure : 5
+Poids : 7
+Force nécessaire : 5
+Inutilisable par :
+ Druide 
+ Mage 
+ Kensai
+ Moine
+ Archer
+ Traqueur
+ Belluaire
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWSHLD01
+--------
+Un bouclier se porte de la même façon qu'une rondache. Cependant, sa taille empêche d'utiliser la main du bras qui le porte pour autre chose. Généralement en métal, et de 80 cm à 1,20 m de diamètre, la forme du bouclier peut être variable, de ronde à carrée, en passant par des ailes de dragon déployées. Le bouclier médiéval ressemble à un triangle avec la pointe dirigée vers le bas.
+Comme pour la plupart des objets elfe noir, cet objet est fait d'adamantine, alliage d'adamantite qui tourne en poussière s'il quitte l'Ombre-Terre.
+
+PARAMETRES :
+
+Classe d'armure : +1
+Bonus à la CA contre les projectiles : +1 
+Poids : 7
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+elvenc
+--------
+L'artisanat délicat mais réputé solide des peuples elfiques leur permet de concevoir des objets à la fois beaux et efficaces. Parmi ceux-ci la cotte de mailles elfique, forgée si finement qu'elle peut être portée sous des vêtements normaux sans trahir sa présence. Sa discrétion et sa légèreté lui permettent d'être portée presque sans restriction par les voleurs et les guerriers-mages.
+
+PARAMETRES :
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
+Classe d'armure : 5
+Poids : 7
+Force nécessaire : 5
+Inutilisable par :
+ Druide 
+ Mage
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+full
+--------
+L'armure de plates complète est la meilleure armure qu'un guerrier puisse acheter, aussi bien d'un point de vue esthétique que pratique. Les plaques parfaitement fixées et imbriquées les unes dans les autres sont inclinées de façon à détourner les flèches et les coups, et l'ensemble de la tunique est soigneusement orné de riches gravures et de détails en relief. 
+
+PARAMETRES :
+
++30% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++30% de résistance aux projectiles
+
+-6 à la dextérité
+-30% à la vitesse de déplacement
++50% de chance de rater un sort
+
+-95% Vol à la tire
+-65% Crochetage
+-65% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : 1
+Poids : 70
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+hide
+--------
+L'Armure de Peau est faite d'un cuir épais de grands animaux (d'éléphants, par exemple) ou de plusieurs couches de cuirs plus fins. Elle est considérée comme trop encombrante par les cultures humaines développées, mais les humanoïdes barbares s'en servent souvent. Elle protège mieux que le cuir normal, mais elle est parfois difficile à entretenir, dégage souvent une odeur désagréable ou se montre d'apparence médiocre, ce qui la rend peu pratique. Des voleurs peuvent porter de telles armures, mais elle réduit leurs capacités.
+
+PARAMETRES :
+
++5% de résistance aux dégâts tranchants
++5% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
+
++25% de chance de rater un sort
+
+-25% Vol à la tire
+-20% Crochetage
+-20% Détection des pièges
+-20% Déplacements silencieux
+-15% Cacher dans l'ombre
+
+Classe d'armure : 6
+Poids : 40
+Force nécessaire : 6
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+large
+--------
+Le pavois est un bouclier massif en métal ou en bois couvrant le guerrier pratiquement du menton jusqu'aux doigts de pied. Il doit être bien attaché sur l'avant-bras et maintenu solidement. Naturellement, la main prise ne peut servir qu'à maintenir le pavois en place. 
+
+PARAMETRES :
+
+Classe d'armure : +2
+Bonus à la CA contre les projectiles : +2 
+-10% à la vitesse de déplacement
+-1 à la dextérité
+Poids : 15
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT09
+--------
+Cette armure de cuir est légère, souple et agréable à porter.
+
+PARAMETRES :
+
++15% de chance de rater un sort
+
+Classe d'armure : 8
+Poids : 15
+Force nécessaire : 3
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT12
+--------
+Cette armure de cuir est légère, souple et agréable à porter.
+
+PARAMETRES :
+
++15% de chance de rater un sort
+
+Classe d'armure : 8
+Poids : 15
+Force nécessaire : 3
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT13
+--------
+Cette armure de cuir est légère, souple et agréable à porter.
+
+PARAMETRES :
+
++15% de chance de rater un sort
+
+Classe d'armure : 8
+Poids : 15
+Force nécessaire : 3
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT14
+--------
+Cette armure de cuir est légère, souple et agréable à porter.
+
+PARAMETRES :
+
+Classe d'armure : 8
+Poids : 15
+Force nécessaire : 3
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT21
+--------
+Cette armure de cuir est légère, souple et agréable à porter.
+
+PARAMETRES :
+
+Classe d'armure : 8
+Poids : 15
+Force nécessaire : 3
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT22
+--------
+Cette armure de cuir est légère, souple et agréable à porter.
+
+PARAMETRES :
+
++15% de chance de rater un sort
+
+Classe d'armure : 8
+Poids : 15
+Force nécessaire : 3
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+leather
+--------
+En dépit de la croyance populaire, l'armure de cuir n'est pas aussi souple que le cuir utilisé pour fabriquer les bottes de rôdeur ou une robe de Druidee, et n'offre pas de meilleure protection que les vêtements traditionnels.
+
+PARAMETRES :
+
++15% de chance de rater un sort
+
+Classe d'armure : 8
+Poids : 15
+Force nécessaire : 4
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+medium
+--------
+L'écu se porte comme la rondache. Mais contrairement à la rondache, son poids ne permet pas au combattant de porter autre chose. Les écus sont généralement fabriqués en métal, mesurent entre 90 cm et 1,20 m de diamètre et peuvent avoir n'importe quelle forme (carrée, ronde ou comme les ailes déployées d'un dragon). Un bouclier médiéval typique ressemble à un triangle dont un des angles pointerait vers le bas. 
+
+PARAMETRES :
+
+Classe d'armure : +1
+Bonus à la CA contre les projectiles : +1 
+Poids : 7
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+plate
+--------
+L'armure de plates est une combinaison de cottes de mailles et de plaques métalliques recouvrant les zones vitales telles que le torse, l'abdomen et l'aine. De fabrication semblable à l'armure de plates en bronze, la véritable armure de plates est constituée de mailles et de cuir. 
+
+PARAMETRES :
+
++20% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++15% de résistance aux projectiles
+
+-5 à la dextérité
+-20% à la vitesse de déplacement
++50% de chance de rater un sort
+
+-75% Vol à la tire
+-45% Crochetage
+-45% Détection des pièges
+-80% Déplacements silencieux
+-70% Cacher dans l'ombre
+
+Classe d'armure : 3
+Poids : 50
+Force nécessaire : 12
+Inutilisable par :
+ Barde 
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHARARM
+--------
+Une cotte de mailles est faite d'anneaux de métal liés les uns aux autres. On la porte sur un rembourrage de tissu ou de cuir souple pour éviter d'irriter la peau et pour amortir les impacts. 
+
+PARAMETRES :
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux projectiles
+
++35% de chance de rater un sort
+
+-35% Vol à la tire
+-20% Crochetage
+-20% Détection des pièges
+-40% Déplacements silencieux
+-30% Cacher dans l'ombre
+
+Classe d'armure : 5
+Poids : 40
+Force nécessaire : 8
+Inutilisable par :
+ Druide 
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD19
+--------
+Le pavois est un bouclier massif en métal ou en bois couvrant le guerrier pratiquement du menton jusqu'aux doigts de pied. Il doit être bien attaché sur l'avant-bras et maintenu solidement. Naturellement, la main prise ne peut servir qu'à maintenir le pavois en place. Ce bouclier est étrangement méger pour sa taille.
+
+PARAMETRES :
+
+Classe d'armure : +4
+Bonus à la CA contre les projectiles : +2 
+Poids : 15
+Force nécessaire : 10
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD30
+--------
+Le pavois est un bouclier massif en métal ou en bois couvrant le guerrier pratiquement du menton jusqu'aux doigts de pied. Il doit être bien attaché sur l'avant-bras et maintenu solidement. Naturellement, la main prise ne peut servir qu'à maintenir le pavois en place. Ce bouclier est étrangement méger pour sa taille.
+
+PARAMETRES :
+
+Classe d'armure : +4
+Bonus à la CA contre les projectiles : +2
+Poids : 15
+Force nécessaire : 10
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+small
+--------
+La rondache est généralement ronde et se tient au bout du bras par la poignée. Comme elle est légère comparée à un écu, le combattant peut porter d'autres objets dans la même main, mais ne peut manier ou porter une autre arme. 
+
+PARAMETRES :
+
+Classe d'armure : +1
+Poids : 3
+Force nécessaire : 4
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+splint
+--------
+L'armure feuilletée est une variante de l'armure à bandes. Elle comporte des bandes métalliques appliquées verticalement au renforcement des mailles, du cuir et du tissu, plutôt qu'horizontalement comme dans l'armure à bandes. Comme le corps humain ne pivote pas au niveau du torse autant qu'il peut se courber en avant, l'armure feuilletée limite les mouvements lors des combats. 
+
+PARAMETRES :
+
++15% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux projectiles
+
+-4 à la dextérité
+-20% à la vitesse de déplacement
++40% de chance de rater un sort
+
+-50% Vol à la tire
+-20% Crochetage
+-20% Détection des pièges
+-55% Déplacements silencieux
+-40% Cacher dans l'ombre
+
+Classe d'armure : 4
+Poids : 40
+Force nécessaire : 8
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+studded
+--------
+La besantine a peu de choses en commun avec une armure de cuir normale. L'armure de cuir est une protection renforcée, la besantine est souple et comporte des centaines de rivets. Ces derniers sont tellement rapprochés qu'ils forment une couche flexible de métal dur qui permet de contrer toute attaque cinglante et tranchante. Le renforcement de cuir souple n'est rien de plus qu'un moyen de maintenir les rivets en place. 
+
+PARAMETRES :
+
++5% de résistance aux dégâts tranchants
+
+-2 à la dextérité
++20% de chance de rater un sort
+
+-15% Vol à la tire
+-10% Crochetage
+-10% Détection des pièges
+-10% Déplacements silencieux
+-5% Cacher dans l'ombre
+
+Classe d'armure : 7
+Poids : 25
+Force nécessaire : 6
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Justicier
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+TAMCHAIN
+--------
+Une cotte de mailles est faite d'anneaux de métal liés les uns aux autres. On la porte sur un rembourrage de tissu ou de cuir souple pour éviter d'irriter la peau et pour amortir les impacts. 
+
+PARAMETRES :
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux projectiles
+
++35% de chance de rater un sort
+
+-35% Vol à la tire
+-20% Crochetage
+-20% Détection des pièges
+-40% Déplacements silencieux
+-30% Cacher dans l'ombre
+
+Classe d'armure : 5
+Poids : 40
+Force nécessaire : 8
+Inutilisable par :
+ Druide 
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o

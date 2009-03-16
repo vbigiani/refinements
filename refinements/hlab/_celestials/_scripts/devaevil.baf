@@ -1,0 +1,281 @@
+IF
+  Die()
+THEN
+  RESPONSE #100
+    CreateVisualEffectObject("SPHOLY",Myself)
+    DestroySelf()
+END
+
+IF
+  HotKey(K)
+  Global("scriptoff","locals",0)
+THEN
+  RESPONSE #100
+    SetGlobal("scriptoff","locals",1)
+    DisplayStringHead(Myself,@1)
+END
+
+IF
+  HotKey(K)
+  Global("scriptoff","locals",1)
+THEN
+  RESPONSE #100
+    SetGlobal("scriptoff","locals",0)
+    DisplayStringHead(Myself,@2)
+END
+
+IF
+  Global("scriptoff","locals",1)
+THEN
+  RESPONSE #100
+END
+
+IF
+  Global("Init","locals",0)
+THEN
+  RESPONSE #100
+    SetGlobal("init","locals",1)
+    SetGlobalTimer("action_interruptible","locals",1)
+    Continue()
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  HaveSpellRES("tg#rc16")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SpellRES("tg#rc16",Myself)  // ~Blade Barrier~
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  !GlobalTimerNotExpired("rem_fear","locals")
+  See([ANYONE])
+  StateCheck(LastSeenBy(Myself),STATE_PANIC)
+  OR(2)
+    Allegiance(Myself,GOODCUTOFF)
+    Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  OR(2)
+    Allegiance(Myself,EVILCUTOFF)
+    Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  HaveSpellRES("tg#rc05") //remove fear
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SetGlobalTimer("rem_fear","locals",THREE_ROUNDS)
+    SpellRES("tg#rc05",LastSeenBy(Myself))
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  OR(2)
+    !Exists(LastAttackerOf(Myself))
+    !See(LastAttackerOf(Myself))
+  OR(4)
+    !Exists(NearestEnemyOf(Myself))
+    !Class(NearestEnemyOf(Myself),LONG_BOW)
+    !Class(NearestEnemyOf(Myself),SORCERER)
+    !See(NearestEnemyOf(Myself))
+  OR(4)
+    !Exists(SecondNearestEnemyOf(Myself))
+    !Class(SecondNearestEnemyOf(Myself),LONG_BOW)
+    !Class(SecondNearestEnemyOf(Myself),SORCERER)
+    !See(SecondNearestEnemyOf(Myself))
+  OR(4)
+    !Exists(NearestEnemyOf(Myself))
+    !Class(NearestEnemyOf(Myself),CLERIC_ALL)
+    !Class(NearestEnemyOf(Myself),DRUID_ALL)
+    !See(NearestEnemyOf(Myself))
+  OR(4)
+    !Exists(SecondNearestEnemyOf(Myself))
+    !Class(SecondNearestEnemyOf(Myself),CLERIC_ALL)
+    !Class(SecondNearestEnemyOf(Myself),DRUID_ALL)
+    !See(SecondNearestEnemyOf(Myself))
+  See(NearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  OR(2)
+    Allegiance(Myself,GOODCUTOFF)
+    Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  OR(2)
+    Allegiance(Myself,EVILCUTOFF)
+    !Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  ActionListEmpty()
+  GlobalTimerExpired("action_interruptible","locals")
+  GlobalTimerNotExpired("cast","locals")
+  CheckStatLT(LastSeenBy(Myself),2,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("action_interruptible","locals",1)
+    AttackOneRound(LastSeenBy(Myself))
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  Global("doom","locals",0)
+  HaveSpellRES("tg#rc19")
+  CheckStatLT(LastSeenBy(Myself),6,SAVEVSSPELL)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SetGlobal("doom","locals",1)
+    SpellRES("tg#rc19",LastSeenBy(Myself))  // ~Doom~
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  HaveSpellRES("tg#rc25")
+  CheckStatGT(LastSeenBy(Myself),5,SAVEVSSPELL)
+  CheckStatLT(LastSeenBy(Myself),75,RESISTMAGIC)
+  Range(LastSeenBy(Myself),3)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SpellRES("tg#rc25",LastSeenBy(Myself))  // ~Slay Living~
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  HaveSpellRES("tg#rc26")
+  Alignment(LastSeenBy(Myself),MASK_GOOD)
+  Range(LastSeenBy(Myself),7)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SpellRES("tg#rc26",Myself)  // ~Unholy Word~
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  !GlobalTimerNotExpired("unholy","locals")
+  HaveSpellRES("tg#rc21")
+  Alignment(LastSeenBy(Myself),MASK_GOOD)
+  CheckStatLT(LastSeenBy(Myself),75,MAGICDAMAGERESISTANCE)
+  CheckStatLT(LastSeenBy(Myself),75,RESISTMAGIC)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SetGlobalTimer("unholy","locals",THREE_ROUNDS)
+    Spell(LastSeenBy(Myself),CLERIC_UNHOLY_BLIGHT)
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  Global("fear","locals",0)
+  HaveSpellRES("tg#rc23")
+  CheckStatGT(LastSeenBy(Myself),5,SAVEVSSPELL)
+  CheckStatLT(LastSeenBy(Myself),75,RESISTMAGIC)
+  Range(LastSeenBy(Myself),7)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SetGlobal("fear","locals",1)
+    SpellRES("tg#rc23",Myself)  // ~Cloak of Fear~
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  !GlobalTimerNotExpired("critical","locals")
+  HaveSpellRES("tg#rc24")
+  CheckStatLT(LastSeenBy(Myself),75,RESISTMAGIC)
+  Range(LastSeenBy(Myself),3)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SetGlobalTimer("critical","locals",THREE_ROUNDS)
+    SpellRES("tg#rc24",LastSeenBy(Myself))  // ~Cause Critical Wounds~
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  !GlobalTimerNotExpired("hold","locals")
+  HaveSpellRES("tg#rc20")
+  CheckStatGT(LastSeenBy(Myself),5,SAVEVSSPELL)
+  CheckStatLT(LastSeenBy(Myself),75,RESISTMAGIC)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SetGlobalTimer("hold","locals",TEN_ROUNDS)
+    SpellRES("tg#rc20",LastSeenBy(Myself))  // ~Hold Person~
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  HaveSpellRES("tg#rc24")
+  CheckStatLT(LastSeenBy(Myself),75,RESISTMAGIC)
+  Range(LastSeenBy(Myself),3)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SpellRES("tg#rc24",LastSeenBy(Myself))  // ~Cause Critical Wounds~
+END
+
+IF
+  OR(2)
+    ActionListEmpty()
+    GlobalTimerNotExpired("action_interruptible","locals")
+  !GlobalTimerNotExpired("cast","locals")
+  HaveSpellRES("tg#rc22")
+  CheckStatLT(LastSeenBy(Myself),75,RESISTMAGIC)
+  Range(LastSeenBy(Myself),3)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("cast","locals",ONE_ROUND)
+    SpellRES("tg#rc22",LastSeenBy(Myself))  // ~Cause Serious Wounds~
+END
+
+IF
+  ActionListEmpty()
+  GlobalTimerExpired("action_interruptible","locals")
+  GlobalTimerExpired("cast","locals")
+  CheckStatLT(LastSeenBy(Myself),2,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("action_interruptible","locals",1)
+    AttackOneRound(LastSeenBy(Myself))
+END
+

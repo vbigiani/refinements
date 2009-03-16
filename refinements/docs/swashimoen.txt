@@ -1,0 +1,76 @@
+***********************************
+** Imoen, the Swashbuckler/Mage  **
+***********************************
+
+
+Contents:
+--------
+
+1) Main effects
+2) Why and What
+3) Additional install time choices
+
+
+
+                        1) Main effects
+                        --------------
+
+This component alters Imoen's "starting files", so it takes effect when you pick her up
+in Irenicus' Dungeon, recover her in Spellhold, or summon her in ToB from the fate spirit.
+With the exception of the first case, she comes with 5 mage levels and an undone level-up,
+so you can decide to preserve that next weapon proficiency for a better future use (when
+you have enough XPs to reactivate the swashbuckler class at once).
+So, if you already surpassed that 5th level in Chapter 1, you get another chance!
+After all, she gets lobotomized, sort of :)
+
+
+
+
+                        2) Why and What
+                        --------------
+
+Why turn Imoen into a Swashbuckler/Mage?
+Because it is a more fitting type of thief for her: more charming, more stylish, and most
+importantly one that doesn't learn how to backstab (*that* would be really unfitting given
+the story of the main characters!).
+On top of this, she should be more fun to play, and slightly more useful in combat.
+What are the changes, exactly?
+
+-Starting XPs: They are now 161,000 XPs at the start (end of BG1 + TotSC.)
+ This means that she starts as a Swashbuckler - exactly at level 10 - immediately dualled
+ to a mage.
+ She won't really be much help in Irenicus' Dungeon (actually this may make it more interesting,
+ but hey, she still has Magic Missile!! :D)
+
+-She now has a CORRECT number of points in her thieving abilities. The ones she already
+ knew have been increased a little, Detect Illusion has been left at zero (well, zero means
+ zero...) The main difference is in Set Traps. She *can* now try to use them! After all, she
+ can find and disarm them so well already...
+
+-Weapon proficiencies have been left with a generic distribution. Using future mage-points,
+ she can play a "stereotypical" dual-wielding swashbuckler (sword and dagger?), or decide to
+ aim for the traditional Staff of the Magi + Short Bow combo.
+ But this time she can specialize.
+
+-When rescued at Spellhold, she'll have less XPs compared to the original game, and she
+ will have lost the spells learnt before (this also happens in the normal game).
+ Bring some scrolls ;)
+ Imoen still receives a boost in XPs, for the torture and experience she went through but not
+ as large as in the original game.
+
+
+
+
+                        3) Additional install time choices
+                        --------------
+
+-Wether you have installed the revised HLA component or not, you'll be greeted with two choices:
+ "SwashImoen", full revision (suggested), "SwashImoen", simple kit change (undocumented) and
+ "SwashImoen", points in Detect Illusions rather than Set Traps.
+ The first choice is the one documented here, while the second one, as the title suggests,
+ changes her starting class from Thief(6)/Mage(x) to Swashbuckler(6)/Mage(x) without altering
+ her starting levels, thieving points distribution or other statistics.
+ The third one is the one documented here, except that she puts 60 ponts in Detect Illusions, rather
+ than in Set Traps.
+
+

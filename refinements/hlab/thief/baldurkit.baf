@@ -1,0 +1,24 @@
+// script to be appended to baldur*.bcs for every kit.
+
+/////////////////////////////////////////////////////////////
+// Use Scrolls madness by Littiz :D
+// Scripts to "free" characters dualled to mage from
+// scrolls restrictions, + additional cases for multiclasses
+// and such.
+
+IF
+	Kit(Player%i%,%oldKit%)
+	Class(Player%i%,MAGE)
+THEN
+	RESPONSE #100
+		ActionOverride(Player%i%,AddKit(%oldKit%tF))
+END
+IF
+	OR(2)
+		Kit(Player%i%,%oldKit%)
+		Kit(Player%i%,%oldKit%tF)
+	Class(Player%i%,%oldClass%)
+THEN
+	RESPONSE #100
+		ActionOverride(Player%i%,AddKit(%oldKit%tw))
+END

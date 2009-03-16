@@ -1,0 +1,4 @@
+buckler 16303 shld08
+small   6818  shld01
+medium  6819  shld03
+large   6820  shld05

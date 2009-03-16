@@ -1,0 +1,304 @@
+Follows a detailed stats' listing of the Revised Celestials.
+Notes:
+
+-The revised Celestials also use the spells:
+ CA#KNAL.SPL [Know Alignment]
+ CA#TWOE.SPL [Teleport Without Error]
+ ...originally made by Caedwyr for the revised Elemental Princes. 
+ CA#TWOE.SPL is revised for the visual part.
+
+-Spell listing is limited to Innate Powers: it doesn't include regular spells.
+
+
+
+1.: DEVA (devagood.cre)
+General: Humanoid
+Race: Planetar
+Class: Fighter
+Racial Enemy: Demonic
+Level: 25
+Hit Dice: (HPs): 25D8, 140 HPs
+THAC0: 4
+AC: -6
+Attacks/round: 2
+XP value: 15.000
+Ability scores:
+STR: 17, DEX: 19, CON: 17, INT: 19, WIS: 16, CHA: 20
+Resistances:
+Magic: 45%, Fire: 100%, Cold: 100%, Electricity: 100%, Magical Fire: 50%, Magical Cold: 100%, Physical: 10%, Poison: 100%
+Effects:
+- Immune to Petrification, Polymorph, Instant Death and Slay effects, Level Drain, Charm, Backstabs, Poison.
+- Immune to +1 and normal weapons.
+- Sees invisible creatures.
+- Permanent Protection from Evil (+2 AC and save bonus vs. evil creatures)
+- Regenerates 1 HP/second.
+- Walks at 150% of the normal movement rate.
+- Protected from Critical Hits.
+- Mastery in Maces.
+Weapons:
+- TG#DEVAG: +3 mace with all the powers of a Mace of Disruption, uncounsciousness on hit for 3 rounds (save vs. spells to avoid), 25% to dispel magic on hit.
+Innate powers:
+- Bless (at will)
+- Cure Light Wounds (5/day)
+- Detect Evil (at will)
+- Aid (at will)
+- Remove Fear (at will)
+- Find Traps (3/day)
+- Know Alignment (at will)
+- Dispel Magic (3/day)
+- Remove Paralysis (at will)
+- Cure Medium Wounds (3/day)
+- Cure Disease (at will)
+- Cure Serious Wounds (2/day)
+- Lesser Restoration (1/day)
+- Cure Critical Wounds (1/day)
+- Blade Barrier (1/day)
+- Raise Dead (1/day)
+- Holy Word (1/day)
+- Teleport Without Error (at will)
+
+
+
+2.: FALLEN DEVA (devaevil.cre)
+General: Humanoid
+Race: Fallen Planetar
+Class: Fighter
+Racial Enemy: Planetar
+Level: 25
+Hit Dice: (HPs): 25D8, 135 HPs
+THAC0: 2
+AC: -4
+Attacks/round: 2
+XP value: 15.000
+Ability scores:
+STR: 18, DEX: 19, CON: 17, INT: 19, WIS: 15, CHA: 20
+Resistances:
+Magic: 40%, Fire: 100%, Cold: 100%, Electricity: 100%, Magical Fire: 50%, Magical Cold: 100%, Physical: 15%, Poison: 100%
+Effects:
+- Immune to Petrification, Polymorph, Instant Death and Slay effects, Charm, Backstabs, Poison.
+- Immune to +1 and normal weapons.
+- Sees invisible creatures.
+- Permanent Protection from Good (+2 AC and save bonus vs. evil creatures)
+- Regenerates 1 HP/second.
+- Walks at 150% of the normal movement rate.
+- Protected from Critical Hits.
+- Mastery in Bastard Swords.
+Weapons:
+TG#DEVAE: +3 bastard sword, 50% for additional 5D6 Fire damage on hit (save vs. spell to avoid), 25% to dispel magic on hit.
+Innate powers:
+- Remove Fear (at will)
+- Doom (at will)
+- Find Traps (3/day)
+- Know Alignment (at will)
+- Dispel Magic (3/day)
+- Cause Serious Wounds (at will)
+- Cloak of Fear (at will)
+- Cause Critical Wounds (3/day)
+- Blade Barrier (1/day)
+- Unholy Word (1/day)
+- Hold Person (1/day)
+- Slay Living (1/day)
+- Teleport Without Error (at will)
+
+
+
+3.:PLANETAR (plangood.cre)
+General: Humanoid
+Race: Planetar
+Class: Fighter-Cleric
+Racial Enemy: Demonic
+Level: 25-13
+Hit Dice: (HPs): 25D10, 165 HPs
+THAC0: 3
+AC: -7
+Attacks/round: 3
+XP value: 20.000
+Ability scores:
+STR: 19, DEX: 19, CON: 18, INT: 18, WIS: 21, CHA: 21
+Resistances:
+Magic: 65%, Fire: 100%, Cold: 100%, Electricity: 100%, Magical Fire: 50%, Magical Cold: 100%, Physical: 20%, Poison: 100%
+Effects:
+- Immune to Petrification, Polymorph, Instant Death and Slay effects, Level Drain, Charm, Confusion/Rigid Thinking/Fear, Feeblemindedness, Maze, Imprisonment, Backstabs, Poison.
+- Immune to +2 weapons and less.
+- Sees invisible creatures.
+- Permanent Protection from Evil (+2 AC and save bonus vs. evil creatures)
+- Regenerates 2 HP/second.
+- Walks at 175% of the normal movement rate.
+- Protected from Critical Hits.
+- Grand Mastery in 2-handed swords
+- Turn Undead as a 13th level Cleric.
+- Has major access to all clerical spheres and can cast spells as a 13th level Cleric.
+Weapons:
+- TG#PLANG: +3 great sword with all the powers of a Silver Sword, 25% to dispel magic on hit.
+Innate powers:
+- Bless (at will)
+- Detect Evil (at will)
+- Aid (at will)
+- Remove Fear (at will)
+- Find Traps (5/day)
+- Know Alignment (at will)
+- Dispel Magic (5/day)
+- Remove Paralysis (at will)
+- Cure Disease (at will)
+- Cure Serious Wounds (3/day)
+- Remove Curse (1/day)
+- Greater Restoration (1/day)
+- Blade Barrier (3/day)
+- Raise Dead (3/day)
+- True Seeing (3/day)
+- Heal (1/day)
+- Holy Word (1/day)
+- Teleport Without Error (at will)
+
+
+
+4.: FALLEN PLANETAR (planevil.cre)
+General: Humanoid
+Race: Fallen Planetar
+Class: Fighter-Cleric
+Racial Enemy: Planetar
+Level: 25-13
+Hit Dice: (HPs): 25D10, 160 HPs
+THAC0: 1
+AC: -5
+Attacks/round: 3
+XP value: 20.000
+Ability scores:
+STR: 20, DEX: 18, CON: 18, INT: 18, WIS: 20, CHA: 20
+Resistances:
+Magic: 55%, Fire: 100%, Cold: 100%, Electricity: 100%, Magical Fire: 50%, Magical Cold: 100%, Physical: 25%, Poison: 100%
+Effects:
+- Immune to Petrification, Polymorph, Instant Death and Slay effects, Charm, Confusion/Rigid Thinking/Fear, Feeblemindedness, Maze, Imprisonment, Backstabs, Poison.
+- Immune to +2 and normal weapons.
+- Sees invisible creatures.
+- Permanent Protection from Good (+2 AC and save bonus vs. evil creatures)
+- Regenerates 2 HP/second.
+- Walks at 175% of the normal movement rate.
+- Protected from Critical Hits.
+- Mastery in 2-handed Swords.
+- Turn Undead as 13th level Cleric.
+- Has major access to all clerical spheres and can cast spells as a 13th level Cleric.
+Weapons:
+TG#PLANG: +3 great sword with all the powers of a Silver Sword, 25% to dispel magic on hit.
+Innate powers:
+- Remove Fear (at will)
+- Doom (at will)
+- Find Traps (at will)
+- Know Alignment (at will)
+- Dispel Magic (5/day)
+- Cloak of Fear (at will)
+- Cause Critical Wounds (at will)
+- Blade Barrier (3/day)
+- Unholy Word (1/day)
+- Hold Person (5/day)
+- Slay Living (3/day)
+- True Seeing (3/day)
+- Symbol: Death (1/day)
+- Teleport Without Error (at will)
+
+
+
+5.: SOLAR (TG#SOL1.cre)
+General: Humanoid
+Race: Solar
+Class: Fighter-Cleric
+Racial Enemy: Demonic
+Level: 30-20
+Hit Dice: (HPs): 30D10, 215 HPs
+THAC0: 1
+AC: -10
+Attacks/round: 7/2
+XP value: 25.000
+Ability scores:
+STR: 21, DEX: 20, CON: 20, INT: 20, WIS: 22, CHA: 22
+Resistances:
+Magic: 80%, Fire: 100%, Cold: 100%, Electricity: 100%, Magical Fire: 100%, Magical Cold: 100%, Physical: 30%, Poison: 100%
+Effects:
+- Immune to Petrification, Polymorph, Instant Death and Slay effects, Level Drain, Charm, Berserking, Horror, Disease, Hold, Timestop, Confusion/Rigid Thinking/Fear, Feeblemindedness, Maze, Imprisonment, Backstabs, Poison.
+- Immune to +3 weapons and less.
+- Sees invisible creatures.
+- Permanent Protection from Evil (+2 AC and save bonus vs. evil creatures)
+- Regenerates 3 HP/second.
+- -3 to spellcasting speed.
+- permanent Holy Aura (uses the paladin HLA)
+- Walks at 200% of the normal movement rate.
+- Protected from Critical Hits.
+- Grand Mastery in 2-handed swords and long bows.
+- Turn Undead as a 20th level Cleric.
+- Has major access to all clerical spheres and can cast spells as a 20th level Cleric.
+Weapons:
+- TG#SOLG: +5 great sword with all the powers of a Mace of Disrption and a Silver Sword, dispels magic on hit.
+- TG#SOLB: +5 long bow, 8D6 magic damage (save vs. spells for half), 25% to slay the target (save vs. spells at -2 to avoid), dispels magic on hit.
+Innate powers:
+- Bless (at will)
+- Detect Evil (at will)
+- Aid (at will)
+- Remove Fear (at will)
+- Find Traps (at will)
+- Know Alignment (at will)
+- Dispel Magic (at will)
+- Remove Paralysis (at will)
+- Cure Disease (at will)
+- Cure Critical Wounds (at will)
+- Remove Curse (3/day)
+- Greater Restoration (3/day)
+- Blade Barrier (5/day)
+- Raise Dead (at will)
+- True Seeing (at will)
+- Heal (3/day)
+- Holy Word (3/day)
+- Resurrection (1/day)
+- Globe of Blades (1/day)
+- Summon Deva (1/day)
+- Teleport Without Error (at will)
+
+
+
+5.: FALLEN SOLAR (TG#SOL2.cre)
+General: Humanoid
+Race: Fallen Solar
+Class: Fighter-Cleric
+Racial Enemy: Solar
+Level: 30-20
+Hit Dice: (HPs): 30D10, 205 HPs
+THAC0: -1
+AC: -8
+Attacks/round: 4
+XP value: 25.000
+Ability scores:
+STR: 22, DEX: 19, CON: 20, INT: 20, WIS: 21, CHA: 21
+Resistances:
+Magic: 70%, Fire: 100%, Cold: 100%, Electricity: 100%, Magical Fire: 100%, Magical Cold: 100%, Physical: 35%, Poison: 100%
+Effects:
+- Immune to Petrification, Polymorph, Instant Death and Slay effects, Charm, Berserking, Horror, Disease, Hold, Timestop, Confusion/Rigid Thinking/Fear, Feeblemindedness, Maze, Imprisonment, Backstabs, Poison.
+- Immune to +3 and normal weapons.
+- Sees invisible creatures.
+- Permanent Protection from Good (+2 AC and save bonus vs. evil creatures)
+- Regenerates 3 HP/second.
+- -3 to spellcasting speed.
+- Aura of Flaming Death.
+- Walks at 200% of the normal movement rate.
+- Protected from Critical Hits.
+- Mastery in 2-handed Swords and long bows.
+- Turn Undead as 20th level Cleric.
+- Has major access to all clerical spheres and can cast spells as a 20th level Cleric.
+Weapons:
+- TG#SOLE: +5 great sword with all the powers of a Silver Sword, 50% chance for 5D6 Fire damage on hit (save vs. spells to avoid), dispels magic on hit.
+- TG#SOLB: +5 long bow, 8D6 magic damage (save vs. spells for half), 25% to slay the target (save vs. spells at -2 to avoid), dispels magic on hit.
+Innate powers:
+- Remove Fear (at will)
+- Doom (at will)
+- Find Traps (at will)
+- Know Alignment (at will)
+- Dispel Magic (at will)
+- Cloak of Fear (at will)
+- Cause Critical Wounds (at will)
+- Blade Barrier (5/day)
+- Unholy Word (3/day)
+- Hold Person (at will)
+- Slay Living (5/day)
+- True Seeing (at will)
+- Symbol: Death (3/day)
+- Summon Fallen Deva (1/day)
+- Aura of Flaming Death (1/day)
+- Teleport Without Error (at will)

@@ -1,0 +1,2048 @@
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+
+IF
+CheckStat(LastSummonerOf(Myself),30000,HATEDRACE)
+THEN
+RESPONSE #100
+ActionOverride(LastSummonerOf(Myself),ApplySpellRES("tb#hr30000",Myself))
+DestroySelf()
+END
+

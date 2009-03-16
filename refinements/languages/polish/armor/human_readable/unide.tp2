@@ -1,0 +1,669 @@
+buckler
+--------
+Puklerz jest bardzo ma³¹ tarcz¹ wykonan¹ z drewna lub ¿elaza, któr¹ mocuje siê do przedramienia. Z powodu swojego rozmiaru jest bardzo lekki i praktycznie nie spowalnia ruchów.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ Nie chroni przed obra¿eniami obuchowymi i pociskami
+Waga: 2
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2LEAT01
+--------
+Zbroja skórzana, wbrew obiegowym opiniom, nie jest miêkka i elastyczna, jak skóra s³u¿¹ca do wyrobu butów ³owcy czy szaty druida. Taki rodzaj materii nie daje lepszej ochrony przed atakami ni¿ zwyk³e ubranie.
+
+PARAMETRY:
+
+Klasa Pancerza: 8
+Waga: 15
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+chain
+--------
+Kolczuga jest wykonana z przeplataj¹cych siê metalowych kó³eczek. Zawsze nak³ada siê j¹ na kubrak z pikowanego materia³u; ma to zapobiec bolesnym otarciom i z³agodziæ si³ê ciosów.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 5%
+
+Mobilnoœæ:
+ zrêcznoœæ -3
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru 35%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -20%
+ szukanie pu³apek -20%
+ ciche chodzenie -40%
+ krycie siê w cieniu -30%
+
+Waga: 40
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN07
+--------
+Kolczuga jest wykonana z przeplataj¹cych siê metalowych kó³eczek. Zawsze nak³ada siê j¹ na kubrak z pikowanego materia³u; ma to zapobiec bolesnym otarciom i z³agodziæ si³ê ciosów.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 5%
+
+Mobilnoœæ:
+ zrêcznoœæ -3
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru 35%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -20%
+ szukanie pu³apek -20%
+ ciche chodzenie -40%
+ krycie siê w cieniu -30%
+
+Waga: 40
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN09
+--------
+Kolczuga jest wykonana z przeplataj¹cych siê metalowych kó³eczek. Zawsze nak³ada siê j¹ na kubrak z pikowanego materia³u; ma to zapobiec bolesnym otarciom i z³agodziæ si³ê ciosów.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 5%
+
+Mobilnoœæ:
+ zrêcznoœæ -3
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru 35%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -20%
+ szukanie pu³apek -20%
+ ciche chodzenie -40%
+ krycie siê w cieniu -30%
+Waga: 40
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN10
+--------
+Kolczuga jest wykonana z przeplataj¹cych siê metalowych kó³eczek. Zawsze nak³ada siê j¹ na kubrak z pikowanego materia³u; ma to zapobiec bolesnym otarciom i z³agodziæ si³ê ciosów.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 5%
+
+Mobilnoœæ:
+ zrêcznoœæ -3
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru 35%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -20%
+ szukanie pu³apek -20%
+ ciche chodzenie -40%
+ krycie siê w cieniu -30%
+
+Waga: 40
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN11
+--------
+Kolczuga jest wykonana z przeplataj¹cych siê metalowych kó³eczek. Zawsze nak³ada siê j¹ na kubrak z pikowanego materia³u; ma to zapobiec bolesnym otarciom i z³agodziæ si³ê ciosów.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 5%
+
+Mobilnoœæ:
+ zrêcznoœæ -3
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru 35%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -20%
+ szukanie pu³apek -20%
+ ciche chodzenie -40%
+ krycie siê w cieniu -30%
+
+Waga: 40
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWCHAN01
+--------
+Kolczuga drowów
+Delikatne, aczkolwiek wytrzyma³e rzemios³o elfów pozwala im tworzyæ wiele piêknych, a mimo to u¿ytecznych przedmiotów. Wœród nich s¹ kolczugi splecione tak misternie, ¿e mo¿na nosiæ je pod zwyk³ym ubraniem nie ujawniaj¹c ich obecnoœci. To oraz ich lekkoœæ pozwala nosiæ je z³odziejom oraz wojownikom/magom z niewieloma ograniczeniami.
+Ten przedmiot, podobnie jak wiêkszoœæ ekwipunku mrocznych elfów, stworzony zosta³ za pomoc¹ adamantyny, stopu adamantytu, który szybko zmienia siê w py³, gdy wyniesie siê go z Podmroku.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ kradzie¿ kieszonkowa -10%
+ otwieranie zamków -5%
+ szukanie pu³apek -5%
+
+Waga: 12
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWCHAN02
+--------
+Kolczuga drowów
+Delikatne, aczkolwiek wytrzyma³e rzemios³o elfów pozwala im tworzyæ wiele piêknych, a mimo to u¿ytecznych przedmiotów. Wœród nich s¹ kolczugi splecione tak misternie, ¿e mo¿na nosiæ je pod zwyk³ym ubraniem nie ujawniaj¹c ich obecnoœci. To oraz ich lekkoœæ pozwala nosiæ je z³odziejom oraz wojownikom/magom z niewieloma ograniczeniami.
+Ten przedmiot, podobnie jak wiêkszoœæ ekwipunku mrocznych elfów, stworzony zosta³ za pomoc¹ adamantyny, stopu adamantytu, który szybko zmienia siê w py³, gdy wyniesie siê go z Podmroku.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ kradzie¿ kieszonkowa -10%
+ otwieranie zamków -5%
+ szukanie pu³apek -5%
+
+Waga: 12
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWSHLD01
+--------
+Tarcza Drowów 
+Œredni¹ tarczê nosi siê w ten sam sposób jak ma³¹. Jednak¿e w przeciwieñstwie do tej drugiej, jej waga uniemo¿liwia postaci u¿ywanie d³oni, w której jest trzymana, do czegokolwiek innego ni¿ noszenie tarczy. S¹ one przewa¿nie wykonane z metalu, ich œrednice wahaj¹ siê od 1 do 1,3 m, a kszta³ty maj¹ przeró¿ne - od okr¹g³ych przez kwadratowe a¿ do rozpostartych skrzyde³ smoka. Typowa œredniowieczna tarcza przypomina trójk¹t, którego jeden z wierzcho³ków celuje w dó³.
+Ten przedmiot, podobnie jak wiêkszoœæ ekwipunku mrocznych elfów, stworzony zosta³ za pomoc¹ adamantyny, stopu adamantytu, który szybko zmienia siê w py³, gdy wyniesie siê go z Podmroku.
+
+PARAMETRY:
+
+Klasa Pancerza: +1, +2 przeciwko pociskom
+Waga: 7
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+elvenc
+--------
+Delikatne, a mimo to wytrzyma³e rzemios³o Elfów pozwala im na projektowanie piêknych i po¿ytecznych wyrobów. Wœród nich jest elfia kolczuga, wykonana tak doskonale, ¿e mo¿na ja nosiæ niewidoczn¹ pod ubraniem. To i jej lekkoœæ pozwala by nosili j¹ z³odzieje i wojownicy/magowie z niewieloma ograniczeniami.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 5%
+
+Waga: 7
+Wymagana si³a: 5
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+full
+--------
+Najlepsza (i najciê¿sza) zbroja, jak¹ wojownik mo¿e zdobyæ - zarówno pod wzglêdem wygl¹du, jak i ochrony, któr¹ zapewnia. Jej znakomicie dopasowane, po³¹czone elementy z litego metalu s¹ specjalnie modelowane, by jak najlepiej odbija³y tak uderzenia broni ró¿nego typu, jak i strza³y. Zwykle zbroja tego rodzaju jest bogato zdobiona - artystycznie grawerowana i upiêkszana ró¿nymi dodatkami.
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Ochrona przed obra¿eniami:
+ sieczne 30%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 30%
+
+Mobilnoœæ:
+ zrêcznoœæ -6
+ prêdkoœæ ruchu -30%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -50%
+ kradzie¿ kieszonkowa -95%
+ otwieranie zamków -65%
+ szukanie pu³apek -65%
+ ciche chodzenie -95%
+ krycie siê w cieniu -90%
+
+Waga: 70
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+hide
+--------
+Zbroja skórzana gruba (futro) jest wykonana ze skóry bardzo du¿ego zwierzêcia (na przyk³ad s³onia) lub z wielu warstw skóry zwyk³ych zwierz¹t, takich jak krowy. Zbroja ta jest zbyt ciê¿ka, sztywna i niewygodna, by by³a u¿ywana przez bardziej rozwiniête cywilizacyjnie spo³ecznoœci. Jest bardzo powszechna wœród licznych barbarzyñskich humanoidów z posêpnych puszcz i mglistych d¿ungli tego œwiata. Mimo i¿ daje ona lepsz¹ ochronê ni¿ zwyk³a zbroja skórzana, nosz¹cy j¹ musi siê pogodziæ z jej nieprzyjemnym zapachem i prymitywnym wygl¹dem. Z³odzieje mog¹ u¿ywaæ tej zbroi, jednak obni¿a to ich profesjonalne umiejêtnoœci.
+
+PARAMETRY:
+
+Klasa Pancerza: 6
+Ochrona przed obra¿eniami:
+ sieczne 5%
+ k³ute 5%
+ obuchowe 5%
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -25%
+ kradzie¿ kieszonkowa -25%
+ otwieranie zamków -20%
+ szukanie pu³apek -20%
+ ciche chodzenie -20%
+ krycie siê w cieniu -15%
+
+Waga: 40
+Wymagana si³a: 6
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+large
+--------
+Jest to masywna, metalowa lub drewniana tarcza, siêgaj¹ca od ziemi a¿ do podbródka wojownika. Musi byæ solidnie przymocowana do przedramienia i ca³y czas przytrzymywana, co oznacza, ¿e w rêce, na której opiera siê tarcza nie mo¿na trzymaæ niczego innego.
+
+PARAMETRY:
+
+Klasa Pancerza: +2, +4 przeciwko pociskom
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+ prêdkoœæ ruchu -10%
+
+Waga: 15
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Mag
+ Druid
+ Bard
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT09
+--------
+Zbroja skórzana, wbrew obiegowym opiniom, nie jest miêkka i elastyczna, jak skóra s³u¿¹ca do wyrobu butów ³owcy czy szaty druida. Taki rodzaj materii nie daje lepszej ochrony przed atakami ni¿ zwyk³e ubranie.
+
+PARAMETRY:
+
+Klasa Pancerza: 8
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -15%
+
+Waga: 15
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT12
+--------
+Zbroja skórzana, wbrew obiegowym opiniom, nie jest miêkka i elastyczna, jak skóra s³u¿¹ca do wyrobu butów ³owcy czy szaty druida. Taki rodzaj materii nie daje lepszej ochrony przed atakami ni¿ zwyk³e ubranie.
+
+PARAMETRY:
+
+Klasa Pancerza: 8
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -15%
+
+Waga: 15
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT13
+--------
+Zbroja skórzana, wbrew obiegowym opiniom, nie jest miêkka i elastyczna, jak skóra s³u¿¹ca do wyrobu butów ³owcy czy szaty druida. Taki rodzaj materii nie daje lepszej ochrony przed atakami ni¿ zwyk³e ubranie.
+
+PARAMETRY:
+
+Klasa Pancerza: 8
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -15%
+
+Waga: 15
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT14
+--------
+Zbroja skórzana, wbrew obiegowym opiniom, nie jest miêkka i elastyczna, jak skóra s³u¿¹ca do wyrobu butów ³owcy czy szaty druida. Taki rodzaj materii nie daje lepszej ochrony przed atakami ni¿ zwyk³e ubranie.
+
+PARAMETRY:
+
+Klasa Pancerza: 8
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -15%
+
+Waga: 15
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT21
+--------
+Zbroja skórzana, wbrew obiegowym opiniom, nie jest miêkka i elastyczna, jak skóra s³u¿¹ca do wyrobu butów ³owcy czy szaty druida. Taki rodzaj materii nie daje lepszej ochrony przed atakami ni¿ zwyk³e ubranie.
+
+PARAMETRY:
+
+Klasa Pancerza: 8
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -15%
+
+Waga: 15
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT22
+--------
+Zbroja skórzana, wbrew obiegowym opiniom, nie jest miêkka i elastyczna, jak skóra s³u¿¹ca do wyrobu butów ³owcy czy szaty druida. Taki rodzaj materii nie daje lepszej ochrony przed atakami ni¿ zwyk³e ubranie.
+
+PARAMETRY:
+
+Klasa Pancerza: 8
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -15%
+
+Waga: 15
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+leather
+--------
+Zbroja skórzana, wbrew obiegowym opiniom, nie jest miêkka i elastyczna, jak skóra s³u¿¹ca do wyrobu butów ³owcy czy szaty druida. Taki rodzaj materii nie daje lepszej ochrony przed atakami ni¿ zwyk³e ubranie.
+
+PARAMETRY:
+
+Klasa Pancerza: 8
+
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -15%
+
+Waga: 15
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+medium
+--------
+Tarczy œredniej u¿ywa siê podobnie, jak ma³ej. Jednak w przeciwieñstwie do niej, tarcza œrednia wa¿y na tyle du¿o, ¿e wojownik nie mo¿e wykorzystywaæ do innych celów podtrzymuj¹cej j¹ rêki. Tarcze tego typu wykonuje siê zazwyczaj z metalu, maj¹ od 90 do 120 cm œrednicy i dowolny kszta³t, od okr¹g³ych do prostok¹tnych. Typowa tarcza œredniowieczna przypomina³a trójk¹t z jednym z ramion skierowanym w dó³.
+
+PARAMETRY:
+
+Klasa Pancerza: +1, +2 przeciwko pociskom
+Waga: 7
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Mag
+ Druid
+ Bard
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+plate
+--------
+Zbroja p³ytowa to po³¹czenie kolczugi z mocnymi blachami, które chroni¹ ¿ywotnie wa¿ne czêœci cia³a - klatkê piersiow¹, brzuch i krocze. Jej ciê¿ar jest równo roz³o¿ony na ca³e cia³o, zaœ ca³oœæ po³¹czona metalowymi spinkami i rzemieniami.
+
+PARAMETRY:
+
+Klasa Pancerza: 3
+Ochrona przed obra¿eniami:
+ sieczne 20%
+ k³ute 10%
+ obuchowe 5%
+ pociskowe 15%
+
+Mobilnoœæ:
+ zrêcznoœæ -5
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -50%
+ kradzie¿ kieszonkowa -75%
+ otwieranie zamków -45%
+ szukanie pu³apek -45%
+ ciche chodzenie -80%
+ krycie siê w cieniu -70%
+
+Waga: 50
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHARARM
+--------
+Kolczuga jest wykonana z przeplataj¹cych siê metalowych kó³eczek. Zawsze nak³ada siê j¹ na kubrak z pikowanego materia³u; ma to zapobiec bolesnym otarciom i z³agodziæ si³ê ciosów.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 5%
+
+Mobilnoœæ:
+ zrêcznoœæ -3
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru 35%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -20%
+ szukanie pu³apek -20%
+ ciche chodzenie -40%
+ krycie siê w cieniu -30%
+
+Waga: 40
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD19
+--------
+Jest to masywna, metalowa lub drewniana tarcza, siêgaj¹ca od ziemi a¿ do podbródka wojownika. Musi byæ solidnie przymocowana do przedramienia i ca³y czas przytrzymywana, co oznacza, ¿e w rêce, na której opiera siê tarcza nie mo¿na trzymaæ niczego innego.
+
+Klasa Pancerza: +2, +4 przeciwko pociskom
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+ prêdkoœæ ruchu -10%
+
+Waga: 15
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Mag
+ Druid
+ Bard
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD30
+--------
+Jest to masywna, metalowa lub drewniana tarcza, siêgaj¹ca od ziemi a¿ do podbródka wojownika. Musi byæ solidnie przymocowana do przedramienia i ca³y czas przytrzymywana, co oznacza, ¿e w rêce, na której opiera siê tarcza nie mo¿na trzymaæ niczego innego.
+
+PARAMETRY:
+
+Klasa Pancerza: +2, +4 przeciwko pociskom
+
+Mobilnoœæ:
+ zrêcznoœæ -1
+ prêdkoœæ ruchu -10%
+
+Waga: 15
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Mag
+ Druid
+ Bard
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+small
+--------
+Ma³e tarcze s¹ zazwyczaj okr¹g³e. Mocuje siê je na przedramieniu i dodatkowo przytrzymuje d³oni¹. W odró¿nieniu od tarczy œredniej, ich lekka waga pozwala wojownikowi nosiæ inne przedmioty w zajêtej rêce, chocia¿ nie mo¿e to byæ broñ.
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Waga: 3
+Wymagana si³a: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+ Druid
+ Bard
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+splint
+--------
+Zbroja paskowa jest odmian¹ zbroi folgowej, w której metalowe pasy s¹ przynitowane pionowo, a nie poziomo, do spodniej warstwy, miêkkiej, szytej z materia³u i skóry. Poniewa¿ zbroja ta nie jest zbyt elastyczna, w znacznym stopniu ogranicza w walce nosz¹cego j¹ wojownika.
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Ochrona przed obra¿eniami:
+ sieczne 15%
+ k³ute 10%
+ obuchowe 5%
+
+Mobilnoœæ:
+ zrêcznoœæ -4
+ prêdkoœæ ruchu -20%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -40%
+ kradzie¿ kieszonkowa -50%
+ otwieranie zamków -20%
+ szukanie pu³apek -20%
+ ciche chodzenie -55%
+ krycie siê w cieniu -40%
+
+Waga: 40
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+studded
+--------
+Zbroja skórzana æwiekowana ma niewiele wspólnego ze zwyk³¹ zbroj¹ skórzan¹. Podczas gdy zbroja skórzana jest utwardzan¹ skorup¹, zbroja æwiekowana jest miêkka i wzmocniona setkami, nabitych w niewielkich odleg³oœciach nitów. Znajduj¹ siê one tak blisko siebie, ¿e tworz¹ trudn¹ do przebicia metalow¹ zaporê, która œwietnie powstrzymuje sieczne i k³ute ataki. Miêkkie skórzane podbicie s³u¿y jedynie do utrzymania nitów w miejscu.
+
+PARAMETRY:
+
+Klasa Pancerza: 7
+Ochrona przed obra¿eniami:
+ sieczne 5%
+
+Mobilnoœæ:
+ zrêcznoœæ -2
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru -20%
+ kradzie¿ kieszonkowa -15%
+ otwieranie zamków -10%
+ szukanie pu³apek -10%
+ ciche chodzenie -10%
+ krycie siê w cieniu -5%
+
+Waga: 25
+Wymagana si³a: 6
+Nie mo¿e u¿ywaæ:
+ Mag
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+TAMCHAIN
+--------
+Kolczuga jest wykonana z przeplataj¹cych siê metalowych kó³eczek. Zawsze nak³ada siê j¹ na kubrak z pikowanego materia³u; ma to zapobiec bolesnym otarciom i z³agodziæ si³ê ciosów.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Ochrona przed obra¿eniami:
+ sieczne 10%
+ k³ute 10%
+ obuchowe 5%
+
+Mobilnoœæ:
+ zrêcznoœæ -3
+ prêdkoœæ ruchu -10%
+Zdolnoœci z³odziejskie i czarowanie:
+ szansa na rzucenie czaru 35%
+ kradzie¿ kieszonkowa -35%
+ otwieranie zamków -20%
+ szukanie pu³apek -20%
+ ciche chodzenie -40%
+ krycie siê w cieniu -30%
+
+Waga: 40
+Wymagana si³a: 8
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej
+- o - o - o - o - o - o - o - o - o - o - o - o - o

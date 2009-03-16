@@ -1,0 +1,1573 @@
+/* Added strings (for reference)
+
+220-229: Monk
+230-263 (not all actually used): Cleric
+
+Backwards from 300:
+299-295: Druid
+294-293: Mage
+292-273: Druid
+
+Backwards from 100:
+99-83: Thief
+
+*/
+
+
+@10 = ~Throne of Bhaal is required for this component.~
+@11 = ~You need to install the Revised High Level Abilities component before this one.~
+@12 = ~This step may take a few moments...~
+@13 = ~This component is already present!~
+@14 = ~Sorry, this step may take several minutes...~ 
+
+//Useful for automatic replacements in KITLIST.2DA
+@20 = ~Thief~
+@21 = ~Assassin~
+@22 = ~Bounty Hunter~
+@23 = ~Swashbuckler~
+@24 = ~Berserker~
+@25 = ~Kensai~
+@26 = ~Priest of Talos~
+@27 = ~Priest of Helm~
+@28 = ~Priest of Lathander~     
+@29 = ~Mage~ 
+
+@50 = ~Restore original strings~ 
+@51 = ~You cannot use this ability right now.~
+
+// Stealing string numbers for poisons' descriptions :(
+// Backward from 100
+
+@99 = ~Lost Senses~
+@98 = ~Lost Senses
+Duration: 3 rounds
+Saving Throw: save vs. poison
+This contact poison can be used to grant a weapon confusing effects on a successful hit if the victim fails its save vs. poison. The effects of this poison last 6 rounds.~
+
+@97 = ~Last Fall~
+@96 = ~Last Fall
+Duration: 1 round
+Saving Throw: save vs. poison at -2 
+This powerful poison forces the victim to make a save vs. poison to avoid instant death if it is under 60 Hit Points. Creatures above this score are uneffected.~
+
+@95 = ~Raging Mind~
+@94 = ~Raging Mind
+Duration: 3 rounds
+Saving Throw: save vs. poison
+Every living creature affected by this poison enters a berserk state for 3 rounds unless a successful save vs. poison is made.~
+
+@93 = ~Hell's Torch~
+@92 = ~Hell's Torch
+Duration: 3 rounds
+Saving Throw: save vs. poison at -4
+This contact poison inflicts pain in the victim. On every successful hit, the target must make a save vs. poison to avoid losing 2 points of THAC0, AC and damage. These negative effects are cumulative, and last for 3 rounds.~
+
+@91 = ~Clotted Blood~
+@90 = ~Clotted Blood
+Duration: 2 rounds
+Saving Throw: save vs. poison
+Every living creature affected by this poison must make a save vs. poison to avoid being paralized for 2 rounds.~
+
+@89 = ~Nerve Barrier~
+@88 = ~Nerve Barrier
+Duration: 3 rounds
+Saving Throw: save vs. poison
+This contact poison confuses logical thoughts, and makes spellcasting almost impossible. Everyone who falls under its effects will suffer additional 75% Spell Failure for 3 rounds.~
+
+@87 = ~Screwed Sinews~
+@86 = ~Screwed Sinews
+Duration: 3 rounds
+Saving Throw: save vs. poison at -2
+This contact poison attacks the muscular system of the legs, lowering the victim's movement rate to 60% unless a successful save vs. poison is made. The effects of this poison last for 4 rounds.~
+
+@85 = ~Crimson Glow~
+@84 = ~Crimson Glow
+Duration: 3 rounds
+Saving Throw: save vs. poison
+This nefarious poison hinders the blood's clotting process, so every successful blow on the victim will result in an open wound for 1 turn. The poisoned creature suffers 2 points of damage/round after every open wound.~
+
+@83 = ~Your attempt results in a small accident!~
+@82 = ~You don't possess enough gold to create that poison.~
+
+
+
+//////////////////////////////////////////////
+//New Abilities
+
+@101 = ~Revised High Level Abilities~
+
+/* shared files */
+
+@111 = ~Evasion~
+@112 = ~Evasion
+The natural sense of preservation becomes heightened with the use of the Evasion ability. Evasion gives a bonus of 4 to AC and 2 to all saving throws. The effect lasts for 3 rounds.~
+
+@113 = ~Your attempt to create the scroll is successful!~
+@114 = ~It seems you've done something wrong in the enchanting procedure, the scroll is lost.~
+@115 = ~Scribe Scrolls~
+@116 = ~Scribe Scrolls
+This ability allows an experienced mage to create spell scrolls with incredibly shortened procedures. 
+The mage can attempt to create a specific scroll, choosing from a set composed by some of the most commonly encountered ones
+(chances of success are lower for higher level spells):
+1) Magic Missile
+2) Fireball
+3) Dispel Magic
+4) Invisibility 10' Radius
+5) Stoneskin
+6) Chaos
+7) Tenser's Transformation
+8) Prismatic Spray
+9) Ruby Ray of Reversal
+10) Maze
+11) Time Stop
+
+Notice that even if the process is successful, enchantments placed in such a fast way are necessarily incomplete and unstable, so they will collapse and destroy the scroll itself in about 12 hours.~
+
+@117 = ~Scribe Scrolls
+This ability further enhances a rogue's aptitude to emulate tricks used by mages. While handling the procedure to perform a perfect and permanent incantation is impossible without a devoted study of the Arcane Art, any rogue may learn enough to reproduce the very mechanics of the fast and handy process that some experienced mages use to create spell scrolls for immediate casting. 
+The bard can attempt to create a specific scroll, choosing from a set composed by some of the most commonly encountered ones
+(chances of success are lower for higher level spells):
+1) Magic Missile
+2) Fireball
+3) Dispel Magic
+4) Invisibility 10' Radius
+5) Stoneskin
+6) Chaos
+7) Tenser's Transformation
+8) Prismatic Spray
+9) Maze
+
+Notice that even if the process is successful, enchantments placed in such a fast way are necessarily incomplete and unstable, so they will collapse and destroy the scroll itself in about 12 hours.~
+
+@118 = ~Scribe Scrolls
+This ability further enhances a rogue's aptitude to emulate tricks used by mages. While handling the procedure to perform a perfect and permanent incantation is impossible without a devoted study of the Arcane Art, any rogue may learn enough to reproduce the very mechanics of the fast and handy process that some experienced mages use to create spell scrolls for immediate casting. 
+The thief can attempt to create a specific scroll, choosing from a set composed by some of the most commonly encountered ones
+(chances of success are lower for higher level spells):
+1) Magic Missile
+2) Mirror Image
+3) Fireball
+4) Dispel Magic
+5) Dire Charm
+6) Confusion
+7) Stoneskin
+8) Improved Invisibility
+9) Monster Summoning III
+10) Cloudkill
+
+Notice that even if the process is successful, enchantments placed in such a fast way are necessarily incomplete and unstable, so they will collapse and destroy the scroll itself in about 12 hours. Notice also that the mechanics of this quick procedure don't grant by themselves the understanding of how spell casting works.
+
+Requires: Use Scrolls~
+
+@119 = ~Avoid Death
+With a superhuman effort, a high level rogue can avoid almost certain death. The effect lasts for 5 rounds and during this time the rogue's save vs. death receives a bonus of 5, hit points are increased by 20 and the rogue becomes immune to death magic for the duration of the ability.
+
+Requires: Evasion~
+
+
+
+/* Paladin */
+
+@120 = ~Exorcism~
+@121 = ~Exorcism
+By using this high-level ability the paladin becomes the ultimate weapon against creatures of pure evil and darkness. In the following 2 rounds each attack made by the paladin will receive a +6 damage bonus against undead and demonic creatures. In the first round all undead hit by the paladin must make a saving throw vs. death (with a -2 penalty) or be instantly destroyed.
+
+Requires: Holy Aura~
+
+@122 = ~Holy Purge~
+@123 = ~Holy Purge 
+High-level paladins have the divine power to purge the essences of evil and corruption from their bodies. By the means of this ability the paladin cleanses himself and banishes all negative effects like Poison or Disease, Deafness, Blindness, and even Level Drain. The paladin will be freed from any curses as well.
+
+Requires: Holy Aura~
+
+@124 = ~Righteous Magic~
+@125 = ~Righteous Magic 
+This is a powerful combat spell that enhances the paladin's physical prowess, transforming him into a juggernaut of destruction.  The effect adds 1 temporary hit point for every level of the caster, adds 1 point of strength for every three levels of the caster (to a maximum of 25), and inflicts maximum damage with every hit for 2 rounds.  The other effects last for the duration of the spell or until dispelled.~
+
+@126 = ~Shield of Law~
+@127 = ~Shield of Law
+By using this powerful ability the paladin turns into a bastion of Law and will have unassailable protections against chaotic and evil creatures and effects. It grants complete immunity to all Necromancy spells, gives a 3 point bonus to save vs. death and AC will be decreased by 3. Furthermore the paladin will be protected from Evil and all chaotic spells or effects like Chaos, Drunkenness, Fear, Berserk, etc. 
+This ability lasts for 10 rounds.~
+
+@128 = ~Holy Aura~
+@129 = ~Holy Aura
+High-level Paladins can emit a powerful aura of goodness and purity. All party members and allies standing in a 10' radius area around them will gain a +2 bonus to AC and saves versus Evil aligned creatures. These effects are permanent as long as those protected by the paladin's aura stay close to him. Any creatures leaving the aura's area of effect will lose these protections in half a round. Bonuses from multiple auras are not cumulative.~
+
+
+/* Wizard */
+
+@130 = ~Aegis~
+@131 = ~Aegis (Abjuration)
+Level: 10
+Range: 0
+Duration: 5 rounds
+Casting Time: 2
+Area of Effect: Caster
+Saving Throw: None
+
+This high-level Abjuration spell confers the mage very powerful protection for a short time. Physical resistances (Slashing, Piercing, Crushing, and Missile) and Elemental resistances are all set to 85%, Magic Damage resistance is set to 60%. The mage gains a total AC bonus of 5 and his saving throws are reduced by 3 points. In addition to these bonuses Aegis protects the caster from the first spell that would normally remove combat or spell protections. The spell lasts for 5 rounds.~
+
+@132 = ~Death Field~
+@133 = ~Death Field
+(Any School)
+Level: 10
+Duration: 5 seconds
+Casting Time: 5
+Area of Effect: 50' radius
+Saving Throw: Special
+
+This is an extremely powerful anti-summoning spell. By casting it, the wizard attacks the life force of every opponent and destroys all summoned creatures in a 50' radius area around him. Summons have no saving throw vs. this spell and it bypasses their Magic Resistance (if any), while other creatures must save vs. spell at a -2 modifier to avoid certain death. Creatures with less than 8 Hit Dice are slain automatically.
+Death Field has a drawback however: until the spell is finished - which takes 2 rounds after casting - the wizard cannot make any movement or action and will be completely vulnerable to attacks.~
+
+@134 = ~Bonus Mage Spells~
+@135 = ~Bonus Mage Spells
+This high level ability allows the mage to learn an extra 6th, 7th and 8th level spell.
+
+Requires: Arcane Knowledge~
+
+@136 = ~Arcane Knowledge~
+@137 = ~Arcane Knowledge
+The time and effort powerful wizards put into the study of complex spells, magical artifacts and the very essence of magic does not happen without rewards. A mage's studies open his mind to new ways of thinking and perceiving the multiverse. His extensive knowledge will give him the answer to even the most obscure problem; the broadening of the mage's mental faculties makes the wizard capable of learning and memorizing an even greater variety of magic. 
+This passive ability grants the mage a permanent 1 point bonus to Intelligence and 15 point bonus to Lore.~
+
+@138 = ~Improved Alacrity
+(Any School)
+Level: 10
+Range: Unlimited
+Duration: 2 Rounds
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: Special
+
+Improved Alacrity essentially erases the pause between casting spells. When cast, the mage can begin casting a new spell the instant he is finished casting his current spell. The effect lasts for 2 rounds.
+
+Requires: Arcane Knowledge~
+
+@294 = ~Comet 
+(Any School) 
+Level: 10
+Range: 90 yards
+Duration: Instantaneous
+Casting Time: 3
+Area of Effect:  30' radius
+Saving Throw: None
+
+A more powerful and specialized version of Meteor Swarm, a medium sized meteor or comet strikes the earth damaging all enemies in its path and sending out a powerful shockwave that knocks away all creatures in the area of effect. Those knocked down must save vs. breath or be stunned for 3 rounds. The comet itself does 5D10 fire and 5D10 crushing damage. 
+This spell will not damage party members.~
+
+@293 = ~Dragon's Breath
+(Any School)
+Level: 10
+Range: Visual range of caster
+Duration: Instantaneous
+Casting Time: 6
+Area of Effect: 30-foot radius
+Saving Throw:  Special
+
+This spell causes a disembodied head of red dragon to appear and breathe fire with the strength of an adult Red Dragon. In addition to the enormous 20D10 fireball, the force of the dragon's breath knocks everyone off their feet and away from the caster. The victim can save vs. breath to take half damage and not be blown backwards. 
+This spell will not damage party members.~
+
+@139 = ~Foresight~
+@140 = ~Foresight (Divination)
+Level: 10
+Range: Self
+Duration: 2 turns
+Casting Time: 6
+Area of Effect: Caster
+Saving Throw: None
+
+This spell grants the recipient a powerful sixth sense about imminent events involving himself. Once the spell is cast, the character receives instantaneous warnings of impending danger or harm to the subject of the spell. The character will never be surprised. In addition, the spell gives the caster a general idea of what action the character might take to best protect himself - duck, jump right, close the eyes, and so on.
+Whenever a saving throw is allowed, the character will always succeed and the character's armor class is lowered by 15 points.~
+
+
+
+/* Thief */
+
+
+
+@141 = ~Cripple~
+@142 = ~Cripple
+An experienced thief knows many dirty tricks to hinder or disable opponents in combat. For 3 rounds after the ability is activated, every attack of the thief has a chance to weaken his target. Anytime the thief makes a successful attack, the Strength of the victim is lowered to 10 for 18 seconds (save vs. death to avoid). In addition there is a 25% chance that the target will be either blinded, slowed, or will suffer an extra 5D6 piercing damage (save vs. breath at -4 to avoid effects).~
+@143 = ~You cannot reactivate Cripple right now.~
+
+@144 = ~Use Scrolls~
+@145 = ~Use Scrolls
+Thieves always rely on their shrewdness, and learn every kind of trick to survive their days of adventuring.
+By observing mages who make use of their Art a smart thief may come to know enough of the mechanics of magic and spell casting to learn to read and understand mage scrolls, and actually even cast spells through them.
+Thieves of low intelligence probably won't be able to emulate mages with success, though.~
+@146 = ~Ability to cast mage spells from scrolls acquired.~
+
+
+/* Cleric */
+
+@150 = ~Destruction~
+@151 = ~Destruction (Necromancy) 
+Level: Quest
+Sphere: Healing 
+Range: Touch 
+Duration: Permanent 
+Casting Time: 1 round
+Area of Effect: Creature touched 
+Saving Throw: None 
+
+This spell is the reverse of Resurrection. On a successful touch from the priest, the spell strikes at the very life force of the victim’s body and literally destroys it. The next attack that the priest makes will inflict this effect, however he only has one round to make the attack before the spell fizzles. Also, if the priest misses the target creature, the spell is wasted. There is a saving throw vs. death at -4 to avoid instant destruction, but even if it is successful, the victim takes 3D10 points of damage.~
+
+@152 = ~Divine Shell~
+@153 = ~Divine Shell (Abjuration)
+Level: Quest
+Sphere: Protection
+Range: 0
+Duration: 1 turn
+Casting Time: 7
+Area of Effect: Caster
+Saving Throw: None
+
+This is perhaps the most powerful protection spell available for Divine spellcasters. It confers 75% Fire, Cold, Lightning resistance and 25% Magic Damage resistance bonus. The caster gains 20% temporary bonus to Maximum Hit Points, 5 points bonus to Save vs. Death, and becomes protected from Normal weapons. Mind affecting spells and anything that hinders free movement will have no effect on the Priest. In addition to these bonuses this spell will protect from every spell directed against the caster. It absorbs 15 levels of spells, up to 8th level. The protection last for 1 Turn.~
+
+@154 = ~Enlightenment~
+@155 = ~Enlightenment
+A high level priest is able to create a much closer and stronger connection to his deity. By this, the priest is able to cast more high level spells without resting.
+Enlightenment will allow the priest to cast an additional 6th and 7th level spell.~
+
+@156 = ~Recitation~
+@157 = ~Recitation
+(Conjuration/Summoning) 
+Level: Quest
+Range: 0
+Duration: 1 turn
+Casting Time: 9
+Area of Effect: 30-foot radius 
+Saving Throw: None 
+
+By reciting a sacred passage or declaration, the high-level priest invokes his deity's blessing upon himself and his allies, while sowing confusion and weakness among his enemies. The caster's allies gain a +2 bonus on their morale and a +2 bonus to their attack, damage and saving throws, while enemies receive a -2 penalty to all of them.
+Recitation is draining to the priest, so he becomes fatigued as long as the spell is in effect.~
+
+//Divine intervention, strings for EVIL version:
+
+@238 = ~Dexterity Curse~
+@239 = ~Strength Curse~
+@240 = ~A portal opens to the Elemental Plane of Fire...~
+@241 = ~Your deity is not pleased with you...~
+@242 = ~Your prayer results in disaster...~
+@243 = ~Plague!~
+@244 = ~The wrath of your god smites down your enemies!~
+@245 = ~The magic of your enemies has been denied!~
+@246 = ~Unholy powers answer your call...~
+@247 = ~Your god sends his servant to aid you!~
+@248 = ~A Fallen Solar comes in your aid!~
+@249 = ~Aura of Fear~
+
+//Divine intervention, strings for GOOD version:
+@251 = ~Your prayer has been dismissed~
+@255 = ~Prayer~
+@256 = ~Spells Restored~
+@258 = ~Your prayer has been heard!~
+@262 = ~The heavens come in your aid!~
+@263 = ~A Solar comes in your aid!~
+
+
+@158 = ~Divine Intervention~
+@159 = ~Divine Intervention
+Maintaining a strong connection to their gods, high level clerics may call to the heavens in time of great peril. Invoking a devoted prayer, they call directly for the intervention of their deities.
+An intervention from the gods themselves may show very different faces however. Unlike evil aligned clerics, the call of good aligned priests will never result in negative effects, but there is a higher chance that the prayer will be dismissed. The extents of such an intervention are quite diverse, from small bonuses to complete wonders.
+This action is very draining to the priest, so a fatigued state shortly follows. Divine Intervention may be used once per day.
+
+Requires: Enlightenment~
+
+@250 = ~Divine Intervention (Evil)
+Maintaining a strong connection to their gods, high level clerics may call to the heavens in time of great peril. Invoking a devoted prayer, they call directly for the intervention of their deities. 
+An intervention from the gods themselves may show very different faces however. Unlike good aligned clerics, the call of evil aligned priests will always result in something... sometimes in disaster. The extents of such an intervention are quite diverse, from little bonuses to complete wonders.
+This action requires sacrifice from the priest, so he will lose 3D10 Hit Points immediately after the spell has been cast. Divine Intervention may be used once per day.
+
+Requires: Enlightenment~
+
+
+/* Druid */
+
+@160 = ~Nature's Wrath~
+@161 = ~Nature's Wrath (Alteration)
+Level: Quest
+Sphere: Combat/Plant
+Range: Visual range of caster
+Duration: 1 Turn
+Casting Time: 7
+Area of Effect: 40' radius
+Saving Throw: Neg.
+
+Druids only use this spell against Nature's most devoted enemies, for its powers are destructive and irreversible. When invoked, this spell enrages the land, so it will attempt to destroy all living and non-living creatures in its area of effect. Every creature takes 1D10 points of Poison and 1D10 points of Acid damage each round it is exposed to the deadly vapors. If someone fails a saving throw vs. poison at -2, he becomes poisoned. Another failed save vs. poison results in disease, and the victim will lose one point of Constitution for 5 rounds. This spell destroys all summoned creatures. Besides its destructive powers, Nature's Wrath has a more vicious characteristic: it attempts to stop creatures from escaping its area or at least slow them. Any target must save vs. spells at -4, or becomes entangled for a short time. Entangled creatures can still attack.
+
+Requires: Blessing of Nature~
+
+@162 = ~Tranquility~
+@163 = ~Tranquility
+Sphere: Necromantic
+Level: Quest
+Range: Self
+Duration: 1 turn
+Casting Time: 1 round
+Area of Effect: 40' radius
+Saving Throw: None
+
+This high level druid spell creates an aura of healing energy around the caster that moves with him. Every friendly creature in its area of effect is healed 3D8 +10 Hit Points/round, and will be cleansed of every poison and disease effects. The Druid must concentrate to maintain the spell and will be slowed until Tranquility expires, which is 1 turn.
+
+Requires: Blessing of Nature~
+
+@164 = ~Volcano~
+@165 = ~Volcano 
+Sphere: Elemental (Earth)
+Level: Quest
+Range: 120 yds.
+Duration: 4 rounds
+Casting Time: 9 
+Area of Effect: 50' radius
+Saving Throw: Special
+
+This is the enhanced version of the 7th level spell Earthquake.
+By the means of this powerful spell the druid lets loose the most devastating powers of Nature to wipe Her enemies from the face of Faerun once and for all. Mighty tremors shake the ground and massive eruptions of fire ignite the sky as a young volcano creates a rift in the earth raining fire on everything in a 50' radius area.
+There are three tremors that are caused by the earthquake. The first tremor causes all creatures affected to suffer 6d6 points of damage (save vs. spell at a -6 penalty for half damage). Those who fail their saving throws fall to the ground for four rounds.
+The second tremor is less severe; causing 4d6 points of damage (save for half at a -2 penalty). The final tremor causes 2d6 damage (save for half).
+In addition to the crushing effects, the deadly heat and chunks of boiling lava will damage every creature in the area of effect for 3D6 fire damage/round.
+This spell will affect both enemies and friends of the caster, so care must be taken in its use. 
+Casting Volcano is very draining to the Druid both physically and mentally. He will become winded and won't be able to cast spells for 2 rounds.
+
+Requires: Implosion~
+
+@166 = ~Elemental Summoning~
+@167 = ~Elemental Summoning (Conjuration/Summoning)
+Level: Quest
+Range: 10 yards
+Duration: 10 rounds
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Drawing power from the environment, this spell summons two 16HD elementals chosen randomly from water, air, earth or fire.  The elementals stay for 10 rounds and will obey the caster as long as they remain summoned. There is a 20% chance that a randomly chosen Elemental Prince will be summoned instead. The Elemental Princes rule over other elementals in their respective planes. The Elemental Prince of Water is Ben-Hadar. The Elemental Princess of Air is Chan. The Elemental Princess of Earth is Sunnis. The Elemental Prince of Fire is Zamaan Rul.~
+
+@168 = ~Elemental Prince Call~
+@169 = ~Elemental Prince Call (Conjuration/Summoning)
+Level: Quest
+Range: 10 yards
+Duration: 10 rounds
+Casting Time: 1 round
+Area of Effect: Special
+Saving Throw: None
+
+Druids having a more powerful link to the elements than priests can cast a stronger version of Elemental Summoning. This spell can summon the Elemental Princes themselves, randomly chosen from water, air, earth or fire. Elemental Princes rule over other elementals in their respective planes. The Elemental Prince of Water is Ben-Hadar. The Elemental Princess of Air is Chan. The Elemental Princess of Earth is Sunnis. The Elemental Prince of Fire is Zamaan Rul. The Elemental Princes stay for 10 rounds and will obey the caster as long as they remain summoned. Note that the Elemental Princes are directly gated to the caster and are thus unaffected by spells that attack summoned creatures.~
+
+@299 = ~Fire Elemental Transformation~
+@298 = ~Earth Elemental Transformation~
+@297 = ~Air Elemental Transformation~
+@296 = ~Water Elemental Transformation~
+
+@292 = ~Blessing of Nature~
+@291 = ~Blessing of Nature
+High-level druids maintain a closer link to Nature herself. This provides a stronger connection to the powers of Water, Fire and Wind which grant the druid a permanent +1 bonus to Wisdom and 10% bonuses to Fire, Cold, and Lightning resistances.~
+@290 = ~Wisdom and resistance to the Elements have been permanently increased.~
+
+@295 = ~Who calls Ben-Hadar, Prince of Water!~
+@289 = ~Water Elemental~
+@288 = ~Ben-Hadar~
+@287 = ~Gate Elemental Minions: Water~
+@286 = ~Muddy Field~
+@285 = ~Who calls Chan, Princess of Air!~
+@284 = ~Who calls Chan, Prince of Air!~
+@283 = ~Who calls Sunnis, Princess of Earth!~
+@282 = ~Who calls Sunnis, Prince of Earth!~
+
+@281 = ~Implosion~
+@280 = ~Implosion (Evocation) 
+Level: Quest
+Range: Visual range of caster
+Duration: 2 Rounds  
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: Special
+
+This spell creates a rift in the earth beneath the target which implodes and closes in upon itself, crushing and burning the target and holding it for 1 round. The spell does 10D10 fire damage and 10D10 blunt damage. The victim can save vs. spell for half damage.
+
+Requires: Blessing of Nature~
+
+@279 = ~Gate Elemental Minions: Air~
+@278 = ~Gate Elemental Minions: Earth~
+@277 = ~Gate Elemental Minions: Fire~
+
+@276 = ~Whirlwind~
+@275 = ~Whirlwind
+Level: Quest
+Range: 35 Yards
+Duration: 2 turns
+Casting Time: 6
+Area of Effect: 20' radius area
+Saving Throw: Special
+
+An Arch-Druid can create a massive whirlwind with this spell. This newly formed whirlwind starts to randomly wander around the target area, hurling away every creature in its path, be it friend or foe. Those who cannot escape automatically suffer 1D10 crushing and 1D10 slashing damage, small/normal creatures are knocked back without any saving throws. Those who manage to remain in the affected area will have to deal with a 50% spell failure rate until they are tossed away or leave intentionally. As well, if someone fails his save vs. breath he suffers additional 1D10 points of crushing damage and falls uncounscious for a round. 
+The whirlwind instantly kills creatures with less than 5 Hit Dices, and wipes out any cloud of gas or vapor in the area.
+Once a whirlwind has been summoned the druid has no control over these raging winds, so this spell must be used with caution.~
+
+@274 = ~Elemental Transformation~
+@273 = ~Elemental Transformation
+Harnessing the power of the elemental planes, this powerful shapechange ability allows the druid to become a 24HD elemental of immense strength. The four prime elemental forms are all available for the caster. These elemental forms have different strengths and weaknesses according to their nature. When the druid returns to human form, he is also healed 3D10 damage. The ability lasts 5 turns, or until the druid decides during the duration of the ability.
+
+Requires: Blessing of Nature~
+
+
+
+/* Bards */
+/* Mostly a courtesy of aVENGER. Stuff is expanded and refined too. */
+
+@170 = ~Mass Charm~
+@171 = ~Mass Charm 
+By focusing his willpower the Bard influences the actions nearby creatures by suggesting a course of activity. Obviously self-destructive orders are not carried out and break the enchantment. The creatures can attempt a saving throw vs. spells in order to avoid being controlled, but even if they succeed, there is still a 50% chance that they will suffer a mental breakdown. This will effectively cause them to enter a Berserk state (no save) and attack the nearest creature for one round.
+This is a supernatural spell-like ability; therefore it completely ignores any magic resistance of the subject creatures. Anyone who successfully resists or frees himself from the Bard's control is much less susceptible to fall for it again, at least for a while.~
+
+@172 = ~Enthralling Melody~
+@173 = ~Enthralling Melody 
+While the Bard softly hums this catchy tune, he can amaze and enthrall any audience, even those that do not understand his language. Listeners in the area of effect must successfully save vs. paralyzation or give the Bard their undivided attention, totally ignoring their surroundings. Even enemies become stunned in amazement for 5 rounds if they fail their save. In addition, even if the saving throw is made there is still a 50% chance that opponents will become so deeply immersed into the hypnotic song that they effectively become stricken with Feeblemindness (no save) for 1 round. 
+This is a supernatural spell-like ability; therefore it completely ignores any magic resistance of the subject creatures. Anyone who successfully resists or frees himself from the enthralling effect is much less susceptible to fall for it again, at least for a while.~
+
+@174 = ~Sound Burst~
+@175 = ~Sound Burst
+The Bard uses his knowledge of harmonics and the tapestry of sound to emit a powerful note, filling his surroundings with high pitched, stone shattering sound waves. Creatures in the nearby area take 15D6 points of crushing damage and are also deafened for 5 rounds. (A deafened creature has an effective 50% chance of spell casting failure.) A successful save vs. breath halves the damage and negates the deafness.
+Note: this is a supernatural spell-like ability; therefore it completely ignores any magic resistance of the subject creatures.~
+
+@176 = ~Lingering Song~
+@177 = ~Lingering Song 
+Once a Bard's musical talents have reached a sufficient level, his music can stay with the listeners long after the last note has died away. Even after the Bard stops playing, the effects of his song linger with the listeners.
+Additionally, the enhanced talents of the bard allow his music to influence the hearts of its listeners at a greater distance.
+
+Requires: Enhanced Bard Song~
+
+// New version
+@178 = ~Magic Flute
+This ability creates a magic flute made of pure magical energy. When played, the flute can produce enchanting notes that quickly affect the target creature, emulating the effects of one of the following spells:
+
+Power Word, Sleep - 3 charges
+Power Word, Silence - 1 charge
+Power Word, Blind - 1 charge
+
+The spell-like abilities on the Flute are used in the same way that a wand's powers are used. The Flute remains for 1 day.~
+
+
+/* Monk */
+
+@180 = ~Dragon Fist~
+@181 = ~Dragon Fist
+High level Monks have the ability to focus Ki energies in their bodies in many ways. When using this ability all attacks made by the Monk in the next round will remove the target's Specific Protection (save vs. spell at -2) and one Magical Protection up to 8th level (no save). The victim must save vs. breath to avoid losing all Physical Protections. Creatures hit by Dragon Fist must also save vs. death at -4, or their Magic Resistance will be reduced by 19% for 6 rounds. This effect is cumulative. Dragon Fist always removes the strongest Protection spell from the target.
+
+Requires: Shadowless Kick~
+
+@182 = ~Tiger Strike~
+@183 = ~Tiger Strike
+With this ability, the monk gains the ability to strike a mighty blow, knocking an opponent back for a considerable distance and stunning the opponent for 1 round. All attacks made in the first round are at maximum damage. The ability lasts for 2 rounds.
+Large creatures such as a dragons or giants will not be knocked back or stunned.
+
+Requires: Dragon Fist~
+
+@184 = ~Shadowless Kick~
+@185 = ~Shadowless Kick
+This ability gives the Monk a one-time attack. This overwhelming assault is always successful; there is no need for a saving throw. The target suffers 5D8 crushing damage and falls unconscious for 1 round (no save). If the opponent fails its saving throw vs. breath at -4, the power of the kick will knock him back for a considerable distance.~
+
+@186 = ~Chant~
+@187 = ~Chant
+This ability gives the Monk powerful physical protections for a very short time. It increases Slashing, Piercing, Crushing and Missile resistances to 75%, and increases Fire, Cold, and Lightning resistances by 25%. There is a price for such protection however: by focusing ki-energies against physical attacks, the monk’s innate magic resistance will be nullified until this state expires. The effects of this ability last for 3 rounds. Multiple Chants are not cumulative.
+
+Requires: Diamond Soul~
+
+@188 = ~Monk Regeneration~
+@189 = ~Monk Regeneration 
+Experienced monks can focus ki-energies in their bodies to regenerate themselves. The monk's regeneration rate will be permanently increased by 2 HP/round. This ability can be picked five times and its bonuses are cumulative with every other regeneration effect on the character.
+
+Requires: Diamond Soul~
+
+@190 = ~Faster Than the Eye~
+@191 = ~Faster Than the Eye
+By the means of this high-level ability monks can increase their movement speed to unbelievable heights for a single moment. During this time the monk is able to run to a limited distance without being stopped or hurt by anyone.
+
+Requires: Greater Evasion~
+
+@192 = ~Inner Time~
+@193 = ~Inner Time
+Inner Time is clearly the pinnacle of the monk's mental and physical abilities. Having achieved perfect focus in their body and soul, the most experienced monks are able to slow their inner time to a point where they sense every second as nearly a full round. This state allows them to judge combat situations more wisely and react to the surrounding world much more quickly and effectively. 
+Inner Time not simply hastens the mind, the body becomes faster too. A spectator would find the monk's movement and actions incredibly fast. His fists become more dangerous than any other weapon: he gets 8 attacks/round, his damage, THAC0 and AC get a 4 points bonus, attack and casting speeds are also reduced by 2. He can catch missiles and throw them back to the attacker with the same move, and will become protected from backstabs as well.
+After the duration of the ability expires (which is 3 rounds), the monk will become winded and will be unable to use any special attacks or abilities for the following 2 rounds.
+
+Requires: Faster than the Eye~
+ 
+@194 = ~Greater Evasion~
+@195 = ~Greater Evasion
+A more powerful version of Evasion, learned differently by monks than it is by rogues. 
+It decreases AC by 4 and adds 3 to all saving throws, in addition, Greater Evasion allows the monk to move so quickly that his movement rate is increased by 2 and he always escapes breath spells and spell-like abilities (he only takes half damage when applicable). 
+Greater Evasion lasts for 5 rounds.
+
+Requires: Evasion~
+
+// Ok, it seems some DO Shadowless Kick themselves :-/
+@196 = ~You do a clumsy attempt to kick yourself, but you don't manage to accomplish the deed. The ability is wasted.~
+
+@197 = ~Second Wind~
+@198 = ~Second Wind
+With many years of training and meditation and the purest of minds, untainted by the the slightest trace of evil, Monks can gain the ability to achieve a second wind. Second Wind grants the monk the ability to instantly heal his wounds when his Hit Points fall below 10% of their maximum. This ability can be used only once/day, and it remains active for 5 hours or until triggered.
+
+Requires: Monk Regeneration~
+
+@220 = ~Ethereal~
+@221 = ~Ethereal
+As a magical being, the high-level monk can assume an ethereal state for a limited time. For 5 rounds he becomes completely invisible to the eyes of others and receives a 4 point bonus to AC. In the first 2 rounds of this state he cannot be detected, not even by magical means, and the ethereal form grants him immunity to weapons below +4 enchantment level. If the monk makes an attack, creatures around him will know about his presence and he will become partially visible. During the ethereal state the monk cannot use any of his innates.
+Note that powerful creatures - like Demons or Dragons - will still be able to see and attack the monk while ethereal.
+
+Requires: Diamond Soul~
+
+@222 = ~Diamond Soul~
+@223 = ~Diamond Soul
+The monk is able to tune his body with skill and quasi-magical abilities to the point that he becomes a magical creature. When he achieves a state of unshakeable stability in body and soul, he is no longer affected by spells and other abilities that would endanger this unity or attempt to manipulate his physical form.
+Diamond Soul renders the monk immune to effects like Petrification, Disintegration or Polymorph.~
+
+@224 = ~Finger of Destruction~
+@225 = ~Finger of Destruction
+Evil monks can focus Ki energies in the most harmful ways. The Finger of Destruction is a secret and forbidden technique to most monks, and only those with no respect towards the lives of others are able to learn it.
+By concentrating hi Ki into one point on the target's body, the monk touches the opponent with his pointing finger. If the attack is successful, the victim loses 5 points of Constitution and suffers a 2 points penalty to saves vs. death for 5 turns (no save). Creatures below 10 Hit Dice die immediately, and even those above this level suffer 10 points of magical damage.
+In addition to the instant effects, this ability has another mean side as well: the destructive energies keep weakening the target, who will suffer an additional 1 point penalty to Constituiton and saves vs. death every second round for 1 turn. The victim is entitled to a saving throw vs. death every time to avoid further negative effects.
+Finger of Destruction can only be used once/day.
+
+Requires: Dragon Fist~
+
+
+@226 = ~Displacement~
+@227 = ~Displacement
+After becoming a partially ethereal creature, the monk can develop the ability to use this power instinctively in dangerous situations. When seriously injured he connects with the ethereal world, slipping his body out of phase with reality. When his hit points fall below 20% of their maximum the monk partially fades out, which grants him +2 AC and immunity to weapons with less than +3 enchantment level for 5 rounds. While in this state, the monk can still be seen by those around him and can be targeted by spells and magical effects.
+
+Requires: Ethereal~
+
+@228 = ~Quivering Palm
+This high-level ability allows the monk to use the deadly Quivering Palm attack twice per day.
+
+Requires: Dragon Fist~
+
+
+
+
+
+
+/* Barbarian */
+
+@200 = ~Greater War Cry~
+@201 = ~Greater War Cry
+With Greater War Cry, the barbarian emits a powerful and frightening yell that will leave all opponents in a 30' radius panicked with fear if they don't make their save vs. spell at -2. In addition to this effect, Greater War Cry will increase the combat effectiveness of nearby party members by granting them a THAC0 bonus of 3 and immunity to fear effects for 2 rounds.
+
+Requires: War Cry~
+
+@202 = ~Hardened Skin~
+@203 = ~Hardened Skin
+Choosing this passive ability increases the Barbarian's physical resistance to Slashing, Piercing and Crushing damage by an additional 5%.
+This ability can be chosen multiple times.
+
+Requires: Hardiness~
+
+@204 = ~Tireless Rage~
+@205 = ~Tireless Rage
+This is the improved version of the ability: Barbarian Rage. It gives a +4 bonus to Strength and Constitution, and makes the user immune to all mind affecting spells and any other effect that hinders free movement. Tireless Rage gives a 20% bonus to movement speed. 
+The main difference between Barbarian Rage and Tireless Rage is that the improved version lasts twice as long and has no negative effects like AC penalty, etc. The ability lasts 1 turn and the barbarian doesn't become winded when it expires. 
+This ability cannot be used together with Barbarian Rage.~
+
+@206 = ~Resistant Skin~
+@207 = ~Resistant Skin
+This passive ability increases the Barbarian's natural resistances to non-magical fire and cold, and makes his body less vulnerable to magical damage. Each of these resistances is increased by 5%.
+
+Requires: Resist Magic~
+
+@208 = ~Defender of Easthaven +3~
+@209 = ~Defender of Easthaven +3
+This flail was created a century ago to commerate the defeat of the demon Balhifet. It was meant to always remain within the town of Easthaven to remind the people of the great evil that had been barely defeated.
+
+STATISTICS:
+
+Equipped Abilities:
+ +2 AC bonus
+ +10% resistance to slashing, piercing, and blunt damage
+THACO:  +3 bonus
+Damage:  1D6 + 4
+Damage type:  crushing
+Weight: 12
+Speed Factor: 5
+Proficiency Type: Flail/Morningstar
+Type:  1-handed
+Requires: 13 Strength
+Not Usable By:
+ Druid
+ Mage
+ Thief~
+
+
+
+/* Ranger */
+
+@210 = ~Improved Ambidexterity~
+@211 = ~Improved Ambidexterity
+As it is typical to this class, rangers are well trained in the use of two weapons at once. This passive ability further increases their skills in dual wielding weapons and negates the +2 THAC0 penalty to off-hand weapons.~
+
+@212 = ~Endurance~
+@213 = ~Endurance
+This innate ability grants the ranger greater endurance for 5 hours. He gains a 25% bonus to movement rate (non-cumulative with Boots of Speed), +1 bonus to saving throws and attack rolls, a 10% bonus to his maximum Hit Points, immunity to Fatigue and Unconsciousness and a slight boost to regeneration rate (1HP/round).
+This ability can be used once/day.~
+
+@214 = ~This is the fabled cloak of Montolio DeBrouchee - the aged, blind mentor of the dark elf ranger Drizzt Do'urden.  Like his famous pupil, Montolio was a master at wielding two blades simultaneously.
+
+STATISTICS:
+
+   +1 bonus to AC
+   +1 bonus to all saving throws
+   +1 THAC0 with the primary as well as the off hand
+
+Usable By:
+Rangers~
+
+
+@215 = ~Tracking~
+@216 = ~Tracking
+With an intimate knowledge of the surroundings and the creatures that live within them, a ranger can use the Tracking ability to get a general idea of what creatures are in an area and which direction they are. Additionally, this ability allows the Ranger to uncover all invisible or hiding creatures in a 40' radius. Red arrows at the edge of the screen point in the general direction of the creatures in the area, while nearby creatures are immediately revealed.~
+
+@217 = ~Racial Nemesis~
+@218 = ~Racial Nemesis
+Through intense study and years of experience of tracking, fighting, and defeating his worst enemies, a ranger learns to kill them more efficiently. 
+Melee damage versus the selected race is increased by +4, and the ranger receives an additional +2 AC and saving throw bonus while fighting these creature types.~
+
+
+
+/** Kit Specific spells/abilities **/
+/* specialist mages: */
+
+@301 = ~Mirrored Clones~
+@302 = ~Mirrored Clones (Illusion/Phantasm) 
+Level: 10
+Range: 0
+Duration: 1 turn
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+Mirrored Images is one of the most powerful of the illusionary spells, only available to high level Illusionists. 
+Mirrored Clones creates two copies of the caster, perfect duplicates except for the fact that they have just 60% of the levels and hit points of the original individual. These duplicates are able to cast spells and attack under the control of the caster, who is also placed under a mislead-like effect for the entire duration of the spell.~
+@303 = ~You cannot cast another spell of that type right now.~
+
+@304 = ~Reveal~
+@305 = ~Reveal (Divination) 
+Level: 10
+Range: 0
+Duration: 15 rounds
+Casting Time: 9
+Area of Effect: Special
+Saving Throw: None
+
+Reveal is the definitive divinatory spell, only available to high level Diviners.
+Once per round, until the spell expires, all hostile illusion/phantasm spells in an area large 70 feet in radius will be dispelled, while the main alignment of any creature not in the caster's party will be revealed (no save).
+In addition, the wizard gains the ability to cast as innate "Reveal Area", up to once per round: this requires just a minimal and instantaneous shift of concentration (so that further spell casting is not prevented), and allows him to focus on a specific portion of the current area and see from distance all that's happening there. Areas "spied" this way remain visualized in his mind for two rounds after each use of the ability.~
+@306 = ~Reveal Area~
+
+@307 = ~Rune of Immunity~
+@308 = ~Rune of Immunity (Abjuration) 
+Level: 10
+Range: Visual range of the caster
+Duration: 4 rounds
+Casting Time: 5
+Area of Effect: 1 creature
+Saving Throw: None
+
+Rune of Immunity is the absolute anti-magic protection, available only to high level Abjurers.
+Upon the casting of this spell, an enchanted rune is placed under the target creature. In a few moments magical energies are collected to form an impenetrable barrier around the target itself, making it immune to all schools of magic for a short time. Not even friendly spells can penetrate this barrier, even though the protected creature may freely cast spells from the inside.
+Rune of Immunity can only be dispelled by Pierce Shield or Spell Strike.~
+
+@309 = ~Create Boneguard~
+@310 = ~Create Boneguard (Necromancy)
+Level: 10
+Range: 20 yards
+Duration: Specific
+Casting Time: 8
+Area of Effect: Special
+Saving Throw: None
+
+The Necromancer sends a powerful call to the long dead corpses buried deep beneath the earth. From these animated remains he constructs a horrifying abomination known as a Boneguard. At high levels (25+) the caster is able to create an Apocalyptic Boneguard, a very fearsome ally. Controlling these powerful undead creatures requires intense concentration and is very draining to the caster; he will lose 1D8+5 hit points for creating a Boneguard and 1D12+5 hit points for creating an Apocalyptic Boneguard. Boneguards exist for 10 turns and Apocalyptic Boneguards exist for 7 turns.
+This spell cannot be dispelled by any magical means.~
+@311 = ~Boneguard~
+@312 = ~Apocalyptic Boneguard~
+
+@313 = ~Spell Worm~
+@314 = ~Spell Worm (Enchantment/Charm)
+Level: 10
+Range: Visual sight of caster
+Duration: 5 Turns
+Casting Time: 6
+Area of Effect: 1 creature
+Saving Throw: Special
+
+This high level spell infects the subject with progressive forgetfulness. On a failed save, every round the subject loses his highest-level spell or spell slot. Each subsequent round the subject loses another spell or spell slot, moving to lower level spells once all the higher level spells are gone. In the first round the target is allowed a saving throw vs. spells at a -4 penalty. Every round thereafter there is a chance that the affected victim will lose a spell from the repertoire. The chance of this spell loss is reduced every 5th round by 5% (e.g. the target has 100% chance to lose a spell every round in the first five rounds, and only 75% in the 26-30th rounds). While fighting the effects of a Spell Worm, the caster has a 25% greater chance of spell failure every time he attempts to cast a spell, unless a successful save vs. spell (at -4) is made in the first round. Even if the save is successful however, the mental distraction causes the affected creature to fail every spellcasting attempt for 2 rounds. The spell's effects last for 5 turns.~
+
+@315 = ~Wildstrike~
+@316 = ~Wildstrike (Conjuration/Summoning)
+Level: 10
+Range: 30 yards
+Duration: 2 turn 
+Casting Time: 6
+Area of Effect: 1 creature
+Saving Throw: Neg.
+
+This spell is used primarily against hostile spellcasters. It distorts all attempts at spell casting, converting spell energy into wild surges. 
+The victim of a wildstrike is allowed a saving throw vs. spells at a -2 penalty: even if the save is successful, the spell has some effect and the target becomes a subject of wild magic for the following 2 rounds (when the victim casts a spell or uses a charge from a magical item, a wild surge is automatically created). 
+If the saving throw is failed, the target is enclosed within a deadlier field of wild magic: the effect lasts 2 turns. In addition, when determining the effects of this surge, the true level of the caster is subtracted from the die roll, making the effects of the wild surge more likely to harm the victim. 
+Magic Resistance has no effect on this spell.~
+
+@317 = ~Dark Pact~
+@318 = ~Dark Pact
+(Necromancy)
+Level: 10
+Range: Touch
+Duration: 50 turns
+Casting Time: 6
+Area of Effect: Target creature
+Saving Throw: Special
+
+By the means of this spell the necromancer can increase the power of one of his undead servants. The caster channels a fraction of his life force into the creature, increasing its current and maximum Hit Points for 50 turns. The spell drains 3D6 Hit Points from the necromancer which are then transferred to strengthen the undead creature, increasing its health by 6D10 points. Given the nature of Dark Pact, the repeated process can result in an extremely tough undead creature. The necromancer must be careful though, since every time he casts this spell he must save vs. death at -2 to avoid losing one point of Constitution for 50 turns.
+The necromancer cannot cast Dark Pact on himself or other living creatures.~
+
+@319 = ~Conjure Magic Golem~
+@320 = ~Conjure Magic Golem 
+(Conjuration/Summoning) 
+Level: 10
+Range: 50 
+Duration: 15 rounds
+Casting Time: 7
+Area of Effect: Special 
+Saving Throw: None 
+
+Upon casting this spell, the conjurer focuses a portion of his magic to create a golem of pure magical energy. This mindless creature obeys the caster's every whim until the spell's duration expires, or until slain. The Magic Golem is completely immune to magic; this includes spells and enchanted weapons as well. It can only be harmed by non-magical weapons. Damaging spells directed at the creature will heal it somewhat. 
+Creating a Magic Golem is a very difficult process, and requires intense concentration from the Conjurer. In the first 3 rounds after the spell is cast, he loses the ability to cast spells, and will move at half speed. Even after the 3rd round the Conjurer will suffer 33% spell failure every time he attempts to cast a spell as long as the creature remains summoned. This is cumulative for every active Magic Golem.~
+
+@321 = ~Malavon's Fury~
+@322 = ~Malavon's Fury (Invocation)
+Level: 10
+Range: Self
+Duration: Special
+Casting Time: 1
+Area of Effect: 30' radius
+Saving Throw: Special
+
+This devastating spell was created by a powerful drow wizard named Malavon, somewhere deep within The Spine of the World. This is the improved version of his spell Malavon's Rage. The invoker causes dozens of magical acid darts to strike anyone within a 30' radius. Every creature caught in the area of effect suffers 15D8 points of acid damage (save vs. breath for half). Those who were struck by the spell will suffer additional 1D8 points of damage/round for 3 rounds.
+Malavon's Fury does not affect the caster.~
+
+@323 = ~Create Flesh Golem~
+@324 = ~Create Flesh Golem (Alteration)
+Level: 10
+Range: 20
+Duration: Permanent
+Casting Time: 8
+Area of Effect: 1 Creature
+Saving Throw: Neg.
+
+By casting this terrible spell, the Transmuter attempts to magically destroy the target creature's body and turn it into a Flesh Golem, controlled by the caster. The target must make a save vs. polymorph to avoid instant death and transformation, but even if the save is successful, it will suffer 3D6 +3 points of damage because of the physical shock. The newly created Flesh Golem will obey every command of the Transmuter.
+Normally golems are created in a long and arduous process. The magical bonds in their bodies require tremendous amounts of time and enchantments to be made permanent. The hastened method of this spell's transformation has its drawbacks naturally: any Flesh Golems created by this spell will decay into nothing after 1 hour.~
+
+@325 = ~Adamantite Form~
+@326 = ~Adamantite Form (Alteration)
+Level: 10
+Range: 1
+Duration: 6 rounds +1 round/5 levels
+Casting Time: 7
+Area of Effect: Creature Touched
+Saving Throw: Special
+
+This is an improved version of the mage spell Iron Form; it turns the target creature's body into living adamantite. 
+The new metallic body has many advantages: it reduces AC by 5, grants complete immunity to elemental and poison based attacks, and offers 90% resistance to magical and physical attacks. The target's Magic Damage Resistance is also set to 25%. In addition, the adamantite body can only be harmed by +3 weapons or better. While the new form doesn't allow the use of weapons, the hands will be more than capable for battle - they both act as +4 weapons, deal 4D6 points of damage and are used with grandmaster level of proficiency.
+Such a transformation is not without risks however. The target creature must make a saving throw vs. polymorph. If he fails this save at -4, he becomes slowed for 5 rounds. If the save fails at -2, the target becomes stunned for 2 rounds from the shock. A failed save at 0 results in physical pain in the victim (5D8 points of damage) and a fatigued state when the spell ends. Even if the save is successful, the target will suffer 30% spell failure until the spell's duration expires.~
+
+
+
+/* Thief Kits */
+
+
+@350 = ~Nerve Poison~
+@351 = ~Nerve Poison
+As they advance in levels, assassins become masters of toxins and poisons. Using this knowledge they can create more dangerous poisons, which not only cause pain, but can also disable the victim's nervous system. 
+Nerve Poison has three main effects: first, it deals 1 poison damage/second for 12 seconds. Second, it has a chance to paralyze the opponent for 5 rounds and grants 50% spell failure until expiration. Finally, it will deal extra damage every round in the following manner: 
+1st: 1D6 damage;
+2nd: 2D6 damage;
+3rd: 3D6 damage;
+4th: 4D6 damage;
+5th: 3D6 damage;
+6th: 2D6 damage;
+7th: 1D6 damage.
+This ability will last 3 rounds.
+
+Requires: Alchemy~
+
+@352 = ~Acrobatic~
+@353 = ~Acrobatic
+Swashbucklers are known as great fighters, but their training concentrates more on movement and agility instead of pure strength and devastating blows. By further enhancing their acrobatic and dodging skills, swashbucklers may become more formidable opponents in battle.
+This passive ability permanently increases Dexterity, reduces Base Armor Class by one and grants a 2 point bonus to all saves vs. breath.~
+
+@354 = ~Tracking~
+@355 = ~Tracking
+By learning how to study his surroundings and the creatures that live within them, a Bounty Hunter can use the Tracking ability to give himself a general idea of what creatures are in an area and which direction they are. Additionally, this ability allows the Bounty Hunter to uncover all invisible or hiding creatures in a 40' radius. Red arrows at the edge of the screen point in the general direction of the creatures in the area, while nearby creatures are immediately revealed.~
+
+@356 = ~Brew Poison~
+@357 = ~Brew Poison
+As the Assassin becomes more and more experienced with poisons and his alchemical skills, he can attempt to create his own varieties of poisons. Each poison type requires a certain amount of gold and a difficult process to be created, and the process itself can sometimes result in accidents. These brewed poisons can be applied to a weapon as contact poisons. 
+The poisonous potions are only useable by thieves.
+
+Requires: Alchemy~
+
+@358 = ~Set Toxic Trap~
+@359 = ~Set Toxic Trap
+This ability allows the Bounty Hunter to set a specific trap that sets off poisonous toxins when triggered. The poisonous cloud deals 1 poison damage/sec for 15 rounds (save vs. death/poison for half) and reduces the movement rate of enemies by 75% for 3 rounds (no save). If a living target creature is exposed to the toxins, it must make a saving throw vs. death to avoid falling unconscious. The duration of this state depends on the saving throw penalties (3 rounds if the victim fails the save at 0, 2 rounds if at -2 and one round if at -4). In addition to these effects, the toxins drain 3 points of Constitution from any opponents who fail to save vs. breath at -4.~
+
+
+
+/* Bard Kits */
+
+@370 = ~Improved Ambidexterity~
+@371 = ~Improved Ambidexterity
+As it is typical to this kit, blades are well trained in the use of two weapons at once. This passive ability further increases their skills in dual wielding weapons and negates the +2 THAC0 penalty to off-hand weapons.~
+
+@372 = ~Bladed Weapon Specialization~
+@373 = ~Bladed Weapon Specialization
+Skalds are great warriors among Bards, and they may reach an even higher level in weapon ability. This ability increases the number of the skald's proficiency stars in bladed weapons to two. The bard will become specialized with all bladed weapons, weather he was proficient with them or not.
+This ability excludes Blunt Weapon Specialization.
+
+Requires: Use Any Item~
+
+@374 = ~Blunt Weapon Specialization~
+@375 = ~Blunt Weapon Specialization
+Skalds are great warriors among Bards, and they may reach an even higher level in weapon ability. This ability increases the number of the skald's proficiency stars in blunt weapons to two. The bard will become specialized with all blunt weapons, weather he was proficient with them or not.
+This ability excludes Bladed Weapon Specialization.
+
+Requires: Use Any Item~
+
+@376 = ~Enhanced Skald Song~
+@377 = ~Enhanced Skald Song
+This is a powerful aid to both the skald and to his allies in battle. The song gives the skald himself a 6 point bonus to his AC and 10% magic resistance bonus due to the power of the song. The song also gives his allies +6 to hit, +6 to damage, -6 to AC, immunity to Fear, Stun and Confusion, +5% magic resistance and immunity to normal weapons.
+This ability replaces the current Bard Song.~
+
+@378 = ~Lingering Song~
+@379 = ~Lingering Song 
+Once a Bard's musical talents have reached a sufficient level, his music can stay with the listeners long after the last note has died away. Even after the Bard stops playing, the effects of his song linger with the listeners.
+Additionally, the enhanced talents of the bard allow his music to influence the hearts of its listeners at a greater distance.
+
+Requires: Enhanced Skald Song~
+
+@380 = ~Enhanced Jester Song~
+@381 = ~Enhanced Jester Song
+This magical song is a great threat to the jester's enemies. All opponents who hear the song must make a saving throw vs. spells at -4 to avoid becoming slowed for 1 round, save vs. spells at -2 to avoid becoming confused for 1 round, and save vs. spells to avoid becoming unconscious for a round. The power of the song grants the jester 10% magic resistance bonus, and -6 to AC.
+This ability replaces the current Bard Song.~
+
+@382 = ~Lingering Song~
+@383 = ~Lingering Song 
+Once a Bard's musical talents have reached a sufficient level, his music can stay with the listeners long after the last note has died away. Even after the Bard stops playing, the effects of his song linger with the listeners.
+Additionally, the enhanced talents of the bard allow his music to influence the hearts of its listeners at a greater distance.
+
+Requires: Enhanced Jester Song~
+
+@384 = ~Enhanced Bard Song~
+@385 = ~Enhanced Bard Song
+This is a powerful aid to both the bard and his allies. The song gives the bard a 6 point bonus to his AC and 10% magic resistance bonus. The song also gives his allies +4 to hit, a +4 bonus to all saving throws, a 4 point bonus to AC, +5% magic resistance, and grants them immunity to normal weapons, Fear and Charm.~
+
+@386 = ~Skald Flute~
+@387 = ~Skald Flute
+This ability creates a magic flute made of pure magical energy. When played, the flute can summon forth the spirits of 1-3 berserker warriors who fight for the bard for 1 turn, or until destroyed.
+The spell-like ability on the Flute is used in the same way that a wand's powers are used. The Flute lasts for 1 day and has just one charge.~
+
+@388 = ~Finesse~
+@389 = ~Finesse
+With proper training and skills, the blade can achieve perfection in his special spin stances. This passive ability improves both the Offensive and Defensive spin innates. Activating Offensive Spin will grant an extra 5% to the Critical Hit chance for the duration of the ability. While in Defensive Spin, the blade will be able to move around, though his movement rate will be reduced to 25%.~
+@390 = ~Your stances have been permanently improved.~
+
+
+/* Sorcerer */
+
+@400 = ~Idol of Frost~
+@401 = ~Idol of Frost
+Powerful sorcerers may develop the innate ability to "become one" with elements of magic for a limited time.
+By invoking this ability the Sorcerer will receive 115% Cold resistance bonus, which may bring him to a state of true "cold affinity" (so that damaging cold-based spells and effects will actually heal the caster somewhat). The caster's weapon will deal an additional 1D10 Cold damage and will slow the victim for 2 rounds (no save). Every creature in the near vicinity of the sorcerer suffers 2D10 damage every round (save vs. breath for half) and will be slowed for 1 round (no save) because of the freezing aura that surrounds him. In addition, the aura has a 5% chance to instantly kill opponents by turning them into solid ice (save vs. death at -4). Even if the saving throw is successful, the victim will suffer 20 points of cold damage. This ability hardens the casters body, and makes him resistant to slashing and piercing attacks.
+The disadvantage of this spell is that Lightning, Fire and Acid resistances are reduced by 25% each, so the caster will become vulnerable to these elemental attacks. The effects last for one turn.
+Idol of Frost excludes the use of the ability: "Spirit of Flame".~
+
+@402 = ~Spell Restoration~
+@403 = ~Spell Restoration
+Having an innate spell casting talent, Sorcerers may develop natural abilities to further enhance their arcane powers. This innate ability will restore 1 spell/spell level up to level 6. It requires some concentration, hence the longer casting time and the short charging period after casting.
+
+Requires: Inner Focus~
+
+@404 = ~Shatter Magic~
+@405 = ~Shatter Magic
+By using this high level ability the Sorcerer makes an attempt to break any magical enchantments around him. All enemies within a 30' radius must save vs. spell at -2 to avoid losing all magical effects. In addition, all opponents will have their Magic Resistance lowered by 15% and suffer a 2 points penalty to save vs. spells.
+The effects of this ability last for 1 turn.
+
+Requires: Inner Focus~
+
+@406 = ~Resist Magic~
+@407 = ~Resist Magic
+This ability allows the sorcerer to temporarily tap a great inner power and fight off the effects of opposing magic. For 5 rounds the sorcerer's magic resistance is increased by 30%. This is cumulative with other forms of magic resistance so if the sorcerer has 10% magic resistance, the ability will increase this value to 40%.~
+@413 = ~Resist Magic is not cumulative with itself.~
+
+@408 = ~Spirit of Flame~
+@409 = ~Spirit of Flame
+Powerful sorcerers may develop the innate ability to "become one" with elements of magic for a limited time.
+By invoking this ability the Sorcerer will receive 115% Fire resistance bonus, which may bring him to a state of true "fire affinity" (so that damaging fire-based spells and effects will actually heal the caster somewhat). The caster won't be able to use any weapon until the spell expires, but his fist itself will serve as a melee weapon that deals 2D10 points of fire damage and has 25% chance per hit to lower targets Fire Resistance by 10%. Every creature in the near vicinity of the sorcerer suffers 2D6 fire damage every round because of the scorching aura that surrounds him. This ability makes the caster partially ethereal and grants immunity to Normal Weapons.
+The disadvantage of this spell is that Lightning, Cold, and Acid resistances are reduced by 25% each, so the caster will become vulnerable to these elemental attacks. The effects last for one turn.
+Spirit of Flame excludes the use of the ability: "Idol of Frost".~
+
+@410 = ~Inner Focus~
+@411 = ~Inner Focus
+To enhance their magical capabilities, Sorcerers must advance to a higher level of inner focus. Learning this ability grants the Sorcerer +1 bonus to Charisma and to save vs. spells permanently.~
+@412 = ~Charisma has been permanently increased.~
+// @413 USED
+
+@414 = ~Aqua Mortis~
+@415 = ~Aqua Mortis
+Powerful sorcerers may develop the innate ability to "become one" with elements of magic for a limited time. 
+By invoking this ability the sorcerer will receive 115% resistance to Acid, which may bring him to a state of "affinity" with acid (so that damaging acid-based spells and effects will actually heal the caster somewhat). Every creature successfully attacking him will suffer an Acidic Backlash (no save). The caster will become immune to all poison and disease effects.
+The disadvantage of this ability is that until it expires, Fire, Cold and Lightning resistances are reduced by 25%, so the caster becomes vulnerable to these elements.
+This ability lasts one turn.
+Aqua Mortis excludes the use of the ability: "Scion of Storms".~
+
+@416 = ~Scion of Storms~
+@417 = ~Scion of Storms
+Powerful sorcerers may develop the innate ability to "become one" with elements of magic for a limited time. 
+By invoking this ability the sorcerer will receive 115% Lightning resistance bonus, which may bring him to a state of "affinity" with electricity (so that damaging lightning-based spells and effects will actually heal the caster somewhat). Pulsating with electricity, the caster's melee attack deals another 1D10 Electricity damage. Every creature successfully attacking the sorcerer suffers 1D10 Electricity damage and there is a 25% chance that it must make a save vs. spell at -2, or become stunned for 1 round. This ability grants a 25% bonus to Movement Speed.
+The disadvantage of this spell is that Fire, Cold, and Acid resistances are reduced by 25% each, so the caster will become vulnerable to these elemental attacks. The effects last for one turn.
+Scion of Storms excludes the use of the ability: "Aqua Mortis".~
+
+@418 = ~Spell Casting Speed Increase~
+@419 = ~Spell Casting Speed Increase
+Choosing this passive ability allows the sorcerer to cast spells faster than normal. Spell casting speed will be decreased by 1 permanently.
+This ability can be chosen multiple times.
+
+Requires: Casting by Intent~
+
+@420 = ~Energy Storm~
+@421 = ~Energy Storm
+High level sorcerers have great magical potential focused in their bodies.
+This terrible spell allows them to set loose these energies, which explode in a massive magical storm around the caster. This is a suicidal act and almost always results in the death of the sorcerer itself, so it should only be used in times of absolute peril.
+The uncontrolled magical energy rages in a 40' radius area, damaging all who stand in its area of effect. After invoking it, the sorcerer has no control over the engulfing chaotic energies and will be stunned in the center of the magical storm. After devouring the caster's magical powers, the spell will eventually use up his life force, literally draining it from the sorcerer. The storm inflicts 4D10 magic, 1D10 electrical, 1D10 fire and 1D10 cold damage (no save) to any creature in its area of effect (be it friend or foe) every 3 seconds after casting. Everyone in the area of effect will suffer a 25% Spell Failure (no save) and will be slowed (save vs. spells at -4). Creatures that attempt to get close to the center of the storm will be blown back to a short distance. The sorcerer's remaining spells and magical protections will fuel the power of the storm, and will be lost. After a few seconds the raging energies will start to attack the life force of the caster, draining him of 2D10 +10 HP every 3 seconds. If the sorcerer somehow survives this magical onslaught, he will be left unconscious for 6 rounds, and will be fatigued thereafter.
+Energy Storm lasts 15 seconds.
+
+Requires: Shockwave~
+
+@422 = ~Channel Magic~
+@423 = ~Channel Magic
+This high level ability allows a sorcerer to completely protect himself from all damaging magical effects and devour spells centered on him. For a short time the sorcerer will become immune to magical damage and certain death effects. In addition all spells directed at the caster will be absorbed (up to 8th level) and this allows previously cast spells to be recalled. There is no limitation to the number of absorbable spells.
+To achieve these results, the sorcerer must completely concentrate on the magical energies around him and will lose spell casting abilities until the duration expires, which is 3 rounds. 
+Note: innate abilities can still be used during the channeling.
+
+Requires: Resist Magic~
+
+@424 = ~Casting by Intent~
+@425 = ~Casting by Intent
+High-level Sorcerers may develop the passive ability to cast spells without the verbal component. The arcane energies are so focused in their bodies that they only need to concentrate on the desired magical effect and perform a few gestures to cast spells. In addition, their spells cannot be hindered by magical means, making them immune to Miscast Magic effects as well.
+
+Requires: Inner Focus~
+
+@426 = ~Aura Cleansing~
+@427 = ~Aura Cleansing
+By using this innate ability the sorcerer is able to emulate the effects of the 10th level wizard spell Improved Alacrity.
+By strength of will, the caster is able to momentarily disperse the spell energy residues on his aura. The effort required means that he can only maintain the cleansing effect for a single second.
+The sorcerer can take advantage of this window to unleash a torrent of spells, thanks to his improved spellcasting speed abilities.
+
+Requires: Spell Casting Speed Increase~
+
+
+@429 = ~SORCERER: Sorcerers are practitioners of magic who were born with the innate ability to cast spells.  It is thought that the blood of some powerful creature flows through their veins; perhaps they are the spawn of the gods themselves, or even dragons walking in humanoid form.  Regardless, the Sorcerer's magic is intuitive rather than logical.  They know fewer spells than wizards, and acquire spells more slowly, but they can cast spells more often and have no need to select and prepare spells ahead of time.  Sorcerers cannot specialize in magic the way wizards do.  Other than these differences, a Sorcerer is very similar to the wizard.
+NOTE:  A sorcerer does NOT learn spells from scrolls.  He chooses new spells with each level.  A sorcerer's prime requisite is INTELLIGENCE.~
+@430 = ~SORCERER: Sorcerers are practitioners of magic who were born with the innate ability to cast spells.  It is thought that the blood of some powerful creature flows through their veins; perhaps they are the spawn of the gods themselves, or even dragons walking in humanoid form.  Regardless, the Sorcerer's magic is intuitive rather than logical.  They know fewer spells than wizards, and acquire spells more slowly, but they can cast spells more often and have no need to select and prepare spells ahead of time.  Sorcerers cannot specialize in magic the way wizards do.  Other than these differences, a Sorcerer is very similar to the wizard.
+NOTE:  A sorcerer does NOT learn spells from scrolls.  He chooses new spells with each level.  A sorcerer's prime requisites are INTELLIGENCE and CHARISMA.~
+@431 = ~You cannot use this ability while Idol of Frost is active.~
+@432 = ~You cannot use this ability while Spirit of Flame is active.~
+@433 = ~You cannot use this ability while Aqua Mortis is active.~
+@434 = ~You cannot use this ability while Scion of Storms is active.~
+
+
+@435 = ~Shockwave~
+@436 = ~Shockwave
+Powerful sorcerers can go beyond the conventional limits of arcane magic. 
+Channeling pure magical energies through their bodies they are able to unleash a fragment of the power as a massive blast. This ability is different from other magical formulas - it doesn't require difficult gestures, or intense concentration. The sorcerer simply focuses his power at a spot somewhere in his line of sight and with only a moment's thought, creates a powerful outburst of magical energy at the point. This shockwave deals 5D10 damage to every creature in the target area (no save), and knocks everyone uncounscious for 1 round. If the victims fail their save vs. breath, they suffer 3D10 additional points of damage, they fall uncounscious for 2 rounds, and will be knocked back a great distance by the power of the blast.
+Since this is not an extra spell for this class, but an alternative use of arcane energies, sorcerers must sacrifice 1D2 spells from their selection (starting with the most powerful ones) every time they use this ability.
+
+Requires: Casting by Intent~
+
+
+@437 = ~Robe of Vecna
+This robe doesn't even have close to the power that the two famous artifacts, the Hand and Eye of Vecna possess.  Still, from simply being worn by the powerful lich, the robe absorbed enough magical energies to become a potent magic item.
+However, because of the way their magic works, Sorcerers cannot unfold the full power of the robe.
+
+STATISTICS:
+
+Equipped Abilities:
+AC: base set to 5
+Improves casting speed by 4, only by 2 when worn by a sorcerer
++10% Magic Resistance
+Weight:  3
+Only usable by:
+Mage (single, dual, & multi-class)~
+
+
+
+/* Fighter Kits */
+
+@440 = ~Greater War Cry~
+@441 = ~Greater War Cry
+With Greater War Cry, the berserker emits a powerful and frightening yell that will leave all opponents in a 30' radius panicked with fear if they don't make their save vs. spell at -2. In addition to this effect, Greater War Cry will increase the combat effectiveness of nearby party members by granting them a THAC0 bonus of 3 and immunity to fear effects for 2 rounds.
+
+Requires: War Cry~
+
+@442 = ~Spell Immunity~
+@443 = ~Spell Immunity 
+High level wizardslayers tend to develop innate abilities similar to their natural enemies. They can raise their Magic Resistance for a limited time, and even become immune to specific spell schools. 
+This ability grants the warrior protection from one spell school of his choice. It works similarly to the wizard spell, Spell Immunity, with a few differences. The Wizard Slayer must choose the school he wishes to be protected from, but can only choose between Conjuration, Evocation, Enchantment or Necromancy. 
+No spell of the selected school will be able to harm or aid him until the duration expires, which is 1 round/level, starting at level 9 and increasing to the maximum of 14 rounds at level 23. This includes all spells of this school, including any priest spell that might benefit the warrior. 
+
+Requires: Resist Magic~
+
+@444 = ~True Kai~
+@445 = ~True Kai
+This type of attack requires extensive training, and only the most skilled fighters are able to use it in combat properly. For 12 seconds all attacks made by the kensai will be at maximum damage and each hit has 25% chance to kill the opponent if it fails its save vs. death at -2.~
+
+@446 = ~Improved Critical~
+@447 = ~Improved Critical
+Trained fighters are able to improve the accuracy of their blows and the control they have over them.
+This passive ability increases the character's chances to score critical hits by 5%.
+
+Requires: Critical Strike~
+
+@448 = ~Toughness~
+@449 = ~Toughness
+This passive ability increases the character's Maximum Hit Points by 6 permanently. Toughness can be chosen up to 5 times.~
+
+
+/* Paladin Kits */
+
+@450 = ~Virtue~
+@451 = ~Virtue
+Cavaliers hold a special contempt for Demons and other evil aligned creatures in their hearts. As they advance in levels they can use this contempt to fight these opponents even more effectively.
+By choosing this passive ability the cavalier's Charisma will be permanently increased by 1 and the paladin will receive +2 bonuses to THAC0 and damage versus Chaotic Evil creatures. This bonus is cumulative with every other damage and THAC0 bonuses.~
+
+@452 = ~Circle of Law~
+@453 = ~Circle of Law
+By using this powerful ability the Inquisitor turns into a bastion of Law and will gain unassailable protections against chaotic and evil creatures and effects. It grants complete immunity to all Necromancy spells, gives a 3 point bonus to save vs. death and AC is decreased by 3. Furthermore the paladin and his companions in a 15' radius area will be protected from Evil and all chaotic spells or effects like Chaos, Drunkenness, Fear, Berserk, etc. 
+This ability lasts for 10 rounds.
+
+Requires: Shield of Law~
+
+@454 = ~Smite Undead~
+@455 = ~Smite Undead
+Channeling their god's antipathy for the undead, the Undead Hunter creates a golden ray of light burns the undead with heavenly flames. Graveborn foes suffer 20D6 points of magic damage (save vs. breath for half), and must save vs. spells to avoid instant disruption. Even if the saves are successful, the target becomes slowed for one round. The paladin has to be close enough to touch the creature (but there is no need for a successful touch attack) in order to use this ability. Smite Undead does not have any effect on living creatures, elementals, extra-planar creatures or constructs. 
+
+Requires: Exorcism~
+
+
+/* Ranger Kits */
+
+@460 = ~Animal Affinity~
+@461 = ~Animal Affinity
+Beastmasters live surrounded by animals and the forces of Nature. As they advance in levels, they reach a point where they may become a bit more "animal" and a less "human". By choosing this passive ability the Beast Master gains a permanent bonus to Constitution and saving throws (1 point), except for the save vs. spells, in which there is a 1 point penalty. In addition to these bonuses, Animal Affinity grants permanent infravision.~
+
+@462 = ~Precision~
+@463 = ~Precision
+With proper concentration a skilled archer can render his attacks more deadly and precise. By activating this ability the archer gains +6 to his THAC0 with missile weapons, +10 bonus to damage for 3 rounds and a 20% chance/hit to strike a lethal hit (the target creature is allowed a save vs. death to avoid instant death); the target must also make a save vs. breath at -2 to avoid being knocked back. 
+Precision has some drawbacks: it requires intense concentration, making defense almost impossible, and leaves time for just half of the normally available attacks. The archer's movement rate will be significantly decreased and his AC will suffer a 5 point penalty until the ability expires.~
+
+@464 = ~Shadow Pool~
+@465 = ~Shadow Pool
+Stalkers show some talent in adopting lesser arcane magics. As they become more and more experienced, they'll gain access to different mage spells dealing with shadows and illusion. 
+Upon activating Shadow Pool, the Stalker can choose from several illusion based spells. These are: Blur, Mirror Image, Invisibility, Non-Detection and Detect Illusion. If the ranger takes any action (e.g. attacking or spell casting) before choosing from the spell selection, the Shadow Pool fizzles.~
+
+
+/* Druid Kits */
+
+@470 = ~Comet~
+@471 = ~Comet 
+(Any School) 
+Level: Quest
+Range: 90 yards
+Duration: Instantaneous
+Casting Time: 6
+Area of Effect:  30' radius
+Saving Throw: Special
+
+This is a druidic version of the wizard spell, Comet, available only to Avengers. A medium sized meteor strikes the earth damaging all enemies in its path and creating a powerful shockwave that knocks away all creatures in the area of effect. Those knocked down must save vs. paralyzation or be stunned for 1D4 rounds. The comet itself does 10D10 damage. 
+This spell will not damage party members.~
+
+@472 = ~Feral Spirit~
+@473 = ~Feral Spirit
+High level shapeshifters can achieve a total mastery of their lycanthropy, increasing the raw strength of their hybrid form and the control they have over it. Feral Spirit improves both the Lesser and Greater Werewolf forms. Their AC is lowered, paws are treated as +3 weapons, resistances are augmented and immunities are improved. Furthermore, the druid becomes able to shapechange into the lesser form at will, without any limitation.~
+
+// 474 is not used yet
+@474 = ~Fate brings back one who heeds the call!~
+@475 = ~Ancestral Spirit~
+@476 = ~Ancestral Spirit (Conjuration)
+Level: Quest
+Range: 10 Yards
+Duration: 2 rounds + 1 round/8 levels
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: None
+
+Drawing upon the bond between druids past and present, the druid can summon an ancestral spirit to fight by his side. The ancestral spirit is a Great Druid, retaining his full druidic powers -including spell casting- as well as the bonuses granted to a spirit creature.
+
+Requires: Blessing of Nature~
+
+
+/* Cleric Kits */
+
+@480 = ~Circle of Law~
+@481 = ~Circle of Law (Abjuration)
+Level: Quest
+Sphere: Protection
+Range: Self
+Duration: 10 rounds
+Casting Time: 7
+Area of Effect: 15' radius
+Saving Throw: None
+
+By casting this powerful spell the Helmite priest turns into a bastion of Law and gains unassailable protections against chaotic or evil creatures and effects. The priest is granted complete immunity to all Necromancy spells, gains a 3 point bonus to saves vs. poison/death, and his AC is decreased by 3. Furthermore, the priest and his companions within a 15' radius are protected from Evil and all chaotic spells or effects such as Chaos, Drunkenness, Fear, Berserk, etc.  
+This ability lasts for 10 rounds.
+
+Requires: Enlightenment~
+
+@482 = ~Chaos Hammer~
+@483 = ~Chaos Hammer (Invocation) 
+Level: Quest
+Sphere: Combat 
+Range: Self 
+Duration: 3 rounds +1 round/every 3rd level after 20 
+Casting Time: 7 
+Area of Effect: Special 
+Saving Throw: None 
+
+The caster of this dangerous combat spell brings into existence a hammer blessed by Talos himself. For the duration of the spell, the Priest of Talos may use the magic weapon without non-proficiency penalties. It strikes as a magical weapon with an enchantment and THAC0 bonus of +5 and can hit opponents far away from the caster. The hammer inflicts 3D10 +5 electrical damage.
+Besides these effects, this powerful weapon has the chance to cast one of the following spells on the unlucky victim:
+- Blindness;
+- Confusion;
+- Greater Malison;
+- Chaos;
+- Chain Lightning.
+
+Requires: Enlightenment~
+
+@484 = ~Guardian Angel~
+@485 = ~Guardian Angel
+The caster of this powerful protective enchantment bestows the target creature with the blessing of Lathander for a short time. The recipient cannot die until the spell expires. The target will be protected from all instant-death effects, Level Drain, and his Hit Points cannot go below 1 for 10 rounds. The only effect that can result in the target creature's death is ability score drain.
+Given the nature of the blessing requested, only unselfish prayers will be answered.~
+@486 = ~Guardian Angel cannot be cast on self.~
+
+
+
+/* Multiclasses */
+
+@500 = ~Combat Reflexes~
+@501 = ~Combat Reflexes
+Fighter-Thieves excel both in pure combat prowess and in agile movement. Through extensive training and combat experiences characters of this class can surpass their normal limits. Reaction time, senses, and reflexes improve granting the Fighter-Thief 1 point permanent AC bonus vs. all weapon types and an extra 1 point bonus to AC vs. missiles. In addition, movement rate increases by 1 point and the character receives -1 to his saves vs. breath weapons.~
+
+@502 = ~Feral Lash~
+@503 = ~Feral Lash
+What Nature gives, Nature takes. Fighter-Druids can develop an innate ability to temporarily decrease any normal or magical resistances to physical and elemental damage by a single touch. The druid only has get close enough to touch their opponent and the Feral Lash will connect, there is no need for a successful attack roll. The target must save vs. spells at -4 to avoid losing 25% from his Fire, Cold and Electrical resistances as well as 10% from all physical resistances. The modified values reset to their normal level after 5 rounds. Multiple uses of this ability are cumulative.~
+
+@504 = ~Resist Magic Damage~
+@505 = ~Resist Magic Damage
+Normal Fighters can become resistant to the various forms of magical attacks, but Fighter-Mages can achieve more. Their outstanding physical prowess and understanding of the magical arts allows them to partially resist pure magical damage. 
+For each pick of this ability, the Fighter-Mage's Magic Damage Resistance will be increased by 10%.
+Resist Magic Damage can be picked up to three times.
+
+Requires: Resist Magic~
+
+@506 = ~Slippery Mind~
+@507 = ~Slippery Mind
+The mind has many possible forms of defense against outer attacks: a mage can shield his mind by powerful arcane incantations, thieves can conceal their thoughts as to make it difficult for others to control them. A Mage-Thief has both of these capabilities, and this special combination of skills renders him capable of becoming completely immune to all mind affecting spells and effects like Charm or Confusion. Note that spells and supernatural abilities directly affecting the nervous system can still harm the character.~
+
+@508 = ~Concealment~
+@509 = ~Concealment
+When a Thief is favoured by his deity, he is able to remain hidden where others less favoured would be detected. Arcane spellcasters often use the benefits of Invisibility spells, but these are weak to the various detection magics of experienced diviners. When a Cleric-Thief uses this powerful ability, he becomes completely non-detectable by his surroundings and opponents - divination magics are useless against this divine concealment. While under these effects, the character can act as if using the mage spell Improved Invisibility, with the sole difference that he cannot be detected through any magical means. Any offensive action breaks the invisibility and the caster becomes partially visible. 
+Concealment lasts 6 rounds +1 round/5 levels.~
+
+
+@510 = ~Combat Prayers~
+@511 = ~Combat Prayers
+Fighter-Clerics are well versed in defending their beliefs. The devotion to their gods united with the aptitude to fight when necessary allows them to more efficiently address their gods in a combat situation, increasing the speed at which they can cast clerical spells.
+This ability can be picked two times, each time lowering the casting time of spells by 1 point.~
+
+
+@512 = ~Union~
+@513 = ~Union
+A Cleric/Mage is blessed with the knowledge of two different kinds of magic. At high levels he can use the combination of arcane and divine arts and his understanding of the mechanisms of magic to forge a solid union. This appears as a powerful aura that grants beneficial bonuses to allies around him.
+Each affected creature obtains 10% bonus to his Magic Resistance. Magic users benefit the most from this aura: their casting time drops by 1, while their effective casting level increases by 5. 
+Additionally, the Cleric/Mage himself gains immunity to spell failure effects and immunity to 1st and 2nd level spells for the whole duration of the ability, which is 1 hour.~
+
+
+////////////////////////////////////////////////////////
+//Monk HLAs for Balthazar
+
+@550 = ~Revised Balthazar~
+
+
+
+
+////////////////////////////////////////////////////////
+//Swashimoen
+
+@600 = ~"SwashImoen", full revision (suggested)~
+@601 = ~"SwashImoen"~
+@602 = ~"SwashImoen", simple kit change (undocumented)~
+@603 = ~"SwashImoen", points in Detect Illusions rather than Set Traps.~
+
+
+
+
+////////////////////////////////////////////////////////
+//Shapeshifting fix
+
+@700 = ~Shapeshifting fix~
+@701 = ~Heal on shifting back to human (Default)~
+@702 = ~Heal on shifting to animal (by Borsook)~
+
+
+
+
+////////////////////////////////////////////////////////
+//Universal Robes
+
+@800 = ~Universal lesser mage robes~
+
+@811 = ~Robe of Cold Resistance~
+@801 = ~Robes of Cold Resistance are a common sight in the Sword Coast region, especially as one travels north towards Neverwinter and the Icewind Dales. Many young mages receive one as a gift from their instructors upon successfully completing their first five years of study. 
+
+STATISTICS:
+
+Cold Resistance:  +20% bonus
+Weight:  3
+Useable by: 
+Mage 
+Monk
+
+~
+
+@812 = ~Robe of Fire Resistance~
+@802 = ~Due to the extremely volatile nature of most magics, Robes of Fire Resistance are not uncommon among young acolytes and their wizardly tutors.
+
+STATISTICS:
+
+Fire Resistance:  +20% bonus
+Weight:  3
+Useable by:
+Mages
+Monks
+
+~
+
+@813 = ~Robe of Electrical Resistance~
+@803 = ~While seen with less frequency than some other Lesser Magical Robes, those of Electrical Resistance can hardly be considered a rarity. Some are worn by paranoiacs seeking protection from a ragged mountain storm but many more are worn by mages seeking to protect themselves from the intrigues of others of their kind. 
+
+STATISTICS:
+
+Electricity Resistance:  +20% bonus
+Weight:  3
+Useable by: 
+Mage 
+Monk
+
+~
+
+@804 = ~A favorite among thief-mages, the Knave's Robe has been enchanted to shield its wearer from the blades and poisons of any darkened alley. 
+
+STATISTICS:
+
+Armor Class:  +1 vs. slashing weapons
+Save vs. death:  +1 bonus
+Weight:  4
+Useable by: 
+Mage 
+Monk
+
+~
+
+@805 = ~This Lesser Magical Robe has been perfected for use by monks. Its enchantments provide protection from the bandit's arrow and offers additional protection from breath attacks. 
+
+STATISTICS:
+
+Armor Class:  +1 bonus vs. missile weapons
+Saving Throw:  +1 bonus vs. breath
+Weight:  4
+Useable by: 
+Mage 
+Monk
+
+~
+
+@806 = ~This robe has been specially enchanted to meet the eclectic needs of the adventuring type. Aside from protecting the wearer from various forms of crushing damage, it also provides protection from the basilisk's petrifying gaze and polymorphing powers of opposing mages. 
+
+STATISTICS:
+
+Armor Class:  +1 bonus vs. crushing weapons
+Saving Throw:  +1 bonus vs. petrification/polymorph
+Weight:  4
+Useable by: 
+Mage 
+Monk
+
+~
+
+
+
+//////////////////////////////////////////////
+//New Kit 
+
+@1001 = ~Sword Angel - New Fighter Kit~ 
+
+@1010 = ~Spiritual Harmony~ 
+@1011 = ~You can't cast Spiritual Harmony right now.~
+
+@1012 = ~Spiritual Focus~
+
+@1015 = ~Activate Merciful Fighting~
+@1016 = ~Merciful Fighting~
+@1017 = ~Deactivate Merciful Fighting~
+
+@1020 = ~Sustaining Will~ 
+@1021 = ~Sustaining Will
+As a natural result of an instinctive, innate and introspective research, a Sword Angel may reach a higher level of awareness about himself, his body, and his role in the greater scheme of things: acceptance of his own sufferings and the uncertain outcomes of human actions strengthen his determination to push himself always forward, whatever the circumstances.
+Choosing this ability grants to the character a permanent increase in Wisdom (+1 bonus) and in saves vs. Spells (+2 bonus). Furthermore, disciplines that require exceptional inner serenity and strength of will become accessible.~
+@1022 = ~Wisdom has been permanently increased.~ 
+
+
+@1023 = ~Improved Merciful Fighting~
+@1024 = ~Improved Merciful Fighting
+Using this ability a Sword Angel focuses on disabling attacks, raising the odds of avoiding unwanted bloodshed while fighting. 
+Damage is reduced by 6 points per blow, but any creature hit in melee falls unconscious for 5 rounds unless a save vs. Death at -2 is made (if not immune to the effect). If a creature is left with less than 20 HPs after being hit, then they fall unconscious with no save.
+Critical hits cannot be scored for the duration of this ability, which is one round.~
+@1025 = ~Incapacitating Hit~
+
+/*
+@1026 = ~empty~
+*/
+
+@1027 = ~Regeneration~
+@1028 = ~Regeneration
+A Sword Angel can train his body to improve the natural healing process, till it reaches an almost visible effect. 
+The natural regeneration rate is permanently increased by 2 HP/round, and this bonus is cumulative with every other regeneration effect on the character. 
+This ability can be picked only once.
+
+Requires: Sustaining Will~
+
+@1029 = ~Banish~
+@1030 = ~Banish
+Founding his path on the sacrality of life, a Sword Angel has pity for the undead and the beings they once were, and a strong aversion for demonic creatures that come from other planes of existence to spread suffering. 
+Using this ability he emits a powerful outburst out of his life force, a cry to set things in place again: undead close to the caster are sent to eternal rest, while nearby demons are "killed" and vanquished from the plane. Said creatures are entitled a save vs. death (at -2 for undead), but the ones who resist are still repulsed far away from the caster and suffer a 4 points penalty to THAC0, AC and saves for 2 rounds. 
+This tremendous use of willpower is extremely consuming and depletes the caster's life force almost entirely. 
+Banish can only be picked once.
+
+Requires: Sustaining Will~   
+
+@1031 = ~Heroism~
+@1032 = ~Heroism
+This ability improves the caster's valor in battle, inspiring also an unshakable courage on his party members, who will naturally perceive him as a real hero and a leader to follow without hesitation.
+The caster's attack rate is doubled for 2 rounds, and his base HPs are increased by 20% for 5 rounds. Meanwhile party members are rallied (and protected) from any fear or morale effect. 
+Heroism can't be used more than once per turn.~
+@1033 = ~You can't cast Heroism more than once per turn.~
+
+@1034 = ~Spiritual Integrity~
+@1035 = ~Spiritual Integrity
+For 5 rounds the Sword Angel manages to sustain not only perfect harmony within him, but even partial integration and empathic connection with the environment itself and the nearby beings.
+All the bonuses granted by Spiritual Harmony are gained, while fatigue effects do not occur. In addition all resistances are raised by 25%, and the caster's life force becomes impossible to drain. 
+Since beings are directly perceived rather than sensed, for the entire duration of the ability the caster can't be fooled by illusions, and becomes aware of the alignment of any nearby creature.
+There are other consequences though: if he hurts any living creature in melee while in this state, he'll share part of the suffering inflicted!
+
+Requires: Sustaining Will~
+@1036 = ~Empathic Backlash~
+@1037 = ~You can't cast Spiritual Integrity right now.~
+@1038 = ~Empathic Awareness~
+
+@1039 = ~Body Purge~
+@1040 = ~Body Purge
+A Sword Angel is in touch with the natural powers that connect all life forms, and may improve his thaumaturgic abilities.  
+Body Purge allows the cleansing of ill effects from the body of a touched person: poison, deafness, blindness and diseases are removed; in addition, 3d8 HPs are instantly healed.
+
+Requires: Sustaining Will~
+
+@1041 = ~Soul Touch~
+@1042 = ~Soul Touch
+A Sword Angel's influence can manifest as an aura affecting his nearby companions. His presence can inspire and motivate them, either for the desire to help and protect him, or simply to emulate him. At times this effect becomes powerful enough to touch their minds and wills, fully protecting them against any kind of fear (including magically induced fear). 
+In addition, the Sword Angel is able to embrace the souls of all but the most selfish of his companions: such a spiritual link grants them temporary immunity to most kinds of mind-affecting effects, as per the effect of a Mind Shield.
+Already active fear and mind effects are not removed by this influence.
+
+Requires: Heroism~
+
+@1043 = ~Freedom of Spirit~
+@1044 = ~Freedom of Spirit
+As the Sword Angel's spirit gets stronger and stronger, it becomes almost impossible to cage or subdue it in any way.
+Each time the Sword Angel becomes hindered in body or mind he finds within himself the strength of will to break free, releasing a powerful outburst that also pushes away all the menacing creatures around him.
+This power is draining to his soul however, so he cannot use it more than once every 5 hours. 
+
+Requires: Spiritual Integrity~
+
+@1050 = ~Sword Angel~ 
+@1051 = ~Sword Angel~
+@1052 = ~SWORD ANGEL:
+A pure-hearted fighter, capable to transcend his own training thanks to an unequaled spiritual strength. It is fabled that two warriors of such virtue never lived in the same historical time! Although not servants of any deity, these noble combatants reunite the spirit of self sacrifice of a paladin, the martial focus of a kensai, and the mystical pulsion of a monk. Their training is aimed to develop discipline and body-control, so their blows rarely strike deep or furious, and never viciously: Sword Angels don't learn treacherous moves to kill, or to penetrate armors. They fight with honour and clear souls, and avoid violence when they can.
+
+Advantages:
+- +1 to hit and AC for every 6 levels
+- +1 bonus to speed factor for every 4 levels
+- Lay on Hands ability 1/day
+- Immunity to fear and morale failure
+- "Spiritual Harmony" 1/day for every 4 levels
+- "Merciful Fighting" activatable at will
+
+Disadvantages:
+- Requires 13 WIS (primary), 10 INT and 13 DEX
+- May only be Human, Elf or Half-Elf
+- May only be Neutral Good
+- May not use armor, shields, helmets, excessively STR-enhancing equipment
+- May not use missile, poisoned or other vile weapons
+- May surpass "proficient" level only in one-handed blades or staves 
+- May not place stars in Dual Wielding Style
+- May dual only to mage, with the same restrictions as an illusionist (but no additional spells).
+- Suffers a -3 penalty to damage with all weapons
+
+Spiritual Harmony (5+2 rounds):
+When body and spirit become truly as one, both benefit from the intense union: reactions are improved, while the mind finds stability in its inseparable shelter. This state grants -3 to AC, +2 to Thac0, increased movement rate, immunity to spells like Domination or Confusion, and +2 to saves vs. Death, Breath and Polymorph. Such a perfect integration is consuming for a mortal being, so a state of great stress shortly follows (penalties to Thac0, AC, movement; spell casting is disabled for dual-classed characters).
+
+Merciful Fighting:
+Attempts to fight with limited harmful effects result in a penalty to damage (-6), but every blow which leaves an opponent with less than 20 HPs has a chance to make him unconscious for 5 rounds (save vs. Death at -2). This possibly removes the immediate need to kill, yet some creatures may be immune to the effect.
+Critical hits cannot be scored while this ability is active.~
+
+@1053 = ~Your heart is faltering, your actions are not free from taint. You don't follow the path of the purest anymore.~
+@1054 = ~Lost Kit: Sword Angel. 
+Abilities removed!~
+
+
+@1070 = ~This Ioun Stone was said to be a gift given to the Shou-ling monk, Wong Fei Hung by the Kara Turan god of war, Chan Cheng. The god came down in the form of a dragon and fought Wong Fei for three days and three nights. Chan Cheng was so impressed by the monk's prowess that he bestowed the Ioun Stone upon him. The stone disappeared when Wong Fei died.
+
+STATISTICS:
+Armor Class: +1 Bonus
+Equipped Abilities:
+  +15 to Max Hit Points 
+   Wearer Regenerates 1 hit point every 6 seconds
+
+Usable By:
+ Monk
+ Fighter
+ Kensai
+ Sword Angel~
+
+/* warning: @2000 is the subcomponent group for non-english, @2009 for english */
+
+@2000 = ~Revised Armors & Shields~
+@2001 = ~Large Shield +1, +3 vs. Missile~
+@2002 = ~Description updater for Revised Armors & Shields~
+
+// change YOUR_LANGUAGE with spanish, italian, french...
+// as needed in @2003 and @2004.
+@2003 = ~Update the descriptions only in YOUR_LANGUAGE~
+@2004 = ~Update the descriptions in YOUR_LANGUAGE or, if missing, in English~
+
+@2005 = ~Component thought for non-English languages.~
+@2006 = ~Component thought only for English language.~
+@2007 = ~No description update at all.~
+@2008 = ~Update the descriptions.~
+@2009 = ~Revised Armors & Shields.~
+@2010 = ~Component Outdated.~
+@2011 = ~Update the descriptions, no penalties to movement rate.~

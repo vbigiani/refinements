@@ -1,0 +1,29 @@
+2DA V1.0
+*
+           ABILITY    ICON       STRREF     MIN_LEV    MAX_LEVEL  NUM_ALLOWED PREREQUISITE EXCLUDED_BY ALIGNMENT_RESTRICT 
+1          GA_TG#ENES *          *          1          99         1           GA_TG#SHOC   *           *                  
+2          GA_TG#SHOC *          *          1          99         3           AP_TG#CAAW   *           *                  
+3          GA_LI#AUCL *          *          1          99         1           AP_TG#SPSP   *           *                  
+4          GA_TG#SRES *          *          1          99         20          *            *           *                  
+5          GA_TG#CHAM *          *          1          99         3           GA_TG#SRES   *           *                  
+6          GA_TG#AQUA *          *          1          99         3           *            GA_TG#SCST  *                  
+7          GA_TG#IDOF *          *          1          99         3           *            GA_TG#SPOF  *                  
+8          GA_TG#SCST *          *          1          99         3           *            GA_TG#AQUA  *                  
+9          GA_TG#SPOF *          *          1          99         3           *            GA_TG#IDOF  *                  
+10         GA_TG#SSPR *          *          1          99         3           AP_TG#SINF   *           *                  
+11         GA_TG#SSHA *          *          1          99         20          AP_TG#SINF   *           *                  
+12         AP_TG#SPSP *          *          1          99         3           AP_TG#CAAW   *           *                  
+13         AP_TG#CAAW *          *          1          99         1           AP_TG#SINF   *           *                  
+14         AP_TG#SINF *          *          1          99         1           *            *           *                  
+15         *          *          *          *          *          *           *            *           *                  
+16         *          *          *          *          *          *           *            *           *                  
+16         *          *          *          *          *          *           *            *           *                  
+17         *          *          *          *          *          *           *            *           *                  
+18         *          *          *          *          *          *           *            *           *                  
+19         *          *          *          *          *          *           *            *           *                  
+20         *          *          *          *          *          *           *            *           *                  
+21         *          *          *          *          *          *           *            *           *                  
+22         *          *          *          *          *          *           *            *           *                  
+23         *          *          *          *          *          *           *            *           *                  
+24         *          *          *          *          *          *           *            *           *                  
+25         *          *          *          *          *          *           *            *           *                  

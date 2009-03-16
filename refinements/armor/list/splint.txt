@@ -1,0 +1,13 @@
+-- C2VALY01 --
+-- CHAN17 --
+-- CHAN20 --
+-- PLAT18 --
+-- CHAN04 --
+-- CHAN05 --
+-- CHAN18 --
+-- ICHAN04 --
+-- VISCHAN2 --
+-- BAND01 --
+-- BAND02 --
+-- BAND03 --
+-- BAND04 --

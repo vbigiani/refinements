@@ -1,0 +1,3181 @@
+BRUENPLA
+--------
+Mithral Field Plate +2: 
+This is the personal armor of Bruenor Battlehammer, and never a finer kit have you seen.  It is truly a marvel of battlefield craftsmanship. 
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +35%
+DEX: -5
+Movement: -20%
+Spell failure: +45%
+Pick Pocket: -90%
+Lock Picking: -60%
+Find/Remove Traps: -65%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: -1
+Weight: 45
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2ANOM01
+--------
+Delryn Family Shield +4
+This is Anomen's family shield, given to him by his father. In addition to the magical protection the shield radiates an aura that grants the wielder fire and cold resistance. To protect against ranged attacks, Anomen can use the shield to erect a field of energy. This protection from normal missiles can be used three times per day.
+Recently <CHARNAME> had the shield strengthened with protective magics of the Saving Grace shield, recovered from the fading avatar of Amaunator, dramatically improving its raw defensive abilities.
+STATISTICS:
+AC Bonus: 5
+Extra AC Bonus vs. missiles: 1 
+SPECIAL EFFECTS:
+Fire Resistance: +30%
+Cold Resistance: +30% 
+Abilities: 3 times per day can cast protection from missiles on bearer
+
+Usable By: Anomen
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2CHAN01
+--------
+Forged at <CHARNAME>'s request by interlocking red dragon scales with a suit of enchanted elven chain mail, the Incarnadine Elven Chain provides a superior combination of protection and freedom of movement. Rogues and wizards can still practice their trades while wearing this light suit of armor. 
+STATISTICS:
+Resistance to slashing damage: +20%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +10%
+Fire Resistance: +25%
+Pick Pockets: -20%
+Lock Picking: -5% 
+Find/Remove Traps: -5%
+Move Silently: -10%
+Armor Class: 0
+Weight: 15
+Requires: 5 Strength
+
+Not Usable By:
+Druid
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2HIDE01
+--------
+Aeger's Hide +5
+This heavy and thick bear hide is all that remains of the fabled Aeger. Several hundred years ago the Aeger, a giant bear, terrorized hundreds of small villages up and down the Sword Coast. The bear was invulnerable to fire, cold or acid. Finally the young men and women of several villages banded together, forming a militia almost two hundred people strong. The Aeger was surrounded and finally slain. Less than a dozen villagers survived, and they carved the Aeger's hide amongst themselves. Out of one of the pieces this armor was created.
+More recently, <CHARNAME> arranged for Aeger's Hide to be improved with additional enchantments. It now provides a greater resistance to physical blows and elemental attacks.
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +10%
+Spell failure: +10%
+Pick Pockets: -15%
+Lock Picking: -5%
+Find/Remove Traps: -5%
+Move Silently: -5%
+Hide in Shadows: -5%
+Armor Class: 1
+Weight: 35
+Requires: 6 Strength
+SPECIAL EFFECTS:
+Bonuses: +25% resistance to fire, cold, and acid
+Immunity to Confusion
+
+Not Usable By:
+Mage
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2KELD01
+--------
+Improved Firecam Full-Plate Armor
+This suit of armor was originally designed for Keldorn and few others may wear it. The suit was later enchanted again at <CHARNAME>'s request and it now provides Keldorn with even more protection. While equipped the suit provides the wearer with a +2 bonus to all saving throws and grants the wearer with free action (able to pass through webs and other effects) and immunity to fear. Despite being incredibly strong, the armor is almost weightless. 
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +40%
+DEX: -4
+Movement: -20%
+Spell failure: +40%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -60%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: -2
+Weight: 10
+Requires: Only wearable by Keldorn
+SPECIAL EFFECTS:
+Saving Throw Bonus: +2
+Equipped Abilities: Free Action, Immunity to Fear
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2LEAT01
+--------
+Improved Human Flesh
+Made from human skin and treated with the blood of a noble dragon and combined with the soul of an innocent girl and powerful protective magic, this armor emits the stench of bitter death. The malevolent armor can only be used by a truly evil person. This is the pinnacle of dastardly protection. 
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+Armor Class: 0
+Weight: 5 
+Requires: 3 Strength 
+SPECIAL EFFECTS:
+Saving Throws: +4 bonus
+Magic Resistance: +20%
+Equipped Abilities: +1 DEX bonus, +1 CON bonus, immunity to poison, protection from Good
+
+Not usable by:
+Mage
+Non-Evil Characters
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2PLAT01
+--------
+Improved Ankheg Plate Mail
+This plate mail has been expertly crafted. Sheathed in the chitinous scales of the ankheg, it provides a greater degree of protection than traditional plate mail and is not susceptible to rust. As any world-weary adventurer will tell you, however, the best appreciated aspect of ankheg mail is its light weight and low encumbrance. Monsters come and go but fatigue is a constant enemy. 
+This particular suit of Ankheg Plate Mail was reforged for <CHARNAME>. It now provides additional protection against melee and acid attacks and allows the wearer to mimic the acid-spitting attack of the Ankheg.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +20%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +20%
+DEX: -3
+Movement: -10%
+Spell failure: +40%
+Pick Pockets: -70%
+Lock Picking: -40%
+Find/Remove Traps: -40%
+Move Silently: -80%
+Hide in Shadows: -65%
+Armor Class: -1
+Weight: 25
+Requires: 8 Strength
+SPECIAL EFFECTS:
+Equipped Abilities: 50% acid resistance
+Combat Abilities: Cast Melf's Acid Arrow three times per day
+
+Not Usable By:
+Bard
+Druid
+Mage
+Thief
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2SHLD01
+--------
+Shield of Harmony +3
+Audn of the Field, Knight-Champion for the wizard Kekkim, carried this shield for most of his life. It protects the bearer from most forms of mind control, a benefit for a wizard who needed warrior allies to stay faithfully at his side. Both Kekkim and Audn have long since returned to the earth, leaving the shield to whomever might recover it from Kekkim's tower.
+More recently the shield was re-enchanted by <CHARNAME>. It now provides extra physical defenses and makes the bearer immune to psionics (but not the intelligence drain of the Illithid). 
+STATISTICS:
+AC Bonus: 4 
+Extra AC Bonus vs. missiles: 1
+Weight: 2
+Requires: 4 Strength
+SPECIAL EFFECTS:
+Immunity to charm, psionics, confusion, domination, and hold person
+
+Not Usable By:
+Bard
+Druid
+Mage
+Thief
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2VALY01
+--------
+Corthala Family Armor
+This armor, long in the Corthala bloodline, protects the user against all forms of attacks. The armor has been combined with the Shadow Dragon Armor and is now even better at protecting Valygar. The armor is enchanted so that it grants a +5 bonus to Valygar's armor class. It also adds a bonus to resisting acid, fire and magical damage. The armor also makes Valygar immune to charm while he wears it. Finally, the armor grants Valygar non-detection while equipped. As it is specially fitted for Valygar, few other than he may wear it.
+STATISTICS:
+Resistance to slashing damage: +20%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +10%
+DEX: -2
+Movement: -10%
+Spell failure: +30%
+Pick Pockets: -45%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -50%
+Hide in Shadows: -40%
+Armor Class: 0
+Weight: 9
+SPECIAL EFFECTS:
+Equipped Abilities: Immunity to Charm; Non-Detection
+Bonuses: +50% Resistance to fire, acid, and magic damage
+
+Usable By: 
+Valygar
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHALARM
+--------
+Not many suits of this armor, originally used by the legions of Unther, remain in use today. The few suits that exist are usually in the hands of rich collectors.  Simply finding a suit of this armor is enough to earn an adventurer a small fortune.  
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +35%
+DEX: -5
+Movement: -20%
+Spell failure: +45%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -65%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: -1
+Weight: 40
+Requires: 15 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHALSHLD
+--------
+A century ago, astronomers noted an unexpected comet coming to earth offshore of the Sword Coast.  An odd occurrence, it was made stranger by the lightweight fragments of metal found days later by blacksmith Huffum Fuiruim, who cared little about celestial events.  He fashioned the bulk of it into this shield, though the forging took months and the aid of several enchanters.  "From the heavens?  Nay, from my hammer!"
+STATISTICS:
+AC Bonus: 1
+Extra AC Bonus vs. missiles: 5
+Weight: 3
+Requires: 12 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN02
+--------
+Chain mail is made of interlocking metal rings.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.  Extra protection is given by magical enchantments placed on this armor.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +5%
+DEX: -2
+Movement: -10%
+Spell failure: +30%
+Pick Pockets: -35%
+Lock Picking: -15%
+Find/Remove Traps: -20%
+Move Silently: -40%
+Hide in Shadows: -30%
+Armor Class: 4
+Weight: 10
+Requires: 8 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN03
+--------
+Chain mail +2:  'Mail of the Dead'
+A mage can make an extremely effective assassin, as Vorusta illustrated over 400 years ago.  He would create skeleton warriors equipped with this enchanted armor and a powerful blade, and give their circlet of power to the target as a friendly gift.  When the killing machine was through with its work, Vorusta retrieved the equipment and started the entire process over.  
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +10%
+DEX: -2
+Movement: -10%
+Spell failure: +30%
+Pick Pockets: -35%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -40%
+Hide in Shadows: -30%
+Armor Class: 3
+Weight: 10
+Requires: 8 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN05
+--------
+Splint Mail is a variant of banded mail in which the metal strips are applied vertically to the backing of chain, leather, or cloth rather than horizontally as in banded mail.  Since the human body does not swivel in mid-torso as much as it flexes back to front, splint mail is more restrictive in battle.  This suit of armor is enchanted, granting the wearer a bonus of +1 to their armor class.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +10%
+DEX: -3
+Movement: -10%
+Spell failure: +35%
+Pick Pockets: -50%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -50%
+Hide in Shadows: -40%
+Armor Class: 3
+Weight: 10
+Requires: 8 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN06
+--------
+Mithril Chain mail +4.  This is the personal armor of Drizzt, the famous dark elf ranger.  It was forged for him by his friend Bruenor.
+STATISTICS:
+Resistance to slashing damage: +20%
+Resistance to piercing damage: +20%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +15%
+DEX: -1
+Spell failure: +25%
+Pick Pockets: -35%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -35%
+Hide in Shadows: -25%
+Armor Class: 1
+Weight: 7
+Requires: 8 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN07
+--------
+Chain Mail +3:
+This perfectly crafted chain mail is the standard armor of deep dwarf elite fighters. It is comprised of a mithril alloy and offers protection from all but the most determined attackers.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+DEX: -1
+Spell failure: +25%
+Pick Pockets: -35%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -35%
+Hide in Shadows: -30%
+Armor Class: 2
+Weight: 9
+Requires: 8 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN08
+--------
+Chain mail is made of interlocking metal rings.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.  Extra protection is given by magical enchantments placed on this armor.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +10%
+DEX: -2
+Movement: -10%
+Spell failure: +30%
+Pick Pockets: -35%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -40%
+Hide in Shadows: -30%
+Armor Class: 4
+Weight: 10
+Requires: 8 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN09
+--------
+Whether by design or through exposure to intense heat in battle, the chain links of this armor are coal black throughout.  While legends usually speak of knights in shining armor facing great beasts, the fire resistant enchantment on this suit suggests equally great, if unheralded, battles with fire breathing creatures.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+DEX: -1
+Spell failure: +25%
+Pick Pockets: -35%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -35%
+Hide in Shadows: -30%
+Armor Class: 2
+Weight: 9
+Requires: 8 Strength
+SPECIAL EFFECTS:
+Bonuses: +20% Resistance to fire damage
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN10
+--------
+Friends of Dekirh Fasthands, a bard who insisted on playing the rowdiest towns on the Sword Coast, gave him this suit of magical chain as a gift. The chain mail was given to protect Dekirh from the drunken spectators who often threw rotting produce, chairs and even knives at Dekirh.  The bard appreciated the gift but painted it with wild colors to better fit into his show. 
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+DEX: -1
+Spell failure: +25%
+Pick Pockets: -35%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -35%
+Hide in Shadows: -25%
+Armor Class: 1
+Weight: 8
+Requires: 8 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN11
+--------
+The dark red metal used to make this chain is said to come from a hidden mine in the Cloudpeaks.  At one time the Bloodway, a band of evil adventurers, all wore armor of this kind, but the other suits have long been lost.
+STATISTICS:
+Resistance to slashing damage: +20%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+Spell failure: +20%
+Pick Pockets: -30%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -35%
+Hide in Shadows: -25%
+Armor Class: 0
+Weight: 7
+Requires: 8 Strength
+
+Not Usable By:
+ Druid
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN13
+--------
+This mail feels more akin to cloth than to metal, and may be worn by thieves with few penalties and by fighter-mages without removing their spellcasting ability. This variety of mail is woven by masters in almost exactly the same form by both elves and the Drow; it has changed little since the Drow's elven past and is used for surface forays where Adamantine Drow chain would decay.
+The light-coloured Elven variety of this armor has no restrictions other than class-inherent, but the dark Drow variety is magically attuned to its owner, and thus may only be worn by those of evil alignments.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+Pick Pockets: -5%
+Lock Picking: -5%
+Find/Remove Traps: -5%
+Armor Class: 4
+Weight: 8
+Requires: 5 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Kensai
+ Monk
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN14
+--------
+This light but strong mail is of Sylvan elf construction, and therefore its elegance is only exceeded by its rarity.  Normally granted only to especially brave elves, seldom is this armor be found outside of a wood elf tribe, and rarer still on someone not of elven lineage.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+Pick Pockets: -5%
+Find/Remove Traps: -5%
+Armor Class: 3
+Weight: 10
+Requires: 5 Strength
+
+Not Usable By:
+ Druid 
+ Mage
+ Kensai
+ Monk
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN15
+--------
+The Bards of Melody were a small band of half-elf bardic warriors who entertained and defended scattered elven communities throughout Calimshan.  Enchantments allowed only minstrels to wear their armor, the magical links sliding together to produce beautiful melodies as they danced or fought.  Unfortunately the Bards of Melody were disbanded hundreds of years ago, and the secret of 'playing' the armor faded with them.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +10%
+Pick Pockets: -5%
+Armor Class: 2
+Weight: 12
+Requires: 5 Strength
+
+Usable By:
+ Bard
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN16
+--------
+The lore of this suit is difficult to determine, either due to the exotic circumstances from which it sprang, or the wish of its previous owner to conceal its location.  Secrecy would certainly be desirable, as even rumors of such a mail as this could provoke deadly interest.  It is the pinnacle of elven craft, and a truly blessed item.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +10%
+Armor Class: 1
+Weight: 15
+Requires: 5 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Kensai
+ Monk
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN17
+--------
+Instead of metal strips, this armor uses wyvern scales bound to a chain backing by means of a magical fire.  The resulting armor is ash grey in color and more flexible than standard splint mail.  A ranger, Usher Skacan. made this armor after slaying several wyverns that were killing all the deer and elk in his forest.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+DEX: -3
+Movement: -10%
+Spell failure: +35%
+Pick Pockets: -50%
+Lock Picking: -15%
+Find/Remove Traps: -20%
+Move Silently: -50%
+Hide in Shadows: -40%
+Armor Class: 2
+Weight: 18
+Requires: 8 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN18
+--------
+This was the armor of Seffer Ekr, and a sign of the goddess Mielikii's favor.  She had rewarded the ranger's loyalty with the promise that he would never die in battle, and he defied death for many years, holding orcish hordes back from his home forest.  A heart attack claimed him when his time was done, not an enemy's blade.
+STATISTICS:
+Resistance to slashing damage: +20%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+DEX: -2
+Movement: -10%
+Spell failure: +30%
+Pick Pockets: -50%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -50%
+Hide in Shadows: -40%
+Armor Class: 1
+Weight: 15
+Requires: 8 Strength
+SPECIAL EFFECTS:
+Bonuses:  +1 bonuses to all saving throws
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN19
+--------
+While in exile from Myth Drannor, Aslyferund learned the secret of fashioning powerful Elven armor by gilding and heavily enchanting normal Elven Chain.  Alas, his refusal to divulge the secret lead to his murder by a rival smith.
+STATISTICS:
+Resistance to slashing damage: +20%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +10%
+Armor Class: 0
+Weight: 15
+Requires: 5 Strength
+SPECIAL EFFECTS:
+While worn, user is completely immune to all normal weapons.
+
+Not Usable By:
+ Druid
+ Mage
+ Monk
+ Archer
+ Stalker
+ Beastmaster
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN20
+--------
+Not surprisingly, this armor created from the scales of a young Ice Dragon provides the wearer with protection from cold and ice.  Lightweight and natural-source, it can be worn by more classes than other similarly protective armors.
+STATISTICS:
+Resistance to slashing damage: +20%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +15%
+DEX: -2
+Movement: -10%
+Spell failure: +35%
+Pick Pockets: -50%
+Lock Picking: -15%
+Find/Remove Traps: -20%
+Move Silently: -50%
+Hide in Shadows: -40%
+Armor Class: -2
+Weight: 15
+Requires: 8 Strength
+SPECIAL EFFECTS:
++50% Resistance to Cold
+Cast Cone of Cold 3 times/day
+
+Not Usable By:
+ Mage
+ Monk
+ Shapeshifter
+ Avenger
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN21
+--------
+Typical golden chainmail worn by Balthazar's Mercenaries.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+DEX: -1
+Spell failure: +25%
+Pick Pockets: -35%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -35%
+Hide in Shadows: -30%
+Armor Class: 2
+Weight: 10
+Requires: 8 Strength
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CLOLTH
+--------
+This mail feels more akin to cloth than to metal, and may be worn by thieves with few penalties and by fighter-mages without removing their spellcasting ability. This variety of mail is woven by masters in almost exactly the same form by both elves and the Drow; it has changed little since the Drow's elven past and is used for surface forays where Adamantine Drow chain would decay.
+The light-coloured Elven variety of this armor has no restrictions other than class-inherent, but the dark Drow variety is magically attuned to its owner, and thus may only be worn by those of evil alignments.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+Pick Pockets: -5%
+Lock Picking: -5%
+Find/Remove Traps: -5%
+Armor Class: 4
+Weight: 8
+Requires: 5 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Kensai
+ Monk
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM053
+--------
+This is a perfect set of armour made from the purest mithril. Mithril is mined by the dwarves, and is fashioned into very exotic and enchanted armours. Dwarven made items are expensive and hard to come by, but they are highly powerful.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+DEX: -1
+Spell failure: +25%
+Pick Pockets: -35%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -35%
+Hide in Shadows: -25%
+Armor Class: 1
+Weight: 7
+Requires: 8 Strength
+Enchantment: +4
+
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Stalker
+ Beast Master
+ Archer
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM086
+--------
+The Armour of the Shield was crafted in the name of the "Order of the Shield". These were a group of paladins following in the name of Tyr.
+This armour was kept by the Order for many, many years and was the symbol of hope for the entire order. 
+The leader of the order was allowed to wear this armour on special occasions, and in times of great need. In battle this armour inspires all of the people nearby to be filled with new hope and courage. 
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +40%
+DEX: -4
+Movement: -20%
+Spell failure: +40%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -60%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armour Class: -2
+Weight: 45
+Requires: 15 Strength
+Enchantment: +3
+SPECIAL EFFECTS:
+Equipped Ability: Immunity to Fear
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM087
+--------
+Brukkar was a mighty barbarian warrior that lived in the mountains along the border between Amn and Tethyr. Brukkar wandered the wilds alone, and was very much a top predator. He was a skilled huntsman, and was wise in the ways of the mountains and of the forest. 
+Brukkar found this armour when he flushed out a cave of many, many giants, all of which he killed single-handed with a few mighty swings of the huge sword he carried. 
+This chain went everywhere with him, and helped the barbarian to many more feats of victory and heroism, unfortunately it also spelled the poor man's doom. He was found by a small group of adventurers, who took pity on the barbarian. Brukkar did not trust them very much, and tried to escape. The group didn't much like the barbarians hasty actions so attacked him. 
+Spell after spell hit Brukkar, but he shook most of them off just with sheer will, his armour protecting him from a large majority of them. But he eventually fell, through sheer weight of numbers.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+DEX: -1
+Spell failure: +25%
+Pick Pockets: -35%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -35%
+Hide in Shadows: -30%
+Armour Class: 2
+Weight: 9
+Requires: 8 Strength
+Enchantment: +3
+SPECIAL EFFECTS:
+Equipped Abilities:
+ +5% Magic Resistance
+ +50% Magical Damage Resistance
+ +20% Fire Resistance 
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM088
+--------
+This armour is also known as the "Hell Plate", as it seems to burn on the surface with a righteous fury. 
+Falgar was a man of many different names, but he was known as Falgar more commonly. The strange man claimed to come from another world, and was said to have hailed from Mount Celestia. It seemed that Falgar had come to save Faerun from peril, and that he did in the form of an Aasimar.
+This armour glows in strange colours, and this glowing seems to protect the wearer from a great many different types of attacks. However nice this plate may be, it is very cumbersome to use, and is heavier than conventional suits of armour of the same style.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +20%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +20%
+DEX: -3
+Movement: -10%
+Spell failure: +40%
+Pick Pockets: -70%
+Lock Picking: -40%
+Find/Remove Traps: -40%
+Move Silently: -80%
+Hide in Shadows: -65%
+Armor Class: -1
+Weight: 87
+Requires: 17 Strength
+Enchantment: +3
+SPECIAL EFFECTS:
+Equipped Abilities:
+ +25% Fire Resistance
+ +25% Cold Resistance
+ +25% Acid Resistance 
+ +25% Magical Damage Resistance 
+
+Not Usable By:
+ Bard 
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM090
+--------
+This full plate is astoundingly well made, and individually crafted, giving the wearer huge resistance to enemy attacks.
+STATISTICS:
+Resistance to slashing damage: +35%
+Resistance to piercing damage: +25%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +40%
+DEX: -3
+Movement: -10%
+Spell failure: +35%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -60%
+Move Silently: -90%
+Hide in Shadows: -80%
+Armour Class: -6
+Weight: 70
+Requires: 15 Strength
+Enchantment: +7
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM096
+--------
+This is the Black Knight's armour. It does not shine, and is completely black. It looks nice on you.
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +40%
+DEX: -4
+Movement: -20%
+Spell failure: +40%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -60%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armour Class: -2
+Weight: 45
+Requires: 15 Strength
+Enchantment: +3
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM119
+--------
+Garraxen, was the lord to a small kingdom, a little north of Waterdeep. The kingdom was only small, and most was farmland. He did not rule over much. His treasury was also small, but one item in particular, was one that he treasured most dear to his heart. It was a shield made from wood, but this was no simple wood. The shield almost seemed alive, and the ground beneath it shuddered below the wielder whenever it was placed on the arm. Garraxen seldom used the shield, only ever to occasionally practice his swordplay, but his love of the shield brought about his downfall.
+Garraxen's land was not much known for its crime, though this time was an exception. A thief from lands afar, namely Calimshan, had heard of the shield. He came to Garraxen's lands in order to steal it; he knew he could sell it on for a tidy profit. The thief snuck into the lord's castle, without any problem and into the treasury, and past the guards. Though, the thief did not find the shield. 
+Garraxen had the shield tightly guarded, near his own bed chamber, and Garraxen was not completely foolish, though when he heard a creak from that very room, Garraxen knew something was amiss. He leaped up with his sword, and charged into the room, to be promptly be dispatched by his own guards, and they found the shield to be gone in one fell swoop. The thief, thereafter, named the shield "Garraxen's Bane".
+STATISTICS:
+AC Bonus: 4
+Extra AC Bonus vs. missiles: 1
+Weight: 4
+Requires: 12 Strength
+Enchantment: +3
+SPECIAL EFFECTS:
+Combat Ability:
+ Entangles Enemies Striking the Shield
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM120
+--------
+This shield was constructed, much like any other, in a forge. The forge was not different to any other, and the smith was possibly much like any normal smith of those parts.
+But an accident occurred while forging this, a potion of some sorts, named a Potion of Many Mirrored Eyes, was poured all over the face of the shield. It gave it strange reactive properties.
+This shield in battle, reflects light like no-other shield in existence. If used correctly, the shield can reflect light in such a way that it will blind anyone the light is reflected at. It also can protect from the gazes of umberhulks and their kin, as well as petrification and others.
+STATISTICS:
+Bonus missile AC: 1
+Armor Class Bonus: 4
+Weight: 8
+Requires: 9 Strength
+Enchantment: +3
+SPECIAL EFFECTS:
+Equipped Abilities:
+ Immunity to Confusion
+ Immunity to Domination
+ Protection from Petrification
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM121
+--------
+This is a very small buckler, and seems to fit easily on the wrist and fits neatly. Although it is unusual for thieves to use a shield, this one seems light enough, and more useful than an average buckler. Tucked inside the top layer of the shield are several small style lock picking tools, among others to help a thief easily get through doors and other such things, and seems even to have a small set of loading weights tucked inside for use on detecting traps. This shield could be useful to even the most big time thief, and it also provides the thief with some minor protection as well.
+STATISTICS:
+Armour Class Bonus: 3
+Other: No Missile/Blunt Attack Protection
+Weight: 2
+Requires: 4 Strength
+Enchantment: +2
+SPECIAL EFFECTS:
+Equipped Abilities:
+ +20% Lock Picking
+ +20% Set Snares
+ +20% Detect Traps
+
+Only Usable By:
+ Thief
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DEITM122
+--------
+Hell hath no fury compared to the might of the warrior known as Vriel. Vriel was a mighty warrior priest of the god, Tempus. She longed for glorious battle, and a glorious death, but it was as if Tempus did not want that to be. Every battle she was in, she seemed almost unstoppable through the power and will of her god, Tempus.
+After a battle one day, against a large tide of orcs, she found a shield on one of her fallen comrades. Tempus willed her to keep the shield, and Tempus filled it with a large amount of godly power and strength, filling the wielder with a boost of energy. Not only does this shield provide protection, but it grants strength also.
+STATISTICS:
+AC Bonus: 5
+Extra AC Bonus vs. missiles: 1
+DEX: -1
+Movement: -10%
+Weight: 4
+Requires: 10 Strength
+Enchantment: +3
+SPECIAL EFFECTS:
+Equipped Abilities:
+ +1 Strength Bonus
+ +10 Maximum Hit Points
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWCHAN01
+--------
+Drow Chain +3
+The delicate yet sturdy craftsmanship of the Elven races allows them to design many beautiful yet utilitarian goods.  Among these is Elven chain mail, which is so finely wrought that it can be worn under normal clothing without revealing its presence.  This and its lightness allows it to be worn by thieves and fighter/mages with few restrictions.
+This item, like most drow equipment, is created using Adamantine, an alloy of adamantite that quickly turns to dust if removed from the Underdark.
+This magical drow chain mail gives the wearer a bonus of 5% to magic resistance and takes 1 off of the speed factor of all spells cast by the wearer of the armor.
+STATISTICS:
+Resistance to slashing damage: +20%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +15%
+Resistance to missile damage: +15%
+Pick Pockets: -25%
+Lock Picking: -5%
+Find/Remove Traps: -5%
+Move Silently: -10%
+Armor Class: 2
+Weight: 12
+Requires: 5 Strength
+SPECIAL EFFECTS:
++5% Magic Resistance
+-1 to casting time of all spells
+
+Not Usable By:
+ Druid 
+ Mage
+ Kensai
+ Monk
+ Archer
+ Stalker
+ Beast Master
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWCHAN02
+--------
+Drow Adamantine Chain +5
+The sturdy craftsmanship of the Drow allows them to design many beautiful yet utilitarian goods.  Among these is Drow chain mail, which is so finely wrought that it can be worn under normal clothing without revealing its presence.  This and its lightness allows it to be worn by thieves and fighter/mages with few restrictions.
+This item, like most drow equipment, is created using Adamantine, an alloy of adamantite that quickly turns to dust if removed from the Underdark.
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +20%
+Resistance to blunt damage: +15%
+Resistance to missile damage: +15%
+Pick Pockets: -20%
+Lock Picking: -5%
+Find/Remove Traps: -5%
+Armor Class: 0
+Weight: 12
+Requires: 5 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Kensai
+ Monk
+ Archer
+ Stalker
+ Beast Master
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWPLAT01
+--------
+Full plate armor is the best armor a warrior can buy, both in appearance and protection.  The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.  This drow armor will dissolve to dust if removed from the Underdark.
+STATISTICS:
+Resistance to slashing damage: +40%
+Resistance to piercing damage: +30%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +40%
+DEX: -1
+Spell failure: +35%
+Pick Pockets: -80%
+Lock Picking: -50%
+Find/Remove Traps: -50%
+Move Silently: -80%
+Hide in Shadows: -70%
+Armor Class: -4
+Weight: 70
+Requires: 15 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWSHLD01
+--------
+Drow Shield +3
+A medium shield is carried in the same manner as a small shield.  Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield.  Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings.  A typical medieval shield resembles a triangle with one point facing downward. 
+This item, like most drow equipment, is created using Adamantine, an alloy of adamantite that quickly turns to dust if removed from the Underdark.
+STATISTICS:
+AC Bonus: 4
+Extra AC Bonus vs. missiles: 1
+Weight: 7
+Requires: 12 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+ISHLD02
+--------
+A small shield is usually round and is carried on the forearm, gripped with the shield hand.  Its light weight as compared to a medium shield permits the user to carry other items in that hand, although he cannot wield or carry another weapon.  This magical shield grants an extra bonus of +1 against attacks.
+STATISTICS:
+AC Bonus: 2
+Weight: 3
+Requires: 4 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage 
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT02
+--------
+Basic armor made of thick, wax or water-hardened leather.  It is sturdy protection, not supple like boots or a cloak.  Soft garment leathers like that would offer no more protection than common clothing.  Magical enchantments have improved the protective abilities of this particular suit.
+STATISTICS:
+Resistance to slashing damage: +5%
+Spell failure: +10%
+Armor Class: 7
+Weight: 15
+Requires: 4 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT03
+--------
+Leather Armor +2:  'Protector of the Second'
+The Mist of Shadows was an elite company of elven rangers that roamed the Cormanthor wood, the bane of bandit and monster alike.  This particular armor belonged to Indeera Lakhan, the group's most decorated officer and second in command.  The suit is named for her, though how it came to part her company in unknown.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Spell failure: +10%
+Armor Class: 6
+Weight: 5
+Requires: 4 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT05
+--------
+Studded leather armor has little in common with normal leather armor.  Instead of a hardened shell, studded leather offers hundreds of metal rivets affixed to a supple backing.  The numerous studs form a flexible coat of metal that helps to turn aside slashing and cutting attacks, while the leather is little more than a means of securing the rivets in place.   
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+DEX: -1
+Spell failure: +15%
+Pick Pockets: -15%
+Lock Picking: -10%
+Find/Remove Traps: -10%
+Move Silently: -5%
+Hide in Shadows: -5%
+Armor Class: 6
+Weight: 15
+Requires: 6 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Avenger
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT06
+--------
+Cursed Studded Leather Of Missile Attraction
+This odd looking suit of studded leather cannot be removed once put on, through a Remove Curse spell. While improving the protection against all melee weapons, this armor actually becomes a target for missile weapons, and hence so does its wearer.  The choice is simple, deadly arrows or deadly swords.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+Resistance to missile damage: -25%
+DEX: -1
+Spell failure: +15%
+Pick Pockets: -15%
+Lock Picking: -5%
+Find/Remove Traps: -10%
+Move Silently: -5%
+Hide in Shadows: -5%
+Armor Class: 5  (15 vs. missile weapons)
+Weight: 8
+Requires: 6 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Avenger
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT07
+--------
+This armor is the standard armor given out to griffin riders and other warriors who use mounted steeds.  It is lightweight but offers good protection, especially with the extra magical protections crafted upon it.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5
+DEX: -1
+Spell failure: +15%
+Pick Pockets: -15%
+Lock Picking: -5%
+Find/Remove Traps: -10%
+Move Silently: -5%
+Hide in Shadows: -5%
+Armor Class: 5
+Weight: 8
+Requires: 6 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Avenger
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT08
+--------
+Shadow armor is studded leather armor created for use by the Shadowmasters of Amn.  The Shadowmasters are of the highest order within the Shadow Thief hierarchy.  It is +3 studded leather armor that melds into shadows.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+Spell failure: +10%
+Pick Pockets: -15%
+Lock Picking: -5%
+Find/Remove Traps: -10%
+Move Silently: -5%
+Armor Class: 4
+Weight: 8
+Requires: 6 Strength
+SPECIAL EFFECTS:
++15% Hide in Shadows
+
+Usable By:
+ Thief
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT09
+--------
+Leather Armor +3: Karajah's Life and Death
+Karajah was Calimshan's champion of pit fighting for a full decade, and seemingly unbeatable.  His success, or so he claimed, was due to the mobility that his light armor afforded him.  He may well have been unaware of the suit's other qualities, but his peers ignored his claims of ignorance when enchantments were discovered.  The armor survived the subsequent beating, whereas Karajah did not.  
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+Spell failure: +5%
+Armor Class: 5
+Weight: 4
+Requires: 3 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT11
+--------
+Basic armor made of thick, wax or water-hardened leather.  It is sturdy protection, not supple like boots or a cloak.  Soft garment leathers like that would offer no more protection than common clothing.  Magical enchantments have improved the protective abilities of this particular suit.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Spell failure: +10%
+Armor Class: 6
+Weight: 5
+Requires: 4 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT12
+--------
+Basic armor made of thick, wax or water-hardened leather.  It is sturdy protection, not supple like boots or a cloak.  Soft garment leathers like that would offer no more protection than common clothing.  Magical enchantments have improved the protective abilities of this particular suit.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+Spell failure: +5%
+Armor Class: 5
+Weight: 4
+Requires: 3 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT13
+--------
+A clever thief, Damien Oneknife always tried to gain from the assets of his enemies, no matter the circumstances.  After an intense battle with several ghouls in which two of his companions perished, Damien decided to even the odds in future encounters.  He skinned one of the undead creatures and brought the hide to a halfling armorer talented in enchanting leather.  When the suit was finished it was magically protective against physical attacks and paralyzation.  Not very epic perhaps, but practical. 
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+Spell failure: +5%
+Armor Class: 4
+Weight: 4
+Requires: 3 Strength
+SPECIAL EFFECTS:
++3 bonus to all saves vs. paralyzation/poison
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT14
+--------
+Originally blessed by Shar, this armor has a long and interesting history.  Only the greatest of thieves have ever owned this heavily enchanted armor.  The essence of night has been woven into the dark set of armor so that it feels like normal armor but encloses the wearer in a mass of twisting shadows.
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+Armor Class: 3
+Weight: 5
+Requires: 3 Strength
+SPECIAL EFFECTS:
++20% to hide in shadows
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT15
+--------
+This armor is the standard armor given out to griffin riders and other warriors who use mounted steeds.  It is lightweight but offers good protection, especially with the extra magical protections crafted upon it.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+DEX: -1
+Spell failure: +15%
+Pick Pockets: -15%
+Lock Picking: -5%
+Find/Remove Traps: -10%
+Move Silently: -5%
+Hide in Shadows: -5%
+Armor Class: 5
+Weight: 8
+Requires: 6 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Avenger
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT16
+--------
+This ghastly armor was taken from an orc camp destroyed by barbarians.  Instead of standard metal rivets, like normal studded leather, this orc leather is instead laced with hundreds of fire hardened bones.  Finger bones, ribs, and skulls cover the armor, acting much like the traditional metal rivets.  Powerful orcish enchantments give the armor special resistance to missile attacks, but the repulsiveness of the armor reduces the wearer's charisma.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+Spell failure: +10%
+Pick Pockets: -15%
+Lock Picking: -5%
+Find/Remove Traps: -10%
+Move Silently: -5%
+Bonuses:  +10% Resistance to missile attacks
+Penalties: -1 to Charisma
+Armor Class: 4
+Weight: 7
+Requires: 6 Strength
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Avenger
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT17
+--------
+Enchanted ebony rivets adorn the black leather of this armor.  Umberlee the Sea Queen granted this armor to Dami Darn, a rogue who slew the conjurer Looxil.  The assassination pleased Umberlee, for Looxil had betrayed her in years past. Dami Darn died years later, a knife to the back from her successor in the thieves' guild.
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+Spell failure: +10%
+Pick Pockets: -15%
+Lock Picking: -5%
+Find/Remove Traps: -5%
+Move Silently: -5%
+Armor Class: 3
+Weight: 7
+Requires: 6 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Avenger
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT18
+--------
+This armor's namesake is a serpent only in manner, referring to the Drow assassin Raroh.  Poison was his trademark, and when he discovered this suit's susceptibility to venom, he gifted it to Avlorm, a promising novice assassin within his own guild.  When Avlorm's power eventually threatened his own, Raroh easily dispatched him, thanks to the weakness of the armor he still wore.
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+Spell failure: +5%
+Pick Pockets: -15%
+Lock Picking: -5%
+Find/Remove Traps: -5%
+Armor Class: 2
+Weight: 6
+Requires: 6 Strength
+SPECIAL EFFECTS:
+-2 penalty to all saves vs. poison/paralyzation
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Avenger
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT19
+--------
+This suit of armor is formed from interlocking shadow dragon scales.  Elegant workmanship and practical considerations make this armor both beautiful and useful.  The shadow dragon scales grant the wearer extra protection from acid.
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +5%
+Spell failure: +15%
+Pick Pockets: -15%
+Lock Picking: -5%
+Find/Remove Traps: -10%
+Move Silently: -5%
+Hide in Shadows: -5%
+Armor Class: 1
+Weight: 10
+Requires: 6 Strength
+SPECIAL EFFECTS:
++50% Resistance to Acid
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT20
+--------
+This heavy and thick bear hide is all that remains of the fabled Aeger.  Several hundred years ago the Aeger, a giant bear, terrorized hundreds of small villages up and down the Sword Coast.  The bear was invulnerable to fire, cold or acid.  Finally the young men and women of several villages banded together, forming a militia almost two hundred people strong.  The Aeger was surrounded and finally slain.  Less than a dozen villagers survived, and they carved the Aeger's hide amongst themselves.  Out of one of the pieces this armor was created.
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +5%
+Spell failure: +15%
+Pick Pockets: -15%
+Lock Picking: -5%
+Find/Remove Traps: -5%
+Hide in Shadows: -10%
+Armor Class: 3
+Weight: 35
+Requires: 6 Strength
+SPECIAL EFFECTS:
++15% resistance to fire, cold, and acid
+Immunity to Confusion
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT21
+--------
+Made from human skin and treated with the blood of a noble dragon, this armor emits the stench of bitter death. The malevolent armor can only be used by a truly evil person.
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+Armor Class: 3
+Weight: 5
+Requires: 3 Strength
+SPECIAL EFFECTS:
+Saving Throws:  +4 bonus
+Magic Resistance:  +20% bonus
+
+Not Usable By:
+ Mage
+ Monk
+ Kensai
+ Non-Evil Characters
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT23
+--------
+Fashioned by the Hierophant Wassalia before she chose to forever dwell on the Elemental Plane of Fire, this suit of armor is not covered by typical metal studs but by heavy red thorns.      
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +5%
+Spell failure: +5%
+Pick Pockets: -10%
+Lock Picking: -5%
+Find/Remove Traps: -5%
+Armor Class: 1
+Weight: 5
+Requires: 6 Strength
+SPECIAL EFFECTS:
+Thorn Damage - each successful hit on the wearer inflicts 1D4 points of fire damage to the attacker
+
+Not Usable By:
+ Mage
+ Monk
+ Shapeshifter
+ Avenger
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT24
+--------
+Created for the Grandmaster Assassin Vita Muerte, this suit not only provided protection but also enabled Vita to better pursue her fleeing victims... as the unfortunate wizard who fashioned this item for the ruthless killer soon learned.  
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +5%
+Spell failure: +5%
+Pick Pockets: -10%
+Lock Picking: -5%
+Find/Remove Traps: -5%
+Armor Class: 1
+Weight: 5
+Requires: 6 Strength
+SPECIAL EFFECTS:
+Abilities: Increase movement rate as Boots of Speed
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Avenger
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+NPCHAN
+--------
+This armor, long in the Corthala bloodline, protects the user against all forms of attacks.  The armor is enchanted so that it grants a +3 bonus to Valygar's armor class.  It also adds a bonus to resisting acid, fire and magical damage.  The armor also makes Valygar immune to charm while he wears it.  As it is specially fitted for Valygar, few other than he may wear it.
+STATISTICS:
+Resistance to slashing damage: +10%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+Spell failure: +5%
+Pick Pockets: -15%
+Lock Picking: -5%
+Find/Remove Traps: -5%
+Armor Class: 2
+Weight: 9
+SPECIAL EFFECTS:
+Equipped Abilities: Immunity to Charm
+Bonuses: +25% Resistance to fire, acid, and magic damage
+
+Usable By:
+ Valygar
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+NPPLAT
+--------
+Firecam Full-Plate Armor
+Full plate armor is the best armor a warrior can buy, both in appearance and protection.  This armor increases the wearer's armor class by one above that of normal Full-Plate.  While equipped the suit provides the wearer with a +1 bonus to all saving throws and grants the wearer with limited free action (able to pass through webs and other effects).  This suit was designed for Keldorn and few other than he can wear it.
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +30%
+DEX: -5
+Movement: -20%
+Spell failure: +45%
+Pick Pockets: -90%
+Lock Picking: -65%
+Find/Remove Traps: -65%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: 0
+Weight: 70
+SPECIAL EFFECTS:
+Saving Throws:  +1 Bonus
+Special: Limited Free Action
+
+Usable By:
+ Keldorn
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+NPSHLD
+--------
+Delryn Family Shield +1
+This is Anomen's family shield, given to him by his father.  In addition to the magical protection the shield radiates an aura that grants the wielder fire and cold resistance.  To protect against ranged attacks, Anomen can use the shield to erect a field of energy.  This protection from normal missiles can be used three times per day.
+STATISTICS:
+AC Bonus: 2
+Extra AC Bonus vs. missiles: 1
+SPECIAL EFFECTS:
+Fire Resistance: +30%
+Cold Resistance: +30%
+Abilities: 3 times per day can cast protection from missiles on bearer
+
+Usable By:
+ Anomen
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PALPLAT
+--------
+Few suits of armor in all the Realms are the equal of this full plate.  All that remains of the origin of the Hart are folktales and legends.  The most popular of these is that an impossible battle was once fought against an army of orcs surging through the Three Trees Pass.  Arngor of the Oak led the armies of men and elves and it is said that he dueled with the orc commander till the sun set and the land was bathed in a bloody mist.  Finally the orc fell but Arngor had sustained wounds too vast for any to save him.  His blood soaked through the armor he wore, infusing it with his courage and nobility.  Thus the Armor of the Hart became known to men.
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +40%
+DEX: -4
+Movement: -20%
+Spell failure: +40%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -60%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: -2
+Weight: 45
+Requires: 15 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT02
+--------
+Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin.  Similar in construction to bronze plate mail, true plate mail comprises of chain and leather.  In addition, this suit of plate mail is enchanted and gives additional bonuses to the wearer's armor class.
+STATISTICS:
+Resistance to slashing damage: +20%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +15%
+DEX: -4
+Movement: -20%
+Spell failure: +45%
+Pick Pockets: -70%
+Lock Picking: -45%
+Find/Remove Traps: -45%
+Move Silently: -80%
+Hide in Shadows: -70%
+Armor Class: 2
+Weight: 20
+Requires: 12 Strength
+
+Not Usable By:
+ Bard 
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT05
+--------
+Full plate armor is the best armor a warrior can buy, both in appearance and protection.  The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.  With its magical enchantments, this suit of full plate is ideal for warriors.
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +30%
+DEX: -5
+Movement: -20%
+Spell failure: +45%
+Pick Pockets: -90%
+Lock Picking: -65%
+Find/Remove Traps: -65%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: 0
+Weight: 35
+Requires: 15 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT06
+--------
+This plate mail has been expertly crafted. Sheathed in the chitinous scales of the ankheg, it provides a greater degree of protection than traditional plate mail and is not susceptible to rust. As any world-weary adventurer will tell you, however, the best appreciated aspect of ankheg mail is its light weight and low encumbrance. Monsters come and go but fatigue is a constant enemy.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +15%
+DEX: -2
+Movement: -10%
+Spell failure: +45%
+Pick Pockets: -70%
+Lock Picking: -40%
+Find/Remove Traps: -45%
+Move Silently: -80%
+Hide in Shadows: -70%
+Armor Class: 1
+Weight: 25
+Requires: 8 Strength
+
+Not Usable By:
+ Bard
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT10
+--------
+Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin.  Similar in construction to bronze plate mail, true plate mail comprises of chain and leather.  In addition, this suit of plate mail is enchanted and gives additional bonuses to the wearer's armor class.
+STATISTICS:
+Resistance to slashing damage: +20%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +15%
+DEX: -4
+Movement: -20%
+Spell failure: +45%
+Pick Pockets: -70%
+Lock Picking: -45%
+Find/Remove Traps: -45%
+Move Silently: -80%
+Hide in Shadows: -70%
+Armor Class: 2
+Weight: 20
+Requires: 12 Strength
+
+Not Usable By:
+ Bard 
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT11
+--------
+This armor has been worn by many a fine soldier, but among the best known, and for whom it was named, was Delver Kinlake.  He was a vagabond whose strong sword-arm and keen wits made him a respected general to the Lords of Waterdeep.  A gift from Lord Baeron, the armor served Delver well for thirty years, and after his death, it passed to his eldest son.  It has since made its way into the hands of a variety of adventurers, being much-desired for its strength and the magical defense it provides.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +15%
+DEX: -4
+Movement: -20%
+Spell failure: +45%
+Pick Pockets: -70%
+Lock Picking: -40%
+Find/Remove Traps: -45%
+Move Silently: -80%
+Hide in Shadows: -70%
+Armor Class: 1
+Weight: 25
+Requires: 12 Strength
+SPECIAL EFFECTS:
+Special: +2 bonus to Saves Vs. Spells
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT12
+--------
+Named by Adarius Shin, the Doomplate is deserving of its foreboding title.  He had hoped to strike fear in his enemies, but Adarius set a grim precedent when he mysteriously died soon after donning the suit, just as every adventurer who has worn it since has done.  It might be said, however, that most adventurers die in their armor and are not known for their longevity.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +20%
+DEX: -3
+Movement: -10%
+Spell failure: +40%
+Pick Pockets: -70%
+Lock Picking: -40%
+Find/Remove Traps: -40%
+Move Silently: -80%
+Hide in Shadows: -70%
+Armor Class: 0
+Weight: 27
+Requires: 12 Strength
+
+Not Usable By:
+ Bard 
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT13
+--------
+Hunting Gorgons is a highly dangerous drow sport.  Often, after a successful hunt, the blood of the Gorgon is taken and used in the creation of a new suit of plate.  This special type of drow plate is actually able to withstand the light of the surface world.  
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +20%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +20%
+DEX: -3
+Movement: -10%
+Spell failure: +40%
+Pick Pockets: -70%
+Lock Picking: -40%
+Find/Remove Traps: -40%
+Move Silently: -80%
+Hide in Shadows: -65%
+Armor Class: -1
+Weight: 30
+Requires: 12 Strength
+SPECIAL EFFECTS:
+15% resistance to fire and acid 
+
+Not Usable By:
+ Bard 
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT14
+--------
+Full plate armor is the best armor a warrior can buy, both in appearance and protection.  The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.  With its magical enchantments, this suit of full plate is ideal for warriors.
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +30%
+DEX: -5
+Movement: -20%
+Spell failure: +45%
+Pick Pockets: -90%
+Lock Picking: -65%
+Find/Remove Traps: -65%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: 0
+Weight: 35
+Requires: 15 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT15
+--------
+Not many suits of this armor, originally used by the legions of Unther, remain in use today. The few suits that exist are usually in the hands of rich collectors.  Simply finding a suit of this armor is enough to earn an adventurer a small fortune.  
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +35%
+DEX: -5
+Movement: -20%
+Spell failure: +45%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -65%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: -1
+Weight: 40
+Requires: 15 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT16
+--------
+Few suits of armor in all the Realms are the equal of this full plate.  All that remains of the origin of the Hart are folktales and legends.  The most popular of these is that an impossible battle was once fought against an army of orcs surging through the Three Trees Pass.  Arngor of the Oak led the armies of men and elves and it is said that he dueled with the orc commander till the sun set and the land was bathed in a bloody mist.  Finally the orc fell but Arngor had sustained wounds too vast for any to save him.  His blood soaked through the armor he wore, infusing it with his courage and nobility.  Thus the Armor of the Hart became known to men.
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +40%
+DEX: -4
+Movement: -20%
+Spell failure: +40%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -60%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: -2
+Weight: 45
+Requires: 15 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT17
+--------
+In his aging years, Baron T'rachie coveted the wife of the lowly foot soldier Libol.  Instead of openly pursuing her and causing a scandal, he instead created this suit of armor.  He gifted it to the soldier.  This armor's curse sickened Libol and hideously disfigured him, and his wife fled from him in disgust.  Libol, trapped in the armor but not certain of T'rachie's treachery asked to be sent to the wastes for a dangerous tour of duty against marauding ogres.  He never returned and Baron T'rachie was free to pursue Libol's widow.  This armor is cursed and requires powerful magic to remove.
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +20%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +20%
+DEX: -2
+Movement: -10%
+Spell failure: +35%
+Pick Pockets: -70%
+Lock Picking: -40%
+Find/Remove Traps: -40%
+Move Silently: -75%
+Hide in Shadows: -65%
+Armor Class: -2
+Weight: 35
+Requires: 12 Strength
+SPECIAL EFFECTS:
+Cursed.
+Reduces Charisma by 5 points, Constitution by 2 points and Movement Rate by 1 point
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT18
+--------
+Dragon Scale armor is light of weight, strong, and resistant to fire.  Because of these properties it is much sought after, but finding, let alone slaying, a powerful ancient dragon is nearly impossible.  It is usually easier to search for an existing suit, such as this one.  One should be careful wearing it near dragons, however, particularly red ones.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +15%
+DEX: -2
+Movement: -10%
+Spell failure: +35%
+Pick Pockets: -50%
+Lock Picking: -15%
+Find/Remove Traps: -20%
+Move Silently: -50%
+Hide in Shadows: -40%
+Armor Class: -1
+Weight: 30
+Requires: 8 Strength
+SPECIAL EFFECTS:
++50% Fire Resistance
+
+Not Usable By:
+ Bard
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Shapeshifter
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT19
+--------
+Full plate armor is the best armor a warrior can buy, both in appearance and protection.  The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.  This +2 armor was created with the limited wish spell.
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +35%
+DEX: -5
+Movement: -20%
+Spell failure: +45%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -65%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: -1
+Weight: 50
+Requires: 15 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT20
+--------
+The light but durable scales of the Blue Dragon provide excellent protection against weapons and all forms of electricity.
+STATISTICS:
+Resistance to slashing damage: +35%
+Resistance to piercing damage: +20%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +40%
+DEX: -4
+Movement: -20%
+Spell failure: +45%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -65%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: -1
+Weight: 20
+Requires: 15 Strength
+SPECIAL EFFECTS:   
++90% resistance to all lightning and electrical attacks
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT21
+--------
+This armor was created for Enkidu, a famed warrior from Kara-Tur.  While none dared challenge him in fair combat, Enkidu was often subject to cowardly sneak attacks from assassins, ninjas and Wu-Jen.
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +40%
+DEX: -4
+Movement: -20%
+Spell failure: +40%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -60%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: -2
+Weight: 45
+Requires: 15 Strength
+SPECIAL EFFECTS:    
+Immunity to backstab while equipped
++5% Magic Resistance
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT22
+--------
+Shuruppak, the infamous right hand of the now dead god Gilgeam, earned the title of "Reaper" for his savage butchery of any who opposed him... an identity the bloodthirsty madman eagerly embraced.  Before Gilgeam's destruction, the god presented Shuruppak with an enchanted suit of armor, to better enable the Reaper to slaughter his foes.
+Shuruppak's plate is surprisingly light and grants the wearer an unnatural quickness and grace.  It is not known how Shuruppak lost this treasured item, but one could safely assume he is still looking for it...
+ 
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +40%
+DEX: -2 (-1)
+Movement: -10%
+Spell failure: +40%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -60%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: -2
+Weight: 15
+Requires: 12 Strength
+SPECIAL EFFECTS: 
++1 to Dexterity
++20% Fire Resistance
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT23
+--------
+Full plate armor is the best armor a warrior can buy, both in appearance and protection, and the enchantments on this suit are particularly powerful.  The intricate engraving and spectacular embossing adorning the suit are of indeterminate origin, as is the armor itself.  
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +35%
+DEX: -5
+Movement: -20%
+Spell failure: +45%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -65%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: -1
+Weight: 50
+Requires: 15 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHARARM
+--------
+Whether by design or through exposure to intense heat in battle, the chain links of this armor are coal black throughout.  While legends usually speak of knights in shining armor facing great beasts, the fire resistant enchantment on this suit suggests equally great, if unheralded, battles with fire breathing creatures.
+STATISTICS:
+Resistance to slashing damage: +20%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +15%
+Spell failure: +20%
+Pick Pockets: -30%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -30%
+Hide in Shadows: -25%
+Armor Class: 2
+Weight: 9
+Requires: 8 Strength
+SPECIAL EFFECTS:
++20% Resistance to fire damage
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD02
+--------
+A small shield is usually round and is carried on the forearm, gripped with the shield hand.  Its light weight as compared to a medium shield permits the user to carry other items in that hand, although he cannot wield or carry another weapon.  This magical shield grants an extra bonus of +1 against attacks.
+STATISTICS:
+AC Bonus: 2
+Weight: 3
+Requires: 4 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage 
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD04
+--------
+A medium shield is carried in the same manner as a small shield.  Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield.  This penalty is offset by the fact that this shield is magical, granting an additional +1 protection to its wearer.
+STATISTICS:
+AC Bonus: 2
+Extra AC Bonus vs. missiles: 1
+Weight: 6
+Requires: 12 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD06
+--------
+The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user.  It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times.  Naturally, this precludes use of the shield hand for anything but holding the body shield in place.
+STATISTICS:
+AC Bonus: 3
+Extra AC Bonus vs. missiles: 2
+DEX: -1
+Movement: -10%
+Weight: 12
+Requires: 15 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD07
+--------
+Large Shield +1, +3 vs. Missiles:  'Shield of the Falling Stars'
+Ilmater himself enchanted this shield upon seeing a young squire's willingness to endure untold agony for the wellbeing of his mount.  During a fierce battle between a human cavalry division and a hobgoblin horde, the young man was sent for reinforcements.  He was beset by a cascade of arrows that nearly blocked out the sun, and he knew that even if he avoided the arrows himself, should his horse fall he would surely be doomed.  With his shield and body he positioned himself to take the brunt of the onslaught, and was mortally wounded for it.  His horse remained unscathed allowing for their escape, and his body was carried back to the nearest town, where he was resurrected from death. 
+STATISTICS:
+AC Bonus: 3
+Extra AC Bonus vs. missiles: 5
+DEX: -1
+Movement: -10%
+Weight: 12
+Requires: 15 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD17
+--------
+A buckler is a small shield of wood or metal that fastens to the forearm.  Because of its size it is light and can be worn with very little restriction to movement.  This buckler has some form of generic enchantment, making it more resistant to blows.
+STATISTICS:
+Armor Class Bonus:  2
+No bonus to Missile and Crushing AC
+Weight:  2
+Requires: 4 Strength
+
+Unusable By:
+ Mage
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD19
+--------
+Large Shield +2:
+This dwarven-made shield was commissioned by Pellan of Tyr, a brash paladin known for unquestioning courage and an almost total lack of common sense.  Upon hearing that a red dragon was ravaging the countryside, Pellan mounted his horse and rode off to do battle.  As it happened, Pellan and his armor digested readily enough, but the shield gave the dragon severe stomach cramps.  Subsequently coughed up, it lay in a hoard for years until retrieved by Pellan's son, a warrior who knew when to sneak.
+Superior craftsmanship is supplemented by a permanent lightness spell, which makes the shield very easy to wield.
+STATISTICS:
+AC Bonus: 4
+Extra AC Bonus vs. missiles: 2
+Weight: 10
+Requires: 10 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD20
+--------
+This is the buckler of Kiel the Legion-Killer, first-born son of Durlag Trollkiller and Clan-prince of his father's ill-fated tower. Its light weight and excellent craftsmanship increase the dexterity of all who bear it by a single point.
+STATISTICS:
+AC Bonus: 1
+No bonus to Missile and Crushing AC.
+Weight:  2
+Requires: 4 Strength
+SPECIAL EFFECTS:
++1 Dexterity while equipped
+
+Unusable By:
+ Mage
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD21
+--------
+Another powerful item created by the warlock Wormsor, this shield consists of red dragon skin stretched over a steel frame.  Green and white dragon scales adorn the red background in a pattern that, when looked in the right way, reveals the face of an ancient dragon.
+STATISTICS:
+AC Bonus: 3
+Extra AC Bonus vs. missiles: 1
+Weight: 5
+Requires: 12 Strength
+SPECIAL EFFECTS:
+Sets fire, cold and electrical resistance to 25%
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD22
+--------
+A century ago, astronomers noted an unexpected comet coming to earth offshore of the Sword Coast.  An odd occurrence, it was made stranger by the lightweight fragments of metal found days later by blacksmith Huffum Fuiruim, who cared little about celestial events.  He fashioned the bulk of it into this shield, though the forging took months and the aid of several enchanters.  "From the heavens?  Nay, from my hammer!"
+STATISTICS:
+AC Bonus: 5
+Extra AC Bonus vs. missiles: 1
+Weight: 3
+Requires: 12 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD23
+--------
+This shield, as tall as a man, is aptly named.  With it, Phil Pious, a paladin of the Most Noble Order of the Radiant Heart, once held a marauding battalion of hobgoblin and kobold archers at bay till they exhausted their arrows.  As the shield is almost as useful in melee as it is at range, he then slew each and every creature.
+STATISTICS:
+AC Bonus: 5
+Extra AC Bonus vs. missiles: 7
+Movement: -10%
+DEX: -1
+Weight: 10
+Requires: 15 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD24
+--------
+Thought only a decoration from some forgotten festhall, this shield languished in the backroom of a shop until a young noble purchased it as parade armor.  Its dormant enchantments were discovered when a later attempt on his life was foiled as the shield reflected each attack back at the would-be assassins.  Subsequent study has linked it to Myth Rhynn, or perhaps some other ancient excavation.
+STATISTICS:
+AC Bonus: 2
+Weight: 3
+Requires: 4 Strength
+SPECIAL EFFECTS:
+Reflects missile weapons back to their user
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD25
+--------
+Audn of the Field, Knight-Champion for the wizard Kekkim, carried this shield for most of his life.  It protects the bearer from most forms of mind control, a benefit for a wizard who needed warrior allies to stay faithfully at his side.  Both Kekkim and Audn have long since returned to the earth, leaving the shield to whomever might recover it from Kekkim's tower.
+STATISTICS:
+AC Bonus: 3
+Weight: 2
+Requires: 4 Strength
+SPECIAL EFFECTS:
+Immunity to charm, confusion, domination, and hold person
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD26
+--------
+This odd shield was constructed by nomads that once inhabited the forest of Mir, a group long since absorbed into "civilized" society and forgotten.  Examination reveals fine weaving of animal and human hair bound together by enchantment, though how this was done is lost to time.
+STATISTICS:
+AC Bonus: 3
+Extra AC Bonus vs. missiles: 1
+Weight: 5
+Requires: 12 Strength
+SPECIAL EFFECTS:
++5% magical resistance
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD27
+--------
+Once a very powerful shield used by the clerics of Bane, most of the enchantments fled with their god's demise.  The basic magical protection still remains, making it useful for any adventurer.
+STATISTICS:
+AC Bonus: 4
+Extra AC Bonus vs. missiles: 1
+Weight: 5
+Requires: 12 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD28
+--------
+Despite the effectiveness of the enchantments on this shield, it is otherwise nondescript and defies precise identification.  Such standardization makes it likely that it is from the militia of some forgotten barony, though it is hard to be certain.
+STATISTICS:
+AC Bonus: 3
+Weight: 2
+Requires: 4 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD29
+--------
+A standard magical shield given to elite troops and bodyguards, this particular shield is relatively new.  Forged recently by Taerom Fuiruim of Beregost, this shield has few stories to tell.  Perhaps it will take a brave young warrior to perform legendary deeds while wearing it, to finally give it a history.
+STATISTICS:
+AC Bonus: 3
+Extra AC Bonus vs. missiles: 1
+Weight: 5
+Requires: 12 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD30
+--------
+A shield of the elite Calimport Standing Dragoons mercenary company, a group long since disbanded due to political backstabbing.  Having the best of equipment, their shields were extremely light and powerfully protective in combat.  The size of the shield precludes the use of the shield hand for anything else.
+STATISTICS:
+AC Bonus: 4
+Extra AC Bonus vs. missiles: 2
+Weight: 4
+Requires: 10 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD31
+--------
+Fashioned from dwarven darksteel, this heavily enchanted shield provides more protection than most suits of armor.  Legend holds that it was meant to be presented as a gift to the dwarven hero Glimred Heavyhand, but he disappeared on his ill-fated quest into the bowels of the Marching Mountains before the work was completed.  With Glimred gone, the shield was sold to the highest bidder, though the dwarven smiths refused to divulge the mysterious buyer's identity.
+STATISTICS:
+AC Bonus: 6
+Extra AC Bonus vs. missiles: 2
+DEX: -1
+Weight: 8
+Requires: 15 Strength
+SPECIAL EFFECTS:
++10% resistance to fire, cold, acid and poison
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD32
+--------
+Peragath the Valiant, a great champion of the Most Noble Order of the Radiant Heart, carried this shield into battle against a horde of invading Tanar'ri pouring through a gate to the Astral Plane.  Gripped by holy fervor, the mighty paladin single handedly drove back the horde, then foolishly leapt through the Astral gate to finish them off.  The gate collapsed, and both Peragath and the shield were forever lost in the Planes.
+STATISTICS:
+AC Bonus: 5
+Extra AC Bonus vs. missiles: 1
+Weight: 8
+Requires: 9 Strength
+SPECIAL EFFECTS:
++1 bonus to all saving throws
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SKELSHLD
+--------
+A buckler is a small shield of wood or metal that fastens to the forearm.  Because of its size it is light and can be worn with very little restriction to movement.  This buckler has some form of generic enchantment, making it more resistant to blows.
+STATISTICS:
+AC Bonus: 2
+No bonus to Missile and Crushing AC.
+Weight:  2
+Requires: 4 Strength
+
+Unusable By:
+ Mage
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+TAMCHAIN
+--------
+Whether by design or through exposure to intense heat in battle, the chain links of this armor are coal black throughout.  While legends usually speak of knights in shining armor facing great beasts, the fire resistant enchantment on this suit suggests equally great, if unheralded, battles with fire breathing creatures.
+STATISTICS:
+Resistance to slashing damage: +20%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+Spell failure: +20%
+Pick Pockets: -30%
+Lock Picking: -15%
+Find/Remove Traps: -15%
+Move Silently: -35%
+Hide in Shadows: -25%
+Armor Class: 2
+Weight: 9
+Requires: 8 Strength
+SPECIAL EFFECTS:
++20% Resistance to fire damage
+
+Not Usable By:
+ Druid 
+ Mage 
+ Thief
+ Kensai
+ Monk
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+TTLEAT
+--------
+Basic armor made of thick, wax or water-hardened leather.  It is sturdy protection, not supple like boots or a cloak.  Soft garment leathers like that would offer no more protection than common clothing.  Magical enchantments have improved the protective abilities of this particular suit.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Spell failure: +10%
+Armor Class: 6
+Weight: 5
+Requires: 4 Strength
+
+Not Usable By:
+ Mage
+ Kensai
+ Monk
+ Shapeshifter
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+TTSHLD01
+--------
+A medium shield is carried in the same manner as a small shield.  Unlike the small shield, however, its weight prevents the character from using his shield hand for anything other than carrying the medium shield.  Medium shields are usually made of metal, range from 3'-4' in diameter, and can be of any shape, from round to square to a spread dragon's wings.  A typical medieval shield resembles a triangle with one point facing downward. This is a magical shield.
+STATISTICS:
+Bonus missile AC: 1
+Armor Class Bonus: 3
+Weight: 5
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+WA2PLAT
+--------
+Plate of Balduran +2
+This plate was worn by the famous hero Balduran.  It is part of a set of weapons and armor that was stolen from the museum in the city of Baldur's Gate.
+STATISTICS:
+Resistance to slashing damage: +30%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +35%
+DEX: -5
+Movement: -20%
+Spell failure: +45%
+Pick Pockets: -90%
+Lock Picking: -60%
+Find/Remove Traps: -65%
+Move Silently: -95%
+Hide in Shadows: -90%
+Armor Class: -1
+Weight: 50
+Requires: 15 Strength
+SPECIAL EFFECTS:
+Equipped Abilities:
+ +4 hit points
+ +1 Charisma bonus
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Barbarian
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+WA2SHIEL
+--------
+Shield of Balduran +3
+This shield was worn by the hero Balduran.   It is part of a set of weapons and armor that was stolen from the museum in the city of Baldur's Gate.
+STATISTICS:
+AC Bonus: 3
+Extra AC Bonus vs. missiles: 1 
+Weight: 5
+Requires: 12 Strength
+SPECIAL EFFECTS:
+Equipped Abilities:
+ Reflects beholder rays
+ -1 Penalty to Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+FLAT01
+--------
+Field plate is actually a more commonly used form of full plate armor. It consists of shaped and fitted metal plates riveted and interlocked to cover the entire body. Like plate mail, a set of field plate usually includes gauntlets, boots, and a visored helmet. A thick layer of padding must be worn under the armor.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +15%
+DEX: -5
+Movement: -20%
+Spell failure: +50%
+Pick Pockets: -80%
+Lock Picking: -50%
+Find/Remove Traps: -50%
+Move Silently: -85%
+Hide in Shadows: -75%
+Armor Class: 2
+Weight: 60
+Requires: 13 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+FLAT02
+--------
+Field plate is actually a more commonly used form of full plate armor. It consists of shaped and fitted metal plates riveted and interlocked to cover the entire body. Like plate mail, a set of field plate usually includes gauntlets, boots, and a visored helmet. A thick layer of padding must be worn under the armor.
+
+Even greater protection has been enchanted into this armour.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +15%
+DEX: -5
+Movement: -20%
+Spell failure: +50%
+Pick Pockets: -75%
+Lock Picking: -45%
+Find/Remove Traps: -45%
+Move Silently: -85%
+Hide in Shadows: -75%
+Armor Class: 1
+Weight: 40
+Requires: 13 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+FLAT03
+--------
+Field plate is actually a more commonly used form of full plate armor. It consists of shaped and fitted metal plates riveted and interlocked to cover the entire body. Like plate mail, a set of field plate usually includes gauntlets, boots, and a visored helmet. A thick layer of padding must be worn under the armor.
+
+Powerful enchantments have been sewn into this armour, granting exceptional protection to the wearer.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +20%
+DEX: -4
+Movement: -10%
+Spell failure: +45%
+Pick Pockets: -75%
+Lock Picking: -45%
+Find/Remove Traps: -45%
+Move Silently: -85%
+Hide in Shadows: -70%
+Armor Class: 0
+Weight: 30
+Requires: 13 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+FLAT04
+--------
+This finely crafted suit of armour was made by a dwarven hermit living in the mountains north of Zhentil Keep.  Many scholars think it to be magical, but others disagree, saying that its unique abilities stem entirely from the material used--cold iron--and the dwarf's skill at the forge.  Attempts at divining the difference with magic have been resisted, due to the armour's latent resistance to arcane energy.
+
+No matter which is true--and attempts at prying the secret from the dwarf have proven futile, as he is both a loner and has never had an apprentice--it is undeniable that this field plate is flawless.  In addition to providing greater protection than a comparable suit of armour, it can even shield the wearer from the negative effects of magic.
+STATISTICS:
+Resistance to slashing damage: +25%
+Resistance to piercing damage: +15%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +20%
+DEX: -4
+Movement: -10%
+Spell failure: +45%
+Pick Pockets: -75%
+Lock Picking: -45%
+Find/Remove Traps: -45%
+Move Silently: -85%
+Hide in Shadows: -70%
+Armor Class: 0
+Weight: 30
+Requires: 13 Strength
+SPECIAL EFFECTS:
+Magic Resistance: +25%
+
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SCAL01
+--------
+Scale Mail armour is made with small scale-like pieces of armour attached to a leather backing.  The interlocking plates are somewhat restrictive, but provide better protection than Studded Leather.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+DEX: -2
+Movement: -10%
+Spell failure: +25%
+Pick Pockets: -15%
+Lock Picking: -10%
+Find/Remove Traps: -10%
+Hide in Shadows: -15%
+Armor Class: 6
+Weight: 30
+Requires: 9 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SCAL02
+--------
+Scale Mail armour is made with small scale-like pieces of armour attached to a leather backing.  The interlocking plates are somewhat restrictive, but provide better protection than Studded Leather.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.
+
+Magical protections imbued in this armour aid the wearer against the attacks of their foes.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +5%
+DEX: -1
+Spell failure: +20%
+Pick Pockets: -15%
+Lock Picking: -10%
+Find/Remove Traps: -10%
+Hide in Shadows: -10%
+Armor Class: 5
+Weight: 15
+Requires: 9 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SCAL03
+--------
+Scale Mail armour is made with small scale-like pieces of armour attached to a leather backing.  The interlocking plates are somewhat restrictive, but provide better protection than Studded Leather.  It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.
+
+Powerful magical protections imbued in this armour aid the wearer against the attacks of their foes.
+STATISTICS:
+Resistance to slashing damage: +5%
+Resistance to piercing damage: +5%
+Resistance to blunt damage: +10%
+Resistance to missile damage: +5%
+DEX: -1
+Spell failure: +20%
+Pick Pockets: -15%
+Lock Picking: -5%
+Find/Remove Traps: -5%
+Hide in Shadows: -10%
+Armor Class: 4
+Weight: 10
+Requires: 9 Strength
+
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Kensai
+ Monk
+ Archer
+ Beast Master
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SCAL04
+--------
+This suit of scale mail has been crafted by sea-elves, and with the same elven precision their land-dwelling cousins display, they have constructed it of such fine materials that it will not impede a mage or rogue's unique abilities.
+
+It has an eelskin backing with scales of some unknown deep-sea creature sewn on.  Whether through magic, or merely the materials it was made with, the armour glistens even when dry, and its flamboyant colours have not been dulled from its long stay above water.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +10%
+Pick Pockets: -5%
+Find/Remove Traps: -5%
+Armor Class: 4
+Weight: 8
+Requires: 9 Strength
+
+Not Usable By:
+ Druid
+ Kensai
+ Archer
+ Stalker
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+BAND01
+--------
+Banded Mail is made up of numerous bands of flexible metal, forming a barrier against attacks, but allowing the wearer to move without much restriction.  It is far more comfortable than splint mail.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +5%
+DEX: -4
+Movement: -20%
+Spell failure: +40%
+Pick Pockets: -50%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -55%
+Hide in Shadows: -40%
+Armor Class: 4
+Weight: 40
+Requires: 8 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+BAND02
+--------
+Banded Mail is made up of numerous bands of flexible metal, forming a barrier against attacks, but allowing the wearer to move without much restriction.  It is far more comfortable than splint mail.
+
+This armour is enchanted to provide greater protection to it's wearer.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to missile damage: +10%
+DEX: -3
+Movement: -10%
+Spell failure: +35%
+Pick Pockets: -50%
+Lock Picking: -20%
+Find/Remove Traps: -20%
+Move Silently: -50%
+Hide in Shadows: -40%
+Armor Class: 3
+Weight: 25
+Requires: 8 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+BAND03
+--------
+Banded Mail is made up of numerous bands of flexible metal, forming a barrier against attacks, but allowing the wearer to move without much restriction.  It is far more comfortable than splint mail.
+
+This particular suit of armour grants significantly greater protection to it's wearer.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+DEX: -3
+Movement: -10%
+Spell failure: +35%
+Pick Pockets: -50%
+Lock Picking: -15%
+Find/Remove Traps: -20%
+Move Silently: -50%
+Hide in Shadows: -40%
+Armor Class: 2
+Weight: 10
+Requires: 8 Strength
+
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+BAND04
+--------
+Banded Armour +2
+At a casual glance, this armour seems only to have been made of a strangely dull metal, but a second look reveals that it is in fact crafted of stone itself.  It has leather straps and backing, which appear well worn, but the bands across the chest and shoulders are in fact made of what appears to be granite.
+
+This bizarre construction comes with an equally strange tale of how it was discovered.  It was found recently by a group of explorers searching for lost treasures of the ancients when they stumbled upon this item quite by accident.  It was not hidden in the depths of some dungeon or found in the possession of a terrible beast, but buried in the mud of a cave floor.  It was only unearthed when the group of explorers were digging a pit for their camp fire.
+
+They decided to continue digging and found numerous other curios, including some oddly crafted bowls, spoons, crude furniture, and tools; all of which were made of stone.  There are indications that they found something else, too, but efforts to get the group to divulge what this was proved to be quite fruitless as the treasure hunters refused to make any mention of it, merely giving each other furtive glances.  Further queries were halted when the group disappeared without a trace, their only legacy the suit of armour you see before you.  The still unknown origins of the armour have confounded more than one scholar.
+STATISTICS:
+Resistance to slashing damage: +15%
+Resistance to piercing damage: +10%
+Resistance to blunt damage: +5%
+Resistance to missile damage: +10%
+DEX: -3
+Movement: -10%
+Spell failure: +35%
+Pick Pockets: -50%
+Lock Picking: -15%
+Find/Remove Traps: -20%
+Move Silently: -50%
+Hide in Shadows: -40%
+Armor Class: 2
+Weight: 10
+Requires: 8 Strength
+SPECIAL EFFECTS:
+Strength: Set to 19
+Can cast a stoneskin-like ability once per day (gives two skins for 300 seconds)
+
+
+Not Usable By:
+ Druid
+ Mage
+ Thief
+ Archer
+ Stalker
+ Beast Master
+ Kensai
+ Monk
+- o - o - o - o - o - o - o - o - o - o - o - o - o

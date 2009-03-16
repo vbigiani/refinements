@@ -1,0 +1,44 @@
+@-1000= ~Welcome to the Refinements mod!
+
+Refinements has~
+@-1001= ~distinct optional components.
+To save time, you can choose what to do with them at a high level rather than 
+being asked about each one.
+This is not suggested if this is your first installation, or you haven't read
+the readme.
+~
+@-1002= ~What should be done with all components that are NOT YET installed?
+[I]nstall them, [S]kip them, [A]sk about each one? ~
+@-1003= ~What should be done with all components that are ALREADY installed?
+[R]e-install them, [U]ninstall them, [S]kip them, [A]sk about each one? ~
+
+@-1004= ~Please post the file~
+@-1005= ~at~
+
+@-1006= ~What would you like to do with component `~
+@-1007= ~'?
+[R]e-Install, [N]o Change or [U]ninstall or [Q]uit? ~
+@-1008= ~'?
+[Y]es or [N]o or [Q]uit? ~
+// note that the keys are always R,N,U,Q,Y !!
+
+@-1009= ~Enter component of a module name: ~
+
+@-1010= ~Re-Installing the `~
+@-1011= ~' component ~
+@-1012= ~Re-Installing Using Language~
+
+@-1013= ~Removing old installation of the `~
+@-1014= ~' component first ...~
+@-1015= ~SUCCESSFULLY REMOVED OLD~
+
+@-1016= ~Installing~
+@-1017= ~ERROR Installing the `~
+@-1018= ~' component, rolling back to previous state~
+@-1019= ~SUCCESSFULLY INSTALLED~
+@-1020= ~Skipping~
+@-1021= ~Removing the `~
+@-1022= ~' component, which is number ~
+@-1023= ~~
+@-1024= ~SUCCESSFULLY REMOVED THE `~
+

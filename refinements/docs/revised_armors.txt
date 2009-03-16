@@ -1,0 +1,262 @@
+******************************
+** Revised Armors & Shields **
+******************************
+
+
+Contents:
+--------
+
+1) Main Effects
+2) More detailed effects
+3) Install time choices
+
+
+
+                        1) Main effects
+                        --------------
+
+Is it possible to improve the game experience a lot, with "small" changes to some of
+the most basic -and commonly accepted- rules?
+It is, in our opinion, and some mods have proved it already.
+Think about a world where wearing a full plate mail implies more things than merely
+"raising your AC"... maybe, in such a world, a person wearing a full plate mail would
+walk, in average, slower than an unarmored one. Probably he would feel uncomfortable
+in many movements, and he'd lose something in agility.. and of course, he would be in
+trouble if he wanted to do a supposedly quick and unnoticeable act like pick someone's
+pocket...
+Yet, he'd still consider the armor useful for combat situations, and he'd expect it to
+prevent some hostile blows to reach their target, and maybe even to reduce the damage
+they could inflict when they do hit.
+Ok, you got the point. Of course it's just a game (already coded, too!), so one cannot
+simulate the exact ways of reality, but the minimalistic ways of handling armors in the
+original BG2 can be vastly improved, as you see.
+
+With this component we introduce a new system for armors (and shields, to a less extent).
+The use of armors imply, by default, the application of modifiers to several in-game
+factors, like dexterity, thieving skills, movement rate, resistances about the various
+types of weapons, and even spell casting failure chance (for Arcane spellcasters able
+to *wear* armors in the first place).
+The modifiers themselves depend on variables like base armor type, enchantment level,
+specific enchantments placed on the item, unique features.
+The final result is a system where you can no longer say "this armor is better than the
+other one" just as long as your character is able to wear them (though it remains true
+that "more powerful magic enchantments" *is* generally good): you'll have to tailor your
+equipment to your specific situation, evaluating benefits and annoyances caused to your
+characters depending on their own flaws and strong points.
+In our humble opinion, this simply translates in "more fun" ;)
+
+
+
+                        2) More detailed effects
+                        --------------
+
+-Wizardly spellcasting and Thieving abilities in armor is now permitted - with penalties, of course.
+
+-Tables (all values are incremental in case there is already an effect modifying the statistic, so EG 
+ in the shield section "AC Bonus: 0" means to leave unadultered the original SOA/TOB bonus, 1 would
+ mean another point of AC):
+
+
+ARMORS:
+EN  - Enchantment level
+DR  - Damage Resistance bonuses (Slashing/Piercing/Blunt/Missile) (%)
+DEX - Dexterity penalty
+Mov - Movement Rate penalty (%)
+SF  - Wizardly Spellcasting Failure increase (%)
+TS  - Thieving Skill penalty (PickP/OpenL/FindT/MoveS/Hide) (%)
+
+Leather Armor
+EN   DR           DEX   Mov   SF    TS
++0   0/0/0/0      00    00    15    0/0/0/0/0
++1   5/0/0/0      00    00    10    0/0/0/0/0
++2   5/5/0/0      00    00    10    0/0/0/0/0
++3   5/5/5/0      00    00    05    0/0/0/0/0
++4   5/5/5/5      00    00    05    0/0/0/0/0
++5   10/5/5/5     00    00    00    0/0/0/0/0
++6   10/10/5/5    00    00    00    0/0/0/0/0
+
+Studded Leather
+EN   DR           DEX   Mov   SF    TS
++0   5/0/0/0      02    00    20    15/10/10/10/5
++1   5/5/0/0      01    00    15    15/10/10/5/5
++2   5/5/5/0      01    00    15    15/5/10/5/5
++3   5/5/5/5      00    00    10    15/5/10/5/0
++4   10/5/5/5     00    00    10    15/5/5/5/0
++5   10/10/5/5    00    00    05    15/5/5/0/0
++6   10/10/10/5   00    00    05    10/5/5/0/0
+
+Hide
+(please note that, due to settings in the standard files, Hide armors add 10/10/10/20/0 to these values)
+EN   DR           DEX   Mov   SF    TS
++0   5/5/5/0      02    10    25    15/10/10/0/15
++1   5/5/5/5      01    00    20    15/10/10/0/10
++2   5/5/10/5     01    00    20    15/10/5/0/10
++3   10/5/10/5    00    00    15    15/5/5/0/10
++4   10/10/10/5   00    00    15    15/5/5/-5/10
++5   10/10/10/10  00    00    10    15/5/5/-5/5
++6   10/10/15/10  00    00    10    15/0/5/-5/5
+
+Chain
+EN   DR           DEX   Mov   SF    TS
++0   10/10/0/5    03    10    35    35/20/20/40/30
++1   15/10/0/5    02    10    30    35/15/20/40/30
++2   15/10/0/10   02    10    30    35/15/15/40/30
++3   15/10/5/10   01    00    25    35/15/15/35/30
++4   15/15/5/10   01    00    25    35/15/15/35/25
++5   20/15/5/10   00    00    20    30/15/15/35/25
++6   20/15/5/15   00    00    20    30/15/15/30/25
+
+Splint
+EN   DR           DEX   Mov   SF    TS
++0   15/10/0/5    04    20    40    50/20/20/55/40
++1   15/10/0/10   03    10    35    50/20/20/50/40
++2   15/10/5/10   03    10    35    50/15/20/50/40
++3   20/10/5/10   02    10    30    50/15/15/50/40
++4   20/10/10/10  02    10    30    45/15/15/50/40
++5   25/10/10/10  01    00    25    45/15/15/50/35
++6   25/15/10/10  01    00    25    45/15/15/45/35
+
+Plate
+EN   DR           DEX   Mov   SF    TS
++0   20/10/5/15   05    20    50    75/45/45/80/70
++1   20/15/5/15   04    20    45    70/45/45/80/70
++2   25/15/5/15   04    20    45    70/40/45/80/70
++3   25/15/5/20   03    10    40    70/40/40/80/70
++4   25/20/5/20   03    10    40    70/40/40/80/65
++5   30/20/5/20   02    10    35    70/40/40/75/65
++6   30/20/5/25   02    10    35    70/40/40/75/60
+
+Full Plate
+EN   DR           DEX   Mov   SF    TS
++0   30/10/5/30   06    30    50    95/65/65/95/90
++1   30/15/5/30   05    20    45    90/65/65/95/90
++2   30/15/5/35   05    20    45    90/60/65/95/90
++3   30/15/5/40   04    20    40    90/60/60/95/90
++4   30/20/5/40   04    20    40    90/60/60/95/85
++5   35/20/5/40   03    10    35    90/60/60/90/85
++6   35/25/5/40   03    10    35    90/60/60/90/80
+
+Elven Chain
+EN   DR           DEX   Mov   SF    TS
++0   10/10/5/5    01    00    00    10/5/5/0/0
++1   15/10/5/5    00    00    00    5/5/5/0/0
++2   15/10/5/10   00    00    00    5/0/5/0/0
++3   15/10/10/10  00    00    00    5/0/0/0/0
++4   15/15/10/10  00    00    00    0/0/0/0/0
++5   20/15/10/10  00    00    00    0/0/0/0/0
++6   20/15/10/15  00    00    00    0/0/0/0/0
+
+Special armors (all values are incremental as well, and override (*not* add) to the ones in the base category.
+
+Ankheg Plate Mail
+EN   DR           DEX   Mov   SF    TS
++2   25/15/5/15   02    10    45    70/40/45/80/70
+
+Blue Dragon Scale
+EN   DR           DEX   Mov   SF    TS
++2   35/20/10/40  04    25    45    90/60/65/95/90
+
+Drow Adamantite Chain +5
+EN   DR           DEX   Mov   SF    TS
++5   30/20/15/15  00    00    00    0/0/0/0/0
+
+Drow Elven Chain +3
+EN   DR           DEX   Mov   SF    TS
++3   20/15/15/15  00    00    00    5/0/0/0/0
+
+Drow Full Plate
+EN   DR           DEX   Mov   SF    TS
++5   40/30/10/40  01    05    35    80/50/50/80/70
+
+Missile Attraction +2
+EN   DR           DEX   Mov   SF    TS
++2   5/5/5/-25    01    00    15    15/5/10/5/5
+
+Mithral Chain Mail +4
+EN   DR           DEX   Mov   SF    TS
++4   20/20/5/15   01    05    25    35/15/15/35/25
+
+Mithral Field Plate +2 (Bruennor's)
+EN   DR           DEX   Mov   SF    TS
++2   30/20/5/20   04    20    45    70/40/45/80/70
+
+Red Dragon Scale
+EN   DR           DEX   Mov   SF    TS
++2   25/15/10/15  02    15    35    50/15/20/50/40
+
+Shadow Dragon Scale
+EN   DR           DEX   Mov   SF    TS
++2   10/10/10/5   00    00    15    15/5/10/5/5
+
+White Dragon Scale Mail
+EN   DR           DEX   Mov   SF    TS
++2   20/15/10/15  02    15    35    50/15/20/50/40
+
+Shuruppak's Plate
+EN   DR           DEX   Mov   SF    TS
++3   30/15/5/40   02    10    40    90/60/60/95/90
+
+
+SHIELDS:
+
+Bucklers:
+AC bonus: 0
+No bonus at all versus Missile and Blunt (original game was: Missile and Piercing)
+Movement penalty: 0
+DEX penalty: 0
+
+Small Shields:
+AC bonus: 0
+Extra AC bonus vs. missiles: 0 (original game was: no bonus at all vs. Missile)
+Movement penalty: 0
+DEX penalty: 0
+
+Medium Shields:
+AC bonus: 0
+Extra AC bonus vs. missiles: 1
+Movement penalty: 0
+DEX penalty: 0
+
+Large Shields:
+AC bonus: 1
+Extra AC bonus vs. missiles: 1
+Movement penalty: -10%
+DEX penalty: -1
+
+Shield of the Falling Stars +1, +4 vs. Missiles:
+Becomes called +1, +3 (same effects as standard Large Shields)
+
+Large Shield +2 (no unique name) (SHLD19 and SHLD30)
+AC bonus: 1
+Extra AC bonus vs. missiles: 1
+Movement penalty: 0
+DEX penalty: 0
+
+Fortress Shield +3
+AC bonus: 1
+Extra AC bonus vs. missiles: 0
+Movement penalty: 10%
+DEX penalty: -1
+
+Darksteel Shield
+AC bonus: 1
+Extra AC bonus vs. missiles: 2
+Movement penalty: 0
+DEX penalty: -1
+
+
+-For balance reasons, if you have installed Ghreyfain's Ashes of Embers (the Sensible Weapon Restriction
+ component), the dexterity requirements from that mod are reduced by three points.
+
+
+
+                        3) Install time choices
+                        --------------
+
+-Differently from nearly all mods (at least by the time of the first 'public' release of
+ this component, AKA late 2005), you are asked whether you would like to change the descriptions
+ of the items at the same time you install the mod. If you're a non-English player you can also 
+ choose wether you prefer to install descriptions in English, in case it's missing in your language, 
+ or to go for a 100% unadulterated \(French\|Italian\|...\) game (even though some descriptions may not
+  be accurated this way).
+-Further, you can decide to remove the Movement Rate penalty, while keeping the other changes of the mod.

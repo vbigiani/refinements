@@ -1,0 +1,20 @@
+@600 = ~Imoen - Zawadiaka/Mag (Pelne ulepszenie)~
+@601 = ~Imoen - Zawadiaka/Mag~
+@602 = ~Imoen - Zawadiaka/Mag (Zmiana podklasy)~
+@603 = ~Imoen - Zawadiaka/Mag (Wykrywanie iluzji zamiast zast. pulapek)~
+@700 = ~Poprawki zmiany ksztaltu~
+@701 = ~Uzdrowienie przy wracaniu do naturalnej formy (Stand.)~
+@702 = ~Uzdrowienie przy przemianie w zwierzecie (by Borsook)~
+
+// these are 'less needed', since the rest of this component is too long to be translated before Xmas.
+@2000 = ~Ulepszone pancerze i tarcze~
+@2001 = ~Pawê¿ +1, +3 przeciwko pociskom~
+@2002 = ~Aktualizacja opisow, przy Ulepszonych pancerzach i tarczach~
+@2003 = ~Zaktualizuj opisy (Tylko polskie)~
+@2004 = ~Zaktualizuj opisy (Polskie, lub angielskie jesli brakuje)~
+@2005 = ~Komponent dla nie-anglojezycznej wersji.~
+@2006 = ~Komponent dla anglojezycznej wersji.~
+@2007 = ~Nie aktualizuj opisow.~
+@2008 = ~Aktualizuj opisy.~
+@2009 = ~Ulepszone pancerze i tarcze.~
+@2010 = ~Stary komponent.~

@@ -1,0 +1,1566 @@
+/* Added strings (for reference)
+
+220-229: Mnich
+230-263 (not all actually used): Kap³an
+
+Backwards from 300:
+299-295: Druid
+294-293: Mag
+292-273: Druid
+
+Backwards from 100:
+99-83: Z³odziej
+
+*/
+
+
+@10 = ~Dla tego komponentu wymagany jest Tron Bhalla.~
+@11 = ~Ten komponent wymaga Ul. Systemu Zdolnosci Wysokopoziomowych.~
+@12 = ~To chwile potrwa...~
+@13 = ~Ten komponent juz zostal wczesniej zainstalowany!~
+@14 = ~Wybacz, ten to potrwa kilka minut...~ 
+
+//Useful for automatic replacements in KITLIST.2DA
+@20 = ~Z³odziej~
+@21 = ~Zabójca~
+@22 = ~£owca nagród~
+@23 = ~Zawadiaka~
+@24 = ~Berserker~
+@25 = ~Kensai~
+@26 = ~Kap³an Talosa~
+@27 = ~Kap³an Helma~
+@28 = ~Kap³an Lathandera~     
+@29 = ~Mag~ 
+
+@50 = ~Przywroc oryginalny tekst~ 
+@51 = ~Nie mo¿esz teraz u¿ywaæ tej zdolnoœci.~
+
+// Stealing string numbers for poisons' descriptions :(
+// Backward from 100
+
+@99 = ~Utrata zmys³ów~
+@98 = ~Utrata zmys³ów
+Czas trwania: 3 rundy
+Rzut obronny: przeciwko truciznie
+Ta potê¿na trucizna powoduje, i¿ ka¿dy cios broni¹ mo¿e wywo³aæ czasowe szaleñstwo u przeciwnika. Efekt ten utrzymuje siê przez 6 rund.~
+
+@97 = ~Ostatni upadek~
+@96 = ~Ostatni upadek
+Czas trwania: 1 round
+Rzut obronny: przeciwko truciznie (-2) 
+Ta potê¿na mikstura wymusza na przeciwnikach rzut obronny, lub natychmiastow¹ œmieræ. Jednak nie dzia³a ona na istoty posiadaj¹ce wiêcej ni¿ 60 p¿.~
+
+@95 = ~Szaleñczy umys³~
+@94 = ~Szaleñczy umys³
+Czas trwania: 3 rundy
+Rzut obronny: przeciwko truciznie
+Jeœli istota zara¿ona t¹ trucizn¹ nie wykona rzutu przeciwko truciŸnie, wpada w stan berserku na 3 rundy.~
+
+@93 = ~Piekielna pochodnia~
+@92 = ~Piekielna pochodnia
+Czas trwania: 3 rundy
+Rzut obronny: przeciwko truciznom (-4)
+Ta trucizna wywo³uje u istoty do której krwiobiegu siê dosta³a straszne bóle os³abiaj¹ce zdolnoœci bojowe przeciwnika. Przy ka¿dym trafieniu broni¹ poktyt¹ t¹ truciznom, ofiara musi wykonaæ rzut obronny przeciwko truciznom z modyfikatorem -4 lub na czas 3 rund jej TraK0, obra¿enia i klasa pancerza zostan¹ pogorszone o 2 punkty. Kary te s¹ kumulatywne i trwaj¹ 3 rundy.~
+
+@91 = ~Zmro¿ona krew~
+@90 = ~Zmro¿ona krew
+Czas trwania: 2 rundy
+Rzut obronny: przeciwko truciznom
+Istota do której krwiobiegu dosta³a siê ta trucizna musi wykonaæ rzut przeciwko truciznom lub zostanie sparali¿owana na 2 rundy.~
+
+@89 = ~Bariera nerwów~
+@88 = ~Bariera nerwów
+Czas trwania: 3 rundy
+Rzut obronny: przeciwko truciznom
+Trucizna ta uszkadza najdelikatniejszy system nerwowy ofiary, przez co jeœli nie wykona ona rzutu obronnego, otrzyma na czas 3 rund modyfikator 75% szans na nieudane rzucenie zaklêcia.~
+
+@87 = ~Gliniane nogi~
+@86 = ~Gliniane nogi
+Czas trwania: 3 rundy
+Rzut obronny: przeciwko truciznom (-2)
+Ta trucizna atakuje system miêœni nóg ofiary, przez co trafiony ni¹ przeciwnik musi wykonaæ rzut obronny z modyfikatorem -2 lub na 4 rundy zostanie spowolniony.~
+
+@85 = ~Krwista rana~
+@84 = ~Krwista rana
+Czas trwania: 3 rundy
+Rzut obronny: przeciwko truciznom
+Ta niebezpieczna trucizna zawiera ró¿ne sk³adniki które zapobiegaj¹ krzepniêciu krwi a co siê z tym wi¹¿e - rany siê nie zasklepiaj¹. Przez to ka¿de udane trafienie przy którym nie uda siê przeciwnikowi wykonaæ rzutu obronnego tworzy oteart¹ ranê na 1 turê. Zatruta istota otrzymuje 2 punkty obra¿eñ na rundê za ka¿d¹ otwart¹ ranê.~
+
+@83 = ~Podczas tworzenia mikstury dosz³o do niewielkiego wypadku!~
+@82 = ~Nie posiadasz wystarczaj¹co du¿o pieniêdzy na wykonanie tej trucizny.~
+
+
+
+//////////////////////////////////////////////
+//New Abilities
+
+@101 = ~Ulepszony system zdolnosci wysokopoziomowych~
+
+/* shared files */
+
+@111 = ~Unik~
+@112 = ~Unik
+Dziêki zdolnoœci Unik, wyostrza siê naturalny zmys³ samoobrony ³otrzyka, przez co jego klasa pancerza zmniejsza siê o 4 punkty, a do wszystkich rzutów obronnych dodawane s¹ 2 punkty. Efekty Uniku trwaj¹ przez 3 rundy.~
+
+@113 = ~Twoja próba wykonania magicznego zwoju siê powiod³a!~
+@114 = ~Chyba zrobi³eœ coœ nieprawid³owo w procesie umagiczniania, zwój zosta³ stracony.~
+@115 = ~Pisanie zwojów~
+@116 = ~Pisanie zwojów
+Ta zdolnoœæ pozwala magowi stworzyæ zwoje zaklêæ dowolnego poziomu. Zwoje, które mo¿e stworzyæ mag, s¹ wybierane losowo z poni¿szej listy, jednak szansa na stworzenie jest ni¿sza dla lepszych - wysokopoziomowych zaklêæ: 
+1) Magiczny pocisk
+2) Ognista kula
+3) Rozproszenie magii
+4) Niewidzialnoœæ, promieñ 3 metry
+5) Kamienna skóra
+6) Chaos
+7) Przemiana Tensera
+8) Têczowe kolory
+9) Rubinowy promieñ odwrócenia
+10) Uwiêzienie
+11) Zatrzymanie czasu
+
+Nale¿y pamiêtaæ o tym, i¿ proces umagicznienia zwoju przez to, i¿ jest wykonywany w poœpiechu i bez ¿adnych pomocnicznych artefaktów, jest nietrwa³y i zwój zostaje zniszczony po 12 godzinach od stworzenia.~
+
+@117 = ~Pisanie zwojów
+Zdolnoœæ ta pozwala ³otrzykowi na wykonywanie procesów przypominaj¹cych te, jakie wykonuje mag. Gdy ³otr posiada odpowiednie zdolnoœci, magiczne receptury i zna magiczne inkantacje, potrafi naœladowaæ w pewnym stopniu maga, tworz¹c magiczne zwoje jakich mo¿e u¿ywaæ do rzucania zaklêæ.
+Ta zdolnoœæ pozwala bardowi stworzyæ zwoje zaklêæ dowolnego poziomu. Zwoje, które mo¿e stworzyæ bard, s¹ wybierane losowo z poni¿szej listy, jednak szansa na stworzenie jest ni¿sza dla lepszych - wysokopoziomowych zaklêæ:
+1) Magiczny pocisk
+2) Ognista kula
+3) Rozproszenie magii
+4) Niewidzialnoœæ, promieñ 3 metry
+5) Kamienna skóra
+6) Chaos
+7) Przemiana Tensera
+8) Têczowe kolory
+9) Uwiêzienie
+
+Nale¿y pamiêtaæ o tym, i¿ proces umagicznienia zwoju przez to, i¿ jest wykonywany w poœpiechu i bez ¿adnych pomocnicznych artefaktów, jest nietrwa³y i zwój zostaje zniszczony po 12 godzinach od stworzenia.~
+
+@118 = ~Pisanie zwojów
+Zdolnoœæ ta pozwala ³otrzykowi na wykonywanie procesów przypominaj¹cych te, jakie wykonuje mag. Gdy ³otr posiada odpowiednie zdolnoœci, magiczne receptury i zna magiczne inkantacje, potrafi naœladowaæ w pewnym stopniu maga, tworz¹c magiczne zwoje jakich mo¿e u¿ywaæ do rzucania zaklêæ.
+Ta zdolnoœæ pozwala z³odziejowi stworzyæ zwoje zaklêæ niskiego i œredniego poziomu. Zwoje, które mo¿e stworzyæ z³odziej, s¹ wybierane losowo z poni¿szej listy, jednak szansa na stworzenie jest ni¿sza dla lepszych - wysokopoziomowych zaklêæ:
+1) Magiczny pocisk
+2) Lustrzane odbicie
+3) Ognista kula
+4) Rozproszenie magii
+5) Okropne zauroczenie
+6) Zamêt
+7) Kamienna skóra
+8) Ulepszona niewidzialnoœæ
+9) Przywo³ywanie potworów III
+10) Zabójcza chmura
+
+Nale¿y pamiêtaæ o tym, i¿ proces umagicznienia zwoju przez to, i¿ jest wykonywany w poœpiechu i bez ¿adnych pomocnicznych artefaktów, jest nietrwa³y i zwój zostaje zniszczony po 12 godzinach od stworzenia.
+
+Wymagane: U¿ywanie zwojów~
+
+@119 = ~Unikniêcie œmierci
+Wykonuj¹c nadludzki wysi³ek, ³otrzyk wysokiego poziomu mo¿e unikn¹æ niemal pewnej œmierci. Efekty tej zdolnoœci trwaj¹ 5 rund, w czasie których do wykonywanych przez ³otrzyka rzutów obronnych przeciwko œmierci dodaje siê 5 punktów, punkty ¿ycia s¹ zwiêkszane o 20, a ³otrzyk staje siê niewra¿liwy na magiê œmierci.
+
+Wymagane: Unik~
+
+
+
+/* Paladin */
+
+@120 = ~Egzorcyzm~
+@121 = ~Egzorcyzm
+Po u¿yciu tej zdolnoœci wysokopoziomowej, paladyn staje siê ostateczn¹ broni¹ przeciwko wszelakim nieumar³ym i demonom. W nastêpnych 2 rundach, wszystkie uderzenia paladyna atakuj¹cego nieumar³ego lub demona, wykonywane s¹ z modyfikatorem +6. Ponadto w pierwszej rundzie, ka¿de uderzenie, które trafi nieumar³ego, wymusza na nim rzut obronny przeciwko œmierci (modyfikator -2), i jeœli nieumarli nie wykonaj¹ tego rzutu, zostaj¹ natychmiast zniszczeni.
+
+Wymagane: Œwiêta Aura~
+
+@122 = ~Œwiête oczyszczenie~
+@123 = ~Œwiête oczyszczenie 
+Wysokopoziomowi paladyni dziêki sile swej wiary potrafi¹ wyprzeæ z swego cia³a i ducha wszelkie przejawy z³a. Dziêki tej zdolnoœci, paladyn oczyszcza siê i wypiera wszelkie negatywne efekty takie jak zatrucia, g³uchotê, oœlepienie, zarazê czy wysysanie poziomów. Paladyn zostaje oczyszczony z wszelakich kl¹tw.
+
+Wymagane: Œwiêta Aura~
+
+@124 = ~S³uszna magia~
+@125 = ~S³uszna magia 
+Ta zdolnoœæ wysokopoziomowa zwiêksza fizyczne mo¿liwoœci paladyna. Przemienia go w kolosa siej¹cego pop³och w szeregach z³a. Umiejêtnoœæ tymczasowo dodaje 1 Punkt ¯ycia na ka¿dy poziom kap³ana, 1 punkt Si³y na 3 poziomy paladyna (maksymalna si³a uzyskana w ten sposób nie mo¿e przekroczyæ 25) i powoduje, ¿e paladyn zawsze zadaje maksymalne obra¿enia. Zdolnoœæ ta trwa 2 rundy.~
+
+@126 = ~Tarcza prawa~
+@127 = ~Tarcza prawa
+Poprzez u¿ycie tej potê¿nej zdolnoœci, paladyn przemienia siê w bastion Prawoœci, i uzyskuje ochronê przeciwko chaotycznym i z³ym istotom czy zaklêciomo. Daje mu ona pe³n¹ odpornoœæ na zaklêcie ze szko³y Nekromancji, premiê +3 do rzutów obronnych przeciwko œmierci i klasy pancerza. Ponadto paladyn jest chroniony przed z³em i efektami chaosu, takimi jak zamêt, berserk, pijañstwo, strach itp. 
+Zdolnoœæ ta trwa 10 rund.~
+
+@128 = ~Œwiêta Aura~
+@129 = ~Œwiêta Aura
+Wysokopoziomowy paladyn mo¿e wytwarzaæ potê¿n¹ aurê œwiêtoœci, chroni¹c¹ jego i wspó³towarzyszy. On i wszyscy jego sojusznicy stoj¹cy w promieniu 10 metrów wokó³ niego, otrzymuj¹ premiê +2 do klasy pancerza i rzutów obronnych wykonywanych w wyniku ataku lub zaklêcia z³ej istoty. Te efekty s¹ sta³e do czasu, gdy towarzysze paladyna stoj¹ blisko niego. Jakakolwiek istota, która wyjdzie z obszaru na jakim dzia³a Aury, utraci te odpornoœci na co najmniej pó³-rundy. Premie z kilku Aur nie s¹ kumulatywne.~
+
+
+/* Wizard */
+
+@130 = ~Aegis~
+@131 = ~Aegis (Odrzucanie)
+Poziom: 10
+Zasiêg: 0
+Czas dzia³ania: 5 rund
+Czas rzucania: 2
+Obszar dzia³ania: rzucaj¹cy
+Rzut obronny: brak
+
+To wysokopoziomowe zaklêcie ze sfery odrzucania pozwala magowi skupiæ na sobie wiele odpornoœci na raz. Odpornoœci na obra¿enia fizyczne i te pochodz¹ce od ¿ywio³ów, zostaj¹ ustalone na 85%, zaœ odpornoœæ na obra¿enia magiczne, na 60%. Ponadto mag otrzymuje premiê +5 do klasy pancerza i +3 do rzutów obronnych, zaœ zaklêcie chroni rzucaj¹cego przed pierwszym zaklêciem, które zdjê³oby z niego inne zaklêcia ochronne np. Wy³om lub Przeszywaj¹ca magia. Czas dzia³ania tego zaklêcia to 5 rund, jest ono bardzo krótkie, i szybko siê rzuca, wiêc zalecane jest, by mag u¿ywa³ go ju¿ w ferworze bitewnym, gdzie ta chwila ¿ycia przewa¿a w losach walki.~
+
+@132 = ~Pole œmierci~
+@133 = ~Pole œmierci (Uniwersalne)
+Poziom: 10
+Zasiêg: 0
+Czas dzia³ania: sta³y
+Czas rzucania: 5
+Obszar dzia³ania: 50 metrów
+Rzut obronny: brak
+
+Jest to niesamowicie potê¿ne zaklêcie, które jest szczególnie skuteczne przeciwko przyzwanym istotom. Po rzuceniu tego zaklêcia, mag atakuje ¿yciow¹ si³ê wszystkich swych przeciwników, i niszczy wszystkie przyzwane istoty na polu 50 metrów wokó³ niego. Przyzwane istoty nie maj¹ rzutu obronnego przeciwko temu zaklêcia, ponadto nie jest brana w tym wypadku pod uwagê odpornoœæ na magiê. Inne istoty o wiêcej ni¿ 8 kostkach musz¹ wykonaæ rzut obronny przeciwko zaklêciom (modyfikator -2).
+Rzucenie Pola Œmierci ma jednak swoj¹ wadê: kiedy si³a zaklêcia siê wyczerpie, co dzieje siê w 2 rundy po rzuceniu - mag nie mo¿e atakowaæ ani poruszaæ siê przez pewien czas.~
+
+@134 = ~Dodatkowe zaklêcia~
+@135 = ~Dodatkowe zaklêcia
+Ta wysokopoziomowa zdolnoœæ pozwala magom na nauczenie siê dodatkowego zaklêcia z 6, 7 i 8 poziomu zaklêæ.
+
+Wymagane: Mistyczna Wiedza~
+
+@136 = ~Mistyczna wiedza~
+@137 = ~Mistyczna wiedza
+Czas i wysi³ek, jaki wielcy magowie wk³adaj¹ w naukê, studiowanie potê¿nych zaklêæ, badanie artefaktów, nie móg³ obejœæ siê bez nagrody. Mag ucz¹c siê, otwiera swój umys³ i poszerza sw¹ wiedzê. Jego d³uga i intensywna nauka pozwoli³a mu na rozwi¹zanie wielu problemów, ponadto poszerzy³a jego zdolnoœci w sztuce panowania nad magi¹. 
+Zdolnoœæ ta daje magowi na sta³e premiê +1 do inteligencji i dodatkowe 15 punktów wiedzy.~
+
+@138 = ~Akceleracja (Uniwersalne)
+Poziom: 10
+Zasiêg: nieograniczony
+Czas dzia³ania: 2 rundy
+Czas rzucenia: 9
+Obszar dzia³ania: specjalny
+Rzut obronny: specjalny
+
+Akceleracja powoduje usuniêcie przerwy pomiêdzy rzucaniem zaklêæ. Po rzuceniu tego czaru, mag mo¿e rozpocz¹æ rzucanie nowego zaklêcia natychmiast po zakoñczeniu poprzedniego. Efekt trwa przez dwie rundy.
+
+Wymagane: Mistyczna Wiedza~
+
+@294 = ~Kometa (Uniwersalne)
+Poziom: 10
+Zasiêg: 90 m
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 9
+Obszar dzia³ania: w promieniu 10 m
+Rzut obronny: brak
+
+Kometa to potê¿niejsza i bardziej wyspecjalizowana wersja zaklêcia Rój meteorów. Po rzuceniu czaru, w ziemiê uderza ogromny meteor lub kometa, zadaj¹c obra¿enia wszystkim wrogom, którzy znajd¹ siê na drodze. Kometa przy uderzeniu wysy³a falê uderzeniow¹, która zwala z nóg i odrzuca w ty³ wszystkich nieprzyjació³ znajduj¹cych siê w obszarze dzia³ania zaklêcia. Powaleni wrogowie musz¹ wykonaæ rzut obronny przeciwko parali¿owi albo zostan¹ og³uszeni na 3 rundy. Sama kometa wyrz¹dza 5k10 obra¿eñ obuchowych i 5k10 obra¿eñ od ognia.
+
+Zaklêcie to nie powoduje obra¿eñ u cz³onków dru¿yny.~
+
+@293 = ~Oddech smoka (Uniwersalne)
+Poziom: 10
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
+Czas rzucenia: 3
+Obszar dzia³ania: w promieniu 10 m
+Rzut obronny:
+
+Po rzuceniu tego zaklêcia w polu widzenia rzucaj¹cego pojawia siê pozbawiona reszty cia³a g³owa czerwonego smoka, która zionie ogniem, dorównuj¹cym si³¹ oddechowi doros³ego czerwonego smoka. Oprócz ogromnej kuli ognia, zadaj¹cej 20k10 obra¿eñ, si³a oddechu smoka zwala przeciwnika z nóg i odrzuca go od maga. Ofiara mo¿e wykonaæ rzut obronny przeciw zioniêciu. Jeœli rzut ten siê powiedzie, otrzyma ona jedynie po³owê obra¿eñ i nie zostanie odrzucona si³¹ oddechu w ty³.
+
+Zaklêcie to nie powoduje obra¿eñ u cz³onków dru¿yny.~
+
+@139 = ~Widzenie przysz³oœci~
+@140 = ~Widzenie przysz³oœci (Poznanie)
+Poziom: 10
+Zasiêg: 0
+Czas dzia³ania: 2 tury
+Czas rzucania: 6
+Obszar dzia³ania: rzucaj¹cy
+Rzut obronny: brak
+
+Zaklêcie to obdarowuje rzucaj¹cego niesamowitym, szóstym zmys³em. Po rzuceniu tego zaklêcia, mag ju¿ wczeœniej dowiaduje siê o przysz³oœci, w tym i o wszelkich obra¿eniach i krzywdach jakich móg³by doznaæ. Postaæ nigdy nie jest zaskoczona. Ponadto zaklêcie daje magowi najlepsze idee ominiêcia tych obra¿eñ.
+Wszêdzie tam, gdzie mag mo¿e wykonaæ rzut obronny, automatycznie go wykonuje, zaœ jego klasa pancerza jest zmniejszona o 15 punktów.~
+
+
+
+/* Thief */
+
+
+
+@141 = ~Os³abiaj¹ce uderzenie~
+@142 = ~Os³abiaj¹ce uderzenie
+Doœwiadczony ³otrzyk potrafi wykorzystaæ wiedzê o s³abych punktach swoich przeciwników by uzyskaæ przewagê w walce. Przez trzy rundy po aktywowaniu tej umiejêtnoœci, ka¿dy atak ³otrzyka koñczy siê niszczycielskim ciosem, który os³abia przeciwnika. Po ka¿dym udanym trafieniu Si³a przeciwnika zostaje obni¿ona do 10 (udany rzut obronny przeciw œmierci z modyfikatorem -2 neguje efekt) na trzy rundy. Ponadto istnieje prawdopodobieñstwo, ¿e cel zostanie oœlepiony (15%), spowolniony (15%) lub jego TraK0 zostanie obni¿one o jeden punkt (30%) jeœli nie wykona udanego rzutu obronnego przeciw zioniêciom z modyfikatorem -4. Dzia³anie tych pobocznych efektów utrzymuje siê przez dwie rundy.~
+@143 = ~Nie mo¿esz teraz reaktywowaæ Os³abiaj¹cego uderzenia.~
+
+@144 = ~U¿ywanie zwojów~
+@145 = ~U¿ywanie zwojów
+Z³odzieje musz¹ polegaæ na swym sprycie, i musz¹ te¿ uczyæ siê wykorzystywaæ wszystko co znajduj¹ na swej drodze.
+Dziêki temu, ¿e doœwiadczony ³otrzyk nieraz styka³ siê i widzia³ potê¿nych magów rzucaj¹cych zaklêcia, mo¿e on nauczyæ siê nieco o mechanizmach dzia³aj¹cych podczas korzystania z magicznych zwojów. Po wybraniu tej zdolnoœci z³odziej mo¿e u¿ywaæ wszelakich zwojów magicznych i z nich rzucaæ zaklêcia.
+Niestety ³otry o wyj¹tkowo niskiej inteligencji nie mog¹ wybraæ tej umiejêtnoœci, gdy¿ nie bêd¹ potrafili zrozumieæ sztuki rzucania zaklêæ.~
+@146 = ~Zyskano zdolnoœæ do rzucania zaklêæ z zwojów maga.~
+
+
+/* Cleric */
+
+@150 = ~Zniszczenie~
+@151 = ~Zniszczenie (Nekromancja)
+Poziom: misja
+Sfera: Leczenie
+Zasiêg: dotyk
+Czas trwania: natychmiastowy
+Czas rzucania: 10
+Obszar dzia³ania: rzucaj¹cy czar
+Rzut obronny: specjalny
+
+Zaklêcie to b³yskawicznie niszczy cel, rozbijaj¹c go na drobne kawa³ki. Ofiara mo¿e ratowaæ siê rzutem obronnym przeciwko œmierci z modyfikatorem -4; w przypadku pomyœlnej próby nie ginie, lecz otrzymuje 3K10 obra¿eñ. Czar ten mo¿e byæ wykorzystywany tylko przez postacie z³e. Nale¿y pamiêtaæ o tym, ¿e postaæ zaatakowana tym zaklêciem, nie mo¿e zostaæ przywrócona do ¿ycia za pomoc¹ czaru Wskrzeszenie czy Zmartwychwstanie.~
+
+@152 = ~Zbroja wiary~
+@153 = ~Zbroja wiary (Odrzucanie)
+Poziom: misja
+Sfera: Ochrona
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 1 tura
+Czas rzucania: 9
+Rzut obronny: brak
+
+Czar ten otacza rzucaj¹cego ochronnym wirem energii, który blokuje lub odpiera wiele ataków. Daje to 75% odpornoœæ na wiêkszoœæ typów ataków: od elektrycznoœci, ognia, ch³odu itd. 25% odpornoœci na magiczne obra¿enia, czasow¹ premiê +20% do punktów ¿ycia, premiê +5 do rzutów obronnych przeciwko œmierci. Ponadto chroni przed normalnymi broñmi i efektami ograniczaj¹cymi ruch kap³ana i próbuj¹cymi zaatakowaæ jego umys³. Zaœ oprócz tego absorbuje 15 poziomów zaklêæ (jednak nie absorbuje zaklêæ 9 poziomu).~
+
+@154 = ~Oœwiecenie~
+@155 = ~Oœwiecenie
+Wysokopoziomowi kap³ani s¹ zdolni do umocnienia swych wiêzi z bóstwem. Dziêki tej zdolnoœci, s¹ oni zdolni rzucaæ wiêcej wysokopoziomowych zaklêæ bez odpoczynku.
+Oœwiecenie daje kap³anowi dodatkowe zaklêcie 6 i 7 poziomu.~
+
+@156 = ~Recytacja~
+@157 = ~Recytacja (Sprowadzanie/Przywo³ywanie)
+Poziom: misja
+Sfera: Walka
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 1 runda/poziom
+Czas rzucania: 7
+Obszar dzia³ania: w promieniu 20 metrów
+Rzut obronny: brak
+
+Wypowiadaj¹c œwiête s³owa, kap³an przywo³uje b³ogos³awieñstwo swego boga na siebie i sprzymierzeñców, jednoczeœnie siej¹c zamêt i os³abiaj¹c wrogów. Towarzysze kap³ana zyskuj¹ modyfikator +2 do ataków, morale i rzutów obronnych, a wrogowie, odpowiednio, -2. Czar ten nie uniewa¿nia czaru Psalm - mo¿na pozostawaæ pod wp³ywem obu, a efekty ich dzia³ania kumuluj¹ siê.
+Recytacja jest bardzo mêcz¹ca dla kap³ana.~
+
+//Divine intervention, strings for EVIL version:
+
+@238 = ~Kl¹twa zwinnoœci~
+@239 = ~Kl¹twa si³y~
+@240 = ~Otworzy³ siê portal do sfery ¿ywio³u ognia...~
+@241 = ~Twoje bóstwo nie jest z ciebie zadowolone...~
+@242 = ~Twoja modlitwa spowodowa³a katastrofê...~
+@243 = ~Plaga!~
+@244 = ~Gniew twego bóstwa zmiót³ przeciwników z powierzchni Krain!~
+@245 = ~Twoja modlitwa wyssa³a z przeciwników magiê!~
+@246 = ~Przeklête moce odpowiadaj¹ na twe wezwanie...~
+@247 = ~Twój bóg zsy³a ci pomoc!~
+@248 = ~Upad³y Solar przyby³ by ciê wspomóc!~
+@249 = ~Aura strachu~
+
+//Divine intervention, strings for GOOD version:
+@251 = ~Twoja modlitwa zosta³a odrzucona.~
+@255 = ~Modlitwa~
+@256 = ~Twoje zaklêcia zosta³y przywrócone~
+@258 = ~Twoja modlitwa zosta³a wys³uchana!~
+@262 = ~Niebiosa przybywaj¹ ci z pomoc¹!~
+@263 = ~Solar przyby³ by ciê wspomóc!~
+
+
+@158 = ~Boska interwencja~
+@159 = ~Boska interwencja
+Dziêki silnej wiêzi ze swym bóstwem, wysokopoziomowi kap³ani mog¹ w trudnych chwilach mog¹ wezwaæ niebiosa, by ich wspomog³y. Odprawiaj¹c t¹ wyj¹tkow¹ modlitwê, przemawiaj¹ wprost do swego bóstwa.
+Boska interwencja jest ca³kowicie nieprzewidywalna. W przeciwieñstwie do kap³anów o z³ym charakterze, interwencja dobrych i neutralnych bogów nigdy nie posiada negatywnych dla rzucaj¹cego efektów, jednak istnieje szansa na to, ¿e proœba kap³ana zostanie odrzucona. Efekty boskiej interwencji s¹ ró¿ne - od ma³ych premii po wielkie cudy.
+Boska interwencja jest bardzo wymagaj¹ca dla kap³ana, przez co przez krótki czas czuje siê on zmêczony. Mo¿e ona byæ u¿yta tylko raz dziennie.
+
+Wymagane: Oœwiecenie~
+
+@250 = ~Boska interwencja (Z³a)
+Dziêki silnej wiêzi ze swym bóstwem, wysokopoziomowi kap³ani mog¹ w trudnych chwilach mog¹ wezwaæ niebiosa, by ich wspomog³y. Odprawiaj¹c t¹ wyj¹tkow¹ modlitwê, przemawiaj¹ wprost do swego bóstwa.
+Boska interwencja jest ca³kowicie nieprzewidywalna. W przeciwieñstwie do kap³anów o dobrym lub neutralnym charakterze, interwencja z³ych bogów pojawia siê zawsze, jednak czêsto jest ona niszcz¹ca zarówno dla wrogów jak i kap³ana. Efekty boskiej interwencji s¹ ró¿ne - od ma³ych premii po wielkie cudy.
+By nast¹pi³a Boska interwencja, kap³an z³ego bóstwa musi siê poœwiêciæ, przez co otrzymuje 3k10 obra¿eñ.
+
+Wymagane: Oœwiecenie~
+
+
+/* Druid */
+
+@160 = ~Gniew natury~
+@161 = ~Gniew natury (Inwokacje/Wywo³ania))
+Poziom: misja
+Sfera: walka, roœliny
+Zasiêg: wzrok
+Czas trwania: 1 tura
+Czas rzucania: 7
+Obszar dzia³ania: w promieniu 13 metrów
+Rzut obronny: neguje
+
+Druid powinien u¿ywaæ tego zaklêcia tylko przeciwko najwiêkszym wrogom natury, by ukazaæ im jej destruktywn¹ si³ê. Zawsze nale¿y pamiêtaæ, ¿e natura to zarówno ¿ycie jak i œmieræ. Kiedy rzuci to zaklêcie, ziemia wzburza siê z wœciek³oœci, i niszcz¹c wszystko co napotka na swej drodze - zarówno ¿ywe jak i martwe istoty. Ka¿da istota otrzymuje 1k10 obra¿eñ od kwasu i 1k10 obra¿eñ od trucizny na ka¿d¹ rundê przebywania w obszarze Gniewu Natury. Ponadto, jeœli komuœ nie uda siê wykonaæ rzutu obronnego przeciwko truciznom (modyfikator -2) zostanie zatruty. Z kolei jeœli nie uda siê nastêpny rzut przeciwko truciznom, istota popada w chorobê i traci jeden punkt kondycji na 5 rund. Zaklêcie to nizszczy wszystkie przyzwane istoty. Oprócz zniszczenia, Gniew natury powoduje jeszcze jedno: pozwala na zatrzymanie istot w polu Gniewu natury spowalniaj¹c je lub unieruchamiaj¹c. Ka¿da istota musi wykonaæ rzut obronny przeciwko czarom (modyfikator -4) lub zostanie na krótki czas opl¹tana dzikimi roœlinami, które nie pozwol¹ jej siê ruszaæ.
+
+Wymagane: B³ogos³awieñstwo natury~
+
+@162 = ~Aura uzdrowienia~
+@163 = ~Aura uzdrowienia (Nekromancja)
+Sfera: nekromancja
+Poziom: misja
+Zasiêg: rzucaj¹cy
+Czas dzia³ania: 1 tura
+Czas rzucania: 10
+Obszar dzia³ania: promieniu 10 metrów
+Rzut obronny: brak
+
+Wysokopoziomowi druidzi dziêki swej bliskoœci z przyrod¹ potrafi¹ wytworzyæ wokó³ siebie potê¿n¹ aurê, która leczy i oczyszcza ich przyjació³. Ka¿da przyjazna istota w obszarze dzia³ania odzyskuje 3k8 +10 punktów ¿ycia na rundê, i zostaje oczyszczona z wszelkich trucizn i chorób. Niestety druid musi koncentrowaæ siê na podtrzymywaniu tej aury, przez co jego ruchy zostaj¹ spowolnione przez czas dzia³ania zaklêcia, który wynosi 1 turê.
+
+Wymagane: B³ogos³awieñstwo natury~
+
+@164 = ~Wulkan~
+@165 = ~Wulkan (Inwokacje/Wywo³ania)
+Sfera: ¿ywio³ (Ziemia)
+Poziom: misja
+Zasiêg: pole widzenia
+Czas dzia³ania: 4 rundy
+Czas rzicamoa: 9 
+Obszar dzia³ania: w promieniu 13 metrów
+Rzut obronny: specjalny
+
+Jest to ulepszona wersja 7-poziomowego czaru druida o nazwie 'Trzêsienie ziemi'.
+Dziêki temu potê¿nemu zaklêciu Druid mo¿e uwolniæ drzemi¹ce w ziemi moce, które maj¹ mu pomóc w zmiecieniu wrogów przyrody z powierzchni Faerunu. Podziemne ruchy wywo³ane czaren powoduj¹ wielkie trzêsienia ziemi, zaœ erupcja ognia z nowopowsta³ego wulkanu zalewa obszar zaklêcia ogniem spadaj¹cym z niebios.
+Efekty wywo³ania wulkanu posiadaj¹ trzy fazy. W pierwszej fazie wszystkie istoty na obszarze dzia³ania otrzymuj¹ 6k6 punktów obra¿eñ i uppadaj¹ na ziemiê na 4 rundy (rzut obronny z modyfikatorem -6 pozwala unikn¹æ po³owy obra¿eñ i upadku na ziemiê)
+Druga faza jest ju¿ trochê s³absza; zadaje 4k6 obra¿eñ (rzut obronny z modyfikatorem -2 pozwala unikn¹æ po³owy obra¿eñ). Ostatnia faza zadaje 2k6 obra¿eñ (rzut bez modyfikatora zmniejsza obra¿enia o po³owê).
+Oprócz tych efektów, lawa i p³on¹ce ska³y spadaj¹ce z nieba na obszar dzia³ania wywo³uj¹ u wszystkich istot 3k6 obra¿eñ od ognia na ka¿d¹ rundê.
+Zaklêcia tego nale¿y u¿ywaæ z szczególn¹ ostro¿noœci¹, gdy¿ nie mo¿na kontrolowaæ jego efektów i razi zarówno wrogów jak i przyjació³, wiêc m¹dr¹ decyzj¹ by³oby wycofanie towarzyszy by zadaæ obra¿enia tylko swym wrogom. 
+Wywo³anie wulkanu jest niezwykle wyczerpuj¹ce fizycznie i umys³owo dla druida. Na czas 2 rund staje siê zmêczony i nie mo¿e rzucaæ ¿adnych zaklêæ.
+
+Wymagane: Implozja~
+
+@166 = ~Przyzwanie ¿ywio³aków~
+@167 = ~Przyzwanie ¿ywio³aków (Sprowadzanie/Przywo³ywanie)
+Poziom: misja
+Zasiêg: 10 metrów
+Czas dzia³ania: 10 rund
+Czas rzucania: 10
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Czerpi¹c moc z otoczenia, zaklêcie to przyzywa 2 ¿ywio³aki o 16 kostkach, wybrane losowo spoœród ¿ywio³aków ziemi, powietrza lub ognia. Istoty te towarzysz¹ rzucaj¹cemu przez 10 rund, w czasie których wype³niaj¹ wszystkie jego rozkazy. Istnieje 10% prawdopodobieñstwa, ¿e zamiast 2 ¿ywio³aków zostanie sprowadzony Ksi¹¿ê ¯ywio³aków, który rz¹dzi innymi ¿ywio³akami z odpowiednich sfer. Ksiêciem ¿ywio³aków wody jest Ben-Hadar. Ksiêciem ¿ywio³aków powietrza jest Chan. Ksiêciem ¿ywio³aków ziemi jest Sunnis, natomiast Ksiêciem ¿ywio³aków ognia jest Zaaman Rul.~
+
+@168 = ~Przyzwanie ksi¹¿¹t ¿ywio³ów~
+@169 = ~Przyzwanie ksi¹¿¹t ¿ywio³ów (Sprowadzanie/Przywo³ywanie)
+Poziom: misja
+Zasiêg: 10 metrów
+Czas dzia³ania: 10 rund
+Czas rzucania: 10
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Druidzi, z racji tego, ¿e z ¿ywio³ami ³¹cz¹ ich silniejsze wiêzi, mog¹ rzucaæ potê¿niejsz¹ wersjê Przyzwania ¿ywio³aków. Zaklêcie to pozwala przyzwaæ Ksi¹¿¹t ¯ywio³aków, wybranych losowo spoœród ¿ywio³aków ziemi, powietrza lub ognia. Istoty te towarzysz¹ rzucaj¹cemu przez 10 rund, w czasie których wype³niaj¹ wszystkie jego rozkazy. Ksiêciem ¿ywio³aków wody jest Ben-Hadar. Ksiêciem ¿ywio³aków powietrza jest Chan. Ksiêciem ¿ywio³aków ziemi jest Sunnis, natomiast Ksiêciem ¿ywio³aków ognia jest Zaaman Rul.
+
+Wymagane: Przyzwanie ¿ywio³aków~
+
+@299 = ~Przemiana w ¿ywio³aka ognia~
+@298 = ~Przemiana w ¿ywio³aka ziemi~
+@297 = ~Przemiana w ¿ywio³aka powietrza~
+@296 = ~Przemiana w ¿ywio³aka wody~
+
+@292 = ~B³ogos³awieñstwo natury~
+@291 = ~B³ogos³awieñstwo natury
+Wysokopoziomowi druidzi potrafi¹ zacieœniæ swe wiêzi z matk¹ natur¹. Dziêki bliskoœci z ¿ywio³ami i b³ogos³awieñstwu jakie natura daje swemu wiernemu s³udze, druid otrzymuje premiê +1 do m¹droœci i premie +10% do odpornoœci na ogieñ, zimno i b³yskawice.~
+@290 = ~M¹droœæ i odpornoœæ na ¿wyio³y zosta³a na sta³e zwiêkszona.~
+
+@295 = ~Kto wzywa Ben-Hadara, Ksiêcia Wody!~
+@289 = ~¯ywio³ak wody~
+@288 = ~Ben-Hadar~
+@287 = ~Przyzwanie s³ug: ¿ywio³aki wody~
+@286 = ~Pole b³ota~
+@285 = ~Kto wzywa Chan, Ksiê¿niczkê powietrza!~
+@284 = ~Kto wzywa Chana, Ksiêcia powietrza!~
+@283 = ~Kto wzywa Sunnis, Ksiê¿niczkê ziemi!~
+@282 = ~Kto wzywa Sunnisa, Ksiêcia ziemi!~
+
+@281 = ~Implozja~
+@280 = ~Implozja (Inwokacje/Wywo³ania)
+Poziom: misja
+Zasiêg: pole widzenia
+Czas dzia³ania: 2 rundy
+Czas rzucania: 9
+Obszar dzia³ania: 1 istota
+Rzut obronny: specjalny
+
+Zaklêcie to tworzy pod wskazan¹ istot¹ szczelinê w ziemi, która imploduje, wci¹ga do swego wnêtrza przeciwnika, a nastêpnie zamyka siê, mia¿d¿¹c go i parz¹c przez 1 rundê. Zaklêcie mo¿e wyrz¹dziæ ofierze 10k10 obra¿eñ od ognia i 10k10 obra¿eñ od broni obuchowych. Jeœli zaatakowany w ten sposób przeciwnik wykona rzut obronny przeciwko czarom, to doznaje tylko po³owê obra¿eñ.
+
+Wymagane: B³ogos³awieñstwo natury~
+
+@279 = ~Przyzwanie s³ug: ¿ywio³aki powietrza~
+@278 = ~Przyzwanie s³ug: ¿ywio³aki ziemi~
+@277 = ~Przyzwanie s³ug: ¿ywio³aki ognia~
+
+@276 = ~Tr¹ba powietrzna~
+@275 = ~Tr¹ba powietrzna (Inwokacje/Wywo³ania)
+Poziom: misja
+Sfera: ¿ywio³ (powietrze)
+Zasiêg: pole widzenia
+Czas dzia³ania: 2 tury
+Czas rzucania: 6
+Obszar dzia³ania: specjalny
+Rzut obronny: specjalny
+
+Dziêki temu zaklêciu Arcy-druid potrafi stworzyæ potê¿n¹ masê powietrza, która zaczyna przekszta³caæ siê w niszczycielski wir. Ta nowo utworzona tr¹ba powietrzna chaotycznie porusza siê po znacznym obszarze, krzywdz¹c ka¿d¹ napotkan¹ istotê - niewa¿ne czy jest to sojusznik a wróg druida. Ci którzy nie mog¹ uciec natychmiast otrzymuj¹ 1k10 obra¿eñ obuchowych i siecznych, zaœ ma³e i œrednie istoty zostaj¹ odrzucone w ty³ bez rzutu obronnego. Wszyscy ci, którzy nadal pozostaj¹ na obszarze dzia³ania, posiadaj¹ 50% szans na nieudane rzucenie zaklêcia. Oprócz tego, wszyscy ci, którzy nie wykonaj¹ dodatkowego rzutu obronnego przeciwko zioniêciom, otrzymuj¹ kolejne 1k10 obra¿eñ obuchowych i padaj¹ nieprzytomni przez 1 rundê. 
+Tr¹ba powietrzna natychmiast zabija istoty o 5 lub mniej kostkach (poziomach doœwiadczenia), i rozprasza wszelakie chmury i gazy na obszarze dzia³ania.
+Przy korzystaniu z tego zaklêcia nale¿y zachowaæ szczególn¹ ostro¿noœæ, gdy¿ po tym, gdy druid uformuje wir, nie posiada nad nim ¿adnej kontroli.~
+
+@274 = ~Przemiana w ¿ywio³aka~
+@273 = ~Przemiana w ¿ywio³aka
+Dziêki swej bliskoœci z ¿ywio³ami, wysokopoziomowy druid mo¿e przemieniæ siê w 24 kostkowego ¿ywio³aka - ucieleœnienie si³y ¿ywio³u. Otrzymuje dostêp do czterech form ¿ywio³aków ró¿nych ¿ywio³ów. Ka¿da z tych form posiada swe wady i zalety - w zale¿noœci od rodzaju. Kiedy druid wróci do ludzkie postacii, leczy 3k10 punktów obra¿eñ. Zdolnoœæ ta trwa 5 tur lub do czasu gdy druid sam zdecyduje siê na powrót do starej formy.
+
+Wymagane: B³ogos³awieñstwo natury~
+
+
+
+/* Bards */
+/* Mostly a courtesy of aVENGER. Stuff is expanded and refined too. */
+
+@170 = ~Zbiorowe zauroczenie~
+@171 = ~Zbiorowe zauroczenie 
+Skupiaj¹c swoj¹ si³ê woli bard wp³ywa na czyny pobliskich istot poprzez swoiste sugestie. Sugestia musi byæ wyra¿ona w taki sposób, aby dzia³anie, do którego ma doprowadziæ wydawa³o siê rozs¹dne. W zwi¹zku z tym rozkazy samobójcze nie wchodz¹ w grê i przerywaj¹ zauroczenie. Jeœli zauroczona istota pos³uguje siê wspólnym jêzykiem, bard mo¿e zmusiæ j¹ do wykonywania jego ¿yczeñ, oczywiœcie bior¹c pod uwagê umiejêtnoœci zauroczonej istoty. Jeœli zauroczona istota pos³uguje siê innym jêzykiem, bard mo¿e porozumiewaæ siê z ni¹ tylko przy u¿yciu podstawowych komend, takich jak "PodejdŸ tu", "IdŸ tam", "Walcz", "Stój w miejscu" itd. Istota mo¿e wykonaæ rzut obronny przeciw czarom, ale nawet jeœli uda siê jej unikn¹æ zauroczenia nadal istnieje 50% szansa na mentalne za³amanie. Gdy tak siê stanie istota taka wpada w berserk (bez mo¿liwoœci wykonania rzutu obronnego) i przez jedn¹ rundê atakuje najbli¿sz¹ istotê.
+
+Uwaga: Jest to nadnaturalna umiejêtnoœæ, w zwi¹zku z czym ca³kowicie ignoruje odpornoœæ na magiê przeciwników, jednak¿e niektóre odpornoœci nadal neguj¹ jej dzia³anie. Ponadto postaæ, która ju¿ kiedyœ by³a w taki sposób kontrolowana przez barda, staje siê bardziej odporna na tego typu zaklêcie.~
+
+@172 = ~Oczarowuj¹ca melodia~
+@173 = ~Oczarowuj¹ca melodia
+Nuc¹c tê atrakcyjn¹ melodiê, bard jest w stanie wprawiaæ w zdumienie i zauroczyæ ka¿dego s³uchacza, nawet takiego, który nie rozumie jego jêzyka. Wszystkie istoty znajduj¹ce siê w obszarze dzia³ania musz¹ wykonaæ udany rzut obronny przeciw parali¿owali lub zwróciæ swoj¹ niepodzieln¹ uwagê na barda, ca³kowicie ignoruj¹c wszystko co ich otacza. Tak¿e wrogowie zostaj¹ sparali¿owani na 5 rund jeœli nie uda im siê wykonaæ udanego rzutu obronnego. Po wykonaniu udanego rzutu obronnego, nadal istnieje 50% szansa, ¿e hipnotyzuj¹ca pieœñ wywrze na na przeciwniku tak g³êboki wp³yw, ¿e ten znajdzie siê pod wp³ywem G³upoty (bez mo¿liwoœci wykonania rzutu obronnego) przez jedn¹ rundê.
+
+Uwaga: Jest to nadnaturalna umiejêtnoœæ, w zwi¹zku z czym ca³kowicie ignoruje odpornoœæ na magiê przeciwników, jednak¿e niektóre odpornoœci nadal neguj¹ jej dzia³anie. Ponadto postaæ, która ju¿ kiedyœ by³a w taki sposób kontrolowana przez barda, staje siê bardziej odporna na tego typu zaklêcie.~
+
+@174 = ~Uderzenie dŸwiêku~
+@175 = ~Uderzenie dŸwiêku
+Bard magicznie wzmacnia mo¿liwoœci muzycznego instrumentu a¿eby wype³niæ otoczenie wysokimi, niszcz¹cymi mury falami dŸwiêkowymi. Wszystkie istoty znajduj¹ce siê w pobli¿u otrzymuj¹ 15k6 obra¿eñ i wpadaj¹ w g³uchotê na 5 rund (w przypadku g³uchej istoty istnieje 50% szansa na nieudane rzucenie czaru). Udany rzut obronny przeciw zioniêciem zmniejsza liczbê obra¿eñ o po³owê i neguje dzia³anie g³uchoty.
+
+Uwaga: Jest to nadnaturalna umiejêtnoœæ, w zwi¹zku z czym ca³kowicie ignoruje odpornoœæ na magiê przeciwników, jednak¿e niektóre odpornoœci nadal neguj¹ jej dzia³anie. Ponadto postaæ, która ju¿ kiedyœ by³a w taki sposób zaatakowana przez barda, staje siê bardziej odporna na tego typu zaklêcie.~
+
+@176 = ~Pamiêtna pieœñ~
+@177 = ~Pamiêtna pieœñ 
+Zdolnoœæ ta sprawia i¿ pieœñ barda pozostaje w sercach s³uchaczy jeszcze d³ugo po tym, gdy zamar³a jej ostatnia nuta. Za ka¿dym razem gdy bard koñczy graæ, efekty jego pieœni dzia³aj¹ jeszcze przez jakiœ czas. Oprócz tego, pieœñ posiada zwiêkszony zasiêg.
+
+Wymagane: Ulepszona pieœñ barda~
+
+// New version
+@178 = ~Magiczny flet
+Ta umiejêtnoœæ pozwala utworzyæ magiczny flet stworzony z czystej energii magii. Kiedy siê na nim zagra, mo¿na rzuciæ nastêpuj¹ce zaklêcia:
+
+S³owo mocy, Sen - 3 ³adunki
+S³owo mocy, Cisza - 1 ³adunek
+S³owo mocy, Oœlepienie - 1 ³adunek
+
+Ze zdolnoœci czaropodobnych fletu mo¿na korzystaæ tak samo jak z mocy ró¿d¿ek. Flet utrzymuje siê w ekwipunku barda przez 1 dzieñ.~
+
+
+/* Monk */
+
+@180 = ~Smocza piêœæ~
+@181 = ~Smocza piêœæ
+Wysokopoziomowi mnisi potrafi¹ przeksza³ciæ Ki ukryte w ich ciele na ró¿ne sposoby. Kiedy mnich u¿yje tej zdolnoœci, ka¿dy atak wykonany w nastêpnej rundzie usunie z przeciwnika jedn¹ specyficzn¹ ochronê (rzut obronny przeciwko zaklêciom -2) i jedn¹ magiczn¹ ochronê (brak rzutu). Oprócz tego, trafiona istota musi wykonaæ rzut obronny przeciwko zioniêciom by nie utraciæ wszystkich fizycznych os³on, i wykonaæ rzut obronny przeciwko œmierci (modyfikator -4) by jej odpornoœæ na magiê nie zosta³a zmniejszona o 19% na 6 rund. Efekt ten siê kumuluje zarówno z kolejnymi uderzeniami jak i ró¿nymi zaklêciami. Smocza piêœæ zawsze najpier usuwa najpotê¿niejsze os³ony.
+
+Wymagane: Kopniêcie cienia~
+
+@182 = ~Cios tygrysa~
+@183 = ~Cios tygrysa
+Dziêki tej zdolnoœci, Mnich mo¿e wykonaæ potê¿ny atak, który odrzuci i og³uszy na czas 1 rundy. Ponadto wszystkie ataki wykonane w 1 rundzie zadaj¹ maksymalne obra¿enia. Jednak sama zdolnoœæ trwa 2 rundy.
+Wielkie istoty jak Giganci czy Smoki nie mog¹ byæ odrzucone i og³uszone.
+
+Wymagane: Smocza piêœæ~
+
+@184 = ~Kopniêcie cienia~
+@185 = ~Kopniêcie cienia
+Ta zdolnoœæ daje Mnichowi jednorazowy atak, który zawsze siê udaje, nie potrzeba ¿adnych rzutów na trafienie. Trafiona istota otrzymuje 5k8 obra¿eñ obuchowych i pada nieprzytomna na 1 rundê. Oprócz tego, jeœli ofiara nie wykona rzutu obronnego przeciwko zioniêciom (modyfikator -4), si³a ciosu odrzuci j¹ na pewien dystans.~
+
+@186 = ~Modlitwa~
+@187 = ~Modlitwa
+Dziêki tej zdolnoœci Mnich potrafi przekszta³ciæ swe odpornoœci z magii na obra¿enia fizyczne. Jego odpornoœæ na obra¿enia fizyczne zwiêksza siê o 75%, zaœ odpornoœæ na ¿ywio³y o 25%. Jednak przez poœwiêcenie mocy Ki na zwiêkszenie swych fizycznych odpornoœci, traci on na czas dzia³ania tej zdolnoœci wrodzon¹ odpornoœæ na magiê. Zdolnoœæ ta trwa 3 rundy, i nie kumuluje siê gdy zostanie rzucona kilkakrotnie.
+
+Wymagane: Diamentowa dusza~
+
+@188 = ~Regeneracja mnicha~
+@189 = ~Regeneracja mnicha 
+Dziêki zjednoczeniu swego cia³a z duchem, mnich potrafi poœwiêciæ czêœæ mocy Ki na to, by w trakcie walki regenerowaæ swe obra¿enia. Po wybraniu tej zdolnoœci, regeneracja mnich zostaje zwiêkszona o 2 p¿ na rundê. Zdolnoœæ ta mo¿e zostaæ wybrana do 5 razy, i kumuluje siê z wszelkimi innymi zdolnoœciami regeneracyjnymi.
+
+Wymagane: Diamentowa dusza~
+
+@190 = ~Niesamowita szybkoœæ~
+@191 = ~Niesamowita szybkoœæ
+Dziêki tej zdolnoœci, Mnich potrafi na chwilê zwiêkszyæ sw¹ szybkoœæ ruchu do niewyobra¿alnych rozmiarów. Podczas dzia³ania tej zdolnoœci, mo¿e siê on natychmiast przemieszczaæ z jednego punktu do drugiegi, i nie mo¿e zostaæ trafiony lub skrzywdzony.
+
+Wymagane: Wiêkszy unik~
+
+@192 = ~Wewnêtrzny czas~
+@193 = ~Wewnêtrzny czas
+Dziêki pe³nemu zjednoczeniu swej duszy, cia³a i umys³u, Mnich nauczy³ kontrolowaæ swój "wewnêtrzny zegar" i dzia³aæ w ma³ej, oddzielnej sferze czasowej pozwalaj¹cej mu na niesamowicie szybkie dzia³anie. 
+Ponadczasowoœæ przyœpiesza zarówno umys³ jak i cia³o. Dla widzów, wygl¹da to jakby mnich zosta³ skrajnie przyœpieszony. Dziêki temu, staje siê on o wiele groŸniejszym przeciwnikiem: mo¿e atakowaæ 8 razy na rundê, otrzymuje premiê +4 do trafienia, obra¿eñ, klasy pancerza, zaœ czas rzucania zaklêæ i wykonywania ataków zmniejsza siê o 2. Oprócz tego mo¿e on chwytaæ w powietrzu pociski lec¹ce w niego i odrzucaæ je w przeciwników.
+Kiedy jednak zdolnoœæ ta siê skoñczy (trwa 3 rundy), Mnich staje siê zmêczony i przez nastêpne 2 rundy nie mo¿e korzystaæ z ¿adnych zdolnoœci specjalnych.
+
+Wymagane: Niesamowita szybkoœæ~
+ 
+@194 = ~Wiêkszy unik~
+@195 = ~Wiêkszy unik
+Jest to potê¿niejsza wersja Uniku, której Mnich nauczy³ siê zupe³nie inaczej ni¿ z³odziej - z³odziej wykorzystuje tylko swój spryt, zaœ Mnich oprócz sprytu, u¿ywa ca³ej swej m¹droœci i mocy Ki by unikn¹æ obra¿eñ. 
+Zdolnoœæ ta na 5 rund zmniejsza klasê pancerza o 4 punkty, daje premiê +3 do rzutów obronnych, sprawia i¿ prêdkoœæ mnicha zostaje zwiêkszona o 2 punkty, zaœ zaklêcia obszarowe zadaj¹ mu po³owê obra¿eñ nawet jeœli nie wykona rzutu obronnego. 
+Greater Evasion lasts for 5 rounds.
+
+Wymagane: Unik~
+
+// Ok, it seems some DO Shadowless Kick themselves :-/
+@196 = ~Post¹pi³eœ nierozwa¿nie próbuj¹c samemu siê kopn¹æ, jednak na szczêœcie nie uda³o ci siê to. Zdolnoœæ zosta³a zmarnowana.~
+
+@197 = ~Drugi wiatr~
+@198 = ~Drugi wiatr
+Dziêki d³ugiemu treningowi w zestrajaniu duszy z cia³em, setkom godzin spêdzonym nad medytacj¹ i modlitw¹, dziêki czystoœci cia³a, umys³u i duszy, Mnich który nie kroczy œcie¿k¹ z³a mo¿e sobie wzbudziæ potê¿n¹ umiejêtnoœæ - Drugi wiatr. Kiedy zostanie u¿yta, przez nastêpne 5 godzin mnich otrzymuje specyficzn¹ ochronê - gdy jego punkty ¿ycia spadn¹ poni¿ej 10%, zostaje ca³kowicie uleczony - zdolnoœæ ta koñczy siê po jednym uleczeniu postaci lub po miniêciu czasu dzia³ania zdolnoœci. Zdolnoœæ ta mo¿e byæ u¿yta tylko raz dziennie.
+
+Wymagane: Regeneracja mnicha~
+
+@220 = ~Eteralnoœæ~
+@221 = ~Eteralnoœæ
+Dziêki swej bliskoœci z magi¹ dusz i kontaktowi z innymi sferami, mnich potrafi wejœæ w stan eteralnoœci, znajduj¹c siê po czêœci w innej sferze materialnej. Na 5 rund staje siê ca³kowicie niewidzialny, otrzymuje premie +4 do klasy pancerza. W pierwszych 2 rundach zdolnoœci nie mo¿e zostaæ wykryty, ponadto staje siê odporny na bronie o umagicznieniu mniejszym lub równym + 4. Jeœli mnich wykona jakikolwiek atak, stanie siê czêœciowo widzialny - bêdzie mo¿na go atakowaæ, jednak by rzucaæ  na niego zaklêcia, nale¿y najpierw rozproszyæ iluzje. W stanie Eteralnoœci Mnich nie mo¿e u¿ywaæ zdolnoœci specjalnych.
+Niektóre potê¿ne istoty np. smoki i demony, potrafi¹ wykryæ istoty niewidzialne i eteralne.
+
+Wymagane: Diamentowa dusza~
+
+@222 = ~Diamentowa dusza~
+@223 = ~Diamentowa dusza
+Mnich tak zestroi³ swoje cia³o z umiejêtnoœciami i zdolnoœciami magiczno-podobnymi, ¿e staje siê magicznym stworzeniem. po u¿yciu tej zdolnoœci, nie dzia³aj¹ na niego wszelakie zaklêcia manipuluj¹ce jego cia³em np. petryfikacja, dezintegracja czy polimorfia.~
+
+@224 = ~Palec zniszczenia~
+@225 = ~Palec zniszczenia
+li mnisi potrafi¹ skupiæ w sobie energiê Ki w taki sposób, by za jej pomoc¹ wyrz¹dzaæ wrogom ogromn¹ krzywdê. Palec zniszczenia jest oficjalnie zakazan¹ i zapomnian¹ technik¹ walki, gdy¿ narusza ona sferê ¿ycia z pomoc¹ Ki, i u¿ywaæ jej mog¹ tylko osoby, które nie szanuj¹ ¿ycia i Ki.
+Dziêki tej zdolnoœci, mnich koncentruje moc Ki w wskazuj¹cym palcu, i przy udanym ataku przenosi j¹ do cia³a przeciwnika. Wtedy ofiara traci 5 punktów kondycji i 2 punkty w rzutach obronnych przeciwko œmierci na 5 tur (brak rzutu obronnego), otrzymuj¹ 10 punktów obra¿eñ, zaœ istoty o mniej ni¿ 10 kostkach natychmiast gin¹.
+Jednak najwiêksz¹ si³¹ tej zdolnoœci nie s¹ wcale jej gwa³towne i natychmiastowe efekty - moc Ki dalej os³abia przeciwnika, i co drug¹ rundê (w czasie 1 tury) musi on wykonywaæ kolejny rzut obronny przeciwko œmierci, by nie straciæ kolejnego 1 punktu kondycji i rzutu obronnego przeciwko œmierci.
+Palec zniszczenia mo¿e zostaæ u¿yty tylko raz dziennie.
+
+Wymagane: Smocza piêœæ~
+
+
+@226 = ~Pó³-eteralnoœæ~
+@227 = ~Pó³-eteralnoœæ
+Dziêki bieg³oœci w byciu eteraln¹ istot¹, mnich mo¿e wyuczyæ siê instynktownego wchodzenia w t¹ sferê, gdy jego ¿ycie staje siê zagro¿one. Jeœli jego punkty ¿ycia zejd¹ poni¿ej poziomu 20% maksymalnych, Mnich czêœciowo wchodzi w eteraln¹ sferê, i zyskuje premiê +2 do klasy pancerza i odpornoœæ na bronie o umagicznieniu mniejszym lub równym + 3 na 5 rund. Jednak dalej jest on na ziemi i mog¹ go trafiæ zaklêcia obszarowe
+
+Wymagane: Eteralnoœæ~
+
+@228 = ~Dr¿¹ca d³oñ
+Ta wysokopoziomowa zdolnoœæ pozwala mnichowi na u¿ywanie zdolnoœci 'Dr¿¹ca d³oñ' dwa razy dziennie.
+
+Wymagane: Smocza piêœæ~
+
+
+
+
+
+
+/* Barbarian */
+
+@200 = ~Wiêkszy okrzyk bitewny~
+@201 = ~Wiêkszy okrzyk bitewny
+Wykorzystuj¹c Wiêkszy okrzyk wojenny, barbarzyñca wydaje potê¿ny i przera¿aj¹cy krzyk, na którego dŸwiêk wszyscy wrogowie znajduj¹cy siê w promieniu 10 metrów zostaj¹ oszo³omieni ze strachu. Nieprzyjaciele nie odczuj¹ negatywnych efektów tej zdolnoœci, jeœli uda siê im wykonaæ rzut obronny przeciwko czarom. Oprócz tych standardowych efektów, okrzyk powoduje wzrost TRaK0 o 3 punkty i odpornoœæ na strach, które trwaj¹ 2 rundy.
+
+Wymagane: Bitewny okrzyk~
+
+@202 = ~Twarda skóra~
+@203 = ~Twarda skóra
+Gdy Barbarzyñca wybierze t¹ pasywn¹ zdolnoœæ wysokopoziomow¹, jego odpornoœæ na fizyczne obra¿enia (sieczne, k³ute, obuchowe i pociski)
+Zdolnoœæ ta mo¿e byæ wybierana wiele razy.
+
+Wymagane: Wytrzyma³oœæ~
+
+@204 = ~Nieustanny sza³~
+@205 = ~Nieustanny sza³
+Jest to ulepszona wersja zdolnoœci - 'Sza³ Barbarzyñcy. Gdy zostanie u¿yta, daje rzucaj¹cemu premiê +4 do si³y i kondycji, i chroni go przed zaklêciami oddzia³owuj¹cymi na umys³ i ruch. Oprócz tego Nieustanny sza³ daje premiê +20% do szybkoœci ruchu. 
+G³ówna ró¿nica miêdzy Nieustannym sza³em a zwyk³ym Sza³em jest podwójna d³ugoœæ czasu trwania i brak jakichkolwiek negatywnych efektów. Zdolnoœæ ta trwa 1 turê i Barbarzyñca nie jest zmêczony kiedy sza³ siê skoñczy. 
+Zdolnoœæ ta nie mo¿e byæ u¿ywana razem z Sza³em Barbarzyñcy.~
+
+@206 = ~Odporna skóra~
+@207 = ~Odporna skóra
+Ta pasywna zdolnoœæ sprawia, i¿ skóra barbarzyñcy staje siê bardziej odporna na obra¿enia od niemagicznego ch³odu, ognia i od magii. Po jej wybraniu wszystkie te odpornoœci zwiêkszaj¹ siê o 5%.
+
+Wymagane: Odpornoœæ na magiê~
+
+@208 = ~Obroñca Easthaven +3~
+@209 = ~Korbacz +3: Obroñca Easthaven
+Ten cep bojowy zosta³ stworzony przed wiekiem by zg³adziæ demona Belhifeta. Mia³ na zawsze pozostaæ w mieœcie Easthaven, by przypominaæ jego mieszkañcom o wielkim zagro¿eniu, które ledwie uda³o siê pokonaæ.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +2
+TraK0: +2
+Typ obra¿eñ: obuchowe
+Specjalne:
+ +1 do Klasy Pancerza
+ +10 do odpornoœci na obra¿enia sieczne, k³ute, i obuchowe
+Waga: 12
+OpóŸnienie: 5
+Rodzaj bieg³oœci: cep bojowy/morgensztern
+Typ broni: 1-rêczna
+Wymagana si³a: 13
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+
+
+
+/* Ranger */
+
+@210 = ~Ulepszona dwurêcznoœæ~
+@211 = ~Ulepszona dwurêcznoœæ
+Normalnym dla klasy ³owczych jest to, i¿ s¹ dobrze wyszkoleni w korzystaniu w walce z dwóch broni naraz. Ta pasywna zdolnoœæ jeszcze bardziej zwiêksza ich talent w tym kierunku i w zupe³ni eliminuje karê +2 do trafienia za pomoc¹ drugiej broni.~
+
+@212 = ~Hart cia³a~
+@213 = ~Hart cia³a
+Ta wrodzona zdolnoœæ zwiêksza wytrzyma³oœæ ³owcy na 5 godzin. Podczas jej czasu dzia³ania jego szybkoœæ ruchu zwiêksza siê o 25% (niekumulatywne z Butami szybkoœci), otrzymuje premie +1 do rzutów obronnych, do trafienia i obra¿eñ, dodatkowe 10% maksymalnych punktów ¿ycia, odpornoœæ na zmêczenie, sen i powoln¹ regeneracjê (1 punkt ¿ycia na rundê).
+Zdolnoœæ mo¿e byæ u¿yta raz dziennie.~
+
+@214 = ~P³aszcz Montolio
+To legendarny p³aszcz Montolia DeBrouchee - niewidomego starca, który by³ nauczycielem s³ynnego ³owcy, elfa Drizzta Do'urdena. Podobnie jak uczeñ, Montolio tak¿e opanowa³ w mistrzowski sposób walkê dwoma mieczami jednoczeœnie.
+
+PARAMETR
+ +1 do KP
+ +1 do wszystkich rzutów obronnych
+ +1 do TraK0 broni¹ trzyman¹ w zarówno jednej jak i drugiej rêce
+
+Mog¹ u¿ywaæ:
+£owcy~
+
+
+@215 = ~Tropienie~
+@216 = ~Tropienie
+Dziêki doskona³ej znajomoœci swojego otoczenia i istot, które w nim ¿yj¹, ³owca mo¿e u¿yæ zdolnoœci Tropienie, by dowiedzieæ siê, jakie istoty zamieszkuj¹ w danym obszarze i gdzie siê one w danej chwili znajduj¹. Dziêki temu, ³owca wykrywa wszelkie niewidzialne istoty na znacznym obszarze, zaœ czerwone strza³ki przy krawêdziach ekranu wskazuj¹ ogólnie kierunek, w którym znajduj¹ siê stwory przebywaj¹ce w danej okolicy.~
+
+@217 = ~Rasowy wróg~
+@218 = ~Rasowy wróg
+Dziêki d³ugiej nauce, latach doœwiadczeñ z tropienia, walk i mordowania swych najbardziej znienawidzonych przeciwników, ³owca wiele siê o nich nauczy³, dziêki czemu potrafi ich coraz lepiej zwalczaæ. 
+Obra¿enia w walce wrêcz przeciwko wybranemu wrogowi rasowemu zwiêkszaj¹ siê o +4, a ponadto ³owca w walce z nim otrzymuje premie +2 do klasy pancerza i rzutów obronnych.~
+
+
+
+/** Kit Specific spells/abilities **/
+/* specialist mages: */
+
+@301 = ~Stworzenie klonów~
+@302 = ~Stworzenie klonów (Iluzje/Urojenia) 
+Poziom: 10
+Zasiêg: 0
+Czas trwania: 1 tura
+Czas rzucania: 9
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Zwodnicze sobowtóry to jedno z najpotê¿niejszych zaklêæ ze szko³y Iluzji, dostêpne tylko dla wysokopoziomowych Iluzjonistów. 
+Po rzuceniu tego czaru powstaj¹ dwa duplikaty czarodzieja. S¹ one niemal takie same jak czarodziej, co czyni je potê¿nymymi sprzymierzeñcami. Klony posiadaj¹ poziom równy 60% poziomu czarodzieja w chwili rzucenia czaru. Posiadaj¹ wszystkie czary i zdolnoœci jakie mia³by czarodziej na tym poziomie. Maj¹ te¿ 60% Punktów ¯ycia czarodzieja. Klony znajduj¹ siê pod pe³n¹ kontrol¹ czarodzieja, który je stworzy³.~
+@303 = ~Nie mo¿esz teraz rzucaæ zaklêcia tego typu.~
+
+@304 = ~Ujawnienie~
+@305 = ~Ujawnienie (Poznanie) 
+Poziom: 10
+Zasiêg: 0
+Czas trwania: 15 rund
+Czas rzucania: 9
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Ujawnienie to definitywne zaklêcie ze szko³y Poznania, dostêpne tylko dla doœwiadczonych mistrzów tej sztuki magicznej.
+Po rzuceniu czaru, co rundê na obszarze oko³o 30 metrów zostaj¹ rozproszone wszystkie wrogie iluzje i ujawniane s¹ charaktery wszystkich wrogich i neutralnych postaci.
+Oprócz tego, co rundê Mistrz Poznania mo¿e u¿yæ zdolnoœci 'Ujawnienie obszaru', dzia³aj¹cej jak czar dalekowidzenie z t¹ ró¿nic¹, ¿e to wymaga od niego krótkiej chwili skupienia. Po u¿yciu zdolnoœci, przez 2 rundy mag widzi zarówno teren, fortyfikacje jak i istoty na odkrytym obszarze.~
+@306 = ~Ujawnienie obszaru~
+
+@307 = ~Runa nietykalnoœci~
+@308 = ~Runa nietykalnoœci (Odrzucanie) 
+Poziom: 10
+Zasiêg: pole widzenia
+Czas trwania: 4 rundy
+Czas rzucania: 5
+Obszar dzia³ania: 1 istota
+Rzut obronny: brak
+
+Zaklêcie to jest absolutn¹ ochron¹ przed wrog¹ magi¹, dostêpn¹ tylko dla wysokopoziomowych Mistrzów Odrzucania.
+Po rzuceniu czaru, na ciele istoty zostaje wyryta potê¿na runa (oczywiœcie w magiczny sposób) która wytwarza potê¿n¹, lecz krótkotrwa³¹ barierê. Chroni ona przed wszystkimi znanymi szko³ami magii, i chocia¿ bariera nie przepuszcza ¿adnych zaklêæ z zewn¹trz (zarówno negatywnych jak i pozytywnych), to postaæ chroniona run¹ mo¿e bez przeszkód rzucaæ czary.
+Runa nietykalnoœci mo¿e zostaæ rozproszona tylko za pomoc¹ najpotê¿niejszych czarów prze³amuj¹cych bariery: Przebicie tarczy lub Uderzenie czaru.~
+
+@309 = ~Stworzenie koœcianego stra¿nika~
+@310 = ~Stworzenie koœcianego stra¿nika (Nekromancja)
+Poziom: 10
+Zasiêg: pole widzenia
+Czas trwania: specjalny
+Czas rzucania: 8
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Wysokopoziomowy Nekromanta potrafi swymi zaklêciami przyzwaæ najpotê¿niejsze zmar³e istoty, uwiêzione g³êboko pod ziemi¹, które od setek lat czekaj¹ na drug¹ szansê na polu bitwy. Z twych staro¿ytnych zw³ok, czarodziej mo¿e stworzyæ przera¿aj¹c¹, nieumar³¹ bestiê zwan¹ Koœcianym Stra¿nikiem, zaœ jeœli jest on jeszcze bardziej doœwiadczony (poziom 25+), to tworzy jeszcze potê¿niejszego Apokaliptycznego Stra¿nika. Przyzwanie tych bestii wymaga jednak od Nekromanty poœwiêcenia czêœci si³ witalnych, przez co za ka¿dego Koœcianego Stra¿nika otrzymuje 1k8 +5 obra¿eñ, zaœ za Apokaliptycznego Stra¿nika 1k10 +5. Koœciani Stra¿nicy s³u¿¹ swemu mistrzowi przez 10 tur, Apokaliptyczni Stra¿nicy tylko 7.~
+@311 = ~Koœciany stra¿nik~
+@312 = ~Apokaliptyczny stra¿nik~
+
+@313 = ~Magiczny robak~
+@314 = ~Magiczny robak (Zaczarowania/Zauroczenia)
+Poziom: 10
+Zasiêg: pole widzenia
+Czas trwania: 5 Tur
+Czas rzucania: 6
+Obszar dzia³ania: 1 istota
+Rzut obronny: specjalny
+
+Ten wysokopoziomowy urok powoduje u ofiary stopniow¹ utratê pamiêci w sferze korzystania z magii. Przeciwnik na pocz¹tku musi wykonaæ rzut obronny (modyfikator -4), by unikn¹æ najsilniejszych efektów tego zaklêcia. Nawet jeœli ofiara wykona³a rzut, przez nastêpne 2 rundy nie mo¿e rzucaæ ¿adnych zaklêæ.
+Jednak jeœli nie wykona³a rzutu obronnego, nastêpuje powolna degradacja pamiêci. Co rundê, przeciwnik zapomina jedno ze swych najsilniejszych zaklêæ. W ka¿dej nastêpnej rundzie dzieje siê to samo, lecz co 5 rund szansa na utratê zaklêcia zmniejsza siê o 5% (np. w pierwszych 5 rundach szansa wynosi³a 100%, jednak w 25-30, tylko 75%). Podczas walki z Magicznym robakiem, szansa czarodzieja na rzucenie zaklêcia zostaje zmniejszona o 25%. Zaklêcie to trwa przez 5 tur.~
+
+@315 = ~Dzikie uderzenie~
+@316 = ~Dzikie uderzenie (Przywo³ywanie/Przyzwania)
+Poziom: 9
+Zasiêg: pole widzenia
+Czas trwania: 2 tury 
+Czas rzucania: 6
+Obszar dzia³ania: 1 istota
+Rzut obronny: neguje
+
+To potê¿ne zaklêcie ze sfery Dzikiej magii skutecznie blokuje wszelkie próby korzystania z mocy magicznej przez wrogiego czarodzieja.
+Ofiara ra¿ona tym zaklêciem musi wykonaæ rzut obronny przeciwko czarom (modyfikator -2), i nawet jeœli rzut siê powiedzie, to przez nastêpne 2 rundy wszelkie próby korzystania z magii zostan¹ przekszta³cone w Dziki Wybuch.
+Jeœli jednak rzut siê nie powiedzie, ofiara zostaje po³¹czona z Splotem na 2 tury. Ponadto, gdy ustala siê efekt dzikiego wybuchu, od wyniku odejmowany zostaje poziom rzucaj¹cego, dziêki czemu efekty czêœciej krzywdz¹ ni¿ wspomagaj¹ ofiarê Dzikiego uderzenia. 
+Nale¿y zauwa¿yæ, ¿e odpornoœæ na magiê nie ma ¿adnego wp³ywu na to zaklêcie.~
+
+@317 = ~Mroczny pakt~
+@318 = ~Mroczny pakt (Nekromancja)
+Poziom: 10
+Zasiêg: dotyk
+Czas trwania: 50 tur
+Czas rzucania: 6
+Obszar dzia³ania: 1 istota (nieumar³y)
+Rzut obronny: specjalny
+
+Dziêki temu zaklêciu Nekromanta potrafi znacznie zwiêkszyæ moc swych nieumar³ych s³ug. Po rzuceniu tego czaru, wybrany nieumar³y na 50 tur otrzymuje dodatkowe 6k10 punktów wytrzyma³oœci, jednak sam nekromanta musi oddaæ mu cz¹stkê swej si³y witalnej, przez co otrzymuje 3k6 punktów ¿ycia. Ponadto za ka¿dym razem, gdy go u¿ywa, musi wykonaæ rzut obronny przeciwko œmierci (modyfikator -2) lub na 50 tur straci 1 punkt kondycji.
+Zaklêcie to nie dzia³a na ¿adnych ¿ywych istotach.~
+
+@319 = ~Przyzwanie magicznego golema~
+@320 = ~Przyzwanie magicznego golema
+(Sprowadzanie/Przywo³ywanie) 
+Poziom: 10
+Zasiêg: pole widzenia
+Czas trwania: 15 rund
+Czas rzucania: 7
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Po rzuceniu zaklêcia, Mistrz Przywo³ywañ skupia cz¹stkê swej mocy i przekszta³ca j¹ w potê¿n¹ istotê zwan¹ Magicznym Golemem. Ten bezmyœlny konstrukt, z³o¿ony z czystej energi magicznej, przez czas dzia³ania zaklêcia, który wynosi 15 rund, jest pod pe³n¹ kontrol¹ maga który go stworzy³. Istota ta jest odporna na magiczn¹ broñ i zaklêcia - mog¹ go one co najwy¿ej uleczyæ. Jedynym sposobem na zranienie go jest u¿ycie zwyk³ej, ¿elaznej broni bez ¿adnych umagicznieñ.
+Przyzwanie Magicznego Golema to niezwykle trudny i wymagaj¹cy proces. Przez pierwsze 3 rundy po rzuceniu czaru, mag nie mo¿e rzucaæ ¿adnych zaklêæ, zaœ jego prêdkoœæ chodu zostaje zmniejszona o po³owê. Po tym czasie, do koñca dzia³ania zaklêcia czarodziej musi liczyæ siê z tym, ¿e posiada 33% szans na nieudane rzucenie zaklêcia. Efekt ten jest kumulatywny z kolejnymi próbami stworzenia golema.~
+
+@321 = ~Furia Malavona~
+@322 = ~Furia Malavona (Wywo³ywanie)
+Poziom: 10
+Zasiêg: rzucaj¹cy
+Czas trwania: specjalny
+Czas rzucania: 1
+Obszar dzia³ania: 9 metrów
+Rzut obronny: specjalny
+
+To potê¿ne, ofensywne zaklêcie stworzy³ drowi czarodziej zwany Malavonem, mieszkaj¹cy obecnie gdzieœ w spirali œwiatów. Znany by³ ze swej niesamowitej bieg³oœci w czarowaniu jak i okrutnoœci dla wrogów. To zaklêcie to ulepszona wersja czaru 'Gniew Malavona'.
+Wysokopoziomowy Mistrz Wywo³ywañ potrafi stworzyæ wielk¹ novê z kwasowych strza³, ra¿¹cych wszystkich w okolicy i zadaj¹c¹ 15k8 obra¿eñ od kwasu. Ponadto przez nastêpne 3 rundy, co rundê zadaje 1k8 obra¿eñ.~
+
+@323 = ~Stworzenie golema z cia³a~
+@324 = ~Stworzenie golema z cia³a 
+(Przemiany)
+Poziom: 10
+Zasiêg: pole widzenia
+Czas trwania: 1 tura
+Czas rzucania: 8
+Obszar dzia³ania: specjalny
+Rzut obronny: neguje
+
+To niezwykle okrutne zaklêcie pozwala Mistrzowi Przemian na zniszczenie cia³a swego przeciwnika i stworzenie z niego wiernego s³ugi - golema. Ofiara musi wykonaæ rzut obronny przeciwko polimorfii, by unikn¹æ natychmiastowej œmierci i transformacji w golema. Jednak nawet jeœli rzut siê powiedzie, to przeciwnik otrzymuje 3k6 +3 obra¿eñ z powodu szoku wywo³anego zaklêciem.
+Niestety golem stworzony z pomoc¹ tego czaru nie jest trwa³y - wystarczy 1 godzina, by ta potê¿na istota przemieni³a siê w nic nie warte martwe cia³o.~
+
+@325 = ~Admantytowe cia³o~
+@326 = ~Admantytowe cia³o (Przemiany)
+Poziom: 10
+Zasiêg: dotyk
+Czas trwania: 6 rund +1 runda/5 poziomów
+Czas rzucania: 7
+Obszar dzia³ania: rzucaj¹cy
+Rzut obronny: specjalny
+
+Jest to ulepszona wersja czaru ¯elazne cia³o. Przemienia cia³o dowolnej istoty w ¿ywy Admantyt.
+Nowe cia³o posiada wiele zalet: KP postaci zostaje zmniejszone o 5, otrzymuje ona pe³n¹ odpornoœæ na obra¿enia pochodz¹ce od ¿ywio³ów, 90% odpornoœci na obra¿enia fizyczne i magiê, i 25% odpornoœci na magiczne obra¿enia. By zraniæ osobê pod wp³ywem tego czaru, nale¿y posiadaæ broñ o umagicznieniu co najmniej +3. W nowej formie postaæ nie ma dostêpu do zwyk³ej broni, jednak jej piêœci zadaj¹ 4k6 obra¿eñ, s¹ broni¹ o umagicznieniu +4 i u¿ywa siê ich jakby siê mia³o w nich Arcymistrzostwo.
+Transformacja niesie ze sob¹ równie¿ pewne ryzyko. Postaæ musi wykonaæ rzut obronny przeciwko polimorfi (modyfikator -4) lub zostanie spowolniona na 5 rund. Je¿eli nie wykona rzutu z modyfikatorem -2, zostanie og³uszona na 2 tundy, zaœ jeœli nie wykona rzutu bez ¿adnego modyfikatora, otrzyma 5k8 obra¿eñ i bêdzie zmêczona po zakoñczeniu czaru. Nawet jeœli wykona te rzuty obronne, to przez czas dzia³ania czaru bêdzie posiada³a 30% szans na nieudane rzucenie czaru.~
+
+
+
+/* Thief Kits */
+
+
+@350 = ~Parali¿uj¹ca trucizna~
+@351 = ~Parali¿uj¹ca trucizna
+Doœwiadczeni Zabójcy staj¹ siê prawdziwymi mistrzami w tworzeniu trucizn. Dziêki wiedzy, jak¹ nabyli podczas licznych akcji potrafi¹ wytwarzaæ trucizny które nie tylko zadaj¹ ból, ale uszkadzaj¹ system nerwowy ofiary. 
+Niszcz¹ca trucizna posiada trzy g³ówne efekty: po pierwsze zadaje 1 punkt obra¿eñ na sekundê przez 2 rundy. Po drugie istnieje szansa ¿e ofiara zostanie sparali¿owana na 5 rund i bêdzie mia³a 50% szans na nieudane rzucenie zaklêcia. Na koñcu, zadaje ona dodatkowe obra¿enia na ka¿d¹ fazê wed³ug tabeli:
+1 faza: 1D6 obra¿eñ;
+2 faza: 2D6 obra¿eñ;
+3 faza: 3D6 obra¿eñ;
+4 faza: 4D6 obra¿eñ;
+5 faza: 3D6 obra¿eñ;
+6 faza: 2D6 obra¿eñ;
+7 faza: 1D6 obra¿eñ.
+Zdolnoœæ ta trwa 3 rundy.
+
+Wymagane: Alchemia~
+
+@352 = ~Akrobatyka~
+@353 = ~Akrobatyka
+Zawadiaka znany jest jako dobry wojownik, jednak jego trening bardziej koncentruje siê na zwinnoœci, ruchliwoœci i szybkich atakach, ni¿ na czystej sile i potê¿nych uderzeniach. Dziêki zwiêkszaniu swych akrobatycznych zdolnoœci, zarówno unikania obra¿eñ jak i wszelkich zioniêæ, zawadiaka staje siê jeszcze bardziej przydatnym towarzyszem na polu bitwy.
+Ta pasywna zdolnoœæ na sta³e zwiêksza zrêcznoœæ a zmniejsza bazow¹ klasê pancerza o jeden punkt, i daje premiê +2 do rzutów obronnych przeciwko zioniêciom.~
+
+@354 = ~Tropienie~
+@355 = ~Tropienie
+Dziêki doskona³ej znajomoœci arkanów tropienia ludzi i zwierz¹t, £owca nagród mo¿e u¿yæ zdolnoœci Tropienie, by dowiedzieæ siê, jakie istoty zamieszkuj¹ w danym obszarze i gdzie siê one w danej chwili znajduj¹. Dziêki temu, wykrywa on wszelkie niewidzialne istoty na znacznym obszarze, zaœ czerwone strza³ki przy krawêdziach ekranu wskazuj¹ ogólnie kierunek, w którym znajduj¹ siê stwory przebywaj¹ce w danej okolicy.~
+
+@356 = ~Stworzenie trucizny~
+@357 = ~Stworzenie trucizny
+Gdy Zabójca staje siê coraz lepiej wyszkolony w wytwarzaniu trucizn, zaczyna próbowaæ tworzyæ ró¿ne ich wariacje potrzebne na okreœlone sytuacje, które niekoniecznie od razu zabijaj¹ przeciwnika a na przyk³ad parali¿uj¹. Ró¿ne trucizny maj¹ ró¿ne koszta produkcji i zawsze istnieje szansa na nieudanie siê procesu tworzenia - trudnoœæ jest zale¿na od si³y trucizny. Czasem efekty nieudanego stworzenia trucizny mog¹ byæ op³akane.
+Truj¹ce mikstury mog¹ byæ u¿ywane wy³¹cznie przez z³odziei.
+
+Wymagane: Alchemia~
+
+@358 = ~Zastawienie toksycznej pu³apki~
+@359 = ~Zastawienie toksycznej pu³apki
+Zdolnoœæ ta pozwala £owcy Nagród na zastawienie pu³apki wyzwalaj¹cej toksyczny ob³ok. Truj¹ca chmura zadaje 1 punkt obra¿eñ na sekundê przez 15 rund (rzut obronny przeciwko œmierci zmniejsza obra¿enia o po³owê) i zmniejsza prêdkoœæ ruchów przeciwników o 75% na 3 rundy (brak rzutu obronnego. Jeœli jakaœ ¿ywa istota bêdzie na obszarze chmury, padnie nieprzytomna jeœli nie wykona rzutu obronnego. Czas trwania jest uzale¿niony od tego, jaki rzut obronny nie uda siê ofiarze, jeœli nie wykona ona rzutu bez modyfikatora, zostanie nieprzytomna na 3 rundy, jeœli nie wykona rzutu z modyfikatorem -2, 2 rundy, zaœ jeœli rzutu z modyfikatorem -4, tylko 1 rundê. Na koniec oprócz tych efektów, ka¿dy kto nie wykona rzutu przeciwko zioniêciom z modyfikatorem -4, straci 3 punkty kondycji.~
+
+
+
+/* Bard Kits */
+
+@370 = ~Ulepszona dwurêcznoœæ~
+@371 = ~Ulepszona dwurêcznoœæ
+Normaln¹ rzecz¹ dla klasy Fechtmistrza jest to, i¿ jest dobrze wyszkolony w korzystaniu w walce z dwóch broni naraz. Ta pasywna zdolnoœæ jeszcze bardziej zwiêksza jego talent w tym kierunku i zupe³nie eliminuje karê +2 do trafienia za pomoc¹ drugiej broni.~
+
+@372 = ~Znawca broni siecznych~
+@373 = ~Znawca broni siecznych
+Skaldzi s¹ uznawani za najlepszych wojowników spoœród bardów, i wraz z rozwojem doœwiadczenia, polepsza siê ich bieg³oœæ w walce wrêcz. Zdolnoœæ ta zwiêksza bieg³oœci w broniach siecznych do 2 punktów. Skald staje siê wyspecjalizowany we wszelkich broniach siecznych niezale¿nie od tego, czy ju¿ mia³ jakiœ punkt bieg³oœci w nich czy te¿ nie.
+Zdolnoœæ ta wyklucza wybranie 'Znawcy broni obuchowych'.
+
+Wymagane: U¿ycie dowolnego przedmiotu~
+
+@374 = ~Znawca broni obuchowych~
+@375 = ~Znawca broni obuchowych
+Skaldzi s¹ uznawani za najlepszych wojowników spoœród bardów, i wraz z rozwojem doœwiadczenia, polepsza siê ich bieg³oœæ w walce wrêcz. Zdolnoœæ ta zwiêksza bieg³oœci w broniach obuchowych do 2 punktów. Skald staje siê wyspecjalizowany we wszelkich broniach obuchowych niezale¿nie od tego, czy ju¿ mia³ jakiœ punkt bieg³oœci w nich czy te¿ nie.
+Zdolnoœæ ta wyklucza wybranie 'Znawcy broni siecznych'.
+
+Wymagane: U¿ycie dowolnego przedmiotu~
+
+@376 = ~Ulepszona pieœñ skalda~
+@377 = ~Ulepszona pieœñ skalda
+Zdolnoœæ ta mo¿e byæ niezwykle pomocna zarówno dla skalda, jak i dla jego towarzyszy. Samemu skaldowi pieœñ odejmuje 10 punktów od KP i dodaje 10% odpornoœci na magiê. Natomiast sprzymierzeñcy skalda uzyskuj¹ +6 punkty do trafienia, +6 do zadawanych obra¿eñ, -6 do KP, niewra¿liwoœæ na strach, og³uszenie i zamêt, +5% odpornoœci na magiê i niewra¿liwoœæ na nieumagicznione bronie.~
+
+@378 = ~Pamiêtna pieœñ~
+@379 = ~Pamiêtna pieœñ 
+Zdolnoœæ ta sprawia i¿ pieœñ skalda pozostaje w sercach s³uchaczy jeszcze d³ugo po tym, gdy zamar³a jej ostatnia nuta. Za ka¿dym razem gdy skald koñczy graæ, efekty jego pieœni dzia³aj¹ jeszcze przez jakiœ czas. Oprócz tego, pieœñ posiada zwiêkszony zasiêg.
+
+Wymagane: Ulepszona pieœñ skalda~
+
+@380 = ~Ulepszona pieœñ b³azna~
+@381 = ~Ulepszona pieœñ b³azna
+Ta magiczna pieœñ jest jeszcze wiêkszym wyzwaniem dla przeciwników b³azna. Wszyscy wrogowie, którzy s³ysz¹ t¹ pieœñ, musz¹ wykonaæ rzut obronny przeciwko zaklêciom (modyfikator -4) lub zostan¹ spowolnieni, rzut z modyfikatorem -2 by nie wpaœæ w zamêt zaœ rzut bez ¿adnego modyfikatora by nie zemdleæ. Oprócz tego, moc pieœni zapewnia b³aznowi premie -6 do klasy pancerza i dodatkowe 10% odpornoœci na magiê.~
+
+@382 = ~Pamiêtna pieœñ~
+@383 = ~Pamiêtna pieœñ 
+Zdolnoœæ ta sprawia i¿ pieœñ b³azna pozostaje w sercach s³uchaczy jeszcze d³ugo po tym, gdy zamar³a jej ostatnia nuta. Za ka¿dym razem gdy b³azen koñczy graæ, efekty jego pieœni dzia³aj¹ jeszcze przez jakiœ czas. Oprócz tego, pieœñ posiada zwiêkszony zasiêg.
+
+Wymagane: Ulepszona pieœñ b³azna~
+
+@384 = ~Ulepszona pieœñ barda~
+@385 = ~Ulepszona pieœñ barda
+Zdolnoœæ ta mo¿e byæ niezwykle pomocna zarówno dla barda, jak i dla jego towarzyszy. Samemu bardowi pieœñ odejmuje 6 punktów od KP i dodaje 10% odpornoœci na magiê. Natomiast sprzymierzeñcy barda uzyskuj¹ +4 punkty do trafienia, +4 do zadawanych obra¿eñ, -4 do KP, niewra¿liwoœæ na strach, og³uszenie i zamêt, +5% odpornoœci na magiê i niewra¿liwoœæ na normalne typy broni.~
+
+@386 = ~Flet skalda~
+@387 = ~Flet skalda
+Ta umiejêtnoœæ pozwala utworzyæ magiczny flet stworzony z czystej energii magii. Kiedy siê na nim zagra, z Vahalli mog¹ przybyæ duchy od jednego do trzech berserkerów którzy bêd¹ walczyli dla skalda przez 1 turê lub do czasu gdy zgin¹.
+Mocy fletu u¿ywa siê tak samo jak mocy ró¿d¿ek. Flet istnieje w ekwipunku przez jeden dzieñ i posiada tylko jeden ³adunek.~
+
+@388 = ~Finezja~
+@389 = ~Finezja
+Dziêki d³ugiemu treningowi i umiejêtnoœciom, Fechtmistrz mo¿e walczyæ jeszcze skuteczniej podczas wirowania. Ta pasywna zdolnoœæ polepsza zarówno piruet ofensywny jak i defensywny. Ofensywny piruet oprócz standardowych premii, daje Fechtmistrzowi premiê +5% do rzutów na cios krytyczny. Defensywny piruet zezwala Fechtmistrzowi na ruch, jednak ogranicza jego prêdkoœæ o 25%.~
+@390 = ~Twoje umiejêtnoœci 'Piruet ofensywny' i 'Piruet defensywny' zosta³y ulepszone.~
+
+
+/* Sorcerer */
+
+@400 = ~W³adca mrozu~
+@401 = ~W³adca mrozu
+Potê¿ni zaklinacze potrafi¹ wytworzyæ potê¿n¹ wiêŸ ³¹cz¹c¹ ich z któr¹œ ze sfer ¿ywio³ów. Dziêki temu, na pewien czas staj¹ siê jednoœci¹ z wybranym przez siebie ¿ywio³em.
+Wywo³uj¹c t¹ zdolnoœæ, czarownik otrzymuje 115% odpornoœci na ch³ód, przez co ataki bazuj¹ce na ch³odzie zamiast zadawaæ obra¿enia - lecz¹ go. Broñ rzucaj¹cego zadaje dodatkowe 1k10 obra¿eñ od ch³odu i spowalnia ofiarê na 2 rundy (bez rzutu obronnego). Otaczaj¹ca Zaklinacza aura ch³odu, zadaje 1k10 obra¿eñ i spowalnia wrogów co rundê (rzut obronny przeciwko zioniêciom pozwala zmniejszyæ obra¿enia o po³owê i unikn¹æ spowolnienia). Ponadto istnieje 5% szans na ka¿d¹ rundê, ¿e wszyscy wrogowie na obszarze aury bêd¹ musieli wykonaæ rzut obronny (modyfikator -4) by nie zamarzn¹æ na œmieræ.
+Zdolnoœæ oprócz swych w³asnoœci ofensywnych, polepsza obronê Zaklinacza. Jego cia³o przekszta³ca siê w twary i g³adki lód, przez co staje siê odporne na obra¿enia sieczne i k³ute.
+Wad¹ zaklêcia jest to, ¿e odpornoœæ na ogieñ, kwas i elektrycznoœæ zostaje zmniejszona o 25%. Zdolnoœæ trwa 1 turê.
+Wybranie umiejêtnoœci wysokopoziomowej 'W³adca mrozu' wyklucza mo¿liwoœæ wybrania zdolnoœci 'Duch p³omienia'.~
+
+@402 = ~Przywrócenie zaklêæ~
+@403 = ~Przywrócenie zaklêæ
+Dziêki swemu wrodzonemu talentowi do rzucania zaklêæ, doœwiadczony Zaklinacz potrafi zregenerowaæ czêœæ swych mocy magicznych.
+Po u¿yciu tej zdolnoœci, postaæ przypomina sobie dwa ostatnie zaklêcia z poziomów 1-6, które rzuci³a jako ostatnie. Niestety przez pewien czas musi siê ona liczyæ ze zmêczeniem i zwiêkszeniem czasu potrzebnego na rzucenie czaru.
+
+Wymagane: Skupienie mocy~
+
+@404 = ~Zniszczenie magii~
+@405 = ~Zniszczenie magii
+Dziêki tej zdolnoœci, Zaklinacz mo¿e spróbowaæ prze³amaæ i zniszczyæ magiê na du¿ym obszarze wokó³ siebie. 
+Po u¿yciu tej zdolnoœci, wszyscy przeciwnicy w promieniu 9 metrów musz¹ wykonaæ rzut obronny przeciwko czarom (modyfikator -2), by ochroniæ swe zaklêcia przed ca³kowitym rozproszeniem. Nawet jeœli powiedzie im siê rzut obronny, musz¹ siê oni liczyæ z zmniejszeniem odpornoœci na magiê o 15% i os³abieniem rzutu obronnego przeciwko czarom o 2 punkty.
+Zdolnoœæ ta trwa 1 turê.
+
+Wymagane: Skupienie mocy~
+
+@406 = ~Odpornoœæ na magiê~
+@407 = ~Odpornoœæ na magiê
+Ta wysokopoziomowa umiejêtnoœæ na krótki czas zwiêksza wewnêtrzn¹ zdolnoœæ Zaklinacza do odpierania wrogiej magii. Na nastêpne 5 rund, otrzymuje on kumulatywn¹ premiê +30% do odpornoœci na magiê. I chocia¿ mo¿e ona ³¹czyæ siê z innymi premiami do odpornoœci, to nie mo¿e ³¹czyæ siê z sam¹ sob¹.~
+@413 = ~Odpornoœæ na magiê nie kumuluje siê ze sob¹ sam¹.~
+
+@408 = ~Duch p³omienia~
+@409 = ~Duch p³omienia
+Potê¿ni zaklinacze potrafi¹ wytworzyæ potê¿n¹ wiêŸ ³¹cz¹c¹ ich z któr¹œ ze sfer ¿ywio³ów. Dziêki temu, na pewien czas staj¹ siê jednoœci¹ z wybranym przez siebie ¿ywio³em.
+Wywo³uj¹c t¹ zdolnoœæ, czarownik otrzymuje 115% odpornoœci na ogieñ, przez co ataki bazuj¹ce na ogniu zamiast zadawaæ obra¿enia - lecz¹ go. Rzucaj¹cy nie mo¿e korzystaæ z zwyk³ej broni, jednak jego piêœci zadaj¹ teraz 2k10 obra¿eñ od ognia i posiadaj¹ 25% szans na zmniejszenie odpornoœci na ogieñ przeciwnika o 10% (bez rzutu obronnego). Otaczaj¹ca Zaklinacza ognista aura, zadaje 2k6 obra¿eñ co rundê.
+Zdolnoœæ oprócz swych w³asnoœci ofensywnych, polepsza obronê Zaklinacza. Jego cia³o staje siê tak gor¹ce, ¿e topi zwyk³e przedmioty, przez co staje siê odporny na nieumagicznion¹ broñ.
+Wad¹ zaklêcia jest to, ¿e odpornoœæ na ch³ód, kwas i elektrycznoœæ zostaje zmniejszona o 25%. Zdolnoœæ trwa 1 turê.
+Wybranie umiejêtnoœci wysokopoziomowej 'Duch p³omienia' wyklucza mo¿liwoœæ wybrania zdolnoœci 'W³adca mrozu'~
+
+@410 = ~Skupienie mocy~
+@411 = ~Skupienie mocy
+By zwiêkszyæ swe umiejêtnoœci magiczne, Zaklinacz musi nauczyæ siê efektywniej skupiaæ w swym ciele. 
+Wybranie tej zdolnoœci wysokopoziomowej zwiêksza na sta³e charyzmê i rzut obronny przeciwko czarom o 1 punkt.~
+@412 = ~Charyzma zosta³a na sta³e zwiêkszona o 1 punkt.~
+// @413 USED
+
+@414 = ~Aqua Mortis~
+@415 = ~Aqua Mortis
+Potê¿ni zaklinacze potrafi¹ wytworzyæ potê¿n¹ wiêŸ ³¹cz¹c¹ ich z któr¹œ ze sfer ¿ywio³ów. Dziêki temu, na pewien czas staj¹ siê jednoœci¹ z wybranym przez siebie ¿ywio³em.
+Wywo³uj¹c t¹ zdolnoœæ, czarownik otrzymuje 115% odpornoœci na ogieñ, przez co ataki bazuj¹ce na ogniu zamiast zadawaæ obra¿enia - lecz¹ go. Ka¿dy kto zaatakuje Zaklinacza, zostanie pora¿ony Kwasowym kontratakiem. Ponadto sam rzucaj¹cy zyskuje odpornoœæ na trucizny i choroby.
+Wad¹ zaklêcia jest to, ¿e odpornoœæ na ch³ód, ogieñ i elektrycznoœæ zostaje zmniejszona o 25%. Zdolnoœæ trwa 1 turê.
+Wybranie umiejêtnoœci wysokopoziomowej 'Aqua Mortis' wyklucza mo¿liwoœæ wybrania zdolnoœci 'Potomek burz'~
+
+@416 = ~Potomek burz~
+@417 = ~Potomek burz
+Potê¿ni zaklinacze potrafi¹ wytworzyæ potê¿n¹ wiêŸ ³¹cz¹c¹ ich z któr¹œ ze sfer ¿ywio³ów. Dziêki temu, na pewien czas staj¹ siê jednoœci¹ z wybranym przez siebie ¿ywio³em.
+Wywo³uj¹c t¹ zdolnoœæ, czarownik otrzymuje 115% odpornoœci na ch³ód, przez co ataki bazuj¹ce na ch³odzie zamiast zadawaæ obra¿enia - lecz¹ go. Broñ rzucaj¹cego zadaje dodatkowe 1k10 obra¿eñ od elektrycznoœci. Ka¿dy kto zaatakuje postaæ pod wp³ywem tego zaklêcia otrzymuje 1k10 obra¿eñ, i istnieje 25% szans, ¿e jeœli nie wykona rzutu obronnego przeciwko czarom (modyfikator -2) to zostanie og³uszony na rundê.
+Zdolnoœæ ta zwiêksza prêdkoœæ ruszania siê Zaklinacza o 25%.
+Wad¹ zaklêcia jest to, ¿e odpornoœæ na ogieñ, kwas i elektrycznoœæ zostaje zmniejszona o 25%. Zdolnoœæ trwa 1 turê.
+Wybranie umiejêtnoœci wysokopoziomowej 'Potomek burz' wyklucza mo¿liwoœæ wybrania zdolnoœci 'Aqua Mortis'.~
+
+@418 = ~Szybsze rzucanie zaklêæ~
+@419 = ~Szybsze rzucanie zaklêæ
+Ta pasywna zdolnoœæ Zaklinacza pozwala mu na szybsze rzucanie zaklêæ.
+Umiejêtnoœæ ta mo¿e zostaæ wybrana kilka razy, i za ka¿dym razem zmniejsza czas rzucania zaklêæ o 1.
+
+Wymagane: Bezcielesne czarowanie~
+
+@420 = ~Burza mocy~
+@421 = ~Burza mocy
+To niesamowicie potê¿ne zaklêcie pozwala Zaklinaczowi na wyzwolenie ca³ej swej mocy. Jest to niezwykle ryzykowne, i prawie zawsze koñczy siê œmierci¹ rzucaj¹cego - rzucenie tego zaklêcia jest prawdziwym aktem desperacji i poœwiêcenia.
+Po wypowiedzeniu inkantacji, nad znacznym obszarem powstaje burza magicznej energii, czerpi¹ca sw¹ si³ê z si³ witalnych Zaklinacza. Zadaje ona ka¿dej istocie na obszarze dzia³ania 4k10 obra¿eñ od magii i 1k10 obra¿en od elektrycznoœci, ognia i ch³odu co 3 sekundy po rzuceniu zaklêcia. Wszystkie istoty maj¹ 25% szans na nieudane rzucenie czaru, i musz¹ wykonaæ rzut obronny przeciw czarom (modyfikator -4) by nie zostaæ spowolnione. Ponadto, jeœli któraœ z nich dostanie siê do epicentrum burzy, zostanie odrzucona na krótki dystans - tak, by nie unikn¹æ burzy.
+Jednak to w³aœnie moc i witalnoœæ rzucaj¹cego s¹ paliwem dla tego zaklêcia. Co 3 sekundy burza pobiera od niego 3k10 punktów ¿ycia, i nawet jeœli jakimœ cudem prze¿yje t¹ mêkê, to padnie wyczerpany i nieprzytomny na 6 rund.
+Burza Mocy jest niezwykle gwa³towna, ale i krótka - trwa 15 sekund.
+
+Wymagane: Fala energii~
+
+@422 = ~Zjednoczenie~
+@423 = ~Zjednoczenie
+Ta wysokopoziomowa zdolnoœæ pozwala Zaklinaczowi na po³¹czenie siê ze Sfer¹ Magii, i przesy³anie wszystkich czarów jakie zostan¹ na niego rzucone w³aœnie przez ten kana³.
+Na 3 rundy rzucaj¹cy staje siê odporny na magiczne obra¿enia, zaklêcia powoduj¹ce natychmiastow¹ œmieræ i wszystkie czary poziomu ni¿szego lub równego 8. Tarcza ta mo¿e przez ten czas absorbowaæ dowoln¹ iloœæ zaklêæ.
+G³ówn¹ wad¹ Zjednoczenia jest to, ¿e przez te 3 rundy Zaklinacz nie mo¿e korzystaæ z zaklêæ. Jednak nale¿y zauwa¿yæ, ¿e nadal mo¿e u¿ywaæ umiejêtnoœci wrodzonych.
+
+Wymagane: Odpornoœæ na magiê~
+
+@424 = ~Bezcielesne czarowanie~
+@425 = ~Bezcielesne czarowanie
+Wysokopoziomowi Zaklinacze nie musz¹ wypowiadaæ potoku s³ów i kreœliæ masê trudnych gestów, by rzuciæ zaklêcie. Moc jest w nich, dziêki czemu wystarczy si³a woli, chwila koncentracji by ukszta³towaæ dowolne zaklêcie.
+Po wybraniu tej pasywnej umiejêtnoœci, Zaklinacz staje siê odporny na uciszenie i efekty ograniczaj¹ce jego zaklêcia (tylko te, które nak³adaj¹ na niego procentow¹ szansê na nieudane rzucenie czaru).
+
+Wymagane: Skupienie mocy~
+
+@426 = ~Aura oczyszczenia~
+@427 = ~Aura oczyszczenia
+Ta zdolnoœæ wrodzona zastêpuje magowi zaklêcie maga nazwane 'Akceleracj¹'. Dzia³a dok³adnie tak samo jak ono: wytwarza aurê, która natychmiast odpycha od Zaklinacza zu¿yt¹ przez poprzednie zaklêcia energiê tak, by wyeliminowaæ przerwy miêdzy rzucaniem zaklêæ. Dziêki temu postaæ mo¿e raziæ swych wrogów fal¹ potê¿nych czarów.
+
+Wymagane: Szybsze rzucanie zaklêæ~
+
+
+@429 = ~ZAKLINACZ: Zaklinacze to adepci magii, którzy od urodzenia posiadaj¹ umiejêtnoœæ rzucania czarów. Uwa¿a siê, ¿e w ich ¿y³ach p³ynie krew jakichœ potê¿nych istot, byæ mo¿e maj¹ w sobie cz¹stkê bogów, albo nawet s¹ smokami, które przybra³y ludzk¹ postaæ. Mimo to, magia Zaklinaczy jest raczej intuicyjna ni¿ logiczna. Znaj¹ oni mniej czarów ni¿ magowie i wolniej je przyswajaj¹, ale mog¹ rzucaæ je czêœciej i nie musz¹ ich zawczasu wybieraæ czy przygotowywaæ. Zaklinacze nie mog¹ specjalizowaæ siê w szko³ach magii, jak robi¹ to magowie. Pomijaj¹c te ró¿nice, Zaklinacz jest bardzo podobny do Czarodzieja. 
+
+PAMIÊTAJ: Zaklinacz NIE uczy siê czarów ze zwojów. Wybiera on nowe czary wraz z ka¿dym nowym poziomem. INTELIGENCJA jest cech¹, w oparciu o któr¹ czarownik rzuca swe czary~
+@430 = ~ZAKLINACZ: Zaklinacze to adepci magii, którzy od urodzenia posiadaj¹ umiejêtnoœæ rzucania czarów. Uwa¿a siê, ¿e w ich ¿y³ach p³ynie krew jakichœ potê¿nych istot, byæ mo¿e maj¹ w sobie cz¹stkê bogów, albo nawet s¹ smokami, które przybra³y ludzk¹ postaæ. Mimo to, magia Zaklinaczy jest raczej intuicyjna ni¿ logiczna. Znaj¹ oni mniej czarów ni¿ magowie i wolniej je przyswajaj¹, ale mog¹ rzucaæ je czêœciej i nie musz¹ ich zawczasu wybieraæ czy przygotowywaæ. Zaklinacze nie mog¹ specjalizowaæ siê w szko³ach magii, jak robi¹ to magowie. Pomijaj¹c te ró¿nice, Zaklinacz jest bardzo podobny do Czarodzieja. 
+
+PAMIÊTAJ: Zaklinacz NIE uczy siê czarów ze zwojów. Wybiera on nowe czary wraz z ka¿dym nowym poziomem. INTELIGENCJA i CHARYZMA s¹ cechami, w oparciu o które Zaklinacz rzuca swe czary~
+@431 = ~Nie mo¿esz teraz u¿yæ tej zdolnoœci, gdy aktywny jest 'W³adca mrozu'.~
+@432 = ~Nie mo¿esz teraz u¿yæ tej zdolnoœci, gdy aktywny jest 'Duch p³omienia'~
+@433 = ~Nie mo¿esz teraz u¿yæ tej zdolnoœci, gdy aktywne jest 'Aqua mortis'~
+@434 = ~Nie mo¿esz teraz u¿yæ tej zdolnoœci, gdy aktywny jest 'Potomek burz'.~
+
+
+@435 = ~Fala energi~
+@436 = ~Fala energi
+Potê¿ni Zaklinacze mog¹ wyjœæ poza przyjête granice magii i kszta³towaæ energiê tak, jak tylko sobie zapragn¹.
+Zdolnoœæ ta jest dosyæ prosta do wywo³ania - nie wymaga d³ugich inkantacji czy skomplikowanych gestów. Sama chwila skupienia pozwala Zaklinaczowi na wyzwolenie fragmentu swej mocy i przekszta³cenie go w siln¹ falê energii.
+Fala ta zadaje 5k10 obra¿eñ od magii i og³usza wszystkich wrogów na 1 rundê bez rzutu obronnego. Ponadto, wszyscy przeciwnicy musz¹ wykonaæ rzut obronny przeciwko zioniêciom by unikn¹æ dodatkowych 3k10 obra¿eñ, og³uszenia na 1k2 rundy i odrzucenia w ty³.
+By skorzystaæ z tej zdolnoœci, Zaklinacz musi poœwiêciæ cz¹stkê swej mocy magicznej, przez co traci on dwa ze swych najpotê¿niejszych zaklêæ.
+
+Wymagane: Bezcielesne czarowanie~
+
+
+@437 = ~Szata Vekny
+Ta szata nie posiada nawet u³amka tej mocy, co dwa s³ynne artefakty, Rêka oraz Oko Vekny. Mimo to, od samego faktu, i¿ ten legendarny lisz nosi³ j¹ na sobie, szata wch³onê³a tyle energii magicznej, i¿ sta³a siê znacz¹cym przedmiotem magicznym.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Specjalne:
+ Poprawia prêdkoœæ rzucania czaru o 4 (lub tylko o 2, jeœli za³o¿y j¹ Zaklinacz)
+ +10% do odpornoœci na magiê
+Waga: 3
+Mo¿e u¿ywaæ:
+ Mag~
+
+
+
+/* Fighter Kits */
+
+@440 = ~Wiêkszy okrzyk bitewny~
+@441 = ~Wiêkszy okrzyk bitewny
+Wykorzystuj¹c Wiêkszy okrzyk wojenny, Berserker wydaje potê¿ny i przera¿aj¹cy krzyk, na którego dŸwiêk wszyscy wrogowie znajduj¹cy siê w promieniu 10 metrów zostaj¹ oszo³omieni ze strachu. Nieprzyjaciele nie odczuj¹ negatywnych efektów tej zdolnoœci, jeœli uda siê im wykonaæ rzut obronny przeciwko czarom. Oprócz tych standardowych efektów, okrzyk powoduje wzrost TRaK0 o 3 punkty i odpornoœæ na strach u towarzyszy Berserkera. Ten pozytywny efekt trwa 2 rundy.
+
+Wymagane: Bitewny okrzyk~
+
+@442 = ~Odpornoœæ na czary~
+@443 = ~Odpornoœæ na czary 
+Wysokopoziomowy Zabójca Magów potrafi skorzystaæ z umiejêtnoœcii swego znienawidzonego wroga. Dziêki tej zdolnoœci potrafi ukierunkowaæ sw¹ odpornoœæ na magiê tak, by chroniæ siê przed wybran¹ szko³¹ magii. 
+Po u¿yciu umiejêtnoœci, Zabójca magów wybiera szko³ê, na jakiej efekty chcia³by byæ odporny. Zdolnoœæ ta dzia³a bardzo podobnie jak zaklêcie maga - 'Odpornoœæ na czary' jednak Zabójca magów jest ograniczony do odpornoœci na szko³y: przywo³añ/przyzwañ, inwokacji/wywo³añ, zauroczenia i nekromancji. 
+¯adne zaklêcie z wybranej szko³y nie bêdzie mog³o zaszkodziæ Zabójcy magów przez czas dzia³ania zdolnoœci, który wynosi 1 rundê na poziom, odliczany od 9 poziomu, który zwiêksza siê do maksymalnie 14 rund na 24 poziomie. Niestety zdolnoœæ ta blokuje wszystkie zaklêcia z wybranej szko³y zaklêæ, tak¿e i te pozytywne dla wojownika. 
+
+Wymagane: Odpornoœæ na magiê~
+
+@444 = ~Prawdziwe Kai~
+@445 = ~Prawdziwe Kai
+Ten rodzaj ataku wymaga naprawdê d³ugiego treningu, i tylko najlepiej wyszkoleni w walce wojownicy mog¹ korzystaæ z tej zdolnoœci w walce. Przez nastêpne 12 sekund ka¿dy atak wykonany przez Kensaia bêdzie zadawa³ maksymalne obra¿enia, i bêdzie istnia³o 25% szans na wymyszenie rzutu obronnego przeciwko œmierci (z modyfikatorem -2), zaœ jeœli trafiony przeciwnik go nie wykona - zginie.~
+
+@446 = ~Ulepszone krytyczne trafienie~
+@447 = ~Ulepszone krytyczne trafienie
+Wyæwiczeni wojownicy potrafi¹ zadawaæ celniejsze ciosy, które czêœciej dosiêgaj¹ witalnych czêœci cia³a przeciwników. Po wybraniu tej pasywnej zdolnoœci, szansa postaci na wykonanie ciosu krytycznego jest zwiêkszona o 5%.
+
+Wymagane: Uderzenie krytyczne~
+
+@448 = ~Wytrzyma³oœæ~
+@449 = ~Wytrzyma³oœæ
+Ta pasywna zdolnoœæ zwiêksza iloœæ maksymalnych punktów ¿ycia o 6. Wytrzyma³oœæ mo¿e byæ wybrana 5 razy.~
+
+
+/* Paladin Kits */
+
+@450 = ~Prawoœæ~
+@451 = ~Prawoœæ
+Kawaler trzyma w swym sercu zarówno niezwyk³¹ szlachetnoœæ jak i nienawiœæ do chaotycznych z³ych istot. Gdy zwiêksza siê jego doœwiadczenie, zaczyna coraz lepiej zwalczaæ takie istoty.
+Po wybraniu tej pasywnej zdolnoœci, charyzma Kawalera zostaje zwiêkszona o 1 punkt, i otrzymuje on premiê +2 do trafienia i obra¿eñ przeciwko chaotycznym z³ym istotom. Premia ta jest kumulatywna z wszelkimi innymi premiami.~
+
+@452 = ~Kr¹g prawa~
+@453 = ~Kr¹g prawa
+Poprzez u¿ycie tej potê¿nej zdolnoœci, Inkwizytor przemienia siê w bastion Prawoœci, i uzyskuje ochronê przeciwko chaotycznym i z³ym istotom czy zaklêciomo. Daje mu ona pe³n¹ odpornoœæ na zaklêcie ze szko³y Nekromancji, premiê +3 do rzutów obronnych przeciwko œmierci i klasy pancerza. Ponadto Inkwizytor i jego towarzysze s¹ chronionieni przed z³em i efektami chaosu, takimi jak zamêt, berserk, pijañstwo, strach itp. 
+Zdolnoœæ ta trwa 10 rund.
+
+Wymagane: Tarcza prawa~
+
+@454 = ~Zniszczenie nieumar³ych~
+@455 = ~Zniszczenie nieumar³ych
+Doœwiadczony £owca nieumar³ych, dziêki swej wiêzi z bóstwem nienawidz¹cym nieumar³ych, potrafi stworzyæ z³oty promieñ, który spali nieumar³ych w œwiêtym ogniu. Po u¿yciu tej zdolnoœci o¿ywieñcy otrzymuj¹ 20k6 obra¿eñ (rzut obronny przeciwko zioniêciom zmniejsza je o po³owê, i musz¹ wykonaæ rzut obronny przeciwko magii, by natychmiast nie zostaæ zniszczonym. Nawet jeœli rzut obronny siê powiedzie, nieumarli zostaj¹ spowolnieni na 1 rundê. £owca nieumar³ych musi byæ jednak bardzo blisko o¿ywieñców by zadaæ im obra¿enia. Zniszczenie nieumar³ych nie zadaje ¿adnych obra¿eñ i nie posiada ¿adnych efektów przeciwko ¿ywym istotom, istotom ze sfer czy potworom. 
+
+Wymagane: Egzorcyzm~
+
+
+/* Ranger Kits */
+
+@460 = ~Zwierzêca natura~
+@461 = ~Zwierzêca natura
+W³adcy zwierz¹t bardziej ni¿ inni ludzie wykszta³cili w sobie duchow¹ wiêŸ ze zwierzêtami i natur¹. Wraz z rozwojem swego doœwiadczenia staj¹ siê powoli trochê bardziej "zwierzêciem" a trochê mniej "cz³owiekiem". Po wybraniu tej pasywnej zdolnoœci wysokopoziomowej W³adca zwierz¹t otrzymuje premiê +1 do kondycji i do wszystkich rzutów obronnych, oprócz rzutu obronnego przeciwko czarom, do którego (oprócz tego, ¿e nie otrzymuje premii), otrzymuje karê -1. Oprócz tego, Zwierzêca na tura daje W³adcy zwierz¹t sta³¹ infrawizjê, jeœli jej nie mia³ jeszcze wczeœniej.~
+
+@462 = ~Precyzja~
+@463 = ~Precyzja
+Dziêki skoncentrowaniu siê, doœwiadczony i wyæwiczony £ucznik mo¿e na pewien czas staæ siê bardziej precyzyjny i zabójczy. Po u¿yciu tej zdolnoœci £ucznik otrzymuje premiê +6 do trafienia broni¹ dystansow¹, +10 do obra¿eñ broni¹ dystansow¹ na 3 rundy. Oprócz tego, istnieje 20% szans na trafienie w s³abe i witalne punkty na ciele wroga (trafiona istota musi wykonaæ rzut obronny przeciwko œmierci, lub zginie); A oprócz tego, przy ka¿dym trafieniu przeciwnik musi wykonaæ rzut obronny przeciwko zioniêciom (modyfikator -2) lub zostanie odrzucony w ty³. 
+Niestety u¿ycie Precyzji niesie ze sob¹ pewne konsekwencje: wymaga bardzo du¿ego skupienia, przez co podczas dzia³ania tej zdolnoœci wszelka obrona jest praktycznie niemo¿liwa, zaœ £ucznik mo¿e wystrzeliæ o po³owê mniej strza³ ni¿ zwykle. Prêdkoœæ ruchu ³owcy zostaje znacznie ograniczona, i otrzymuje on karê +5 do klasy pancerza.~
+
+@464 = ~Pole cienia~
+@465 = ~Pole cienia
+Tropiciel wykazuje pewien niewielki talent do korzystania z mistycznej magii. Kiedy staje siê coraz bardziej doœwiadczony, potrafi dziêki swym wrodzonym zdolnoœciom korzystaæ z zaklêæ cienii i iluzji. 
+Po u¿yciu zdolnoœci Pola cienia, Tropiciel mo¿e wybraæ jedno z kilku zaklêæ iluzyjnych, które zamierza u¿yæ. Ma do wyboru: Rozmycie, Lustrzane odbicie, Niewidzialnoœæ, Niewykrywalnoœæ i Wykrycie iluzji. Jeœli ³owca po u¿yciu zdolnoœci Pola cienia, a przed wybraniem zaklêcia, spróbuje wykonaæ jak¹kolwiek inn¹ akcjê - Pole cienia znika.~
+
+
+/* Druid Kits */
+
+@470 = ~Kometa~
+@471 = ~Kometa
+(Dowolna szko³a)
+Poziom: 10
+Zasiêg: 90 m
+Czas dzia³ania: natychmiastowy
+Czas rzucania: 9
+Obszar dzia³ania: w promieniu 10 m
+Rzut obronny: brak
+
+Jest to zaklêcie maga, którego mo¿e u¿ywaæ Mœciciel, by skuteczniej karaæ wrogów natury. Po rzuceniu czaru, w ziemiê uderza ogromny meteor lub kometa, zadaj¹c obra¿enia wszystkim wrogom, którzy znajd¹ siê na drodze. Kometa przy uderzeniu wysy³a falê uderzeniow¹, która zwala z nóg i odrzuca w ty³ wszystkich nieprzyjació³ znajduj¹cych siê w obszarze dzia³ania zaklêcia. Powaleni wrogowie musz¹ wykonaæ rzut obronny przeciwko parali¿owi albo zostan¹ og³uszeni na 1k4 rundy. Sama kometa wyrz¹dza 10k10 obra¿eñ.
+
+Zaklêcie to nie powoduje obra¿eñ u cz³onków dru¿yny.~
+
+@472 = ~Dziki duch~
+@473 = ~Dziki duch
+Wysokopoziomowi Zmiennokszta³tni potrafi¹ w pe³ni opanowaæ zdolnoœæ zmiany kszta³tu i zwiêkszyæ jej rzeczywist¹ si³ê. Zdolnoœæ Dziki duch zwiêksza si³ê Wilko³aka i Wiêkszego wilko³aka. Ich klasa pancerza zostaje zmniejszona, ³apy staj¹ siê broni¹ o umagicznieniu +3 zaœ odpornoœci zostaj¹ znacznie zwiêkszone. Oprócz tego, Zmiennokszta³tny mo¿e teraz zmieniaæ siê w Wilko³aka bez ¿adnego ograniczenia.~
+
+// 474 is not used yet
+@474 = ~Przeznaczenie przynosi ze sob¹ tego, który us³ysza³ wezwanie!~
+@475 = ~Staro¿ytny duch~
+@476 = ~Staro¿ytny duch (Sprowadzanie/Przywo³ywanie)
+Poziom: misja
+Zasiêg: pole widzenia
+Czas dzia³ania: 2 rundy + 1 runda/8 poziomów
+Czas rzucania: 1
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Dziêki swym talentom w kierunku przywo³ywania duchów, Totemiczny druid potrafi przyzwaæ Staro¿ytnego ducha - Pierwszego Druida. Jest to wielki druid, który posiada zwyk³e zdolnoœci druida (w³¹cznie z rzucaniem zaklêæ) jak i specjalne pochodz¹ce od duchów zwierz¹t.
+
+Wymagane: B³ogos³awieñstwo natury~
+
+
+/* Cleric Kits */
+
+@480 = ~Kr¹g prawa~
+@481 = ~Kr¹g prawa (Inwokacje/Wywo³ania)
+Poziom: misja
+Sfera: ochrona
+Zasiêg: rzucaj¹cy
+Czas dzia³ania: 10 rund
+Czas rzucania: 7
+Obszar dzia³ania: 5 metrów
+Rzut obronny: brak
+
+Poprzez u¿ycie tej potê¿nej zdolnoœci, Helmita przemienia siê w bastion Prawoœci, i uzyskuje ochronê przeciwko chaotycznym i z³ym istotom czy zaklêciomo. Daje mu ona pe³n¹ odpornoœæ na zaklêcie ze szko³y Nekromancji, premiê +3 do rzutów obronnych przeciwko œmierci i klasy pancerza. Ponadto Kap³an Helma i jego towarzysze s¹ chronionieni przed z³em i efektami chaosu, takimi jak zamêt, berserk, pijañstwo, strach itp. 
+Zdolnoœæ ta trwa 10 rund.
+
+Wymagane: Oœwiecenie~
+
+@482 = ~M³ot chaosu~
+@483 = ~M³ot chaosu (Inwokacje/Wywo³ania) 
+Poziom: misja
+Sfera: walka 
+Zasiêg: rzucaj¹cy 
+Czas dzia³ania: 3 rundy +1 runda na ka¿de 3 poziomy powy¿ej 20 
+Czas rzucania: 7 
+Obszar dzia³ania: specjalny
+Rzut obronny: brak
+
+Rzucaj¹cy to niebezpieczne zaklêcie, przywo³uje œwiêty m³ot b³ogos³awiony przez samego Talosa. Przez czas dzia³ania tego zaklêcia, kap³an dzier¿y w rêkach magiczny m³ot bez ¿adnych premii i kar od bieg³oœci. Uderza jako magiczna broñ z umagicznieniem i premi¹ do trafienia +5 i mo¿e uderzaæ przeciwników bêd¹cych w pewnej odleg³oœci od kap³ana. M³ot wywyo³uje 3k10 +5 obra¿eñ od elektrycznoœci i przy ka¿dym ciosie wywo³uje jedno z poni¿szych zaklêæ:
+- Oœlepienie
+- Zamêt
+- Wiêksze os³abienie
+- Chaos
+- Wy³adowanie ³añcuchowe
+
+Wymagane: Oœwiecenie~
+
+@484 = ~Stra¿niczy anio³~
+@485 = ~Stra¿niczy anio³
+Zaklêcie to sprowadza na towarzysza kap³ana potê¿ne b³ogos³awieñstwo Lathandera, które podtrzymuje go przy ¿yciu nawet w nagorszych sytuacjach. Osoba pod wp³ywem tego zaklêcia nie mo¿e zgin¹æ. Jest chroniona przed zaklêciami wywo³uj¹cymi natychmiastow¹ œmieræ, wysysaniem poziomów, zaœ jej punkty ¿ycia nie mog¹ spaœæ poni¿ej 1 przez nastêpne 10 rund. Jedyna rzecz, która mo¿e wywo³aæ œmieræ istoty chronionej tym zaklêciem jest wyssanie cech.
+Niestety zdolnoœæ ta nie mo¿e byæ u¿yta na rzucaj¹cym, gdy¿ jest to jeden z warunków na³o¿onych przez Lathandera - pomaganie innym, nie tylko sobie.~
+@486 = ~Nie mo¿na u¿yæ zdolnoœci Stra¿niczy Anio³ na sobie.~
+
+
+
+/* Multiclasses */
+
+@500 = ~Bitewna zwinnoœæ~
+@501 = ~Bitewna zwinnoœæ
+Wojownicy/Z³odzieje skutecznie wi¹¿¹ w walce sw¹ bieg³oœæ w broni i spryt ³otrzyka. Dziêki doœwiadczeniu z ró¿nych walk i d³ugiemu treningowi, potrafi¹ oni znacznie lepiej korzystaæ ze swej zwinnoœci w walce. Po wybraniu tej zdolnoœci Wojownik/Z³odziej otrzymuje premiê +1 do klasy pancerza przeciwko wszystkim broniom, dodatkowe +1 przeciwko pociskom. Oprócz tego prêdkoœæ ruchu postaci zwiêksza siê o 1 punkt i otrzymuje ona premiê +1 do rzutów obronnych przeciwko zioniêciom.~
+
+@502 = ~Dzikie uderzenie~
+@503 = ~Dzikie uderzenie
+Co natura daje, natura mo¿e odebraæ. Wojownik/Druid mo¿e wykszta³ciæ w sobie umiejêtnoœæ która zmniejsza wrodzone i magiczne odpornoœci na obra¿enia za pomoc¹ pojedyñczego dotyku. Dzikie uderzenie wymaga tylko tego, by Wojownik/Druid sta³ blisko przeciwnika, nie jest wymagany udany rzut na atak. Ofiara musi wykonaæ rzut obronny przeciwko zaklêciom (modyfikator -4) lub straci 25% odpornoœci na ¿ywio³y i 10% odpornoœci na obra¿enia fizyczne. Kara ta utrzymuje siê przez 5 rund. Wielokrotnie u¿ywana, zdolnoœæ ta siê kumuluje.~
+
+@504 = ~Odpornoœæ na magiczne obra¿enia~
+@505 = ~Odpornoœæ na magiczne obra¿enia
+Zwykli wojownicy mog¹ na jakiœ czas staæ siê odporno na magiê, jednak Wojownicy/Magowie mog¹ osi¹gn¹æ wiêcej. Ich wytrzyma³oœæ i zrozumienie magicznej mocy pozwala im staæ siê odpornym na magiczne obra¿enia. 
+Z ka¿dym wybraniem tej zdolnoœci, odpornoœæ postaci na magiczne obra¿enia zwiêksza siê o 10%.
+Odpornoœæ na magiczne obra¿enia mo¿e zostaæ wybrana trzy razy.
+
+Wymagane: Odpornoœæ na magiê~
+
+@506 = ~Œliski umys³~
+@507 = ~Œliski umys³
+Jest wiele sposobów na ochronê umys³u przed atakami pochodz¹cymi z zewn¹trz. Magowie potrafi¹ otoczyæ siê ochronn¹ barier¹, zaœ z³odzieje mog¹ wykorzystaæ swój spryt, by jak najbardziej utrudniæ kontrolowanie ich umys³u przez innych. Z³odziej/mag mo¿e iœæ jeszcze dalej, i stworzyæ doskona³¹ kombinacjê obu tych umiejêtnoœci, stawiaj¹c barierê, której nie mog¹ przebiæ ¿adne zaklêcia.
+Po wybraniu tej zdolnoœci wysokopoziomowej, Z³odziej/mag otrzymuje sta³¹ tarczê umys³u.~
+
+@508 = ~Zas³ona~
+@509 = ~Zas³ona
+£otr ³¹cz¹cy swój zawód z byciem pos³añcem bo¿ym, otrzymuje zdolnoœæ do ukrywania siê tam, gdzie nikt go nie mo¿e znaleŸæ. Ludzie rzucaj¹cy mistyczne zaklêcia ukrycia nigdy nie otrzymaj¹ czegoœ takiego, gdy¿ wystarczy doœwiadczony Mistrz Poznania by rozproszyæ najpotê¿niejsze iluzje. Jednak kiedy Kap³an/Z³odziej korzysta ze swych umiejêtnoœci - najpotê¿niejsze zaklêcia Poznania nic nie wskóraj¹, próbuj¹c walczyæ z potêg¹ wiary. Kiedy postaæ u¿yje tej zdolnoœci, znajduje siê pod wp³ywem Ulepszonej Niewidzialnoœci, jednak nie mo¿na jej rozproszyæ za pomoc¹ jakichkolwiek zaklêæ. 
+Zas³ona trwa 6 rund + 1 runda/5 poziomów.~
+
+
+@510 = ~Bitewna magia~
+@511 = ~Bitewna magia
+Wojownicy/kap³ani potrafi¹ skutecznie chroniæ sw¹ wiarê dziêki skutecznemu po³¹czeniu si³y miêœni i potêgi wiary. W przeciwieñstwie do zwyk³ych kap³anów, k³ad¹ oni szczególnie du¿y nacisk na praktycznoœæ zaklêæ podczas walki. Ta umiejêtnoœæ pozwala im na szybsze rzucanie czarów w bitewnym ferworze.
+Zdolnoœæ ta mo¿e zostaæ wybrana dwa razy, i za ka¿dym razem skraca ona czas potrzebny na rzucenie zaklêcia o 1.~
+
+
+@512 = ~Unia~
+@513 = ~Unia
+Osoby ³¹cz¹ce w sobie magiê mistyczn¹ z duchow¹, obdarowane zosta³y szczególn¹ wiedz¹ o magii i b³ogos³awieñstwem Mystry.
+Wysokopoziomowy Kap³an/Mag, dziêki doskona³e znajomoœci mechanizmów jakimi rz¹dzi siê magia, potrafi zawi¹zaæ uniê miêdzy tymi typami magii. Objawia siê ona jako potê¿na aura, któr¹ Kap³an/mag wytwarza.
+Wszyscy na obszarze aury otrzymuj¹ premiê +10% do odpornoœci na magiê, jednak najwiêksze profity zyskuj¹ postacie potrafi¹ce rzucaæ zaklêcia, ich czas potrzebny na rzucenie zaklêcia zostaje zmniejszony o 1.
+Sam zaœ Kap³an/mag otrzymuje odpornoœæ na zaklêcia z poziomów 1 i 2, ponadto ¿adne zaklêcia i efekty nie mog¹ przeszkadzaæ mu w rzucaniu zaklêæ (jednak efekty które zupe³nie blokuj¹ rzucanie zaklêæ nadal dzia³aj¹). Aura utrzymuje siê przez 1 godzinê.~
+
+
+////////////////////////////////////////////////////////
+//Monk HLAs for Balthazar
+
+@550 = ~Ulepszony Baltazar~
+
+
+
+
+////////////////////////////////////////////////////////
+//Swashimoen
+
+@600 = ~Imoen - Zawadiaka/Mag (Pelne ulepszenie)~
+@601 = ~Imoen - Zawadiaka/Mag~
+@602 = ~Imoen - Zawadiaka/Mag (Zmiana podklasy)~
+@603 = ~Imoen - Zawadiaka/Mag (Wykrywanie iluzji zamiast zast. pulapek)~
+
+
+
+
+////////////////////////////////////////////////////////
+//Shapeshifting fix
+
+@700 = ~Poprawki zmiany ksztaltu~
+@701 = ~Uzdrowienie przy wracaniu do naturalnej formy (Stand.)~
+@702 = ~Uzdrowienie przy przemianie w zwierzecie (by Borsook)~
+
+
+
+
+////////////////////////////////////////////////////////
+//Universal Robes
+
+@800 = ~Uniwersalne slabsze szaty~
+
+@811 = ~Szata ochrony przed ch³odem~
+@801 = ~Szata ochrony przed ch³odem
+Magiczne szaty ochrony przed ch³odem s¹ doœæ rozpowszechnione po Wybrze¿u Mieczy, szczególnie wœród podró¿ników wêdruj¹cych na pó³noc, ku Neverwinter i Dolinie Lodowego Wichru. Wielu m³odych magów otrzymuje je w darze od swych mistrzów, jako nagrodê za ukoñczenie pierwszych piêciu lat nauki.
+
+PARAMETRY:
+
+Specjalne:
+ +20% do odpornoœci na ch³ód
+Waga: 3
+Mo¿e u¿ywaæ tylko:
+ Mag (jedno, dwu i wieloklasowiec)
+ Mnich~
+
+@812 = ~Szata ochrony przed ogniem~
+@802 = ~Szata ochrony przed ogniem
+Powszechnoœæ magii ognia sprawia, ¿e magiczne szaty ochrony przed ogniem s¹ rozpowszechnione poœród m³odych uczniów i ich mistrzów.
+
+PARAMETRY:
+
+Specjalne:
+ +20% do odpornoœci na ogieñ
+Waga: 3
+Mo¿e u¿ywaæ tylko:
+ Mag (jedno, dwu i wieloklasowiec)
+ Mnich~
+
+@813 = ~Szata ochrony przed elektrycznoœci¹~
+@803 = ~Szata ochrony przed elektrycznoœci¹
+Magiczne szaty ochrony przed elektrycznoœci¹ s¹ rzadsze od swych kuzynów, a mo¿na nawet powiedzieæ, ¿e bardzo rzadkie. Niektóre z nich nosz¹ paranoicy pragn¹cy zabezpieczyæ siê podczas burzy. Wielu jednak magów równie¿ chroni siê nimi przed intrygami swych braci. 
+
+PARAMETRY:
+
+Specjalne:
+ +20% do odpornoœci na elektrycznoœæ
+Waga: 3
+Mo¿e u¿ywaæ tylko:
+ Mag (jedno, dwu i wieloklasowiec)
+ Mnich~
+
+@804 = ~Szata ³otrzyka
+Te ukochane przez z³odziei-magów szaty zosta³y tak zaczarowane, by nosz¹ca je osoba by³a chroniona przed ostrzami i truciznami, które czêsto spotyka siê w mrocznych alejkach. 
+
+PARAMETRY:
+
+Specjalne:
+ +1 do Klasy Pancerza przeciwko obra¿eniom siecznym
+ +1 do rzutów obronnych przeciwko œmiertelnej magii
+Waga: 4
+Mo¿e u¿ywaæ tylko:
+ Mag (jedno, dwu i wieloklasowiec)
+ Mnich~
+
+@805 = ~Szata wêdrowcy
+Te magiczne szaty s¹ idealne dla wêdruj¹cych z miasta do miasta mnichów. Zapewniaj¹ one ochronê przed strza³ami bandytów i ³otrami-magami, którzy kryj¹ siê w krzakach ze Œmierdz¹c¹ chmur¹. 
+
+PARAMETRY:
+
+Specjalne:
+ +1 do Klasy Pancerza przeciw pociskom
+ +1 do rzutów obronnych przeciw zioniêciom
+Waga: 4
+Mo¿e u¿ywaæ tylko:
+ Mag (jedno, dwu i wieloklasowiec)
+ Mnich~
+
+@806 = ~Szata poszukiwacza przygód
+Te szaty sporz¹dzono specjalnie z myœl¹ o potrzebach osób poszukuj¹cych przygód. Chroni¹ one nie tylko przed wszelkiego rodzaju mia¿d¿¹cymi obra¿eniami, ale tak¿e przed petryfikuj¹cym spojrzeniem bazyliszka i polimorfuj¹cymi mocami rywali.
+
+PARAMETRY:
+
+Specjalne:
+ +1 do Klasy Pancerza przeciw obra¿eniom obuchowym
+ +1 do rzutów obronnych przeciw polimorfii/petryfikacji
+Waga: 4
+Mo¿e u¿ywaæ tylko:
+ Mag (jedno, dwu i wieloklasowiec)
+ Mnich~
+
+
+
+//////////////////////////////////////////////
+//New Kit 
+
+@1001 = ~Nowa podklasa wojownika - Aniol Miecza~
+
+@1010 = ~Wewnêtrzna harmonia~ 
+@1011 = ~Nie mo¿esz u¿yæ teraz Wewnêtrznej harmonii.~
+
+@1012 = ~Zogniskowanie ducha~
+
+@1015 = ~Aktywacja Bezkrwawej walki~
+@1016 = ~Bezkrwawa walka~
+@1017 = ~Dezaktywacja Bezkrwawej walki~
+
+@1020 = ~Samodoskonalenie~ 
+@1021 = ~Samodoskonalenie
+Jako naturalny wynik d³ugich refleksji, medytacji i modlitw, Anio³ miecza mo¿e wst¹piæ na wy¿szy stopieñ œwiadomoœci i wiedzy o sobie, swym ciele i roli w Wielkim Planie. Powolna akceptacja w³asnego cierpienia i œwiadomoœæ tego, ¿e prawdziw¹ si³¹ cz³owieka jest jego determinacja w pod¹¿aniu do przodu, sprawia, ¿e Anio³ miecza lepiej rozumie prawa rz¹dz¹ce ¿yciem czy œwiatem.
+Wybranie tej zdolnoœci powoduje, ¿e postaæ otrzymuje na sta³e premiê +1 do m¹droœci, +2 do rzutów obronnych przeciwko czarom. Oprócz tego, Anio³ miecza zyskuje dostêp do potê¿niejszych zdolnoœci, które wymagaj¹ wewnêtrznej dyscypliny i wielkiej si³y woli.~
+@1022 = ~M¹droœæ zosta³a na sta³e zwiêkszona o 1 punkt.~ 
+
+
+@1023 = ~Ulepszona bezkrwawa walka~
+@1024 = ~Ulepszona bezkrwawa walka
+Po u¿yciu tej zdolnoœci, Anio³ miecza skupia siê na zadawaniu ciosów, które zamiast zabijania lub szkodzenia przeciwnikowi, próbuj¹ go obezw³adniæ. 
+Iloœæ obra¿eñ zadawanych przez postaæ zmniejsza siê o 1k6 punktów, jednak ka¿dy trafiony przeciwnik musi wykonaæ rzut obronny przeciwko œmierci (modyfikator -2) by nie zostaæ unieszkodliwiony na czas 5 rund. Ponadto wszystkie trafione istoty, które aktualnie posiada³y 20 lub mniej punktów ¿ycia, zostaj¹ unieszkodliwione bez ¿adnego rzutu.
+W czasie trwania tej zdolnoœci, który wynosi 1 rundê, nie mog¹ zostaæ zadane trafienia krytyczne.~
+@1025 = ~Unieszkodliwiaj¹cy cios~
+
+/*
+@1026 = ~empty~
+*/
+
+@1027 = ~Regeneracja~
+@1028 = ~Regeneracja
+Dziêki medytacjom i treningowi w kontroli swego cia³a, doœwiadczony Anio³ miecza znacznie ulepsza swój metabolizm i naturalny proces uzdrawiania.
+Po wybraniu tej umiejêtnoœci, naturalna prêdkoœæ regeneracji obra¿eñ zwiêksza siê o 2 p¿/runda. Premia ta kumuluje siê z innymi efektami regeneracyjnymi np. z zaklêæ lub przedmiotów.
+Zdolnoœæ ta mo¿e zostaæ wybrana tylko jeden raz.
+
+Wymagane: Samodoskonalenie~
+
+@1029 = ~Wygnanie~
+@1030 = ~Wygnanie
+Odnajduj¹c sw¹ drogê w strze¿eniu œwiêtoœci ¿ycia, Anio³ miecza na swój szczególny sposób nienawidzi nieumar³ych i ¿ywi siln¹ niechêc do demonów, które przybywaj¹ z ni¿szych sfer tylko po to, by siaæ œmieræ i zniszczenie.
+Gdy postaæ u¿yje tej zdolnoœci, jej nieœmiertelna dusza wytwarza potê¿n¹ falê ¿yciowej mocy, która niszczy wszelkie przejawy pó³-¿ycia w okolicy. Ka¿dy nieumar³y lub demon w polu dzia³ania zaklêcia musi wykonaæ rzut obronny przeciwko œmierci (modyfikator -2 dla nieumarlych) lub natychmiast zostanie str¹cony do ni¿szych sfer. Nawet jeœli rzut siê powiedzie, istota tego typu zostaje odrzucona w ty³ i na czas 4 rund musi siê liczyæ karami: -4 do KP, trafienia i rzutów obronnych.
+Zdolnoœæ ta jest niezwykle wyczerpuj¹ca i mo¿na jej u¿ywaæ tylko raz dziennie.
+
+Wymagane: Samodoskonalenie~   
+
+@1031 = ~Heroizm~
+@1032 = ~Heroizm
+Zdolnoœæ ta zwiêksza zdolnoœci bitewne rzucaj¹cego, inspiruj¹c zarówno jego jak i towarzyszy do jeszcze wytrwalszej walki ze z³em. Anio³ miecza staje siê prawdziwym bohaterem, który bez strachu poprowadzi sw¹ grupê do zwyciêstwa.
+Po u¿yciu tej umiejêtnoœci, przez nastêpne 2 rundy liczba ataków Anio³a miecza zostaje dwukrotnie zwiêkszona, na czas 5 rund otrzymuje on dodatkowe 20% maksymalnych punktów ¿ycia, zaœ jego towarzysze s¹ chronieni przed strachem.
+Heroizm mo¿e byæ u¿yty co najwy¿ej raz na turê.~
+@1033 = ~Nie mo¿esz u¿yæ Heroizmu czêœciej ni¿ raz na turê.~
+
+@1034 = ~Duchowe pojednanie~
+@1035 = ~Duchowe pojednanie
+Doœwiadczony Anio³ miecza potrafi nie tylko wytworzyæ harmoniê we w³asnym ciele, ale i wytworzyæ wiêŸ ³¹cz¹c¹ go z ca³ym wszechœwiatem, by w nim szukaæ doskona³oœci.
+Zdolnoœæ ta dzia³a prawie tak samo jak 'Wewnêtrzna harmonia', jednak z pewnymi ró¿nicami. Anio³ miecza nie czuje siê zmêczony po zakoñczeniu czasu trwania czaru, wszystkie jego odpornoœci zostaj¹ zwiêkszony o 25%, nie mo¿e on zostaæ oszukany przez jakiekolwiek iluzje, i otacza go bariera pozytywnej energi, która chroni go przed jak¹kolwiek form¹ wysysania ¿ycia.
+Jednak postaæ u¿ywaj¹ca tej zdolnoœci musi ponieœæ pewne konsekwencje. Po³¹czenie z moc¹ ¿ycia jest tak wielkie, ¿e jeœli samemu zrani kogoœ w walce wrêcz, bêdzie musia³ dzieliæ cierpienia ze sw¹ ofiar¹, odczuwaj¹c cz¹stkê jej bólu.
+
+Wymagane: Samodoskonalenie~
+@1036 = ~Wspó³cierpienie~
+@1037 = ~Nie mo¿esz teraz u¿yæ Duchowego pojednania.~
+@1038 = ~Œwiadomoœæ wspó³czucia~
+
+@1039 = ~Oczyszczenie cia³a~
+@1040 = ~Oczyszczenie cia³a
+Anio³ miecza dziêki swemu zwi¹zkowi z ¿yciow¹ moc¹, potrafi zwiêkszyæ swe zdolnoœci lecznicze.  
+Oczyszczenie cia³a sprawia, ¿e postaæ na któr¹ je rzucono odzyskuje 3k8 p¿, i zostaje oczyszczona z wszelkich trucizn, g³uchoty, œlepoty i chorób.
+
+Wymagane: Samodoskonalenie~
+
+@1041 = ~Dotyk duszy~
+@1042 = ~Dotyk duszy
+Anio³ miecza potrafi wytworzyæ wokó³ siebie potê¿n¹ aurê, która dotknie jego kopmanów. Dziêki temu, chroni on ich umys³y przed cudz¹ ingerencj¹ i uczuciem strachu.
+Gdy aura jest aktywna, wszyscy wokó³ Anio³a miecza staj¹ siê odporni na strach i otoczeni tarcz¹ umys³u.
+
+Wymagane: Heroizm~
+
+@1043 = ~Wyzwolenie ducha~
+@1044 = ~Wyzwolenie ducha
+Gdy duch Anio³a miecza nabiera coraz wiêcej mocy, zyskuje on zdolnoœæ, która pozwala mu na wyzwolenie swej wewnêtrznej si³y, i przekszta³cenie jej w falê mocy, która zmiecie jego wrogów.
+Zdolnoœæ ta jest wyczerpuj¹ca, przez co nie mo¿na z niej korzystaæ czêœciej ni¿ raz na 5 godzin.
+
+Wymagane: Duchowe pojednanie~
+
+@1050 = ~anio³ miecza~ 
+@1051 = ~Anio³ miecza~
+@1052 = ~ANIO£ MIECZA: To wojownik o czystym sercu i duszy, który dziêki modlitwo, treningowi i medytacjom d¹¿y do doskona³oœci - zjednoczenia swego ducha z wielkim bytem wszechœwiata. Nie jest on s³ug¹ ¿adnego bóstwa, walczy w imiê dobra i równowagi. £¹czy w sobie paladyñskiego ducha i czystoœæ, finezjê Kensaia i mistycyzm Mnicha. Jego trening ukierunkowany jest na doskonalenie wewnêtrznej dyscypliny i kontrolowanie swego cia³a. W walce, brutalnoœæ i furiê zastêpuje finezj¹ i spokojem. Zamiast sztuk przebijania pancerzy czy jak najszybszego zabicia swego wroga, woli wyzbyæ siê przemocy, walcz¹c z honorem i czyst¹ dusz¹.
+
+G³ówn¹ cech¹ Anio³a Miecza jest M¥DROŒÆ. Ponadto jest on ograniczony do charakteru neutralnego dobrego.
+
+Zalety:
+- +1 do trafienia i KP na ka¿de 6 poziomów doœwiadczenia
+- +1 do opóŸnienia na ka¿de 4 poziomy doœwiadczenia
+- Raz dziennie mo¿e korzystaæ ze zdolnoœci 'Nak³adanie r¹k'
+- Odpornoœæ na strach i za³amanie morale
+- 'Wewnêtrzna harmonia' raz dziennie na ka¿de 4 poziomy doœwiadczenia
+- 'Bezkrwawa walka', któr¹ mo¿e aktywowaæ w ka¿dym momencie
+
+Wady:
+- Wymagane 10 si³y, 13 m¹droœci i zrêcznoœci
+- Tylko cz³owiek, elf lub pó³-elf
+- Nie u¿ywa pancerzy, he³mów, tarcz, przedmiotów zwiêkszaj¹cych si³ê, broni dystansowych, zatrutych lub os³abiaj¹cych wroga przedmiotów
+- Mo¿e osi¹gn¹æ specjalizacjê tylko w jednorêcznych mieczach lub kijach 
+- Nie mo¿e wydawaæ punktów bieg³oœci na styl walki dwoma broñmi
+- Mo¿e dwuklasowaæ tylko na maga, jednak nie mo¿e u¿ywaæ zaklêæ ze szko³y nekromancji
+- Otrzymuje karê -2 do obra¿eñ
+
+Wewnêtrzna harmonia (5+2 rund):
+Anio³ miecza potrafi doprowadziæ do pojednania cia³a i ducha, dziêki czemu mo¿e liczyæ siê z ró¿nymi korzyœciami: zwiêkszaj¹ siê jego fizyczne mo¿liwoœci, zaœ umys³ zostaje otoczony barier¹ ochronn¹. Podczas dzia³ania tej zdolnoœci, która trwa 5 rund, wojownik zyskuje premie +3 do klasy pancerza, +2 do trafienia, przyœpieszony ruch, odpornoœæ na zaklêcia oddzia³owuj¹ce na umys³, premiê +2 do rzutów obronnych przeciwko œmierci, zioniêciom i polimorfii. Tak doskona³e zjednoczenie niestety wymaga od Anio³a miecza du¿ego wysi³ku, przez co 2 nastêpne 2 rundy po zakoñczeniu siê Wewnêtrznej harmoni, staje siê zmêczony. W tym stanie musi siê liczyæ z rozmaitymi karami (os³abione KP, trafienie, zmniejszona prêdkoœæ ruchu, niezdolnoœæ do rzucania zaklêæ, jeœli postaæ jest dwuklasowcem).
+
+Bezkrwawa walka:
+Po u¿yciu tej zdolnoœci, Anio³ miecza skupia siê na zadawaniu ciosów, które zamiast zabijania lub szkodzenia przeciwnikowi, próbuj¹ go obezw³adniæ. 
+Iloœæ obra¿eñ zadawanych przez postaæ zmniejsza siê o 1k6 punktów, jednak ka¿dy trafiony przeciwnik, który posiada mniej ni¿ 20 punktów ¿ycia, musi wykonaæ rzut obronny przeciwko œmierci (modyfikator -2) by nie zostaæ unieszkodliwiony na czas 5 rund. 
+W czasie trwania tej zdolnoœci nie mog¹ zostaæ zadane trafienia krytyczne.~
+
+@1053 = ~Twoja œwiêtobliwoœæ i wiara by³y fa³szywe, w twym sercu wci¹¿ p³on¹³ ¿ar nienawiœci. Ju¿ nigdy nie bêdziesz móg³ wróciæ na œcie¿kê doskona³oœci.~
+@1054 = ~Stracono wszystkie moce podklasy: Anio³ miecza. ~
+
+
+@1070 = ~Mówi siê, ¿e Kamieñ Ioun by³ darem dla mnicha o imieniu Shou-ling, Wong Fei Hung od boga wojny Chan Chenga. Bóg zst¹pi³ na ziemie w formie smoka i walczy³ z Wong Fei przez trzy dni i trzy noce. Chan Cheng by³ tak zdumiony mêstwem mnicha, ¿e ofiarowa³ mu Kamieñ Ioun. Jednak po œmierci Wong Fei kamieñ znikn¹³.
+
+PARAMETRY:
+Klasa pancerza: +1
+Specjalne:
+ +15 do maksymalnej liczby p¿
+  Regeneruje 1 P¯ co 6 sekund
+
+Mo¿e u¿ywaæ:
+ Mnich
+ Wojownik
+ Kensai
+ Anio³ miecza~
+
+
+//////////////////////////////////////////////
+// Armors
+
+@2000 = ~Ulepszone pancerze i tarcze~
+@2001 = ~Pawê¿ +1, +3 przeciwko pociskom~
+@2002 = ~Aktualizacja opisow, przy Ulepszonych pancerzach i tarczach~
+@2003 = ~Zaktualizuj opisy (Tylko polskie)~
+@2004 = ~Zaktualizuj opisy (Polskie, lub angielskie jesli brakuje)~
+@2005 = ~Komponent dla nie-anglojezycznej wersji.~
+@2006 = ~Komponent dla anglojezycznej wersji.~
+@2007 = ~Nie aktualizuj opisow.~
+@2008 = ~Aktualizuj opisy.~
+@2009 = ~Ulepszone pancerze i tarcze.~
+@2010 = ~Stary komponent.~

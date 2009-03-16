@@ -1,0 +1,499 @@
+// New portrait icons and other stuff!!!
+// This part must be repeated for the kit, since the first component might be
+// not installed.
+
+ACTION_IF NOT FILE_EXISTS  ~override/TG#USSC.SPL~ 
+THEN BEGIN
+
+COPY ~refinements/Hlab/Fighter/TG#IMCR.SPL~	~override/TG#IMCR.SPL~
+SAY NAME1 @446
+SAY NAME2 @446
+SAY UNIDENTIFIED_DESC @447
+COPY ~refinements/Hlab/_anim/MRAGEH.bam~        ~override~
+COPY ~refinements/Hlab/_anim/SSSWARR.bam~       ~override~
+COPY_EXISTING     ~KIT.IDS~                  ~override/KIT.IDS~
+REPLACE_TEXTUALLY ~0x00000004~         ~0x4003~
+REPLACE_TEXTUALLY ~0x40030000~ 	       ~0x4003~
+COPY ~refinements/Hlab/_shared/copy/STATES2.BAM~     ~override~
+COPY ~refinements/Hlab/_shared/copy/STATES.BAM~      ~override~
+  //fixes for Spell Shield:
+COPY ~refinements/Hlab/_shared/copy/SPWI519.SPL~      ~override~
+COPY ~refinements/Hlab/_shared/copy/SPWI606.SPL~      ~override~
+// COPY ~refinements/Hlab/_shared/STATDESC.2DA~     ~override/STATDESC.2DA~
+APPEND  ~STATDESC.2DA~ ~166     AQUA
+167     IDOL
+168     SPIRF
+169     SCION
+170     CHANT
+171     DRAGF
+172     TIGS
+173     CHANM
+174     CRIPP
+175     DIVSH
+176     ENDU
+177     GUARD
+178     EXOR
+179     LING
+180     PREC
+181     MERC
+182     SPII
+183     TKAI
+184     SECW
+185     INTI
+186     AEGI
+187     SHOL
+188     FORS~
+COPY_EXISTING ~STATDESC.2DA~     ~override/STATDESC.2DA~
+REPLACE ~AQUA~    @414
+REPLACE ~IDOL~    @400
+REPLACE ~SPIRF~   @408
+REPLACE ~SCION~   @416
+REPLACE ~CHANT~   @186
+REPLACE ~DRAGF~   @180
+REPLACE ~TIGS~    @182
+REPLACE ~CHANM~   @422
+REPLACE ~CRIPP~   @141
+REPLACE ~DIVSH~   @152
+REPLACE ~ENDU~    @212
+REPLACE ~GUARD~   @484
+REPLACE ~EXOR~    @120
+REPLACE ~LING~    @176
+REPLACE ~PREC~    @462
+REPLACE ~MERC~    @1016
+REPLACE ~SPII~    @1012
+REPLACE ~TKAI~    @444
+REPLACE ~SECW~    @197
+REPLACE ~INTI~    @192
+REPLACE ~AEGI~    @130
+REPLACE ~SHOL~    @126
+REPLACE ~FORS~    @139
+SET_2DA_ENTRY  124   1   2 8286
+SET_2DA_ENTRY  74   1   2 26228
+
+END
+
+
+
+
+// Abilities and all.
+COPY ~refinements/swang/LI#MEDI.SPL~		~override/LI#MEDI.SPL~
+SAY NAME1 @1020
+SAY NAME2 @1020
+SAY UNIDENTIFIED_DESC @1021
+SAY 0x15e @1022
+COPY ~refinements/swang/LI#IMER.SPL~		~override/LI#IMER.SPL~
+SAY NAME1 @1023
+SAY NAME2 @1023
+SAY UNIDENTIFIED_DESC @1024
+COPY ~refinements/swang/LI#IME1.SPL~		~override/LI#IME1.SPL~
+SAY 0xce @1025
+COPY ~refinements/swang/LI#REGE.SPL~		~override/LI#REGE.SPL~
+SAY NAME1 @1027
+SAY NAME2 @1027
+SAY UNIDENTIFIED_DESC @1028
+COPY ~refinements/swang/LI#BANI.SPL~		~override/LI#BANI.SPL~
+SAY NAME1 @1029
+SAY NAME2 @1029
+SAY UNIDENTIFIED_DESC @1030
+COPY ~refinements/swang/LI#HERO.SPL~		~override/LI#HERO.SPL~
+SAY NAME1 @1031
+SAY NAME2 @1031
+SAY UNIDENTIFIED_DESC @1032
+COPY ~refinements/swang/LI#HER2.SPL~		~override/LI#HER2.SPL~
+SAY 0xce @1033
+COPY ~refinements/swang/LI#SPII.SPL~		~override/LI#SPII.SPL~
+SAY NAME1 @1034
+SAY NAME2 @1034
+SAY UNIDENTIFIED_DESC @1035
+COPY ~refinements/swang/LI#SPBK.SPL~		~override/LI#SPBK.SPL~
+SAY 0xce @1036
+COPY ~refinements/swang/LI#SPER.SPL~		~override/LI#SPER.SPL~
+SAY 0x9e @1037
+COPY ~refinements/swang/LI#SPRE.SPL~		~override/LI#SPRE.SPL~
+SAY NAME1 @1038
+COPY ~refinements/swang/LI#PURG.SPL~		~override/LI#PURG.SPL~
+SAY NAME1 @1039
+SAY NAME2 @1039
+SAY UNIDENTIFIED_DESC @1040
+COPY ~refinements/swang/TG#SAAU.SPL~		~override/TG#SAAU.SPL~
+SAY NAME1 @1041
+SAY NAME2 @1041
+SAY UNIDENTIFIED_DESC @1042
+COPY ~refinements/swang/TG#FOS2.SPL~		~override/TG#FOS2.SPL~
+SAY 0x18e @1043
+COPY ~refinements/swang/TG#FOSP.SPL~		~override/TG#FOSP.SPL~
+SAY NAME1 @1043
+SAY NAME2 @1043
+SAY UNIDENTIFIED_DESC @1044
+
+// Patching Project Image to avoid Freedom of Spirit to trigger!
+// (though it can happen only if you dual a high level Sword Angel to mage...)
+COPY_EXISTING ~SPWI703.SPL~ ~override~
+  READ_LONG 0x6a eff_off
+  READ_SHORT 0x70 glob_eff
+  WRITE_SHORT 0x70 (glob_eff + 1)
+  INSERT_BYTES (eff_off) 0x30
+    WRITE_SHORT (eff_off) 206
+    WRITE_BYTE (eff_off + 0x2) 1
+    WRITE_BYTE (eff_off + 0x3) 7
+    WRITE_LONG (eff_off + 0xe) 120
+    WRITE_BYTE (eff_off + 0x12) 100
+    WRITE_ASCII (eff_off + 0x14) ~TG#FOS2~
+
+
+
+COPY ~refinements/swang/copy~			~override~
+
+COPY ~refinements/swang/LI#SPIN.SPL~		~override/LI#SPIN.SPL~
+SAY NAME1 @1010
+SAY NAME2 @1010
+COPY ~refinements/swang/LI#FATI.SPL~		~override/LI#FATI.SPL~
+SAY 0x24e @1037
+SAY 0x1ee @1011
+COPY ~refinements/swang/LI#MERC.SPL~		~override/LI#MERC.SPL~
+SAY NAME1 @1015
+SAY 0xfe @1016
+COPY ~refinements/swang/LI#MERC3.SPL~		~override/LI#MERC3.SPL~
+SAY NAME1 @1017
+
+
+
+
+
+/* ~internal~ name of the new kit */
+ADD_KIT ~SWANG~
+
+/* CLASWEAP.2DA */
+~SWANG		1	1	1	1	1	1	1	1~
+
+/* WEAPPROF.2DA */
+~SWANG 5 5 0 1 1 1 1 0 5 5 5 1 1 5 5 5 1 1 1 1 1 1 5 0 0 0 0 0 2 0 2 0 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
+
+/* ABCLASRQ.2DA */
+~SWANG    0       13       0       10       13       0~
+
+/* ABCLSMOD.2DA */
+~SWANG    0       0       0       0       0       0~
+
+/* ABDCDSRQ.2DA */
+~SWANG	   0      13      0       10       17       0~
+
+/* ABDCSCRQ.2DA */
+~SWANG    0      0      0       0       15       0~
+
+/* ALIGNMNT.2DA */
+~SWANG	   0       0       0       1       0       0       0       0       0~
+
+/* DUALCLAS.2DA */
+~SWANG	   0       0       1       0       0       0~
+
+/* abilities */
+~refinements/swang/LI#SWAN.2DA~
+
+/* KITTABLE.2DA */
+~K_F_H K_F_E K_F_HE~
+
+/* KITLIST.2DA  */
+~0x10400408	2~ // ehehe, nice one :)
+
+/* LUABBR.2DA */
+~SWA~
+
+/* 25STWEAP.2DA */
+~* * HELM19 BAG22 RING06 RING29 CLCK02 BOOT01 AMUL19 * BELT02 * * * POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~
+
+/* Strings for descriptions */
+SAY @1050
+SAY @1051
+SAY @1052
+
+/* ~Fallen~ status */
+COPY ~refinements/swang/LI#FALL.SPL~		~override/LI#FALL.SPL~
+SAY 0x1be @1054
+EXTEND_TOP ~Baldur.bcs~   ~refinements/swang/FALLEN.BAF~
+EXTEND_TOP ~Baldur25.bcs~   ~refinements/swang/FALLEN.BAF~
+
+// Triggers for attacked neutral creatures (=>immediate loss of kit!)
+EXTEND_TOP ~GENSHT01.BCS~ ~refinements/swang/SHOUTS.BAF~
+EXTEND_TOP ~GRPSHT01.BCS~ ~refinements/swang/SHOUTS.BAF~
+EXTEND_TOP ~SHOUT.BCS~ ~refinements/swang/SHOUTS.BAF~
+EXTEND_TOP ~SHT0901.BCS~ ~refinements/swang/SHOUTS.BAF~
+EXTEND_TOP ~SHT0902.BCS~ ~refinements/swang/SHOUTS.BAF~
+EXTEND_TOP ~SHT0903.BCS~ ~refinements/swang/SHOUTS.BAF~
+EXTEND_TOP ~SHT0904.BCS~ ~refinements/swang/SHOUTS.BAF~
+
+// Fallen status triggered by intentional Slayer Change.
+// Better having Ascension already present!
+COMPILE ~refinements/swang/triggers.d~
+
+
+/* ***************************************************
+Follows experimental coding!!!!!!!
+It seems to work without unexpected effects though..
+Check the documentation.
+***************************************************** */
+
+/*
+Jester temporarily shares Skald's value */
+
+COPY_EXISTING ~KITLIST.2DA~     ~override/KITLIST.2DA~
+// use new synthax which allows pretty printing, even though it's slower now; hopefully not that slow
+  SET_2DA_ENTRY_LATER ~_#_#_#kitlist~  45 7  0x00800000
+  SET_2DA_ENTRIES_NOW ~_#_#_#kitlist~ 1
+	REPLACE_EVALUATE ~\(^ROWNAME  *\)~ BEGIN
+		SPACES somespace ~%MATCH1%~
+	END ~%somespace%%MATCH1%~  
+/*
+ REPLACE_TEXTUALLY ~42           0x00400000~     ~42           0x00800000~
+
+ T_B here - what you were doing isn't very nice after I pretty-print S_2_E,
+ so I conform to standards.
+*/
+// Previously I was using 38 in place of 42. WHY?!?!?! :-O
+
+// ^^ Archaelogy lets you find such funny things :)
+// TB was here
+
+
+
+/*
+Marking helmets, shields, and other stuff as unusable,
+but not Ioun Stones */
+
+PRINT @12
+COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
+  READ_LONG     0x8  gname   ELSE 0
+  READ_BYTE     0x1c type    ELSE 0
+  READ_BYTE     0x2b current ELSE 0
+  READ_BYTE     0x31 prof    ELSE 0
+  PATCH_IF ((type = 0x0c) OR (type = 0x35) OR (type = 0x07) OR (type = 0x29) OR (type = 0x2f) OR (type = 0x31))
+           AND (NOT (gname = 0x00001ff5)) AND (NOT (gname = 0x000103a7)) BEGIN
+    WRITE_BYTE 0x2b (current BOR 0b01000000)
+  END
+  // remove redundant flag on Katanas
+  PATCH_IF (prof = 0x5e) BEGIN
+    WRITE_BYTE 0x29 (current BAND 0b11101111)
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+
+// Changes to Wong Fei's Ioun Stone:
+COPY_EXISTING ~helm34.itm~ ~override~
+  READ_BYTE     0x29 current1
+  WRITE_BYTE 0x29 (current1 BAND 0b11101111)  //usable!
+  READ_BYTE     0x2b current2
+  WRITE_BYTE 0x2b (current2 BAND 0b10111111)  //usable!
+  READ_BYTE     0x2d current3
+  WRITE_BYTE 0x2d (current3 BAND 0b11111011)  //usable!
+  READ_BYTE     0x2f current4
+  WRITE_BYTE 0x2f ((current4 BAND 0b11010111) BOR 0b00000011)  //usable!
+  SAY DESC @1070
+
+COPY_EXISTING ~brac21.itm~ ~override~
+              ~helm34.itm~ ~override~
+  READ_BYTE     0x2b current
+  WRITE_BYTE 0x2b (current BAND 0b10111111)  //usable!
+
+COPY_EXISTING ~belt06.itm~ ~override~
+              ~belt07.itm~ ~override~
+              ~belt08.itm~ ~override~
+              ~belt11.itm~ ~override~
+              ~brac06.itm~ ~override~
+              ~hamm09.itm~ ~override~
+              ~SW1H61.itm~ ~override~
+              ~POTN03.itm~ ~override~
+              ~POTN04.itm~ ~override~
+              ~POTN05.itm~ ~override~
+              ~POTN06.itm~ ~override~
+              ~POTN07.itm~ ~override~
+              ~POTN12.itm~ ~override~
+/*
+May include Mauler and lesser version of Angurvadal.
+Poisoned and ~vile~ weapons follow:
+*/
+              ~SPER10.itm~ ~override~
+              ~miscbc.itm~ ~override~
+              ~SW1H35.itm~ ~override~
+              ~SW1H38.itm~ ~override~
+              ~SW1H59.itm~ ~override~
+              ~SW1H63.itm~ ~override~
+              ~DAGG16.itm~ ~override~
+              ~DAGG20.itm~ ~override~
+              ~MISC75.itm~ ~override~
+              ~HALB11.itm~ ~override~
+              ~SW2H15.itm~ ~override~
+              ~SW2H17.itm~ ~override~
+              ~SW2H18.itm~ ~override~
+              ~STAF23.itm~ ~override~
+              ~AX1H13.itm~ ~override~
+              ~AX1H15.itm~ ~override~
+              ~BLUN17.itm~ ~override~
+              ~BLUN18.itm~ ~override~
+              ~BLUN22.itm~ ~override~
+              ~BLUN24.itm~ ~override~
+/* Shadow Dragon Scale */
+              ~LEAT19.itm~ ~override~
+  READ_BYTE     0x2b current
+  WRITE_BYTE 0x2b (current BOR 0b01000000)
+
+
+/*
+Patches for Item Upgrade */
+
+ACTION_IF FILE_EXISTS  ~override/C2BLUN01.itm~
+THEN BEGIN
+
+COPY_EXISTING ~C2BLUN01.itm~ ~override~
+              ~C2BLUN02.itm~ ~override~
+              ~C2BLUN03.itm~ ~override~
+              ~C2SW1H03.itm~ ~override~
+  READ_BYTE     0x2b current
+  WRITE_BYTE 0x2b (current BOR 0b01000000)
+END
+
+
+/*
+Patches for Ruad */
+
+ACTION_IF FILE_EXISTS  ~override/u#sw1h01.itm~
+THEN BEGIN
+
+COPY_EXISTING ~u#blun01.itm~ ~override~
+              ~u#sw1h02.itm~ ~override~
+              ~u#sw1h09.itm~ ~override~
+  READ_BYTE     0x2b current
+  WRITE_BYTE 0x2b (current BOR 0b01000000)
+END
+
+
+/*
+Patches for Freedom's Reign */
+
+ACTION_IF FILE_EXISTS  ~override/DeITM001.itm~
+THEN BEGIN
+
+/* COPY_EXISTING ~DeITM044.itm~ ~override~
+  READ_BYTE     0x29 current
+  WRITE_BYTE 0x29 (current BAND 0b11101111) //Removes redundant shapeshifter's flag
+
+now it's condensed in a C_E_R
+T_B mad censorship were folks!
+*/
+
+COPY_EXISTING ~DeITM002.itm~ ~override~
+              ~DeITM005.itm~ ~override~
+              ~DeITM008.itm~ ~override~
+              ~DeITM009.itm~ ~override~
+              ~DeITM015.itm~ ~override~
+              ~DeITM020.itm~ ~override~
+              ~DeITM024.itm~ ~override~
+              ~DeITM035.itm~ ~override~
+              ~DeITM039.itm~ ~override~
+              ~DeITM041.itm~ ~override~
+              ~DeITM045.itm~ ~override~
+              ~DeITM064.itm~ ~override~
+              ~DeITM065.itm~ ~override~
+              ~DeITM066.itm~ ~override~
+              ~DeITM067.itm~ ~override~
+              ~DeITM069.itm~ ~override~
+              ~DeITM070.itm~ ~override~
+              ~DeITM071.itm~ ~override~
+              ~DeITM074.itm~ ~override~
+              ~DeITM076.itm~ ~override~
+              ~DeITM078.itm~ ~override~
+  READ_BYTE     0x2b current
+  WRITE_BYTE 0x2b (current BOR 0b01000000)
+
+END
+
+
+/* 
+Patches for Reign of Virtue  */
+
+ACTION_IF FILE_EXISTS  ~override/DeITM084.itm~ 
+THEN BEGIN
+
+COPY_EXISTING ~DeITM092.itm~ ~override~
+  READ_BYTE     0x2b current
+  WRITE_BYTE 0x2b (current BAND 0b10111111) //Removes Jester's flag
+
+COPY_EXISTING ~DeITM084.itm~ ~override~
+              ~DeITM098.itm~ ~override~
+              ~DeITM100.itm~ ~override~
+              ~DeITM106.itm~ ~override~
+              ~DeITM107.itm~ ~override~
+              ~DeITM108.itm~ ~override~
+              ~DeITM111.itm~ ~override~
+              ~DeITM124.itm~ ~override~
+              ~DeITM125.itm~ ~override~
+              ~DeITM126.itm~ ~override~
+              ~DeITM127.itm~ ~override~
+              ~DeITM128.itm~ ~override~
+              ~DeITM129.itm~ ~override~
+  READ_BYTE     0x2b current
+  WRITE_BYTE 0x2b (current BOR 0b01000000)
+
+END
+
+// Now for generic item checks. Make all items that increase strength on self
+// or poison others unselectable. I didn't remove the code above in case an
+// item was decided as 'vile' even without these specific criteria.
+DEFINE_PATCH_MACRO check_an_offset BEGIN
+	READ_SHORT where OPCode
+	PATCH_IF OPCode = 0x2c THEN BEGIN // strength modification
+		READ_BYTE where + 2 who
+		PATCH_IF who = 0 THEN BEGIN
+			READ_LONG where + 4 howMuch
+			READ_LONG where + 8 how
+			PATCH_IF (how = 0 && howMuch > 0) || (how = 1 && howMuch > 10) ||
+				(how = 2 && howMuch >= 100) BEGIN
+				do_me = 1
+			END
+		END
+	END ELSE BEGIN
+		PATCH_IF OPCode = 0x19 THEN BEGIN // poison
+			do_me = 1
+		END
+	END
+END
+
+COPY_EXISTING_REGEXP GLOB ~^.*\.itm$~ ~override~
+	do_me = 0
+	READ_LONG 0x64 "headoffset"  ELSE 0
+	READ_SHORT 0x68 "headcount"  ELSE 0
+	READ_LONG 0x6a "effectsoffset"  ELSE 0
+	WHILE ("%headcount%" > 0) BEGIN
+	   READ_SHORT ("%headoffset%" + (("%headcount%" - 1 ) * 0x38) + 0x1e) "count"  ELSE 0
+	   READ_SHORT ("%headoffset%" + (("%headcount%" - 1 ) * 0x38) + 0x20) "effectsindex"  ELSE 0
+	   WHILE ("%count%" >0) BEGIN
+	      SET where = "%effectsoffset%" + (("%effectsindex%" + "%count%" - 1 )* 0x30)
+	      LAUNCH_PATCH_MACRO check_an_offset
+	      SET "count" = ("%count%" -1)
+	   END
+	   SET "headcount" = "%headcount%" - 1
+	END
+	READ_SHORT 0x70 "count"	ELSE 0
+	WHILE ("%count%" >0) BEGIN
+		SET where = "%effectsoffset%" + (("%count%" - 1 )* 0x30)
+    LAUNCH_PATCH_MACRO check_an_offset
+		SET "count" = ("%count%" -1)
+	END
+  PATCH_IF do_me THEN BEGIN
+		READ_BYTE  0x2b current
+  	WRITE_BYTE 0x2b (current BOR 0b01000000)
+  END
+BUT_ONLY_IF_IT_CHANGES
+
+/*
+Patches for compatibility with Kido NPC  */
+
+ACTION_IF FILE_EXISTS  ~override/kdagg.itm~
+THEN BEGIN
+COPY_EXISTING ~kdagg.itm~ ~override~
+              ~ikdagg.itm~ ~override~
+              ~khood.itm~ ~override~
+              ~khosy.itm~ ~override~
+  READ_BYTE     0x2b current
+  WRITE_BYTE 0x2b (current BAND 0b01111111)
+//Removes Skald's flag. Sub-optimal solution, but a reasonable one, actually.
+END

@@ -1,0 +1,2854 @@
+BRUENPLA
+--------
+Armure de bataille en mithril +2
+
+C'est l'armure de Bruenor Marteauguerre lui-même, et l'on n'en a jamais vue de meilleure. C'est une merveille d'artisanat guerrier.
+
+PARAMETRES :
+
++30% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++35% de résistance aux projectiles
+
+-5 à la dextérité
+-20% à la vitesse de déplacement
++45% de chance de rater un sort
+
+-90% Vol à la tire
+-60% Crochetage
+-65% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : -1
+Poids : 45
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2ANOM01
+--------
+Bouclier de la famille Delryn +4
+C'est le bouclier de famille d'Anomen, que lui a donné son père. Ce bouclier de protection magique permet aussi à son porteur de résister au feu et au froid. Anomen peut s'en servir pour créer une barrière d'énergie pour se protéger des attaques à distance. Cette protection contre les projectiles normaux peut être employée trois fois par jour.
+
+Récemment, <CHARNAME> a fait renforcer le bouclier à l'aide de la magie protectrice du bouclier Grâce salvatrice, obtenu auprès de l'avatar faiblissant d'Amaunator, améliorant ainsi de manière décisive ses capacités défensives.
+
+PARAMETRES :
+
+Classe d'armure : +5
+Bonus à la CA contre les projectiles : +1 
+Résistance au feu : +30 %
+Résistance au froid : +30 %
+
+Capacités: 3 fois par jour, protection contre les projectiles pour son porteur.
+
+Utilisable par :
+ Anomen
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2CHAN01
+--------
+Forgée sur la demande de <CHARNAME> en associant des écailles de dragon rouge sur une cotte de maille elfique enchantée, la cotte de maille elfique incandescente donne une combinaison supérieure de protection et de liberté de mouvement. Roublards et mages peuvent toujours faire leur métier quand ils portent cette armure légère. 
+
+PARAMETRES:
+
+Capacité d'équipement :
+ +25% de résistance au feu
+
++20% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++10% de résistance aux dégâts contondants
++10% de résistance aux projectiles
+
+-20% Vol à la tire
+-5% Crochetage
+-5% Détection des pièges
+-10% Déplacements silencieux
+
+Classe d'armure : 0
+Poids : 15
+Force nécessaire : 5
+Inutilisable par :
+ Druide
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2HIDE01
+--------
+Cuirasse d'Aeger +5
+Cette peau d'ours lourde et épaisse est tout ce qui reste du légendaire Aeger. Il y a plusieurs siècles, Aeger, un ours géant, terrorisait des centaines de petits village le long de la Côte des Epées. L'ours était immunisé au feu, au froid, et à l'acide. Finalement les jeunes hommes et femmes de plusieurs villages se rassemblèrent pour former une battue de plus de deux cent personnes. L'Aeger fut encerclé et enfin tué. Mais il restait moins d'une douzaine de survivants parmi les chasseurs, qui se partagèrent la peau de la bête. Cette armure a été créée à partir d'un de ces morceaux.
+
+Plus récemment, <CHARNAME> fit en sorte d'améliorer la cuirasse avec d'autres enchantement. Elle offre à présent de meilleure résistances au feu et aux attaques élémentaires.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +25% de résistance au feu, au froid et à l'acide
+ Immunité à la confusion
+
++10% de résistance aux dégâts physiques
+
++10% de chance de rater un sort
+
+-15% Vol à la tire
+-5% Crochetage
+-5% Détection des pièges
+-5% Déplacements silencieux
+-5% Cacher dans l'ombre
+
+Classe d'armure : 1
+Poids : 35
+Force nécessaire : 6
+Inutilisable par :
+ Mage
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2KELD01
+--------
+Armure de Plates complète Firecam améliorée
+Cette armure a été faite pour Keldorn et peu d'autres personnes peuvent la porter. Elle a ensuite été enchantée à nouveau à la demande de <CHARNAME> et elle offre encore plus de protections à Keldorn à présent. Son porteur gagne un +2 aux JS et se trouve sous le coup d'un sort d'Action Libre (peut passer à travers les toiles d'araignées et autres) et d'immunité à la peur. Bien qu'étant très robuste, l'armure est extrèmement légère. 
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +2 aux jets de sauvegarde
+ Ation libre
+ Immunité à la peur
+
++30% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++40% de résistance aux projectiles
+
+-4 à la dextérité
+-20% à la vitesse de déplacement
++40% de chance de rater un sort
+
+-90% Vol à la tire
+-60% Crochetage
+-60% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : -2
+Poids : 10
+Utilisable par :
+ Keldorn
+
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2LEAT01
+--------
+Chair humaine améliorée
+Faite de peau humaine traitée avec le sang d'un noble dragon et combinée à l'âme d'une innocente jeune fille et à une puissante magie de protection, cette armure émet une puanteur de mort. Elle ne peut être portée que par une personne entièrement vouée aux forces du mal. C'est le summum de la destruction maléfique.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +4 aux jets de sauvegarde
+ +20% de résistance à la magie
+ +1 à la dextérité et à la constitution
+ Immunité au poison, protection contre le bien
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
+Classe d'armure : 0
+Poids : 5 
+Force nécessaire : 3
+Inutilisable par :
+ Mage
+ Personnage non mauvais
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2PLAT01
+--------
+Armure de plates d'Ankheg
+Cette armure de plates a été forgée admirablement par un maître-artisan. Moulée dans les écailles chitineuses d'un ankheg, elle offre une protection supérieure à celle de l'armure de plates usuelle, et ne rouille jamais. Comme vous le dira par ailleurs tout aventurier expérimenté, son principal avantage réside dans la réduction de son poids et de son encombrement. Les monstres, ça va et ça vient... mais la fatigue est un ennemi tenace.
+
+Cette armure-ci a été reforgée pour <CHARNAME>. Elle offre à prèsent des protections supplémentaires contre les attaques de contact et les attaques acides, et elle permet au porteur de reproduire le crachat acide des Ankhegs.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +50% de résistane à l'acide
+ Lance Flèche acide de Melf trois fois par jour
+
++25% de résistance aux dégâts tranchants
++20% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++20% de résistance aux projectiles
+
+-3 à la dextérité
+-10% à la vitesse de déplacement
++40% de chance de rater un sort
+
+-70% Vol à la tire
+-40% Crochetage
+-40% Détection des pièges
+-80% Déplacements silencieux
+-65% Cacher dans l'ombre
+
+Classe d'armure : -1
+Poids : 25
+Force nécessaire : 8
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2SHLD01
+--------
+Bouclier d'Harmonie +3
+Audn du Pré, chevalier et champion du mage Kekkim, a porté ce bouclier pendant l'essentiel de son existence. Celui-ci protège son porteur contre à peu près toutes les formes de contrôle de l'esprit, un avantage certain pour un sorcier qui avait besoin d'alliés sachant se battre et qui lui restent fidèles. Kekkim et Audn sont tous deux retournés à la poussière depuis longtemps, laissant le bouclier à qui saurait le soustraire à la tour de Kekkim.
+
+Plus récemment, le bouclier a été ré-enchanté par <CHARNAME>. Il offre maintenant de nouvelles défenses physiques et il rend le porteur immunisé aux psioniques (mais non au drainage d'intelligence des Illithids).
+
+PARAMETRES : 
+
+Capacités d'équipement :
+ Immunité aux charmes, attaques psioniques, à la confusion, la domination, et l'immobilisation
+
+Classe d'armure : +4 
+Bonus à la CA contre les projectiles : +1
+Poids : 2
+Force nécessaire : 4
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+C2VALY01
+--------
+Armure de la famille Corthala
+Cette armure, depuis longtemps dans la lignée Corthala, protège son utilisateur contre toutes les formes d'attaques. L'armure a été combinée avec les Ecailles du Dragon d'ombre et elle protège Valygar encore mieux qu'avant. Elle est enchantée afin de procurer un bonus de +5 à la classe d'armure de Valygar, ainsi qu'à sa résistance aux dégâts acides, de feu et magiques. L'armure immunisent également Valygar aux charmes. Enfin, elle lui accorde la non-détection. Comme elle est spécialement conçue pour Valygar, peu d'autres peuvent la porter.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ Immunité aux charmes
+ Non détection
+ +50% de résistance au feu, à l'acide et aux dégâts magiques
+
++20% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++10% de résistance aux dégâts contondants
++10% de résistance aux projectiles
+
+-2 à la dextérité
+-10% à la vitesse de déplacement
++30% de chance de rater un sort
+
+-45% Vol à la tire
+-15% Crochetage
+-15% Détection des pièges
+-50% Déplacements silencieux
+-40% Cacher dans l'ombre
+
+Classe d'armure : 0
+Poids : 9
+Utilisable par :
+ Valygar
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHALARM
+--------
+Il ne reste aujourd'hui qu'un petit nombre des armures autrefois utilisées par les légions de Unther. Les rares à avoir été conservées sont souvent entre les mains de riches collectionneurs. En trouver une est suffisant pour assurer une petite fortune à un aventurier.
+
+PARAMETRES :
+
++30% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++35% de résistance aux projectiles
+
+-5 à la dextérité
+-20% à la vitesse de déplacement
++45% de chance de rater un sort
+
+-90% Vol à la tire
+-60% Crochetage
+-65% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : -1
+Poids : 40
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHALSHLD
+--------
+Il y a un siècle, les astronomes ont remarqué la chute d'une comète au large de la Côte des Epées. Un événement rendu plus étrange encore par les fragments d'un métal très léger trouvés quelques jours plus tard par le forgeron Huffum Fuirum, qui ne s'intéressait pas aux phénomènes célestes. Il façonna un bouclier de ce métal, bien que le travail lui ait demandé des mois et l'aide de plusieurs magiciens. "Du ciel ? Mais non, de ma forge !"
+
+PARAMETRES :
+
+Classe d'armure : +1
+Bonus à la CA contre les projectiles : +5
+Poids : 3
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN02
+--------
+Une cotte de mailles est faite d'anneaux de métal liés les uns aux autres. On la porte sur un rembourrage de tissu ou de cuir souple pour éviter d'irriter la peau et pour amortir les impacts. Un enchantement améliore la protection qu'offre cette armure.
+
+PARAMETRES :
+
++15% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux projectiles
+
+-2 à la dextérité
+-10% à la vitesse de déplacement
++30% de chance de rater un sort
+
+-35% Vol à la tire
+-15% Crochetage
+-20% Détection des pièges
+-40% Déplacements silencieux
+-30% Cacher dans l'ombre
+
+Classe d'armure : 4
+Poids : 10
+Force nécessaire : 8
+Inutilisable par :
+ Druide
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN03
+--------
+Cotte de mailles +2 : "Cotte de mailles des Morts"
+Un mage peut se transformer en parfait assassin, comme l'a prouvé Vorusta voilà plus de 400 ans. Il créait des combattants squelettes équipés de cette armure enchantée et d'une lame puissante et remettait leur bandeau de puissance à sa future cible comme cadeau empoisonné. Lorsque la machine meurtrière avait accompli sa tâche, Vorusta retirait l'équipement et recommençait l'ensemble de la terrible procédure. 
+
+PARAMETRES :
+
++15% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++10% de résistance aux projectiles
+
+-2 à la dextérité
+-10% à la vitesse de déplacement
++30% de chance de rater sort
+
+-35% Vol à la tire
+-15% Crochetage
+-15% Détection des pièges
+-40% Déplacements silencieux
+-30% Cacher dans l'ombre
+
+Classe d'armure : 3
+Poids : 10
+Force nécessaire : 8
+Inutilisable par :
+ Druide
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN05
+--------
+L'armure feuilletée est une variante de l'armure de bandes dont les bandes de métal sont placées verticalement sur de la maille, du cuir ou du tissu, au lieu de l'être horizontalement. Comme le corps humain ne se tord pas au niveau du torse autant qu'il peut se plier d'avant en arrière, l'armure feuilletée est plus encombrante en combat. Celle-ci est enchantée, et donne à son porteur un bonus de +1.
+
+PARAMETRES :
+
++15% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++10% de résistance aux projectiles
+
+-3 à la dextérité
+-10% à la vitesse de déplacement
++35% de chance de rater un sort
+
+-50% Vol à la tire
+-20% Crochetage
+-20% Détection des pièges
+-50% Déplacements silencieux
+-40% Cacher dans l'ombre
+
+Classe d'armure : 3
+Poids : 10
+Force nécessaire : 8
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Belluaire
+ Traqueur
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN06
+--------
+Cottes de mailles en mithril +4. C'est l'armure personnelle de Drizzt, le fameux rôdeur elfe noir. Elle fut forgée pour lui par son ami Bruenor.
+
+PARAMETRES :
+
++20% de résistance aux dégâts tranchants
++20% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++15% de résistance aux projectiles
+
+-1 à la dextérité
++25% de chance de rater un sort
+
+-35% Vol à la tire
+-15% Crochetage
+-15% Détection des pièges
+-35% Déplacements silencieux
+-25% Cacher dans l'ombre
+
+Classe d'armure : 1
+Poids : 7
+Force nécessaire : 8
+Inutilisable par :
+ Druide
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN07
+--------
+Cotte de Mailles +3:
+Cette excellente cotte de maille est l'armure de base des guerriers d'élite des nains des profondeurs. Elle est faite d'un alliage de mithril et protège des coups les plus puissants. 
+
+PARAMETRES :
+
++15% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++10% de résistance aux projectiles
+
+-1 à la dextérité
++25% de chance de rater un sort
+
+-35% Vol à la tire
+-15% Crochetage
+-15% Détection des pièges
+-35% Déplacements silencieux
+-30% Cacher dans l'ombre
+
+Classe d'armure : 2
+Poids : 9
+Force nécessaire : 8
+Inutilisable par :
+ Druide
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN08
+--------
+Une cotte de mailles est faite d'anneaux de métal liés les uns aux autres. On la porte sur un rembourrage de tissu ou de cuir souple pour éviter d'irriter la peau et pour amortir les impacts. Un enchantement améliore la protection qu'offre cette armure.
+
+PARAMETRES :
+
++15% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++10% de résistance aux projectiles
+
+-2 à la dextérité
+-10% à la vitesse de déplacement
++30% de chance de rater un sort
+
+-35% Vol à la tire
+-15% Crochetage
+-15% Détection des pièges
+-40% Déplacements silencieux
+-30% Cacher dans l'ombre
+
+Classe d'armure : 4
+Poids : 10
+Force nécessaire : 8
+Inutilisable par :
+ Druide
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN09
+--------
+Que ce soit du fait de sa conception ou d'une exposition à une chaleur intense au cours des batailles, les rangées de mailles de cette armure sont entièrement noircies. Bien que les légendes fassent plutôt référence à des chevaliers en armure étincelante affrontant de terribles monstres, les enchantements de résistance au feu sur celle-ci suggèrent des affrontements moins célèbres mais aussi terribles contre des créatures cracheuses de feu.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +20% de résistance au feu
+
++15% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++10% de résistance aux projectiles
+
+-1 à la dextérité
++25% de chance de rater un sort
+
+-35% Vol à la tire
+-15% Crochetage
+-15% Détection des pièges
+-35% Déplacements silencieux
+-30% Cacher dans l'ombre
+
+Classe d'armure : 2
+Poids : 9
+Force nécessaire : 8
+Inutilisable par :
+ Druide
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN10
+--------
+Dekirh Mainrapide, un barde qui insistait pour donner des représentations dans les villes les plus agitées de la Côte des Epées, reçut cette cotte de mailles magique en cadeau de ses amis, pour le protéger des spectateurs ivres qui souvent lui jetaient des fruits pourris, des chaises, ou même des couteaux. Le barde apprécia le cadeau mais fit repeindre l'armure avec des couleurs criardes pour qu'elle ne détonne pas dans son spectacle.
+
+PARAMETRES :
+
++15% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++10% de résistance aux projectiles
+
+-1 à la dextérité
++25% de chance de rater un sort
+
+-35% Vol à la tire
+-15% Crochetage
+-15% Détection des pièges
+-35% Déplacements silencieux
+-25% Cacher dans l'ombre
+
+Classe d'armure : 1
+Poids : 8
+Force nécessaire : 8
+Inutilisable par :
+ Druide
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN11
+--------
+On raconte que le métal rouge sombre dans lequel est forgée cette cotte de mailles vient d'une mine secrète dans les Pics Brumeux. A une époque, les Saigneurs, un groupe d'aventuriers voués au mal, portaient tous des armures du même type, mais les autres ont disparu depuis longtemps.
+
+PARAMETRES :
+
++20% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++10% de résistance aux projectiles
+
++20% de chance de rater un sort
+
+-30% Vol à la tire
+-15% Crochetage
+-15% Détection des pièges
+-35% Déplacements silencieux
+-25% Cacher dans l'ombre
+
+Classe d'armure : 0
+Poids : 7
+Force nécessaire : 8
+Inutilisable par :
+ Druide
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN13
+--------
+Tissée par les meilleurs artisans elfes noirs, cette cotte de maille semble faite de tissu plutôt que de métal. Sans doute portée pour des attaques à la surface, elle a été soigneusement couverte d'une étrange laque noire qui l'empêche probablement de se dissoudre sous l'effet des rayons solaires. Elle peut être portée quasiment sans pénalités par les voleurs et les guerriers-mages... mais est très inconfortable pour ceux qui ne sont pas voués au mal.
+
+PARAMETRES :
+
++15% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
+-5% Vol à la tire
+-5% Crochetage
+-5% Détection des pièges
+
+Classe d'armure : 4
+Poids : 8
+Force nécessaire : 5
+Inutilisable par :
+ Druide
+ Mage
+ Kensai
+ Moine
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN14
+--------
+Cette cotte de maille légère mais résistante est l'oeuvre d'elfes sylvestres, et son élégance n'est donc surpassée que par sa rareté. Accordée seulement aux elfes particulièrement braves, on voit rarement une armure de ce type en dehors d'une tribu d'elfes des bois, et encore plus rarement sur le dos de qui n'est pas elfe.
+
+PARAMETRES :
+
++15% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++10% de résistance aux projectiles
+
+-5% Vol à la tire
+-5% Détection des pièges
+
+Classe d'armure : 3
+Poids : 10
+Force nécessaire : 5
+Inutilisable par :
+ Druide
+ Mage
+ Kensai
+ Moine
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN15
+--------
+Les Bardes de Mélodie étaient un petit groupe de guerriers-bardes demi-elfes qui assuraient la défense et le divertissement de petites communautés elfiques à travers Calimshan. Leurs armures, qui ne pouvaient être portées que par des musiciens, étaient enchantées de telle sorte que les pièces de métal s'entrechoquent en produisant de sublimes musiques lorsqu'ils dansaient ou se battaient avec. Malheureusement, cet ordre de barde à disparu depuis des siècles, emportant avec lui les techniques pour 'jouer' de l'armure.
+
+PARAMETRES :
+
++15% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++10% de résistance aux dégâts contondants
++10% de résistance aux projectiles
+
+-5% Vol à la tire
+
+Classe d'armure : 2
+Poids : 12
+Force nécessaire : 5
+Utilisable par :
+ Barde
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN16
+--------
+L'histoire de cette armure est difficile à déterminer, que ce soit dû aux circonstances particulières de sa découverte ou au souhait de son ancien possesseur de la tenir cachée. Le secret est certainement une bonne idée, car la moindre rumeur concernant une cotte de maille comme celle-ci pourrait attiser des convoitises mortelles. C'est le summum de l'art elfique en matière de protection, et un objet particulièrement béni.
+
+PARAMETRES :
+
++15% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++10% de résistance aux dégâts contondants
++10% de résistance aux projectiles
+
+Classe d'armure : 1
+Poids : 15
+Force nécessaire : 5
+Inutilisable par :
+ Druide
+ Mage
+ Kensai
+ Moine
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN17
+--------
+Au lieu de bandes de métal, cette armure utilise comme renfort des écailles de wiverne soudées à la maille par un feu magique. Il en résulte une armure gris cendre beaucoup plus souple qu'une armure feuilletée normale. Le rôdeur Usher Skacan conçut cette armure après avoir tué plusieurs wivernes qui décimaient les cerfs et les chevreuils de sa forêt.
+
+PARAMETRES :
+
++15% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++10% de résistance aux projectiles
+
+-3 à la dextérité
+-10% à la vitesse de déplacement
++35% de chance de rater un sort
+
+-50% Vol à la tire
+-15% Crochetage
+-20% Détection des pièges
+-50% Déplacements silencieux
+-40% Cacher dans l'ombre
+
+Classe d'armure : 2
+Poids : 18
+Force nécessaire : 8
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Belluaire
+ Traqueur
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN18
+--------
+Cette armure était celle de Seffer Ekr, et un signe de la faveur de la déesse Mailikki. Elle avait récompensé sa loyauté en lui promettant que jamais il ne mourrait au combat, et pendant des années il défia la mort, repoussant de sa forêt les hordes des orques. Quand son temps fut venu, il succomba non pas à la lame d'un adversaire, mais à une crise cardiaque.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +1 aux jets de sauvegarde
+
++20% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++10% de résistance aux projectiles
+
+-2 à la dextérité
+-10% à la vitesse de déplacement
++30% de chance de rater un sort
+
+-50% Vol à la tire
+-15% Crochetage
+-15% Détection des pièges
+-50% Déplacements silencieux
+-40% Cacher dans l'ombre
+
+Classe d'armure : 1
+Poids : 15
+Force nécessaire : 8
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Belluaire
+ Traqueur
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN19
+--------
+Au cours de son exil de Myth Drannor, Aslyferund perfectionna les techniques de fabrication d'armures elfiques, en améliorant les cottes de mailles elfiques classiques. Malheureusement, son refus de divulger ses secrets de fabrication à un armurier rival précipitèrent son assassinat.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ L'utilisateur est complètement immunisé à toutes les armes non-magiques.
+
++20% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++10% de résistance aux dégâts contondants
++10% de résistance aux projectiles
+
+Classe d'armure : 0
+Poids : 15
+Force nécessaire : 5
+Inutilisable par :
+ Druide
+ Mage
+ Monk
+ Archer
+ Belluaire
+ Traqueur
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN20
+--------
+Cette armure confectionnée à partir des écailles d'un jeune dragon blanc confère une résistance au froid et à la glace. Surprenant, non ?
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +50% de résistance au froid
+ Cône de froid 3 fois par jour
+
++20% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++10% de résistance aux dégâts contondants
++15% de résistance aux projectiles
+
+-2 à la dextérité
+-10% à la vitesse de déplacement
++35% de chance de rater un sort
+
+-50% Vol à la tire
+-15% Crochetage
+-20% Détection des pièges
+-50% Déplacements silencieux
+-40% Cacher dans l'ombre
+
+Classe d'armure : -2
+Poids : 15
+Force nécessaire : 8
+Inutilisable par :
+ Mage
+ Moine
+ Métamorphe
+ Justicier
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CHAN21
+--------
+La cotte de mailles dorée typique des Mercenaires de Balthazar.
+
+PARAMETRES :
+
++15% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++10% de résistance aux projectiles
+
+-1 à la dextérité
++25% de chance de rater un sort
+
+-35% Vol à la tire
+-15% Crochetage
+-15% Détection des pièges
+-35% Déplacements silencieux
+-30% Cacher dans l'ombre
+
+Classe d'armure : 2
+Poids : 10
+Force nécessaire : 8
+Inutilisable par :
+ Druide
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+CLOLTH
+--------
+Tissée par les meilleurs artisans elfes noirs, cette cotte de maille semble faite de tissu plutôt que de métal. Sans doute portée pour des attaques à la surface, elle a été soigneusement couverte d'une étrange laque noire qui l'empêche probablement de se dissoudre sous l'effet des rayons solaires. Elle peut être portée quasiment sans pénalités par les voleurs et les guerriers-mages... mais est très inconfortable pour ceux qui ne sont pas voués au mal.
+
+PARAMETRES :
+
++15% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
+-5% Vol à la tire
+-5% Crochetage
+-5% Détection des pièges
+
+Classe d'armure : 4
+Poids : 8
+Force nécessaire : 5
+Inutilisable par :
+ Druide
+ Mage
+ Kensai
+ Moine
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWCHAN01
+--------
+Cotte de mailles elfe noir +3
+L'art tout en finesse et en solidité des elfes leur permet de concevoir des équipements magnifiques et néanmoins résistants. La cotte de mailles elfique, si finement ouvragée qu'on peut la porter sous des vêtements normaux sans que cela se voie, est un bon exemple. Cette caractéristique et son poids réduit font qu'elle peut être portée par les Voleurs et les Guerriers/Magiciens sans trop de restrictions.
+Comme pour la plupart des objets elfes noirs, cet armure est faite d'adamantine, alliage d'adamantite qui tourne en poussière s'il quitte les Tréfonds Obscurs.
+La cotte de maille elfe noir donne à son porteur un bonus de 5 % de Résistance à la Magie et réduit de 1 le temps d'incantation des sorts lancés par le porteur.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +5% de résistane à la magie
+ -1 au temps d'incantation
+
++20% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++15% de résistance aux dégâts contondants
++15% de résistance aux projectiles
+
+-25% Vol à la tire
+-5% Crochetage
+-5% Détection des pièges
+-10% Déplacements silencieux
+
+Classe d'armure : 2
+Poids : 12
+Force nécessaire : 5
+Inutilisable par :
+ Druide
+ Mage
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWCHAN02
+--------
+Cotte de maille elfe noir +5
+
+L'art tout en finesse et en solidité des elfes noirs leur permet de concevoir des équipements magnifiques et néanmoins résistants. La cotte de maille elfe noir, si finement ouvragée qu'on peut la porter sous des vêtements normaux sans que cela se voie, est un bon exemple. Cette caractéristique et son poids réduit font qu'elle peut être portée par les Voleurs et les Guerriers/Magiciens sans trop de restrictions.
+Comme pour la plupart des objets elfe noir, cet armure est faite d'adamantine, alliage d'adamantite qui tourne en poussière s'il quitte les Tréfonds Obscurs.
+
+PARAMETRES :
+
++30% de résistance aux dégâts tranchants
++20% de résistance aux dégâts perforants
++15% de résistance aux dégâts contondants
++15% de résistance aux projectiles
+
+-20% Vol à la tire
+-5% Crochetage
+-5% Détection des pièges
+
+Classe d'armure : 0
+Poids : 12
+Force nécessaire : 5
+Inutilisable par :
+ Druide
+ Mage
+ Kensai
+ Moine
+ Archer
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWPLAT01
+--------
+L'armure de plates complète est la meilleure armure qu'un guerrier peut acquérir, tant en apparence qu'en protection. Les plaques de métal s'emboîtent parfaitement et sont bombées pour dévier les flèches et les coups. Toute l'armure est richement décorée de gravures en relief et en creux. Cette armure elfe noir magique tombe en poussière si elle est exposée à la lumière du soleil.
+
+PARAMETRES :
+
++40% de résistance aux dégâts tranchants
++30% de résistance aux dégâts perforants
++10% de résistance aux dégâts contondants
++40% de résistance aux projectiles
+
+-1 à la dextérité
++35% de chance de rater un sort
+
+-80% Vol à la tire
+-50% Crochetage
+-50% Détection des pièges
+-80% Déplacements silencieux
+-70% Cacher dans l'ombre
+
+Classe d'armure : -4
+Poids : 70
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Belluaire
+ Traqueur
+ Barbare
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+DWSHLD01
+--------
+Bouclier elfe noir +3
+Un bouclier se porte de la même façon qu'une rondache. Cependant, sa taille empêche d'utiliser la main du bras qui le porte pour autre chose. Généralement en métal, et de 80 cm à 1,20 m de diamètre, la forme du bouclier peut être variable, de ronde à carrée, en passant par des ailes de dragon déployées. Le bouclier médiéval ressemble à un triangle avec la pointe dirigée vers le bas.
+Comme pour la plupart des objets elfe noir, cet objet est fait d'adamantine, alliage d'adamantite qui tourne en poussière s'il quitte l'Ombre-Terre.
+
+PARAMETRES :
+
+Classe d'armure : +4
+Bonus à la CA contre les projectiles : +1
+Poids : 7
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+ISHLD02
+--------
+La rondache est généralement ronde et se tient à bout de bras par la poignée. Comme elle est légère comparée à l'écu, le combattant peut porter d'autres objets dans la même main, mais ne peut manier ou porter une autre arme. Cette rondache magique confère un bonus de +1 à la classe d'armure.
+
+
+PARAMETRES :
+
+Classe d'armure : +2
+Poids : 3
+Force nécessaire : 4
+Inutilisable par :
+ Barde
+ Druide
+ Mage 
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT02
+--------
+En dépit de la croyance populaire, l'armure de cuir n'est pas aussi souple que le cuir utilisé pour fabriquer les bottes de rôdeur ou une robe de druide et offre donc une meilleure protection que les vêtements traditionnels. Elle a été enchantée
+
+PARAMETRES :
+
++5% de résistance aux dégâts tranchants
+
++10% de chance de rater un sort
+
+Classe d'armure : 7
+Poids : 15
+Force nécessaire : 4
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT03
+--------
+Armure de cuir +2 : "Protecteur du Second"
+
+Les Brumes d'Ombres étaient un groupe d'élite d'elfes rôdeurs habitant la forêt de Cormanthor, terrifiant bandits et monstres. Cette armure était celle d'Indeera Lakhan, l'un des officiers les plus décorés de ce groupe, dont elle était le commandant en second. L'armure porte son nom, mais on ignore dans quelles circonstances Indeera en a été séparée.
+
+
+PARAMETRES :
+
++5% de résistance aux dégâts tranchants
++5% de résistance aux dégâts perforants
+
++10% de chance de rater un sort
+
+Classe d'armure : 6
+Poids : 5
+Force nécessaire : 4
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT05
+--------
+La besantine n'a pas grand-chose à voir avec l'armure de cuir normale. Alors que l'armure de cuir est une protection renforcée, la besantine est souple et comporte des centaines de rivets. Ces derniers sont tellement rapprochés qu'ils forment une couche flexible de métal dur qui permet de contrer toute attaque cinglante et tranchante. Le renforcement de cuir souple n'est rien de plus qu'un moyen de maintenir les rivets en place.
+
+PARAMETRES :
+
++5% de résistance aux dégâts tranchants
++5% de résistance aux dégâts perforants
+
+-1 à la dextérité
++15% de chance de rater un sort
+
+-15% Vol à la tire
+-10% Crochetage
+-10% Détection des pièges
+-5% Déplacements silencieux
+-5% Cacher dans l'ombre
+
+Classe d'armure : 6
+Poids : 15
+Force nécessaire : 6
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Justicier
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT06
+--------
+Sans l'intervention d'un sorcier, cette étrange armure ne peut être ôtée une fois qu'elle a été enfilée. Bien qu'elle augmente votre protection contre toutes les armes de mêlée, la besantine devient la cible de prédilection de toutes les armes à projectiles, et il en va de même pour son porteur. Vous avez donc le choix entre les flèches mortelles ou les épées mortelles.
+
+PARAMETRES :
+
++5% de résistance aux dégâts tranchants
++5% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
+-25% de résistance aux projectiles
+
+-1 à la dextérité
++15% de chance de rater un sort
+
+-15% Vol à la tire
+-5% Crochetage
+-10% Détection des pièges
+-5% Déplacements silencieux
+-5% Cacher dans l'ombre
+
+Classe d'armure : 5 (15 contre les armes à projectiles)
+Poids : 8
+Force nécessaire : 6
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Justicier
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT07
+--------
+Cette armure est une pièce d'équipement standard de la cavalerie sur griffons et d'autres guerriers montés. Elle est légère mais offre une bonne protection, particulièrement avec la protection magique supplémentaire qui y est greffée.
+
+PARAMETRES :
+
++5% de résistance aux dégâts tranchants
++5% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
+
+-1 à la dextérité
++15% de chance de rater un sort
+
+-15% Vol à la tire
+-5% Crochetage
+-10% Détection des pièges
+-5% Déplacements silencieux
+-5% Cacher dans l'ombre
+
+Classe d'armure : 5
+Poids : 8
+Force nécessaire : 6
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Justicier
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT08
+--------
+L'armure d'ombre est une besantine créée pour les Maîtres de l'Ombre amniens, l'ordre le plus élevé dans la hiérachie des Voleurs de l'Ombre. C'est une besantine +3 qui se fond dans les ombres.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ +15% Cacher dans l'ombre
+
++5% de résistance aux dégâts physiques
+
++10% de chance de rater un sort
+
+-15% Vol à la tire
+-5% Crochetage
+-10% Détection des pièges
+-5% Déplacements silencieux
+
+Classe d'armure : 4
+Poids : 8
+Force nécessaire : 6
+Utilisable par :
+ Voleur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT09
+--------
+Armure de Cuir +3: Vie et Mort de Karajah
+Karajah a été le champion des arènes de Calimshan durant toute une décade, et il semblait invincible. Son succès, disait-on, était dû à l'extrême mobilité que lui accordait son armure légère. Peut-être ignorait-il les autres qualités de son armure, mais ses pairs ont refusé de croire à sa bonne foi quand ils y ont découvert des enchantements. L'armure a survécu à la punition, contrairement à Karajah.
+
+PARAMETRES :
+
++5% de résistance aux dégâts tranchants
++5% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
+
++5% de chance de rater un sort
+
+Classe d'armure : 5
+Poids : 4
+Force nécessaire : 3
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT11
+--------
+Armure faite de cuir épais durci à la cire ou à l'eau. Elle manque de la souplesse qu'ont les bottes ou les capes, mais de tels types de cuir ne fourniraient pas une bien grande protection. Des enchantements ont amélioré les capacités de cette armure-ci.
+
+PARAMETRES :
+
++5% de résistance aux dégâts tranchants
++5% de résistance aux dégâts perforants
+
++10% de chance de rater un sort
+
+Classe d'armure : 6
+Poids : 5
+Force nécessaire : 4
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT12
+--------
+Armure faite de cuir épais durci à la cire ou à l'eau. Elle manque de la souplesse qu'ont les bottes ou les capes, mais de tels types de cuirs ne fourniraient pas une bien grande protection. Des enchantements ont amélioré les capacités de cette armure-ci.
+
+PARAMETRES :
+
++5% de résistance aux dégâts tranchants
++5% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
+
++5% de chance de rater un sort
+
+Classe d'armure : 5
+Poids : 4
+Force nécessaire : 3
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT13
+--------
+En voleur astucieux, Damien le Poignard essayait toujours de tirer profit des avantages de ses ennemis, quelles que soient les circonstances. Après un combat difficile contre plusieurs goules, au cours duquel périrent deux de ses compagnons, Damien prit la décision d'égaliser les chances pour ses rencontres futures. Il écorcha l'une des goules et amena sa peau à un armurier petit-homme renommé pour savoir enchanter le cuir. Quand l'armure fut terminée, elle avait des propriétés magiques de protection contre les attaques physiques et la paralysie. Pas très épique, mais bien pratique.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ +3 aux jets de sauvegarde contre la paralysie et le poison
+
++5% de résistance aux dégâts physiques
+
++5% de chance de rater un sort
+
+Classe d'armure : 4
+Poids : 4
+Force nécessaire : 3
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT14
+--------
+Cette armure, originellement bénite par Shar, a une histoire longue et intéressante. Seuls les plus grands voleurs ont jamais possédé cette protection lourdement enchantée. L'essence de la nuit a été tissée dans cette sombre armure de sorte qu'elle semble normale à porter, mais qu'elle entoure son porteur d'ombres entortillées.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ +20% Cacher dans l'ombre
+
++10% de résistance aux dégâts tranchants
++5% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
+Classe d'armure : 3
+Poids : 5
+Force nécessaire : 3
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT15
+--------
+Cette armure est une pièce d'équipement standard de la cavalerie sur griffons et d'autres guerriers montés. Elle est légère mais offre une bonne protection, particulièrement avec la protection magique supplémentaire qui y est greffée.
+
+PARAMETRES :
+
++5% de résistance aux dégâts tranchants
++5% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
+
+-1 à la dextérité
++15% de chance de rater un sort
+
+-15% Vol à la tire
+-5% Crochetage
+-10% Détection des pièges
+-5% Déplacements silencieux
+-5% Cacher dans l'ombre
+
+Classe d'armure : 5
+Poids : 8
+Force nécessaire : 6
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Justicier
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT16
+--------
+Cette armure morbide a été récupérée dans un camp orque détruit par des barbares. Au lieu de rivets de métal comme sur une besantine normale, ce cuir orque est renforcé avec des centaines d'ossements durcis au feu. Des osselets, des côtes, et des crânes couvrent l'armure, prenant la place des habituels renforts de métal. De puissants enchantements orques donnent à l'armure une résistance particulière contre les projectiles, mais son aspect répugnant diminue le Charisme de son porteur.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +10% de résistance aux projectiles
+ Pénalité de -1 au charisme
+
++5% de résistance aux dégâts physiques
+
++10% de chance de rater un sort
+
+-15% Vol à la tire
+-5% Crochetage
+-10% Détection des pièges
+-5% Déplacements silencieux
+
+Classe d'armure : 4
+Poids : 7
+Force nécessaire : 6
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Justicier
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT17
+--------
+Des clous d'ébène décorent et renforcent le cuir noir de cette armure. Umberlee, la reine de la mer, l'avait accordée au gredin Dami Darn qui avait tué le conjurateur Looxil. L'assassinat avait plu à Umberlee, car Looxil l'avait trahie quelques années plus tôt. Dami Darn mourut plus tard d'un couteau que son successeur au sein de la guilde des voleurs oublia négligemment dans son dos.
+
+PARAMETRES :
+
++10% de résistance aux dégâts tranchants
++5% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
++10% de chance de rater un sort
+
+-15% Vol à la tire
+-5% Crochetage
+-5% Détection des pièges
+-5% Déplacements silencieux
+
+Classe d'armure : 3
+Poids : 7
+Force nécessaire : 6
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Justicier
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT18
+--------
+Si cette armure porte un nom de serpent, c'est seulement en référence à l'assassin elfe noir Raroh, dont le poison était la signature. Quand il découvrit la perméabilité au venin de cette armure, il en fit cadeau à Avlorm, un novice prometteur de sa propre guilde. Quand l'influence d'Avlorm commença à menacer la sienne, Raroh put l'éliminer sans problème grâce à l'armure qu'il portait encore.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ Pénalité de -2 aux jets de sauvegarde contre le poison et la paralysie
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
++5% de chance de rater un sort
+
+-15% Vol à la tire
+-5% Crochetage
+-5% Détection des pièges
+
+Classe d'armure : 2
+Poids : 6
+Force nécessaire : 6
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Justicier
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT19
+--------
+Cette armure est conçue à partir d'écailles de dragon d'ombre. Un travail élégant et soigné subordonné aux considérations pratiques la rend à la fois belle et utile. Les écailles de dragon d'ombre offrent une protection supplémentaire contre l'acide.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ +50% de résistance à l'acide
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++10% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
++15% de chance de rater un sort
+
+-15% Vol à la tire
+-5% Crochetage
+-10% Détection des pièges
+-5% Déplacements silencieux
+-5% Cacher dans l'ombre
+
+Classe d'armure : 1
+Poids : 10
+Force nécessaire : 6
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT20
+--------
+Cette peau d'ours lourde et épaisse est tout ce qui reste du légendaire Aeger. Il y a plusieurs siècles, Aeger, un ours géant, terrorisait des centaines de petits village le long de la Côte des Epées. L'ours était immunisé au feu, au froid, et à l'acide. Finalement les jeunes hommes et femmes de plusieurs villages se rassemblèrent pour former une battue de plus de deux cent personnes. L'Aeger fut encerclé et enfin tué. Mais il restait moins d'une douzaine de survivants parmi les chasseurs, qui se partagèrent la peau de la bête. Cette armure a été créée à partir d'un de ces morceaux.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +15% de résistance au feu, au froid et à l'acide
+ Immunité à la confusion
+
++10% de résistance aux dégâts tranchants
++5% de résistance aux dégâts perforants
++10% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
++15% de chance de rater un sort
+
+-15% Vol à la tire
+-5% Crochetage
+-5% Détection des pièges
+-10% Cacher dans l'ombre
+
+Classe d'armure : 3
+Poids : 35
+Force nécessaire : 6
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT21
+--------
+Faite de peau humaine traitée avec le sang d'un noble dragon, cette armure émet une puanteur de mort. Elle ne peut être portée que par une personne entièrement vouée aux forces du mal.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +4 aux jets de sauvegarde
+ +20% de résistance à la magie
+
++10% de résistance aux dégâts tranchants
++5% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
+Classe d'armure : 3
+Poids : 5
+Force nécessaire : 3
+Inutilisable par :
+ Mage
+ Moine
+ Kensai
+ Personnage non mauvais
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT23
+--------
+Confectionnée par la hiérophante Wassalia avant qu'elle ne choisisse de s'exiler sur le Plan Elémentaire du Feu, cette armure est couverte, au lieu de rivets de métal, d'épines rougeâtres.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ Attaque d'épines : chaque coup réussi sur le porteur inflige à son agresseur 1D4 points de dégâts du feu.
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++10% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
++5% de chance de rater un sort
+
+-10% Vol à la tire
+-5% Crochetage
+-5% Détection des pièges
+
+Classe d'armure : 1
+Poids : 5
+Force nécessaire : 6
+Inutilisable par :
+ Mage
+ Moine
+ Métamorphe
+ Justicier
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+LEAT24
+--------
+Conçue pour le Maître assassin Vita Muerte, cette armure lui permettait de mieux poursuivre ses ennemis... et ses amis, tout comme le magicien qui avait eu la mauvaise idée de créer cet objet magique.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ Vitesse de déplacement comme pour des Bottes de vitesse
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++10% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
++5% de chance de rater un sort
+
+-10% Vol à la tire
+-5% Crochetage
+-5% Détection des pièges
+
+Classe d'armure : 1
+Poids : 5
+Force nécessaire : 6
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Justicier
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+NPCHAN
+--------
+Cette armure, dans la famille Corthala depuis des générations, protège son porteur contre toutes les formes d'attaques. Elle est enchantée de façon à donner un bonus de +3 à la Classe d'armure. Elle donne également un bonus contre l'acide, le feu et les attaques magiques. Cette armure immunise Valygar contre les charmes quand il la porte. Comme elle est à ses mesures, peu de personnes peuvent la porter.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ Immunité aux charmes
+ +25% de résistance au feu, à l'acide et aux dégâts magiques
+
++10% de résistance aux dégâts tranchants
++10% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++5% de résistance aux projectiles
+
++5% de chance de rater un sort
+
+-15% Vol à la tire
+-5% Crochetage
+-5% Détection des pièges
+
+Classe d'armure : 2
+Poids : 9
+Utilisable par :
+ Valygar
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+NPPLAT
+--------
+Armure de plates complète Firecam
+
+L'armure de plates complète est la meilleure que puisse acheter un guerrier, tant pour son prestige que pour sa protection. Cette armure augmente la classe d'armure de son porteur d'un de plus que la normale. Son porteur gagne un +1 aux JS et se trouve sous le coup d'un sort d'Action Libre (peut passer à travers les toiles d'araignées et autres). Cette armure a été faite pour Keldorn et peu d'autres personnes peuvent la porter. 
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +1 aux jets de sauvegarde
+ Action libre limitée
+
++30% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++30% de résistance aux projectiles
+
+-5 à la dextérité
+-20% à la vitesse de déplacement
++45% de chance de rater un sort
+
+-90% Vol à la tire
+-65% Crochetage
+-65% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : 0
+Poids : 70
+Utilisable par :
+ Keldorn
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+NPSHLD
+--------
+Bouclier +1 de la famille Delryn
+
+C'est le bouclier de famille d'Anomen, que lui a donné son père. Ce bouclier de protection magique permet aussi à son porteur de résister au feu et au froid. Anomen peut s'en servir pour créer une barrière d'énergie pour se protéger des attaques à distance. Cette protection contre les projectiles normaux peut être employée trois fois par jour.
+
+PARAMETRES :
+
+Classe d'armure : +2
+Bonus à la CA contre les projectiles : +1
+Résistance au feu : +30 %
+Résistance au froid : +30 %
+
+Capacités: 3 fois par jour, protection contre les projectiles pour son porteur.
+
+Utilisable par :
+ Anomen
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PALPLAT
+--------
+Peu d'armures dans tous les Royaumes peuvent rivaliser avec ce harnois. Tout ce qui reste des origine du Cerf sont diverses légendes. La plus populaire d'entre elles est celle de l'impossible bataille pour contenir l'armée des orques à la passe des Trois Arbres. Arngor du Chêne dirigeait les armées des hommes et des elfes, et on dit qu'un duel interminable l'opposa au chef des orques jusqu'au coucher du soleil, alors que tout baignait dans une brume couleur de sang. L'orque fut finalement vaincu, mais Arngor avait reçu tant de coups que rien ne pouvait plus le sauver. Son sang couvrit l'armure qu'il portait, y infusant son courage et sa noblesse. C'est ainsi que l'armure du Cerf devint connue des hommes.
+
+PARAMETRES :
+
++30% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++40% de résistance aux projectiles
+
+-4 à la dextérité
+-20% à la vitesse de déplacement
++40% de chance de rater un sort
+
+-90% Vol à la tire
+-60% Crochetage
+-60% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : -2
+Poids : 45
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT02
+--------
+L'armure de plates est une combinaison de cottes de mailles et de plaques métalliques recouvrant les zones vitales telles que le torse, l'abdomen et l'aine. De fabrication semblable à l'armure de plates en bronze, la véritable armure de plates est constituée de mailles et de cuir. Celle-ci a été enchantée et procure une protection additionnelle à son porteur
+
+PARAMETRES :
+
++20% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++15% de résistance aux projectiles
+
+-4 à la dextérité
+-20% à la vitesse de déplacement
++45% de chance de rater un sort
+
+-70% Vol à la tire
+-45% Crochetage
+-45% Détection des pièges
+-80% Déplacements silencieux
+-70% Cacher dans l'ombre
+
+Classe d'armure : 2
+Poids : 20
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT05
+--------
+L'armure de plates complète est la meilleure protection qu'un guerrier puisse acquérir, en performance et en apparence. Les plaques s'ajustent parfaitement et sont courbées de façon à dévier coups et projectiles. Toute l'armure est recouverte de gravures et de détails en relief. Avec ses enchantements magiques, c'est l'armure ultime du guerrier.
+
+PARAMETRES :
+
++30% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++30% de résistance aux projectiles
+
+-5 à la dextérité
+-20% à la vitesse de déplacement
++45% de chance de rater un sort
+
+-90% Vol à la tire
+-65% Crochetage
+-65% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : 0
+Poids : 35
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT06
+--------
+Cette armure de plates a été forgée admirablement par un maître-artisan. Moulée dans les écailles chitineuses d'un ankheg, elle offre une protection supérieure à celle de l'armure de plates usuelle, et ne rouille jamais. Comme vous le dira par ailleurs tout aventurier expérimenté, son principal avantage réside dans la réduction de son poids et de son encombrement. Les monstres, ça va et ça vient... mais la fatigue est un ennemi tenace.
+
+PARAMETRES :
+
++25% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++15% de résistance aux projectiles
+
+-2 à la dextérité
+-10% à la vitesse de déplacement
++45% de chance de rater un sort
+
+-70% Vol à la tire
+-40% Crochetage
+-45% Détection des pièges
+-80% Déplacements silencieux
+-70% Cacher dans l'ombre
+
+Classe d'armure : 1
+Poids : 25
+Force nécessaire : 8
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT10
+--------
+L'armure de plates est une combinaison de cottes de mailles et de plaques métalliques recouvrant les zones vitales telles que le torse, l'abdomen et l'aine. De fabrication semblable à l'armure de plates en bronze, la véritable armure de plates est constituée de mailles et de cuir. Celle-ci a été enchantée et procure une protection additionnelle à son porteur
+
+PARAMETRES :
+
++20% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++15% de résistance aux projectiles
+
+-4 à la dextérité
+-20% à la vitesse de déplacement
++45% de chance de rater un sort
+
+-70% Vol à la tire
+-45% Crochetage
+-45% Détection des pièges
+-80% Déplacements silencieux
+-70% Cacher dans l'ombre
+
+Classe d'armure : 2
+Poids : 20
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT11
+--------
+Cette armure a été portée par de nombreux et vaillants soldats, mais le plus connu, qui lui laissa son nom, a été Delver Kinlake. C'était un vagabond, qui parvint par son bras puissant et sa grande astuce à devenir un général respecté des seigneurs d'Eau-Profonde. Cette armure, dont lui fit cadeau le seigneur Baeron, lui fit bon usage pendant plus de trente ans, et passa après sa mort à son fils aîné. Elle est passée depuis entre les mains de nombreux aventuriers.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ +2 aux jets de sauvegarde contre les sorts
+
++25% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++15% de résistance aux projectiles
+
+-4 à la dextérité
+-20% à la vitesse de déplacement
++45% de chance de rater un sort
+
+-70% Vol à la tire
+-40% Crochetage
+-45% Détection des pièges
+-80% Déplacements silencieux
+-70% Cacher dans l'ombre
+
+Classe d'armure : 1
+Poids : 25
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT12
+--------
+La Plate du Destin reçut ce nom inquiétant mais mérité d'Adarius Shin. Ce dernier espérait semer la terreur dans les coeurs de ses ennemis, mais Adarius donna un sinistre exemple en mourant mystérieusement peu de temps après avoir enfilé l'armure, comme l'ont fait tous les aventuriers qui l'ont portée depuis. On peut cependant noter que les aventuriers sont connus pour leur courte espérance de vie, et que la plupart d'entre eux meurent en armure.
+
+PARAMETRES :
+
++25% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++20% de résistance aux projectiles
+
+-3 à la dextérité
+-10% à la vitesse de déplacement
++40% de chance de rater un sort
+
+-70% Vol à la tire
+-40% Crochetage
+-40% Détection des pièges
+-80% Déplacements silencieux
+-70% Cacher dans l'ombre
+
+Classe d'armure : 0
+Poids : 27
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT13
+--------
+La chasse aux gorgones est un sport très dangereux pratiqué par les elfes noirs. Souvent, après une chasse réussie, le sang de la gorgone est récupéré pour être utilisé dans la fabrication d'une nouvelle armure de plates. Ces armures spéciales des elfes noires sont capables de supporter la lumière du monde de la surface.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ +15% de résistance au feu et à l'acide 
+
++25% de résistance aux dégâts tranchants
++20% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++20% de résistance aux projectiles
+
+-3 à la dextérité
+-10% à la vitesse de déplacement
++40% de chance de rater un sort
+
+-70% Vol à la tire
+-40% Crochetage
+-40% Détection des pièges
+-80% Déplacements silencieux
+-65% Cacher dans l'ombre
+
+Classe d'armure : -1
+Poids : 30
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT14
+--------
+L'armure de plates complète est la meilleure protection qu'un guerrier puisse acquérir, en performance et en apparence. Les plaques s'ajustent parfaitement et sont courbées de façon à dévier coups et projectiles. Toute l'armure est recouverte de gravures et de détails en relief. Avec ses enchantements magiques, c'est l'armure ultime du guerrier.
+
+PARAMETRES :
+
++30% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++30% de résistance aux projectiles
+
+-5 à la dextérité
+-20% à la vitesse de déplacement
++45% de chance de rater un sort
+
+-90% Vol à la tire
+-65% Crochetage
+-65% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : 0
+Poids : 35
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT15
+--------
+Il ne reste aujourd'hui qu'un petit nombre des armures autrefois utilisées par les légions de Unther. Les rares à avoir été conservées sont souvent entre les mains de riches collectionneurs. En trouver une est suffisant pour assurer une petite fortune à un aventurier.
+
+PARAMETRES :
+
++30% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++35% de résistance aux projectiles
+
+-5 à la dextérité
+-20% à la vitesse de déplacement
++45% de chance de rater un sort
+
+-90% Vol à la tire
+-60% Crochetage
+-65% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : -1
+Poids : 40
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT16
+--------
+Peu d'armures dans tous les Royaumes peuvent rivaliser avec ce harnois. Tout ce qui reste des origine du Cerf sont diverses légendes. La plus populaire d'entre elles est celle de l'impossible bataille pour contenir l'armée des orques à la passe des Trois Arbres. Arngor du Chêne dirigeait les armées des hommes et des elfes, et on dit qu'un duel interminable l'opposa au chef des orques jusqu'au coucher du soleil, alors que tout baignait dans une brume couleur de sang. L'orque fut finalement vaincu, mais Arngor avait reçu tant de coups que rien ne pouvait plus le sauver. Son sang couvrit l'armure qu'il portait, y infusant son courage et sa noblesse. C'est ainsi que l'armure du Cerf devint connue des hommes.
+
+PARAMETRES :
+
++30% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++40% de résistance aux projectiles
+
+-4 à la dextérité
+-20% à la vitesse de déplacement
++40% de chance de rater un sort
+
+-90% Vol à la tire
+-60% Crochetage
+-60% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : -2
+Poids : 45
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT17
+--------
+Sur ses vieux jours, le baron T'rachie se mit à désirer la femme de Libol, un de ses soldats. Au lieu de la courtiser ouvertement, car il craignait le scandale, il fit fabriquer cette armure qu'il offrit à son soldat. La malédiction de l'armure rendit ce dernier malade et défiguré, et sa femme s'enfuit de dégoût. Libol, coincé dans l'armure mais incertain de la trahison de T'rachie, demanda à être envoyé dans le désert pour une mission périlleuse contre des ogres maraudeurs. Il ne revint jamais et le baron put courtiser sa veuve tout à loisir. Cette armure est maudite et il faut une puissante magie pour pouvoir l'ôter.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ Maudite
+ Réduit le Charisme de 5 points et la Constitution de 2 points
+
++30% de résistance aux dégâts tranchants
++20% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++20% de résistance aux projectiles
+
+-2 à la dextérité
+-10% à la vitesse de déplacement
++35% de chance de rater un sort
+
+-70% Vol à la tire
+-40% Crochetage
+-40% Détection des pièges
+-75% Déplacements silencieux
+-65% Cacher dans l'ombre
+
+Classe d'armure : -2
+Poids : 35
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT18
+--------
+L'armure d'écailles de dragon est légère, robuste, et résistante au feu. Ces qualité font qu'elle est très demandée, mais trouver et pire encore tuer un vieux dragon est presque impossible. Il est souvent plus facile de rechercher les armures faites dans le passé, comme celle-ci. Il faut cependant prendre garde si on la porte à proximité de dragons, surtout les rouges (même si les autres ne valent guère mieux).
+
+PARAMETRES :
+
+Capacité d'équipement :
+ +50% de résistance au feu
+
++25% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++10% de résistance aux dégâts contondants
++15% de résistance aux projectiles
+
+-2 à la dextérité
+-10% à la vitesse de déplacement
++35% de chance de rater un sort
+
+-50% Vol à la tire
+-15% Crochetage
+-20% Détection des pièges
+-50% Déplacements silencieux
+-40% Cacher dans l'ombre
+
+Classe d'armure : -1
+Poids : 30
+Force nécessaire : 8
+Inutilisable par :
+ Barde
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Belluaire
+ Kensai
+ Métamorphe
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT19
+--------
+L'armure de plates complète est la meilleure que puisse acheter un guerrier, tant pour son prestige que pour sa protection. Elle est faite de plaques parfaitement ajustées, qui dévient les flèches comme les coups et elle est toute entière ornée de fines gravures en relief. Cette armure +2 a été créée à l'aide d'un sort de souhait limité.
+
+PARAMETRES :
+
++30% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++35% de résistance aux projectiles
+
+-5 à la dextérité
+-20% à la vitesse de déplacement
++45% de chance de rater un sort
+
+-90% Vol à la tire
+-60% Crochetage
+-65% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : -1
+Poids : 50
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT20
+--------
+Les écailles à la fois souples et résistantes d'un dragon bleu confèrent à cette armure une protection appréciable contre les armes et toutes les formes, magiques ou non, de dégâts électriques.
+
+PARAMETRES :
+
+Capacité d'équipement : 
+ +90 % de résistance aux éclairs et à toutes les attaques électriques.
+
++35% de résistance aux dégâts tranchants
++20% de résistance aux dégâts perforants
++10% de résistance aux dégâts contondants
++40% de résistance aux projectiles
+
+-4 à la dextérité
+-20% à la vitesse de déplacement
++45% de chance de rater un sort
+
+-90% Vol à la tire
+-60% Crochetage
+-65% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : -1
+Poids : 20
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT21
+--------
+Cette armure a été créée pour Enkidu, un fameux guerrier de Kara-Tur. En effet, alors qu'aucun adversaire ne se risquait à le défier en combat loyal, nombreux étaient ceux, ninjas, assassins ou wu-jen, qui tentaient de le poignarder dans le dos.
+
+PARAMETRES :
+
+Capacités d'équipement :   
+ Immunité à l'attaque sournoise
+ +5% de résistance à la magie
+
++30% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++40% de résistance aux projectiles
+
+-4 à la dextérité
+-20% à la vitesse de déplacement
++40% de chance de rater un sort
+
+-90% Vol à la tire
+-60% Crochetage
+-60% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : -2
+Poids : 45
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT22
+--------
+Shuruppak, le tristement célèbre bras droit du dieu défunt Gilgeam avait gagné le surnom de "Boucher"... titre qui le comblait de joie ! Avant sa mort, son dieu lui offrit cette armure pour qu'il continue ses massacres.
+
+Cette armure est d'une légèreté surprenante et améliore l'agilité de son porteur. Nul ne sait comment Shuruppak en est venu à la perdre, mais nul doute qu'il doit la rechercher activement.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +1 à la dextérité
+ +20% de résistance au feu
+
++30% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++40% de résistance aux projectiles
+
+-2 à la dextérité (-1)
+-10% à la vitesse de déplacement
++40% de chance de rater un sort
+
+-90% Vol à la tire
+-60% Crochetage
+-60% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : -2
+Poids : 15
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+PLAT23
+--------
+L'armure complète non magique est la meilleure protection dont un guerrier puisse rêver ; celle-ci a de plus été enchantée ! Les gravures et décorations sont d'origine inconnue, tout comme l'armure elle-même.
+
+PARAMETRES :
+
++30% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++35% de résistance aux projectiles
+
+-5 à la dextérité
+-20% à la vitesse de déplacement
++45% de chance de rater un sort
+
+-90% Vol à la tire
+-60% Crochetage
+-65% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : -1
+Poids : 50
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Traqueur
+ Barbare
+ Belluaire
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHARARM
+--------
+Que ce soit du fait de sa conception ou d'une exposition à une chaleur intense au cours des batailles, les rangées de mailles de cette armure sont entièrement noircies. Bien que les légendes fassent plutôt référence à des chevaliers en armure étincelante affrontant de terribles monstres, les enchantements de résistance au feu sur celle-ci suggèrent des affrontements moins célèbres mais aussi terribles contre des créatures cracheuses de feu.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ +20% de résistance au feu
+
++20% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++15% de résistance aux projectiles
+
++20% de chance de rater un sort
+
+-30% Vol à la tire
+-15% Crochetage
+-15% Détection des pièges
+-30% Déplacements silencieux
+-25% Cacher dans l'ombre
+
+Classe d'armure : 2
+Poids : 9
+Force nécessaire : 8
+Inutilisable par :
+ Druide
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD02
+--------
+La rondache est généralement ronde et se tient à bout de bras par la poignée. Comme elle est légère comparée à l'écu, le combattant peut porter d'autres objets dans la même main, mais ne peut manier ou porter une autre arme. Cette rondache magique confère un bonus de +1 à la classe d'armure.
+
+
+PARAMETRES :
+
+Classe d'armure : +2
+Poids : 3
+Force nécessaire : 4
+Inutilisable par :
+ Barde
+ Druide
+ Mage 
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD04
+--------
+L'écu se porte comme la rondache. Mais contrairement à celle-ci, son poids ne permet pas au combattant de porter autre chose. Les écus sont généralement fabriqués en métal ; ils mesurent entre 90 cm et 1,20 m de diamètre et peuvent avoir n'importe quelle forme (carrée, ronde ou comme les ailes déployées d'un dragon). Un bouclier médiéval typique ressemble à un triangle dont l'un des angles pointerait vers le bas. Ce bouclier est enchanté, et octroie un bonus de +1 à la classe d'armure.
+
+PARAMETRES :
+
+Classe d'armure : +2
+Bonus à la CA contre les projectiles : +1
+Poids : 6
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD06
+--------
+Le pavois est un bouclier massif en métal ou en bois couvrant le guerrier pratiquement du menton jusqu'aux doigts de pied. Il doit être bien attaché sur l'avant-bras et maintenu solidement. Naturellement, la main prise ne peut servir qu'à maintenir le pavois en place. 
+
+PARAMETRES :
+
+Classe d'armure : +3
+Bonus à la CA contre les projectiles : +2
+-1 à la dextérité
+-10% à la vitesse de déplacement
+Poids : 12
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD07
+--------
+Grand bouclier +1, +3 contre projectiles : "Bouclier des Etoiles Déchues"
+
+Ilmater en personne enchanta ce bouclier après avoir vu un jeune écuyer subir délibérément un indicible supplice pour sauver sa montagne. Au cours d'une bataille féroce entre une division de cavalerie humaine et une horde de hobgobelins, le jeune homme fut envoyé en renfort. Assailli par une nuée de flèches qui masquait presque le soleil, il comprit que même s'il parvenait à éviter les flèches, une chute de son cheval provoquerait sa perte. Armé de son bouclier, il se positionna de manière à essuyer le choc de l'attaque et fut mortellement blessé. Son cheval s'en tira indemne et ils purent s'échapper ; son corps fut transporté vers la ville la plus proche, où on le fit ressusciter. 
+
+PARAMETRES :
+
+Classe d'armure : +3
+Bonus à la CA contre les projectiles : +5
+-1 à la dextérité
+-10% à la vitesse de déplacement
+Poids : 12
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD17
+--------
+Une targe est un petit bouclier de bois ou de métal, qui se fixe à l'avant-bras. Sa petite taille et son faible poids permettent de le porter sans être trop encombré. La targe possède un certain type d'enchantement générique qui la rend plus résistante aux chocs.
+
+PARAMETRES :
+
+Classe d'armure : +2
+Poids :  2
+Force nécessaire : 4
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD19
+--------
+Grand Bouclier +2:
+Ce bouclier nain a été commandé par Pellan de Tyr, un fier paladin connu pour son indomptable courage et son manque total de sens commun. En apprenant qu'un dragon rouge ravageait la campagne, Pellan est monté sur son cheval et est parti le combattre. De fait, Pellan et son armure furent rapidement digérés, mais le bouclier donna de graves crampes d'estomac au dragon. Recraché, il resta dans son trésor des années durant, jusqu'à ce que le récupère le fils de Pellan, un guerrier qui savait se montrer discret.
+Son excellente facture est rehaussée d'un sortilège de légèreté, qui le rend très facile à porter.
+
+PARAMETRES :
+
+Classe d'armure : +4
+Bonus à la CA contre les projectiles : +2
+Poids : 10
+Force nécessaire : 10
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD20
+--------
+C'est le bouclier de Kiel le Tueur de Légions, premier fils de Durlag Tueur de Trolls et prince du clan de la tour de son père. Sa légèreté et sa qualité augmentent la dextérité de celui qui le porte de un point.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ +1 à la dextérité
+
+Classe d'armure : +1
+Aucun bonus à la CA contre les projectiles et les armes contondantes
+Poids :  2
+Force nécessaire : 4
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD21
+--------
+Un autre objet puissant créé par Wormsor le sorcier, ce bouclier est fait d'une peau de dragon rouge tendue sur une armature d'acier. Des écailles vertes et blanches de dragon décorent le fond rouge suivant un motif qui, lorsqu'on l'observe selon l'angle adéquat, révèle le visage d'un très vieux dragon.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ Met les résistances au feu, au froid, et à l'électricité à 25 %
+
+Classe d'armure : +3
+Bonus à la CA contre les projectiles : +1
+Poids : 5
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD22
+--------
+Il y a un siècle, les astronomes ont remarqué la chute d'une comète au large de la Côte des Epées. Un événement rendu plus étrange encore par les fragments d'un métal très léger trouvés quelques jours plus tard par le forgeron Huffum Fuirum, qui ne s'intéressait pas aux phénomènes célestes. Il façonna un bouclier de ce métal, bien que le travail lui ait demandé des mois et l'aide de plusieurs magiciens. "Du ciel ? Mais non, de ma forge !"
+
+PARAMETRES :
+
+Classe d'armure : +5
+Bonus à la CA contre les projectiles : +1
+Poids : 3
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Monk
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD23
+--------
+Ce bouclier presque aussi grand qu'un homme porte bien son nom. Avec, Phil Pieux, paladin de l'ordre du Coeur Radieux, pût tenir en respect un bataillon d'archers hobgobelins et kobolds en maraude jusqu'à ce qu'ils aient épuisés leurs flèches. Comme le bouclier est presque aussi efficace dans la mêlée qu'à distance, il extermina ensuite ces créatures jusqu'à la dernière.
+
+PARAMETRES :
+
+Classe d'armure : +5
+Bonus à la CA contre les projectiles : +7
+-10% à la vitesse de déplacement
+-1 à la dextérité
+Poids : 10
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD24
+--------
+Ce bouclier, qu'on pensait n'être qu'une décoration de salle de banquet, a longtemps été oublié dans l'arrière-salle d'une boutique, jusqu'à ce qu'un jeune noble en fasse l'acquisition pour compléter une armure de parade. Les enchantements qu'il contient furent révélés lors d'une tentative d'assassinat sur la personne du jeune homme, quand le bouclier renvoya toutes les flèches sur les tireurs. Une étude montra ensuite qu'il était lié au Myth Rynn, ou peut-être à une autre excavation antique.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ Renvoie les projectiles vers leur lanceur
+
+Classe d'armure : +2
+Poids : 3
+Force nécessaire : 4
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD25
+--------
+Audn du Pré, chevalier et champion du mage Kekkim, a porté ce bouclier pendant l'essentiel de son existence. Celui-ci protège son porteur contre à peu près toutes les formes de contrôle de l'esprit, un avantage certain pour un sorcier qui avait besoin d'alliés sachant se battre et qui lui restent fidèles. Kekkim et Audn sont tous deux retournés à la poussière depuis longtemps, laissant le bouclier à qui saurait le soustraire à la tour de Kekkim.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ Immunité aux charmes, à la confusion, la domination et l'immobilisation
+
+Classe d'armure : +3
+Poids : 2
+Force nécessaire : 4
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD26
+--------
+Cet étrange bouclier fut forgé par des nomades qui habitaient la forêt de Mir, un peuple intégré à la société "civilisée" et oublié depuis longtemps. Un examen minutieux révèle un fin tissage de poils d'animaux et de cheveux humains liés par enchantement, mais le secret de cette réalisation s'est dissipé dans les volutes du temps.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ +5% de résistance à la magie
+
+Classe d'armure : +3
+Bonus à la CA contre les projectiles : +1
+Poids : 5
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD27
+--------
+Autrefois un bouclier très puissant utilisé par les prêtres de Bane le Fléau, mais dont la plupart des enchantements ont disparu consécutivement à la chute du dieu. Il lui reste toutefois la base de sa protection magique, ce qui peut le rendre utile à n'importe quel aventurier.
+
+PARAMETRES :
+
+Classe d'armure : +4
+Bonus à la CA contre les projectiles : +1
+Poids : 5
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD28
+--------
+Ce bouclier dispose d'excellents enchantements, mais on ne saurait en décrire les effets exacts. Il est si classique qu'il doit provenir de la milice d'une baronnie oubliée, mais il est difficile de s'en assurer.
+
+PARAMETRES :
+
+Classe d'armure : +3
+Poids : 2
+Force nécessaire : 4
+Inutilisable par :
+ Barde
+ Druide
+ Mage 
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD29
+--------
+Un bouclier magique de facture classique pour les troupes d'élite et les gardes du corps, celui-ci est relativement neuf. Forgé récemment par Taerom Fuiruim de Berégost, ce bouclier attend pour être enfin porteur d'une histoire qu'un jeune guerrier s'en équipe pour accomplir quelques légendaires hauts faits.
+
+PARAMETRES :
+
+Classe d'armure : +3
+Bonus à la CA contre les projectiles : +1
+Poids : 5
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD30
+--------
+Un bouclier de la compagnie de mercenaire d'élite des Dragons de Calimport. Elle a depuis longtemps été dispersée, suite à un revers politique. Ils avaient un excellent équipement, leurs boucliers étaient extrêmement légers et protégeaient fort bien leur porteur. A cause de la taille du bouclier, la main qui le tient ne pourra servir à rien d'autre.
+
+PARAMETRES :
+
+Classe d'armure : +4
+Bonus à la CA contre les projectiles : +2
+Poids : 4
+Force nécessaire : 10
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD31
+--------
+Forgé dans un métal nain, cet bouclier puissamment enchanté procure plus de protection que la plupart des armures complètes. Il aurait été fabriqué pour servir de présent au héros nain Glimred Mainlourde, mais celui-ci disparut dans les tréfonds des Monts de la Marche avant que le bouclier ne soit achevé. Il fut ensuite venu aux enchères ; les armuriers nains ne divulgèrent jamais l'identité du mystérieux acheteur.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ +10% résistance au feu, au froid, à l'acide et au poison
+
+Classe d'armure : +6
+Bonus à la CA contre les projectiles : +2
+-1 à la dextérité
+Poids : 8
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druid
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SHLD32
+--------
+Peragath le vaillant, champion de l'Ordre du Coeur Radieux,portait ce bouclier quand il se lança au combat contre une horde de démons surgissant d'une brêche dimensionnelle. Porté par l'exaltation du combat, il les repoussa tous et les poursuivit même à travers la brêche. Ni lui ni son bouclier ne furent revus.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ +1 aux jets de sauvegarde
+
+Classe d'armure : +5
+Bonus à la CA contre les projectiles : +1 
+Poids : 8
+Force nécessaire : 9
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+SKELSHLD
+--------
+Une targe est un petit bouclier de bois ou de métal, qui se fixe à l'avant-bras. Sa petite taille et son faible poids permettent de le porter sans être trop encombré. La targe possède un certain type d'enchantement générique qui la rend plus résistante aux chocs.
+
+PARAMETRES :
+
+Classe d'armure : +2
+Aucun bonus à la CA contre les projectiles et les armes contondantes
+Poids :  2
+Force nécessaire : 4
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+TAMCHAIN
+--------
+Que ce soit du fait de sa conception ou d'une exposition à une chaleur intense au cours des batailles, les rangées de mailles de cette armure sont entièrement noircies. Bien que les légendes fassent plutôt référence à des chevaliers en armure étincelante affrontant de terribles monstres, les enchantements de résistance au feu sur celle-ci suggèrent des affrontements moins célèbres mais aussi terribles contre des créatures cracheuses de feu.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ +20% de résistance au feu
+
++20% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++10% de résistance aux projectiles
+
++20% de chance de rater un sort
+
+-30% Vol à la tire
+-15% Crochetage
+-15% Détection des pièges
+-35% Déplacements silencieux
+-25% Cacher dans l'ombre
+
+Classe d'armure : 2
+Poids : 9
+Force nécessaire : 8
+Inutilisable par :
+ Druide
+ Mage 
+ Voleur
+ Kensai
+ Moine
+ Belluaire
+ Traqueur
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+TTLEAT
+--------
+Armure faite de cuir épais durci à la cire ou à l'eau. Elle manque de la souplesse qu'ont les bottes ou les capes, mais de tels types de cuir ne fourniraient pas une bien grande protection. Des enchantements ont amélioré les capacités de cette armure-ci.
+
+PARAMETRES :
+
++5% de résistance aux dégâts tranchants
++5% de résistance aux dégâts perforants
+
++10% de chance de rater un sort
+
+Classe d'armure : 6
+Poids : 5
+Force nécessaire : 4
+Inutilisable par :
+ Mage
+ Kensai
+ Moine
+ Métamorphe
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+TTSHLD01
+--------
+Un écu se porte de la même manière qu'une rondache. Cependant, au contraire de la rondache, son poids empêche le personnage d'utiliser sa main à autre chose que tenir le bouclier. Les écus sont généralement faits de métal, ont un diamètre d'à peu près un mètre, et peuvent avoir n'importe quelle forme, ronde, carrée, ou en ailes de dragon déployées. La forme la plus classique de l'écu médiéval est une sorte de triangle avec une pointe vers le bas. Ce bouclier est magique.
+
+PARAMETRES :
+
+Classe d'armure : +3
+Bonus à la CA contre les projectiles : +1
+Poids : 5
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+WA2PLAT
+--------
+Armure de Balduran
+Cette armure de plates appartenait au célèbre Balduran. Elle fait partie des objets volés au musée de la ville de la Porte de Baldur.
+
+PARAMETRES :
+
+Capacités d'équipement :
+ +4 PV
+ +1 Charisme
+
++30% de résistance aux dégâts tranchants
++15% de résistance aux dégâts perforants
++5% de résistance aux dégâts contondants
++35% de résistance aux projectiles
+
+-5 à la dextérité
+-20% à la vitesse de déplacement
++45% de chance de rater un sort
+
+-90% Vol à la tire
+-60% Crochetage
+-65% Détection des pièges
+-95% Déplacements silencieux
+-90% Cacher dans l'ombre
+
+Classe d'armure : -1
+Poids : 50
+Force nécessaire : 15
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Archer
+ Barbare
+ Belluaire
+ Traqueur
+ Kensai
+ Moine
+- o - o - o - o - o - o - o - o - o - o - o - o - o
+WA2SHIEL
+--------
+Bouclier +3 de Balduran
+Le bouclier du célèbre héros. Il fait partie des objets volés au musée de la ville de la Porte de Baldur.
+
+PARAMETRES :
+
+Capacité d'équipement :
+ Renvoi des rayons de spectateur
+ -1 à la Force
+
+Classe d'armure : +3
+Bonus à la CA contre les projectiles : +1 
+Poids : 5
+Force nécessaire : 12
+Inutilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Kensai
+- o - o - o - o - o - o - o - o - o - o - o - o - o

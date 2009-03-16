@@ -1,0 +1,9 @@
+IF
+	FallenPaladin(Player1)
+        Global("LIPalFal","GLOBAL",0)
+THEN
+	RESPONSE #100	
+		ApplySpellRES("LI#FLPA",Player1) // No such index
+                SetGlobal("LIPalFal","GLOBAL",1)             
+END
+

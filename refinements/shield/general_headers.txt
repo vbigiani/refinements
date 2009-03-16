@@ -1,0 +1,9 @@
+			Bonus_to_ac versus_missile 	versus_thrust 	movement_penal 	dex_penal
+positive= 	better 		better (*) 			better (**)			worse 			worse
+
+*: 10 means 'remove altogether the penalty'.
+**: 10 means 'change the penalty from thrust to blunt'.
+-> if you really want a bonus of 10 here, screw yourself  :)
+--> yeah, this sucks. What's the problem?  :P
+
+all are relative values.

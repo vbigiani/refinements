@@ -1,0 +1,420 @@
+/* ***************************
+BG2-ToB Refinements Mod
+Authors: T.G. Maestro, Littiz, the_bigg
+WeiDU by Littiz, the_bigg
+**************************** */
+
+
+BACKUP ~refinements/backup~
+AUTHOR ~http://forums.spellholdstudios.net/index.php?showforum=116~
+NO_IF_EVAL_BUG
+
+ASK_EVERY_COMPONENT
+AUTO_TRA ~refinements/languages/english~
+AUTO_TRA ~refinements/%s~
+
+
+ALWAYS
+// Uninstall the old versions
+	UNINSTALL ~setup-refinements.tp2~ 0
+	UNINSTALL ~setup-refinements.tp2~ 1
+	UNINSTALL ~setup-refinements.tp2~ 2
+	UNINSTALL ~setup-refinements.tp2~ 3
+	UNINSTALL ~setup-refinements.tp2~ 4
+	UNINSTALL ~setup-refinements.tp2~ 5
+	// display the readme
+	AT_INTERACTIVE_EXIT ~VIEW Refinements/README-Refinements.htm~
+
+	// Corrections to KIT.IDS. Translates in WeiDU the corrections originally
+	// made by Dyara
+
+	COPY_EXISTING     ~KIT.IDS~                  ~override/KIT.IDS~
+		REPLACE_TEXTUALLY ~0x00004000 TRUECLASS~     ~0x4000 TRUECLASS~
+		REPLACE_TEXTUALLY ~0x00000001~         ~0x4001~
+		REPLACE_TEXTUALLY ~0x00000002~         ~0x4002~
+		REPLACE_TEXTUALLY ~0x00000004~         ~0x4003~
+		REPLACE_TEXTUALLY ~0x00000008~         ~0x4004~
+		REPLACE_TEXTUALLY ~0x00000010~         ~0x4005~
+		REPLACE_TEXTUALLY ~0x00000020~         ~0x4006~
+		REPLACE_TEXTUALLY ~0x00000040~         ~0x0040~
+		REPLACE_TEXTUALLY ~0x00000080~         ~0x0080~
+		REPLACE_TEXTUALLY ~0x00000100~         ~0x0100~
+		REPLACE_TEXTUALLY ~0x00000200~         ~0x0200~
+		REPLACE_TEXTUALLY ~0x00000400~         ~0x0400~
+		REPLACE_TEXTUALLY ~0x00000800~         ~0x0800~
+		REPLACE_TEXTUALLY ~0x00001000~         ~0x1000~
+		REPLACE_TEXTUALLY ~0x00002000~         ~0x2000~
+		REPLACE_TEXTUALLY ~0x00008000~         ~0x4007~
+		REPLACE_TEXTUALLY ~0x00010000~         ~0x4008~
+		REPLACE_TEXTUALLY ~0x00020000~         ~0x4009~
+		REPLACE_TEXTUALLY ~0x00040000 MAGESCHOOL_GENERALIST~   ~0x4000 MAGESCHOOL_GENERALIST~
+		REPLACE_TEXTUALLY ~0x00080000~         ~0x400B~
+		REPLACE_TEXTUALLY ~0x00100000~         ~0x400C~
+		REPLACE_TEXTUALLY ~0x00200000~         ~0x400D~
+		REPLACE_TEXTUALLY ~0x00400000~         ~0x400E~
+		REPLACE_TEXTUALLY ~0x00800000~         ~0x400F~
+		REPLACE_TEXTUALLY ~0x01000000~         ~0x4013~
+		REPLACE_TEXTUALLY ~0x02000000~         ~0x4014~
+		REPLACE_TEXTUALLY ~0x04000000~         ~0x4015~
+		REPLACE_TEXTUALLY ~0x08000000~         ~0x4010~
+		REPLACE_TEXTUALLY ~0x10000000~         ~0x4011~
+		REPLACE_TEXTUALLY ~0x20000000~         ~0x4012~
+		REPLACE_TEXTUALLY ~0x40000000 BARBARIAN~         ~0x401F BARBARIAN~
+		// Added by the_bigg, further corrections by Littiz. Some installations have a
+		// different (and still wrong) version of KIT.IDS, so they require a different patch:
+		REPLACE_TEXTUALLY ~0x00004000 BARBARIAN~         ~0x401F BARBARIAN~
+		REPLACE_TEXTUALLY ~0x40010000~ 	       ~0x4001~
+		REPLACE_TEXTUALLY ~0x40020000~ 	       ~0x4002~
+		REPLACE_TEXTUALLY ~0x40030000~ 	       ~0x4003~
+		REPLACE_TEXTUALLY ~0x40040000~ 	       ~0x4004~
+		REPLACE_TEXTUALLY ~0x40050000~ 	       ~0x4005~
+		REPLACE_TEXTUALLY ~0x40060000~ 	       ~0x4006~
+		REPLACE_TEXTUALLY ~0x00400000~ 	       ~0x0040~
+		REPLACE_TEXTUALLY ~0x00800000~ 	       ~0x0080~
+		REPLACE_TEXTUALLY ~0x01000000~ 	       ~0x0100~
+		REPLACE_TEXTUALLY ~0x02000000~ 	       ~0x0200~
+		REPLACE_TEXTUALLY ~0x04000000~ 	       ~0x0400~
+		REPLACE_TEXTUALLY ~0x08000000~ 	       ~0x0800~
+		REPLACE_TEXTUALLY ~0x10000000~ 	       ~0x1000~
+		REPLACE_TEXTUALLY ~0x20000000~ 	       ~0x2000~
+		REPLACE_TEXTUALLY ~0x40000000 TRUECLASS~ 	       ~0x4000 TRUECLASS~
+		REPLACE_TEXTUALLY ~0x40000000 MAGESCHOOL_GENERALIST~   ~0x4000 MAGESCHOOL_GENERALIST~
+		REPLACE_TEXTUALLY ~0x40070000~ 	       ~0x4007~
+		REPLACE_TEXTUALLY ~0x40080000~ 	       ~0x4008~
+		REPLACE_TEXTUALLY ~0x40090000~ 	       ~0x4009~
+		REPLACE_TEXTUALLY ~0x400A0000~ 	       ~0x400A~
+		REPLACE_TEXTUALLY ~0x400B0000~ 	       ~0x400B~
+		REPLACE_TEXTUALLY ~0x400C0000~ 	       ~0x400C~
+		REPLACE_TEXTUALLY ~0x400D0000~ 	       ~0x400D~
+		REPLACE_TEXTUALLY ~0x400E0000~ 	       ~0x400E~
+		REPLACE_TEXTUALLY ~0x400F0000~ 	       ~0x400F~
+		REPLACE_TEXTUALLY ~0x40130000~ 	       ~0x4013~
+		REPLACE_TEXTUALLY ~0x40140000~ 	       ~0x4014~
+		REPLACE_TEXTUALLY ~0x40150000~ 	       ~0x4015~
+		REPLACE_TEXTUALLY ~0x40100000~ 	       ~0x4010~
+		REPLACE_TEXTUALLY ~0x40110000~ 	       ~0x4011~
+		REPLACE_TEXTUALLY ~0x40120000~ 	       ~0x4012~
+		REPLACE_TEXTUALLY ~0x401F0000~ 	       ~0x401F~
+	BUT_ONLY_IF_IT_CHANGES
+
+
+// load NL variables
+OUTER_INNER_PATCH ~1~
+BEGIN
+	WRITE_BYTE 0 0x0a
+	READ_ASCII 0 lnl (1)
+	WRITE_BYTE 0 0x0d
+	READ_ASCII 0 mnl (1)
+END
+
+
+// Needed for the broken entries in the key.
+// Thanx Camdawg and others for pointing this out.
+OUTER_SET tb#fix_file_size_min = 0x72
+OUTER_SPRINT tb#fix_file_size_target "SW1H01.ITM"
+OUTER_SPRINT tb#fix_file_size_category "items"
+OUTER_SPRINT tb#fix_file_size_regexp "^.*\.itm$"
+LAUNCH_ACTION_MACRO ~tb#fix_file_size~
+
+
+END  //ALWAYS
+
+
+/* Language */
+LANGUAGE ~English~ ~languages/english~ ~refinements/languages/english/setup.tra~
+                                       ~refinements/languages/english/miscscripts.tra~
+                                       ~refinements/languages/english/prompts.tra~
+
+LANGUAGE ~French, by Sir Crapoilleau~ ~languages/french~   ~refinements/languages/english/setup.tra~
+                                       ~refinements/languages/english/miscscripts.tra~
+                                       ~refinements/languages/english/prompts.tra~
+                                       ~refinements/languages/french/setup.tra~
+                                       ~refinements/languages/french/miscscripts.tra~
+                                       ~refinements/languages/french/prompts.tra~
+
+LANGUAGE ~Japanese, by Kuroukome Veland~ ~languages/japanese~   ~refinements/languages/english/setup.tra~
+                                       ~refinements/languages/english/miscscripts.tra~
+                                       ~refinements/languages/english/prompts.tra~
+                                       ~refinements/languages/japanese/setup.tra~
+                                       ~refinements/languages/japanese/miscscripts.tra~
+                                       ~refinements/languages/japanese/prompts.tra~
+
+LANGUAGE ~Polish, by Yarpen~ ~languages/polish~   ~refinements/languages/english/setup.tra~
+                                       ~refinements/languages/english/miscscripts.tra~
+                                       ~refinements/languages/english/prompts.tra~
+                                       ~refinements/languages/polish/setup.tra~
+                                       ~refinements/languages/polish/miscscripts.tra~
+                                       ~refinements/languages/polish/prompts.tra~
+
+
+//////////////////////////////////////////////////////////////////////////////////
+//Deprecated placeholders
+
+// 0 - HLA
+BEGIN @101
+DEPRECATED @13
+// 1 - Imoen
+BEGIN @600
+DEPRECATED @13
+// 2 - Shapeshifting
+BEGIN @700
+DEPRECATED @13
+// 3 - Robes
+BEGIN @800
+DEPRECATED @13
+// 4 - Sword Angel
+BEGIN @1001
+DEPRECATED @13
+// 5 - Armor Revision, in-house version
+BEGIN @2000
+DEPRECATED @13
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////
+//New HLAs
+
+BEGIN @101
+DESIGNATED 10
+REQUIRE_FILE ~Data/25Dialog.bif~ @10
+AT_INTERACTIVE_EXIT ~VIEW refinements/Docs/Revised_HLAs.txt~
+
+INCLUDE ~refinements/lib/hlab.tpa~
+
+
+/* COMMENTED OUT!!! This slot will be used in Version 3.
+                t_b ----> Really hope not - that destroys component count.
+
+////////////////////////////////////////////////////////////////////////////////////
+//Revised Balthazar
+
+BEGIN @550
+REQUIRE_FILE ~Data/25Dialog.bif~ @10
+AT_INTERACTIVE_EXIT ~VIEW refinements/Docs/Revised_Balthazar.txt~
+
+COPY ~refinements/Hlab/Monk/balth~	  	 ~override~
+
+*/
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////
+//Swashimoen, full revision.
+
+BEGIN @600
+DESIGNATED 20
+SUBCOMPONENT @601
+
+INCLUDE ~refinements/lib/swashimoen.tpa~
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////
+//Swashimoen, kit change only.
+
+BEGIN @602
+SUBCOMPONENT @601
+
+
+// if TOB is not there (and there isn't an imoen15.cre) create it by copying from swashimoen213.cre
+// (cheesy, but works  ;) )
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~imoen15.cre~ THEN
+BEGIN
+	COPY_EXISTING ~imoen213.cre~ ~override/imoen15.cre~
+END
+
+COPY_EXISTING ~imoen10.cre~ ~override~
+			  ~imoen15.cre~ ~override~
+			  ~imoen211.cre~ ~override~
+			  ~imoen213.cre~ ~override~
+	WRITE_SHORT   0x244 0    //needed to change the the kit
+	WRITE_BYTE    0x246 12   //swashbuckler
+	WRITE_BYTE    0x247 0x40 //needed to change the kit
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////
+//Swashimoen, Detect Illusions rather than Set Traps.
+
+BEGIN @603
+SUBCOMPONENT @601
+
+INCLUDE ~refinements/lib/swashimoen.tpa~
+COPY_EXISTING ~imoen10.cre~ ~override~
+			  ~imoen15.cre~ ~override~
+			  ~imoen211.cre~ ~override~
+			  ~imoen213.cre~ ~override~
+  WRITE_BYTE 0x64 60 // detect illusions
+  WRITE_BYTE 0x65 0  // set traps
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////
+//Shapeshifting fix
+
+
+BEGIN @701
+DESIGNATED 30
+SUBCOMPONENT @700
+COPY_EXISTING ~sw1h01.itm~ ~override/tb#shap_std.txt~
+AT_INTERACTIVE_EXIT ~VIEW refinements/Docs/Shapefix.txt~
+COPY ~refinements/shapefix/copy~	  	 ~override~
+
+
+
+BEGIN @702
+SUBCOMPONENT @700
+COPY_EXISTING ~sw1h01.itm~ ~override/tb#shap_alt.txt~
+AT_INTERACTIVE_EXIT ~VIEW refinements/Docs/Shapefix.txt~
+COPY ~refinements/shapefix/alt/copy~	  	 ~override~
+ACTION_IF FILE_EXISTS_IN_GAME ~tg#ussc.spl~ THEN BEGIN
+  COPY ~refinements/shapefix/alt/LI#DRFIR.SPL~	 ~override/LI#DRFIR.SPL~
+  SAY NAME1 @299
+  SAY NAME2 @299
+  COPY ~refinements/shapefix/alt/LI#DREAR.SPL~	 ~override/LI#DREAR.SPL~
+  SAY NAME1 @298
+  SAY NAME2 @298
+  COPY ~refinements/shapefix/alt/LI#DRAIR.SPL~	 ~override/LI#DRAIR.SPL~
+  SAY NAME1 @297
+  SAY NAME2 @297
+  COPY ~refinements/shapefix/alt/LI#DRWAT.SPL~	 ~override/LI#DRWAT.SPL~
+  SAY NAME1 @296
+  SAY NAME2 @296
+END
+
+
+
+
+
+
+////////////////////////////////////////////////////////
+//Universal Robes
+
+
+BEGIN @800
+DESIGNATED 40
+
+COPY_EXISTING ~CLCK09.ITM~	 ~override/CLCK09.ITM~
+SAY NAME2 @811
+SAY DESC @801
+WRITE_LONG 0x1e 0x40725ec0
+COPY_EXISTING ~CLCK10.ITM~	 ~override/CLCK10.ITM~
+SAY NAME2 @812
+SAY DESC @802
+WRITE_LONG 0x1e 0x40725ec0
+COPY_EXISTING ~CLCK11.ITM~	 ~override/CLCK11.ITM~
+SAY NAME2 @813
+SAY DESC @803
+WRITE_LONG 0x1e 0x40725ec0
+COPY_EXISTING ~CLCK12.ITM~	 ~override/CLCK12.ITM~
+SAY DESC @804
+WRITE_LONG 0x1e 0x40725ec0
+COPY_EXISTING ~CLCK13.ITM~	 ~override/CLCK13.ITM~
+SAY DESC @805
+WRITE_LONG 0x1e 0x40725ec0
+COPY_EXISTING ~CLCK14.ITM~	 ~override/CLCK14.ITM~
+SAY DESC @806
+WRITE_LONG 0x1e 0x40725ec0
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////
+//New Kit Installation
+
+BEGIN @1001
+DESIGNATED 50
+REQUIRE_FILE ~Data/25Dialog.bif~ @10
+AT_INTERACTIVE_EXIT ~VIEW refinements/Docs/Sword_Angel.txt~
+
+INCLUDE ~refinements/lib/swang.tpa~
+
+
+
+
+
+
+
+// these are placeholders
+BEGIN @2010
+DESIGNATED 60
+DEPRECATED @2010
+
+BEGIN @2010
+DEPRECATED @2010
+
+BEGIN @2010
+DEPRECATED @2010
+
+BEGIN @2010
+DEPRECATED @2010
+
+////////////////////////////////////////////////////////////////////////////////////
+//Revised Armors & Shields : description updater, only local language.
+
+BEGIN @2003
+SUBCOMPONENT @2000
+DESIGNATED 70
+REQUIRE_PREDICATE !(~%LANGUAGE%~ STRING_EQUAL_CASE ~languages/english~) @2005
+COPY_EXISTING ~sw1h01.itm~ ~override/tb#localdescriptionsforarmor.txt~
+INCLUDE ~refinements/lib/armor.tpa~
+
+////////////////////////////////////////////////////////////////////////////////////
+//Revised Armors & Shields : description updater, local language or English.
+
+BEGIN @2004
+SUBCOMPONENT @2000
+REQUIRE_PREDICATE !(~%LANGUAGE%~ STRING_EQUAL_CASE ~languages/english~) @2005
+COPY_EXISTING ~sw1h01.itm~ ~override/tb#generdescriptionsforarmor.txt~
+INCLUDE ~refinements/lib/armor.tpa~
+
+////////////////////////////////////////////////////////////////////////////////////
+//Revised Armors & Shields : no description updater.
+
+BEGIN @2007
+SUBCOMPONENT @2000
+REQUIRE_PREDICATE !(~%LANGUAGE%~ STRING_EQUAL_CASE ~languages/english~) @2005
+INCLUDE ~refinements/lib/armor.tpa~
+
+////////////////////////////////////////////////////////////////////////////////////
+//Revised Armors & Shields : description updater, language = English.
+
+BEGIN @2008
+SUBCOMPONENT @2009
+REQUIRE_PREDICATE (~%LANGUAGE%~ STRING_EQUAL_CASE ~languages/english~) @2006
+COPY_EXISTING ~sw1h01.itm~ ~override/tb#generdescriptionsforarmor.txt~
+INCLUDE ~refinements/lib/armor.tpa~
+
+////////////////////////////////////////////////////////////////////////////////////
+//Revised Armors & Shields : no description updater, language = English.
+
+BEGIN @2007
+SUBCOMPONENT @2009
+REQUIRE_PREDICATE (~%LANGUAGE%~ STRING_EQUAL_CASE ~languages/english~) @2006
+INCLUDE ~refinements/lib/armor.tpa~
+
+////////////////////////////////////////////////////////////////////////////////////
+//Revised Armors & Shields : no description updater, language = English.
+
+BEGIN @2011
+SUBCOMPONENT @2009
+REQUIRE_PREDICATE (~%LANGUAGE%~ STRING_EQUAL_CASE ~languages/english~) @2006
+COPY_EXISTING ~sw1h01.itm~ ~override/tb#nomovementratepenalties.txt~
+COPY_EXISTING ~sw1h01.itm~ ~override/tb#generdescriptionsforarmor.txt~
+INCLUDE ~refinements/lib/armor.tpa~
