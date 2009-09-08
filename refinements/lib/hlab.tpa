@@ -235,8 +235,8 @@ COPY ~refinements/Hlab/_anim~                   ~override~
 COPY_EXISTING - ~xpcap.2da~   ~.../xpcap.2da~
                 ~xplevel.2da~ ~.../xplevel.2da~
 COPY ~refinements/Hlab/_shared/copy~            ~override~
-COPY ~.../xpcap.2da~   ~xpcap.2da~
-     ~.../xplevel.2da~ ~xplevel.2da~
+COPY ~.../xpcap.2da~   ~override~
+     ~.../xplevel.2da~ ~override~
 COPY ~refinements/Hlab/_shared/TG#EVAS.SPL~     ~override/TG#EVAS.SPL~
 SAY NAME1 @111
 SAY NAME2 @111
