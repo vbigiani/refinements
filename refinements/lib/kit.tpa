@@ -87,8 +87,11 @@ COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
 COPY ~refinements/Hlab/Thief/fix~	  	~override~
 
 //Make Wizardslayers not ~duallable~ to mage
+//Make Barbarians not duallable to thief or mage
 COPY_EXISTING ~DUALCLAS.2DA~     ~override/DUALCLAS.2DA~
   SET_2DA_ENTRY 27 3 7 0
+  SET_2DA_ENTRY 48 3 7 0
+  SET_2DA_ENTRY 48 4 7 0
 
 // Patches if the player has Nalia Mod installed (= nalia is mage->thief).
 ACTION_IF FILE_EXISTS ~override/tb#nalia_M_to_T.txt~ THEN
@@ -187,55 +190,57 @@ COPY_EXISTING - kitlist.2da ~/tmp/kitlist.2da~
     		FAIL ~Incompatible mod detected~
     	END
     END
-    PATCH_IF ((class = 2) || (class = 4) || (class = 3)) &&
-        (FILE_CONTAINS_EVALUATED (~dualclas.2da~ ~%oldName%~)) &&
-				(~%oldName%~ STRING_COMPARE_CASE ~yrkensai~) BEGIN
-      PATCH_IF class = 2 BEGIN
-        SPRINT oldClass FIGHTER_MAGE
-      END
-      PATCH_IF class = 3 BEGIN
-        SPRINT oldClass CLERIC_MAGE
-      END
-      PATCH_IF class = 4 BEGIN
-        SPRINT oldClass MAGE_THIEF
-      END
-      SPRINT oldKit ~%oldName%~
-      PATCH_IF ~%oldKit%~ STRING_EQUAL TALOS BEGIN
-        SPRINT oldKit GODTALOS
-      END
-      PATCH_IF ~%oldKit%~ STRING_EQUAL HELM BEGIN
-        SPRINT oldKit GODHELM
-      END
-      PATCH_IF ~%oldKit%~ STRING_EQUAL LATHANDER BEGIN
-        SPRINT oldKit GODLATHANDER
-      END
-      PATCH_IF ~%oldKit%~ STRING_EQUAL BOUNTY_HUNTER BEGIN
-        SPRINT oldKit BOUNTYHUNTER
-      END
-      PATCH_IF ~%oldKit%~ STRING_EQUAL WIZARD_SLAYER BEGIN
-        SPRINT oldKit WIZARDSLAYER
-      END
-      PATCH_PRINT ~Duplicating %oldName%~
-      READ_2DA_ENTRY_FORMER _kitlist kitnumber 7 unusable
-      PATCH_IF (unusable != 0x00040000) && (unusable != 0x00080000) BEGIN
-        SET_2DA_ENTRY_LATER   kitlist kitnumber 7 unusable | 0x00000020
-      END
-      INNER_ACTION BEGIN
-        SILENT
-        COPY_KIT ~%oldName%~ ~%oldKit%tF~ (
-          CLAB ~refinements/hlab/thief/clab/clabempt.2da~
-        )
-        COPY_KIT ~%oldName%~ ~%oldKit%tw~ ()
-        EXTEND_TOP li#stri.bcs ~refinements/hlab/thief/li#strikit.baf~
-            EVALUATE_BUFFER
-        OUTER_FOR (i = 1; i <= 6; i +=1) BEGIN
-          EXTEND_TOP baldur.bcs ~refinements/hlab/thief/baldurkit.baf~
-              EVALUATE_BUFFER
-          EXTEND_TOP baldur25.bcs ~refinements/hlab/thief/baldurkit.baf~
-              EVALUATE_BUFFER
-        END
-        VERBOSE
-      END
+	PATCH_IF ~%oldName%~ STRING_COMPARE_CASE ~BARBARIAN~ BEGIN
+		PATCH_IF ((class = 2) || (class = 4) || (class = 3)) &&
+			(FILE_CONTAINS_EVALUATED (~dualclas.2da~ ~%oldName%~)) &&
+					(~%oldName%~ STRING_COMPARE_CASE ~yrkensai~) BEGIN
+		  PATCH_IF class = 2 BEGIN
+			SPRINT oldClass FIGHTER_MAGE
+		  END
+		  PATCH_IF class = 3 BEGIN
+			SPRINT oldClass CLERIC_MAGE
+		  END
+		  PATCH_IF class = 4 BEGIN
+			SPRINT oldClass MAGE_THIEF
+		  END
+		  SPRINT oldKit ~%oldName%~
+		  PATCH_IF ~%oldKit%~ STRING_EQUAL TALOS BEGIN
+			SPRINT oldKit GODTALOS
+		  END
+		  PATCH_IF ~%oldKit%~ STRING_EQUAL HELM BEGIN
+			SPRINT oldKit GODHELM
+		  END
+		  PATCH_IF ~%oldKit%~ STRING_EQUAL LATHANDER BEGIN
+			SPRINT oldKit GODLATHANDER
+		  END
+		  PATCH_IF ~%oldKit%~ STRING_EQUAL BOUNTY_HUNTER BEGIN
+			SPRINT oldKit BOUNTYHUNTER
+		  END
+		  PATCH_IF ~%oldKit%~ STRING_EQUAL WIZARD_SLAYER BEGIN
+			SPRINT oldKit WIZARDSLAYER
+		  END
+		  PATCH_PRINT ~Duplicating %oldName%~
+		  READ_2DA_ENTRY_FORMER _kitlist kitnumber 7 unusable
+		  PATCH_IF (unusable != 0x00040000) && (unusable != 0x00080000) BEGIN
+			SET_2DA_ENTRY_LATER   kitlist kitnumber 7 unusable | 0x00000020
+		  END
+		  INNER_ACTION BEGIN
+			SILENT
+			COPY_KIT ~%oldName%~ ~%oldKit%tF~ (
+			  CLAB ~refinements/hlab/thief/clab/clabempt.2da~
+			)
+			COPY_KIT ~%oldName%~ ~%oldKit%tw~ ()
+			EXTEND_TOP li#stri.bcs ~refinements/hlab/thief/li#strikit.baf~
+				EVALUATE_BUFFER
+			OUTER_FOR (i = 1; i <= 6; i +=1) BEGIN
+			  EXTEND_TOP baldur.bcs ~refinements/hlab/thief/baldurkit.baf~
+				  EVALUATE_BUFFER
+			  EXTEND_TOP baldur25.bcs ~refinements/hlab/thief/baldurkit.baf~
+				  EVALUATE_BUFFER
+			END
+			VERBOSE
+		  END
+		END
     END
   END
 
