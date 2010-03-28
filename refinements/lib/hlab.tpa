@@ -771,32 +771,6 @@ COPY ~refinements/Hlab/Barbarian/TG#RSKI.SPL~	 ~override/TG#RSKI.SPL~
 SAY NAME1 @206
 SAY NAME2 @206
 SAY UNIDENTIFIED_DESC @207
-/*
-Now we directly cap the DR setting.
-
-COPY ~refinements/Hlab/Barbarian/waflail.itm~	 ~override/waflail.itm~
-SAY NAME2 @208
-SAY DESC @209
-
-COPY_EXISTING ~waflail.itm~ ~override~
-    SAY NAME2 @208
-    SAY DESC @209
-    READ_LONG 0x6a eff_off
-    READ_SHORT 0x70 eff_cnt
-    WHILE eff_cnt > 0 BEGIN
-          SET eff_cnt = eff_cnt - 1
-          READ_SHORT eff_off + (eff_cnt * 0x30) opcode
-          PATCH_IF opcode = 0 BEGIN
-                   WRITE_LONG eff_off + (eff_cnt * 0x30) + 4 2
-          END
-          PATCH_IF (opcode = 86) OR (opcode = 87) OR (opcode = 88) BEGIN
-                   WRITE_LONG eff_off + (eff_cnt * 0x30) + 4 10
-                   WRITE_LONG eff_off + (eff_cnt * 0x30) + 8 1
-          END
-    END
-*/
-
-
 
 /* Ranger */
 
@@ -810,33 +784,32 @@ COPY ~refinements/Hlab/Ranger/TG#ENDU.SPL~	 ~override/TG#ENDU.SPL~
 SAY NAME1 @212
 SAY NAME2 @212
 SAY UNIDENTIFIED_DESC @213
-/*
-COPY ~refinements/Hlab/Ranger/CLCK32.ITM~	 ~override/CLCK32.ITM~
-SAY DESC @214
-*/
-COPY_EXISTING ~clck32.itm~ ~override~
-     SAY DESC @214
-     READ_LONG 0x6a eff_off
-     READ_SHORT 0x70 eff_cnt
-     WRITE_SHORT 0x70 eff_cnt + 1
-     SET edit = 0
-     WHILE (eff_cnt > 0) AND (edit = 0) BEGIN
-           SET eff_cnt = eff_cnt - 1
-           READ_SHORT eff_off + (eff_cnt * 0x30) opcode
-           PATCH_IF opcode = 305 BEGIN
-                    WRITE_LONG eff_off + (eff_cnt * 0x30) + 4 1
-                    WRITE_SHORT eff_off + (eff_cnt * 0x30) + 0xd 0 //no dispel, bypass resistance
-                    SET edit = 1
-           END
-     END
-     INSERT_BYTES eff_off + ((eff_cnt + 1) * 0x30) 0x30
-     SET copyloop = 0
-     WHILE copyloop < 0x30 BEGIN
-           READ_BYTE eff_off + (eff_cnt * 0x30) + copyloop copyme
-           WRITE_BYTE eff_off + ((eff_cnt + 1) * 0x30) + copyloop copyme
-           SET copyloop = copyloop + 1
-     END
-     WRITE_SHORT eff_off + ((eff_cnt + 1) * 0x30) 54
+
+ACTION_IF !(MOD_IS_INSTALLED ~item_rev.tp2~ 0) THEN BEGIN
+	COPY_EXISTING ~clck32.itm~ ~override~
+		 SAY DESC @214
+		 READ_LONG 0x6a eff_off
+		 READ_SHORT 0x70 eff_cnt
+		 WRITE_SHORT 0x70 eff_cnt + 1
+		 SET edit = 0
+		 WHILE (eff_cnt > 0) AND (edit = 0) BEGIN
+			   SET eff_cnt = eff_cnt - 1
+			   READ_SHORT eff_off + (eff_cnt * 0x30) opcode
+			   PATCH_IF opcode = 305 BEGIN
+						WRITE_LONG eff_off + (eff_cnt * 0x30) + 4 1
+						WRITE_SHORT eff_off + (eff_cnt * 0x30) + 0xd 0 //no dispel, bypass resistance
+						SET edit = 1
+			   END
+		 END
+		 INSERT_BYTES eff_off + ((eff_cnt + 1) * 0x30) 0x30
+		 SET copyloop = 0
+		 WHILE copyloop < 0x30 BEGIN
+			   READ_BYTE eff_off + (eff_cnt * 0x30) + copyloop copyme
+			   WRITE_BYTE eff_off + ((eff_cnt + 1) * 0x30) + copyloop copyme
+			   SET copyloop = copyloop + 1
+		 END
+		 WRITE_SHORT eff_off + ((eff_cnt + 1) * 0x30) 54
+END
 
 //COPY ~refinements/Hlab/Ranger/spcl922.spl~	 ~override/spcl922.spl~
 COPY_EXISTING ~spcl922.spl~ ~override~
@@ -1193,23 +1166,24 @@ WRITE_SHORT   0x98   TG#SHOC
 
 
 // Robe of Vecna ~nerfed~ for sorcerers. Code by the_bigg.
-
-COPY_EXISTING ~wa2robe.itm~ ~override~
-    READ_LONG 0x6a offeff
-    READ_SHORT 0x6e offequipeff
-    READ_SHORT 0x70 countequipeff
-    WRITE_SHORT 0x70 countequipeff + 1
-    SET myeffoff = offeff + offequipeff * 0x30
-    INSERT_BYTES myeffoff 0x30
-    WRITE_SHORT myeffoff 0xb1
-    WRITE_BYTE myeffoff + 2 1
-    WRITE_BYTE myeffoff + 3 1
-    WRITE_LONG myeffoff + 4 19
-    WRITE_LONG myeffoff + 8 5
-    WRITE_BYTE myeffoff + 0xc 2
-    WRITE_BYTE myeffoff + 0x12 100
-    WRITE_ASCII myeffoff + 0x14 ~TB#VECNA~
-    SAY DESC @437
+ACTION_IF !(MOD_IS_INSTALLED ~item_rev.tp2~ 0) THEN BEGIN
+	COPY_EXISTING ~wa2robe.itm~ ~override~
+		READ_LONG 0x6a offeff
+		READ_SHORT 0x6e offequipeff
+		READ_SHORT 0x70 countequipeff
+		WRITE_SHORT 0x70 countequipeff + 1
+		SET myeffoff = offeff + offequipeff * 0x30
+		INSERT_BYTES myeffoff 0x30
+		WRITE_SHORT myeffoff 0xb1
+		WRITE_BYTE myeffoff + 2 1
+		WRITE_BYTE myeffoff + 3 1
+		WRITE_LONG myeffoff + 4 19
+		WRITE_LONG myeffoff + 8 5
+		WRITE_BYTE myeffoff + 0xc 2
+		WRITE_BYTE myeffoff + 0x12 100
+		WRITE_ASCII myeffoff + 0x14 ~TB#VECNA~
+		SAY DESC @437
+END
 
 COPY ~refinements/Hlab/Sorcerer/tb#vecna.eff~ ~override~
 
