@@ -155,3 +155,11 @@ BUT_ONLY_IF_IT_CHANGES
 
 COPY_EXISTING ~shld07.itm~ ~override~ // shield of the falling stars: originally named +1, +4 vs. missile
 	SAY NAME2 @2001
+
+COPY_EXISTING_REGEXP ~^.*\.cre$~ ~override~
+	READ_BYTE 0x23c dex
+	PATCH_IF (dex < 8) THEN BEGIN
+		WRITE_BYTE 0x23c 8
+	END
+BUT_ONLY_IF_IT_CHANGES
+	
