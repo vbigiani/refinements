@@ -153,8 +153,10 @@ COPY_EXISTING_REGEXP GLOB ~.*\.eff~ ~override~
 		END
 BUT_ONLY_IF_IT_CHANGES
 
-COPY_EXISTING ~shld07.itm~ ~override~ // shield of the falling stars: originally named +1, +4 vs. missile
-	SAY NAME2 @2001
+ACTION_IF !(MOD_IS_INSTALLED ~item_rev.tp2~ 0) THEN BEGIN
+	COPY_EXISTING ~shld07.itm~ ~override~ // shield of the falling stars: originally named +1, +4 vs. missile
+		SAY NAME2 @2001
+END
 
 COPY_EXISTING_REGEXP ~^.*\.cre$~ ~override~
 	READ_BYTE 0x23c dex
