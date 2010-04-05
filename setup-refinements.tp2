@@ -278,6 +278,7 @@ COPY ~refinements/shapefix/copy~	  	 ~override~
 
 BEGIN @702
 SUBCOMPONENT @700
+FORBID_COMPONENT ~bg2fixpack.tp2~ #0 ~Already included in BG2 Fixpack~
 COPY_EXISTING ~sw1h01.itm~ ~override/tb#shap_alt.txt~
 AT_INTERACTIVE_EXIT ~VIEW refinements/Docs/Shapefix.txt~
 COPY ~refinements/shapefix/alt/copy~	  	 ~override~
@@ -309,26 +310,16 @@ BEGIN @800
 DESIGNATED 40
 
 COPY_EXISTING ~CLCK09.ITM~	 ~override/CLCK09.ITM~
-SAY NAME2 @811
-SAY DESC @801
-WRITE_LONG 0x1e 0x40725ec0
-COPY_EXISTING ~CLCK10.ITM~	 ~override/CLCK10.ITM~
-SAY NAME2 @812
-SAY DESC @802
-WRITE_LONG 0x1e 0x40725ec0
-COPY_EXISTING ~CLCK11.ITM~	 ~override/CLCK11.ITM~
-SAY NAME2 @813
-SAY DESC @803
-WRITE_LONG 0x1e 0x40725ec0
-COPY_EXISTING ~CLCK12.ITM~	 ~override/CLCK12.ITM~
-SAY DESC @804
-WRITE_LONG 0x1e 0x40725ec0
-COPY_EXISTING ~CLCK13.ITM~	 ~override/CLCK13.ITM~
-SAY DESC @805
-WRITE_LONG 0x1e 0x40725ec0
-COPY_EXISTING ~CLCK14.ITM~	 ~override/CLCK14.ITM~
-SAY DESC @806
-WRITE_LONG 0x1e 0x40725ec0
+              ~CLCK10.ITM~	 ~override/CLCK10.ITM~
+              ~CLCK11.ITM~	 ~override/CLCK11.ITM~
+              ~CLCK12.ITM~	 ~override/CLCK12.ITM~
+              ~CLCK13.ITM~	 ~override/CLCK13.ITM~
+              ~CLCK14.ITM~	 ~override/CLCK14.ITM~
+	READ_STRREF DESC desc
+	SAY_EVALUATED DESC ~%desc%
+Monk
+~
+	WRITE_LONG 0x1e 0x40725ec0
 
 
 
