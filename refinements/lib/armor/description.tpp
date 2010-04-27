@@ -3,6 +3,7 @@
 
 			BEGIN
 			PATCH_IF FILE_CONTAINS_EVALUATED (~refinements/%findwheretra%/armor/ident.tp2~ ~^%file_name% ~)
+					&& !(MOD_IS_INSTALLED ~item_rev.tp2~ 0)
 				BEGIN
 				SPRINT desc EVALUATE_BUFFER ~identarray_%file_name%~
 				SPRINT desc EVALUATE_BUFFER ~%%desc%%~
@@ -68,6 +69,7 @@
 			END
 
 			PATCH_IF FILE_CONTAINS_EVALUATED (~refinements/%findwheretra%/armor/unide.tp2~ ~^%file_name% ~)
+				&& !(MOD_IS_INSTALLED ~item_rev.tp2~ 0)
 				//has own desc
 				BEGIN
 				SPRINT desc EVALUATE_BUFFER ~unidearray_%file_name%~
@@ -88,6 +90,7 @@
 			ELSE
 				BEGIN
 				PATCH_IF FILE_CONTAINS_EVALUATED (~refinements/%findwheretra%/armor/unide.tp2~ ~^%whatis% ~)
+				&& !(MOD_IS_INSTALLED ~item_rev.tp2~ 0)
 				//has generic desc
 					BEGIN
 				SPRINT desc EVALUATE_BUFFER ~unidearray_%whatis%~
