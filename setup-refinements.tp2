@@ -278,7 +278,7 @@ COPY ~refinements/shapefix/copy~	  	 ~override~
 
 BEGIN @702
 SUBCOMPONENT @700
-FORBID_COMPONENT ~bg2fixpack.tp2~ #0 ~Already included in BG2 Fixpack~
+FORBID_COMPONENT ~bg2fixpack.tp2~ 0 ~Already included in BG2 Fixpack~
 COPY_EXISTING ~sw1h01.itm~ ~override/tb#shap_alt.txt~
 AT_INTERACTIVE_EXIT ~VIEW refinements/Docs/Shapefix.txt~
 COPY ~refinements/shapefix/alt/copy~	  	 ~override~
