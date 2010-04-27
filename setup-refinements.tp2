@@ -363,6 +363,7 @@ BEGIN @2003
 SUBCOMPONENT @2000
 DESIGNATED 70
 REQUIRE_PREDICATE !(~%LANGUAGE%~ STRING_EQUAL_CASE ~languages/english~) @2005
+FORBID_COMPONENT ~item_rev.tp2~ 0 @2012
 COPY_EXISTING ~sw1h01.itm~ ~override/tb#localdescriptionsforarmor.txt~
 INCLUDE ~refinements/lib/armor.tpa~
 
@@ -372,6 +373,7 @@ INCLUDE ~refinements/lib/armor.tpa~
 BEGIN @2004
 SUBCOMPONENT @2000
 REQUIRE_PREDICATE !(~%LANGUAGE%~ STRING_EQUAL_CASE ~languages/english~) @2005
+FORBID_COMPONENT ~item_rev.tp2~ 0 @2012
 COPY_EXISTING ~sw1h01.itm~ ~override/tb#generdescriptionsforarmor.txt~
 INCLUDE ~refinements/lib/armor.tpa~
 
@@ -381,6 +383,7 @@ INCLUDE ~refinements/lib/armor.tpa~
 BEGIN @2007
 SUBCOMPONENT @2000
 REQUIRE_PREDICATE !(~%LANGUAGE%~ STRING_EQUAL_CASE ~languages/english~) @2005
+FORBID_COMPONENT ~item_rev.tp2~ 0 @2012
 INCLUDE ~refinements/lib/armor.tpa~
 
 ////////////////////////////////////////////////////////////////////////////////////
@@ -389,6 +392,7 @@ INCLUDE ~refinements/lib/armor.tpa~
 BEGIN @2008
 SUBCOMPONENT @2009
 REQUIRE_PREDICATE (~%LANGUAGE%~ STRING_EQUAL_CASE ~languages/english~) @2006
+FORBID_COMPONENT ~item_rev.tp2~ 0 @2012
 COPY_EXISTING ~sw1h01.itm~ ~override/tb#generdescriptionsforarmor.txt~
 INCLUDE ~refinements/lib/armor.tpa~
 
@@ -398,6 +402,7 @@ INCLUDE ~refinements/lib/armor.tpa~
 BEGIN @2007
 SUBCOMPONENT @2009
 REQUIRE_PREDICATE (~%LANGUAGE%~ STRING_EQUAL_CASE ~languages/english~) @2006
+FORBID_COMPONENT ~item_rev.tp2~ 0 @2012
 INCLUDE ~refinements/lib/armor.tpa~
 
 ////////////////////////////////////////////////////////////////////////////////////
@@ -406,6 +411,7 @@ INCLUDE ~refinements/lib/armor.tpa~
 BEGIN @2011
 SUBCOMPONENT @2009
 REQUIRE_PREDICATE (~%LANGUAGE%~ STRING_EQUAL_CASE ~languages/english~) @2006
+FORBID_COMPONENT ~item_rev.tp2~ 0 @2012
 COPY_EXISTING ~sw1h01.itm~ ~override/tb#nomovementratepenalties.txt~
 COPY_EXISTING ~sw1h01.itm~ ~override/tb#generdescriptionsforarmor.txt~
 INCLUDE ~refinements/lib/armor.tpa~
