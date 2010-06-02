@@ -146,6 +146,13 @@ LANGUAGE ~Polish, by Yarpen~ ~languages/polish~   ~refinements/languages/english
                                        ~refinements/languages/polish/miscscripts.tra~
                                        ~refinements/languages/polish/prompts.tra~
 
+LANGUAGE ~Russian, by Aerie.ru, Prowler, Deneiris, Austin & Arcanecoast.ru~ ~languages/russian~   ~refinements/languages/english/setup.tra~
+                                       ~refinements/languages/english/miscscripts.tra~
+                                       ~refinements/languages/english/prompts.tra~
+                                       ~refinements/languages/russian/setup.tra~
+                                       ~refinements/languages/russian/miscscripts.tra~
+                                       ~refinements/languages/russian/prompts.tra~
+
 
 //////////////////////////////////////////////////////////////////////////////////
 //Deprecated placeholders
