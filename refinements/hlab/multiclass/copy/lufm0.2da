@@ -14,8 +14,8 @@
 11      GA_SPWI924     *          *         1         99         1            *            GA_SPWI923    ALL_GOOD
 12      GA_TG#FORS     *          *         1         99         1            *            *             *
 13      GA_TG#AEGI     *          *         1         99         1            *            *             *
-14      GA_TG#DTHF     *          *         1         99         1            *            *             *
-15      GA_LI#MICL     *          *         1         99         1            *            *             *
+14      GA_TG#DTHF     *          *         1         99         1            GA_LI#BLIL   *             *
+15      GA_LI#MICL     *          *         1         99         1            *            GA_LI#BLIL    *
 16      GA_LI#SCRB     *          *         1         99         1            *            *             *
 17      AP_TG#MDRE     *          *         1         99         3            GA_SPCL904   *             *
 18      AP_TG#IMCR     *          *         1         99         1            GA_SPCL905   *             *
