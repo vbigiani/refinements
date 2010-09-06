@@ -1328,5 +1328,10 @@ SAY UNIDENTIFIED_DESC @513
 COPY ~refinements/Hlab/Multiclass/LI#UNIO.SPL~	 ~override/LI#UNIO.SPL~
 WRITE_SHORT   0x98   TG#HOLA
 
-
+PRINT ~~
+PRINT ~WARNING: the 'Union' HLA will not work correctly, unless you install Ascension64's ToBEx and enable 'Apply Casting Level Bonus' in the INI.~
+ACTION_IF truerestw > 0xff THEN BEGIN
+	PRINT ~WARNING: you might experience hard crashes to desktop when dual classing unless you install Ascension64's ToBEx and enable 'Allow 1280 Total Kits' in the INI.~
+END
+PRINT ~~
 
