@@ -85,7 +85,6 @@ END
 // mage, but no harm comes from this.
 IF
 	Class(Player%i%,MAGE_THIEF)
-        Race(Player%i%,HUMAN)
 	OR(2)
 		Kit(Player%i%,0)
 		Kit(Player%i%,TRUECLASS)
@@ -103,11 +102,12 @@ END
 // They don't really belong here, but hey!
 IF
 	Global("USSCBloc%i%","GLOBAL",0)
-        !Race(Player%i%,HUMAN)
-	OR(3)
+	OR(5)
 	       Class(Player%i%,MAGE_THIEF)
 	       Class(Player%i%,FIGHTER_MAGE)
 	       Class(Player%i%,CLERIC_MAGE)
+		   Class(Player%i%,FIGTHTER_MAGE_THIEF)
+		   Class(Player%i%,FIGHTER_MAGE_CLERIC)
         !Kit(Player%i%,MAGESCHOOL_ILLUSIONIST)
 THEN
 	RESPONSE #100
