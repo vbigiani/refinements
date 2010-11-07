@@ -70,7 +70,8 @@ APPEND ~GTIMES.IDS~ ~216000 THIRTY_DAYS~ UNLESS ~THIRTY_DAYS~
 APPEND ~GTIMES.IDS~ ~360000 FIFTY_DAYS~ UNLESS ~FIFTY_DAYS~
 // auto-extracted by Excel, didn't type them! same reason as above
 
-
+ADD_SECTYPE ~TB#Paladinhood~ ~Lost virtuous abilities~
+ADD_SECTYPE ~TB#SecondWind~ ~Second Wind triggered~
 
 // ~Fix~ to the meteor swarm projectile.
 COPY_EXISTING ~metswarm.pro~ ~override~
@@ -401,6 +402,7 @@ COPY ~refinements/Hlab/Paladin/TG#HOLA.SPL~     ~override/TG#HOLA.SPL~
 SAY NAME1 @128
 SAY NAME2 @128
 SAY UNIDENTIFIED_DESC @129
+WRITE_SHORT 0x27 TB#Paladinhood
 COPY ~refinements/Hlab/Paladin/TG#HOL1.SPL~     ~override/TG#HOL1.SPL~
 WRITE_SHORT   0x98   ~%TG#HOLA%~
 
@@ -713,9 +715,11 @@ COPY ~refinements/Hlab/Monk/TG#SECW.SPL~	 ~override/TG#SECW.SPL~
 SAY NAME1 @197
 SAY NAME2 @197
 SAY UNIDENTIFIED_DESC @198
+WRITE_SHORT 0x27 TB#SecondWind
 COPY ~refinements/Hlab/Monk/TG#SEC2.SPL~	 ~override/TG#SEC2.SPL~
 SAY NAME1 @197
 SAY NAME2 @197
+WRITE_LONG 786 TB#SecondWind
 COPY ~refinements/Hlab/Monk/TG#ETHE.SPL~	 ~override/TG#ETHE.SPL~
 SAY NAME1 @220
 SAY NAME2 @220
@@ -1222,6 +1226,7 @@ COPY ~refinements/Hlab/Paladin/TG#VIRT.SPL~	~override/TG#VIRT.SPL~
 SAY NAME1 @450
 SAY NAME2 @450
 SAY UNIDENTIFIED_DESC @451
+WRITE_SHORT 0x27 TB#Paladinhood
 COPY ~refinements/Hlab/Paladin/TG#CIOL.SPL~	~override/TG#CIOL.SPL~
 SAY NAME1 @452
 SAY NAME2 @452
@@ -1327,6 +1332,9 @@ SAY NAME2 @512
 SAY UNIDENTIFIED_DESC @513
 COPY ~refinements/Hlab/Multiclass/LI#UNIO.SPL~	 ~override/LI#UNIO.SPL~
 WRITE_SHORT   0x98   TG#HOLA
+
+COPY_EXISTING ~LI#FLPA.SPL~ ~override~
+WRITE_LONG 450 TB#Paladinhood
 
 PRINT ~~
 PRINT ~WARNING: the 'Union' HLA will not work correctly, unless you install Ascension64's ToBEx and enable 'Apply Casting Level Bonus' in the INI.~
