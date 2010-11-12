@@ -402,7 +402,7 @@ COPY ~refinements/Hlab/Paladin/TG#HOLA.SPL~     ~override/TG#HOLA.SPL~
 SAY NAME1 @128
 SAY NAME2 @128
 SAY UNIDENTIFIED_DESC @129
-WRITE_SHORT 0x27 TB#Paladinhood
+WRITE_BYTE 0x27 TB#Paladinhood
 COPY ~refinements/Hlab/Paladin/TG#HOL1.SPL~     ~override/TG#HOL1.SPL~
 WRITE_SHORT   0x98   ~%TG#HOLA%~
 
@@ -715,7 +715,7 @@ COPY ~refinements/Hlab/Monk/TG#SECW.SPL~	 ~override/TG#SECW.SPL~
 SAY NAME1 @197
 SAY NAME2 @197
 SAY UNIDENTIFIED_DESC @198
-WRITE_SHORT 0x27 TB#SecondWind
+WRITE_BYTE 0x27 TB#SecondWind
 COPY ~refinements/Hlab/Monk/TG#SEC2.SPL~	 ~override/TG#SEC2.SPL~
 SAY NAME1 @197
 SAY NAME2 @197
@@ -1226,7 +1226,7 @@ COPY ~refinements/Hlab/Paladin/TG#VIRT.SPL~	~override/TG#VIRT.SPL~
 SAY NAME1 @450
 SAY NAME2 @450
 SAY UNIDENTIFIED_DESC @451
-WRITE_SHORT 0x27 TB#Paladinhood
+WRITE_BYTE 0x27 TB#Paladinhood
 COPY ~refinements/Hlab/Paladin/TG#CIOL.SPL~	~override/TG#CIOL.SPL~
 SAY NAME1 @452
 SAY NAME2 @452

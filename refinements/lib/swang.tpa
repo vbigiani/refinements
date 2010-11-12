@@ -120,14 +120,14 @@ COPY ~refinements/swang/TG#SAAU.SPL~		~override/TG#SAAU.SPL~
 SAY NAME1 @1041
 SAY NAME2 @1041
 SAY UNIDENTIFIED_DESC @1042
-WRITE_SHORT 0x27 TB#Paladinhood
+WRITE_BYTE 0x27 TB#Paladinhood
 COPY ~refinements/swang/TG#FOS2.SPL~		~override/TG#FOS2.SPL~
 SAY 0x18e @1043
 COPY ~refinements/swang/TG#FOSP.SPL~		~override/TG#FOSP.SPL~
 SAY NAME1 @1043
 SAY NAME2 @1043
 SAY UNIDENTIFIED_DESC @1044
-WRITE_SHORT 0x27 TB#Paladinhood
+WRITE_BYTE 0x27 TB#Paladinhood
 
 // Patching Project Image to avoid Freedom of Spirit to trigger!
 // (though it can happen only if you dual a high level Sword Angel to mage...)
@@ -161,7 +161,7 @@ SAY NAME1 @1017
 WRITE_LONG 306 TB#MercifulFighting
 
 COPY_EXISTING ~LI#MERC2.SPL~ ~override~
-WRITE_SHORT 0x27 TB#MercifulFighting
+WRITE_BYTE 0x27 TB#MercifulFighting
 
 
 
