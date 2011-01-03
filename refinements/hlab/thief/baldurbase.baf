@@ -106,7 +106,7 @@ IF
 	       Class(Player%i%,MAGE_THIEF)
 	       Class(Player%i%,FIGHTER_MAGE)
 	       Class(Player%i%,CLERIC_MAGE)
-		   Class(Player%i%,FIGTHTER_MAGE_THIEF)
+		   Class(Player%i%,FIGHTER_MAGE_THIEF)
 		   Class(Player%i%,FIGHTER_MAGE_CLERIC)
         !Kit(Player%i%,MAGESCHOOL_ILLUSIONIST)
 THEN
