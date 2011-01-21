@@ -63,7 +63,7 @@ IF
 		Class(Player%i%,THIEF)
 		Class(Player%i%,MAGE_THIEF)
 	Global("USSCBloc%i%","GLOBAL",0)
-	OR(9)
+	OR(%numberofmagekits%)
 		Kit(Player%i%,magetw)
 		Kit(Player%i%,MAGESCHOOL_ABJURER)
 		Kit(Player%i%,MAGESCHOOL_CONJURER)
@@ -73,6 +73,7 @@ IF
 		Kit(Player%i%,MAGESCHOOL_INVOKER)
 		Kit(Player%i%,MAGESCHOOL_NECROMANCER)
 		Kit(Player%i%,MAGESCHOOL_TRANSMUTER)
+    %kitwildmage%
 THEN
 	RESPONSE #100
 		SetGlobal("USSCBloc%i%","GLOBAL",1)

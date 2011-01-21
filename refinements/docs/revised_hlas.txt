@@ -2045,6 +2045,10 @@ Table:
 -Alchemy
 -Brew Poison*               (requires: Alchemy)
 
+Only if you installed ToBEx:
+-Use Scrolls#  
+-Scribe Scrolls#            (requires: Use Scrolls#)
+
 
 
 Descriptions:
@@ -2100,6 +2104,10 @@ Table:
 -Avoid Death#               (requires: Evasion#) 
 -Alchemy
 -Tracking*
+
+Only if you installed ToBEx:
+-Use Scrolls#  
+-Scribe Scrolls#            (requires: Use Scrolls#)
 
 
 Descriptions:
@@ -3097,7 +3105,7 @@ Descriptions:
 
 Union
 A Cleric/Mage is blessed with the knowledge of two different kinds of magic. At high levels he can use the combination of arcane and divine arts and his understanding of the mechanisms of magic to forge a solid union. This appears as a powerful aura that grants beneficial bonuses to allies around him.
-Each affected creature obtains 10% bonus to his Magic Resistance. Magic users benefit the most from this aura: their casting time drops by 1, while their effective casting level increases by 5. 
+Each affected creature obtains 10% bonus to his Magic Resistance. Magic users benefit the most from this aura: their casting time drops by 1, while their effective casting level increases by 5 (the casting level increase only works if you install ToBEx). 
 Additionally, the Cleric/Mage himself gains immunity to spell failure effects and immunity to 1st and 2nd level spells for the whole duration of the ability, which is 1 hour.
 
 
@@ -3286,6 +3294,14 @@ We advise to use our new HLA system as a whole, or not use it AT ALL.
 We have built all the tables in the attempt to rebalance and refine the whole system, and all these 
 tables should be used together for coherency (consider also that some material is shared between 
 our tables: this may include new icons, portrait icons or visual effects.)
+
+Some components of ToBEx are required or recommended to get the full benefits of this mod.
+In particular:
+'Allow 1280 Total Kits' is required if you installed a lot of kit mods;
+'Kit() Trigger Fix' is required if you installed a mod to enable Barbarian -> Mage,
+    Barbarian -> Thief or Wild Mage -> Thief dual classes
+'Apply Casting Level Bonus' and 'Assassin and Bounty Hunter Penalty to Similar Kits'
+    are always recommended.
 
 These arguments apply even for aVENGER's Rogue Rebalancing Mod, which, among its other components,
 provides new HLA tables for all rogues.  However, in this case some very special notes are in order 

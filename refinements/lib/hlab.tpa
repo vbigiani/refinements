@@ -449,6 +449,20 @@ SAY UNIDENTIFIED_DESC @140
 /* Thief */
 
 COPY ~refinements/Hlab/Thief/copy~	  	~override~
+// ToBEx Assassin and Bounty Hunter
+ACTION IF 0 THEN BEGIN
+  COPY_EXISTING ~luth2.2da~ ~override~
+                ~luth3.2da~ ~override~
+    SET_2DA_ENTRY 11 1 10 AP_TG#USSC
+    SET_2DA_ENTRY 11 4 10 1
+    SET_2DA_ENTRY 11 5 10 99
+    SET_2DA_ENTRY 11 6 10 1
+    SET_2DA_ENTRY 12 1 10 GA_LI#SCRT
+    SET_2DA_ENTRY 12 4 10 1
+    SET_2DA_ENTRY 12 5 10 99
+    SET_2DA_ENTRY 12 6 10 1
+    SET_2DA_ENTRY 12 7 10 AP_TG#USSC
+END
 COPY ~refinements/Hlab/Thief/TG#CRIP.SPL~	~override/TG#CRIP.SPL~
 SAY NAME1 @141
 SAY NAME2 @141
@@ -1329,17 +1343,14 @@ SAY UNIDENTIFIED_DESC @511
 COPY ~refinements/Hlab/Multiclass/TG#UNIO.SPL~	 ~override/TG#UNIO.SPL~
 SAY NAME1 @512
 SAY NAME2 @512
-SAY UNIDENTIFIED_DESC @513
+// ToBEx 'Apply Casting Level Bonus' check
+PATCH_IF 0 THEN BEGIN
+  SAY UNIDENTIFIED_DESC @513
+END ELSE BEGIN
+  SAY UNIDENTIFIED_DESC @514
+END
 COPY ~refinements/Hlab/Multiclass/LI#UNIO.SPL~	 ~override/LI#UNIO.SPL~
 WRITE_SHORT   0x98   TG#HOLA
 
 COPY_EXISTING ~LI#FLPA.SPL~ ~override~
 WRITE_LONG 450 TB#Paladinhood
-
-PRINT ~~
-PRINT ~WARNING: the 'Union' HLA will not work correctly, unless you install Ascension64's ToBEx and enable 'Apply Casting Level Bonus' in the INI.~
-ACTION_IF truerestw > 0xff THEN BEGIN
-	PRINT ~WARNING: you might experience hard crashes to desktop when dual classing unless you install Ascension64's ToBEx and enable 'Allow 1280 Total Kits' in the INI.~
-END
-PRINT ~~
-
