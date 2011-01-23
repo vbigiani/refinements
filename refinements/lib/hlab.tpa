@@ -450,7 +450,7 @@ SAY UNIDENTIFIED_DESC @140
 
 COPY ~refinements/Hlab/Thief/copy~	  	~override~
 // ToBEx Assassin and Bounty Hunter
-ACTION IF 0 THEN BEGIN
+ACTION_IF MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 810 THEN BEGIN
   COPY_EXISTING ~luth2.2da~ ~override~
                 ~luth3.2da~ ~override~
     SET_2DA_ENTRY 11 1 10 AP_TG#USSC
@@ -1344,7 +1344,7 @@ COPY ~refinements/Hlab/Multiclass/TG#UNIO.SPL~	 ~override/TG#UNIO.SPL~
 SAY NAME1 @512
 SAY NAME2 @512
 // ToBEx 'Apply Casting Level Bonus' check
-PATCH_IF 0 THEN BEGIN
+PATCH_IF MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 50 THEN BEGIN
   SAY UNIDENTIFIED_DESC @513
 END ELSE BEGIN
   SAY UNIDENTIFIED_DESC @514
