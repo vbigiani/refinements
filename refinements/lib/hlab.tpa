@@ -1358,17 +1358,17 @@ WRITE_LONG 450 TB#Paladinhood
 ACTION_IF !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 810) || !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 50)
     || (barbsCanDualclass && (!(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 750) || !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 820)))
 THEN BEGIN
-    PRINT ~For the best experience with the Refinements mods, ensure you install the following components of Ascension64's ToBEx (http://bit.ly/i8awTx):~
+    PRINT @519
     ACTION_IF  !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 810) THEN BEGIN
-      PRINT ~Assassin and Bounty Hunter Penalty to Similar Kits [C]~
+      PRINT @520
     END
     ACTION_IF  !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 50) THEN BEGIN
-      PRINT ~Apply Casting Level Bonus [C]~
+      PRINT @521
     END
     ACTION_IF barbsCanDualclass && !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 750) THEN BEGIN
-      PRINT ~Kit Trigger Fix~
+      PRINT @522
     END
     ACTION_IF barbsCanDualclass && !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 820) THEN BEGIN
-      PRINT ~AddKit Actions Fix~
+      PRINT @523
     END
 END

@@ -211,8 +211,8 @@ COPY_EXISTING - kitlist.2da ~/tmp/kitlist.2da~
     READ_2DA_ENTRY_FORMER _kitlist kitnumber 1 oldName
     PATCH_IF !(~%oldName%~ STRING_COMPARE_CASE ~C!ArcSyl~) BEGIN
     	INNER_ACTION BEGIN
-    		PRINT ~The Archer of Sylvanus kit is incompatible with Refinements.~
-    		FAIL ~Incompatible mod detected~
+    		PRINT @515
+    		FAIL @516
     	END
     END
   // ToBEx Barbarian check
@@ -262,8 +262,8 @@ COPY_EXISTING - kitlist.2da ~/tmp/kitlist.2da~
         // ToBEx kitlist limit
         OUTER_SPRINT tmp EVALUATE_BUFFER ~%oldKit%tw~
         ACTION_IF EVALUATE_BUFFER ~%tmp%~ > 255 && !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 10) THEN BEGIN
-          PRINT ~Too many kits installed. You need 'Allow 1280 Total Kits' from ToBEx.~
-          FAIL ~Too many kits without ToBEx~
+          PRINT @517 
+          FAIL @518
         END
         
         EXTEND_TOP li#stri.bcs ~refinements/hlab/thief/li#strikit.baf~
