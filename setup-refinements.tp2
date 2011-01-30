@@ -13,6 +13,9 @@ ASK_EVERY_COMPONENT
 AUTO_TRA ~refinements/languages/english~
 AUTO_TRA ~refinements/%s~
 
+README ~Refinements/README-Refinements.htm~
+VERSION ~Refinements v 3.30~
+
 
 ALWAYS
 // Uninstall the old versions
@@ -22,8 +25,6 @@ ALWAYS
 	UNINSTALL ~setup-refinements.tp2~ 3
 	UNINSTALL ~setup-refinements.tp2~ 4
 	UNINSTALL ~setup-refinements.tp2~ 5
-	// display the readme
-	AT_INTERACTIVE_EXIT ~VIEW Refinements/README-Refinements.htm~
 
 	// Corrections to KIT.IDS. Translates in WeiDU the corrections originally
 	// made by Dyara

@@ -3298,8 +3298,9 @@ our tables: this may include new icons, portrait icons or visual effects.)
 Some components of ToBEx are required or recommended to get the full benefits of this mod.
 In particular:
 'Allow 1280 Total Kits' is required if you installed a lot of kit mods;
-'Kit() Trigger Fix' is required if you installed a mod to enable Barbarian -> Mage,
-    Barbarian -> Thief or Wild Mage -> Thief dual classes
+'Kit() Trigger Fix' and 'AddKit Actions Fix' are recommended if you installed a mod to enable
+    Barbarian -> Mage, Barbarian -> Thief or Wild Mage -> Thief dual classes (otherwise those
+    dual classes are disabled again).
 'Apply Casting Level Bonus' and 'Assassin and Bounty Hunter Penalty to Similar Kits'
     are always recommended.
 
