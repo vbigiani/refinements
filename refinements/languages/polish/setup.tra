@@ -1298,6 +1298,15 @@ Wysokopoziomowy Kap³an/Mag, dziêki doskona³e znajomoœci mechanizmów jakimi rz¹dz
 Wszyscy na obszarze aury otrzymuj¹ premiê +10% do odpornoœci na magiê, jednak najwiêksze profity zyskuj¹ postacie potrafi¹ce rzucaæ zaklêcia, ich czas potrzebny na rzucenie zaklêcia zostaje zmniejszony o 1.
 Sam zaœ Kap³an/mag otrzymuje odpornoœæ na zaklêcia z poziomów 1 i 2, ponadto ¿adne zaklêcia i efekty nie mog¹ przeszkadzaæ mu w rzucaniu zaklêæ (jednak efekty które zupe³nie blokuj¹ rzucanie zaklêæ nadal dzia³aj¹). Aura utrzymuje siê przez 1 godzinê.~
 
+@515 = ~Klasa Lucznika Sylwanusa nie jest kompatybilna z modem Refinements.~
+@516 = ~Znaleziono niekompatybilny mod~
+@517 = ~Zainstalowano zbyt duzo klas. Potrzebujesz komponentu 'Pozwól na 1280 klas postaci' z ToBEx.~
+@518 = ~Za duzo klas bez ToBEx.~
+@519 = ~Dla pelnego wykorzystania tego modulu, zainstaluj nastepujace komponenty z modulu ToBEx (autorstwa Ascension64)(http://bit.ly/i8awTx):~
+@520 = ~Kary dla Zabójcy i Lowcy Nagród takze dla podobnych klas (Assassin and Bounty Hunter Penalty to Similar Kits [C]).~
+@521 = ~Uzyj bonusu z poziomu rzucajacego(Apply Casting Level Bonus [C]).~
+@522 = ~Naprawiony Trigger "Kit" (Kit Trigger Fix).~
+@523 = ~Naprawienie akcji "AddKit" (AddKit Actions Fix).~
 
 ////////////////////////////////////////////////////////
 //Monk HLAs for Balthazar
