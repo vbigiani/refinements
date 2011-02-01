@@ -1384,9 +1384,28 @@ Cette capacité peut être sélectionnée 2 fois.~
 @513 = ~Union
 
 Un clerc/mage est béni par la connaissance de deux types différents de magie. A haut niveau il peut utiliser une combinaison des magies divines et profanes et sa connaissance des mécanismes magiques afin de former une solide union entre les deux. Ceci apparaît par une puissante aura conférant des bonus aux alliés du personnage.
+
 Chaque créature affectée obtient un bonus de 10% de résistance à la magie. Les lanceurs de sorts sont ceux qui bénéficient le plus de cette aura, voyant leur vitesse d'incantation augmentée de 1 alors que leur niveau effectif est augmenté de 5.
+
 De plus, le clerc/mage gagne l'immunité aux effets d'échec de sort et l'immunité aux sorts de premier et deuxième niveau pendant toute la durée du sort, qui est de 1 heure.~
 
+@514 = ~Union
+
+Un clerc/mage est béni par la connaissance de deux types différents de magie. A haut niveau il peut utiliser une combinaison des magies divines et profanes et sa connaissance des mécanismes magiques afin de former une solide union entre les deux. Ceci apparaît par une puissante aura conférant des bonus aux alliés du personnage.
+
+Chaque créature affectée obtient un bonus de 10% de résistance à la magie. Les lanceurs de sorts sont ceux qui bénéficient le plus de cette aura, voyant leur vitesse d'incantation augmentée de 1.
+
+De plus, le clerc/mage gagne l'immunité aux effets d'échec de sort et l'immunité aux sorts de premier et deuxième niveau pendant toute la durée du sort, qui est de 1 heure.~
+
+@515 = ~Le Kit "Archer de Sylvanus" est incompatible avec Refinements.~
+@516 = ~Vous disposez d'au moins un mod incompatible~
+@517 = ~Trop de kits. Vous avez besoin du composant "Autoriser 1280 kits en tout" de ToBEx.~
+@518 = ~Trop de kits sans ToBEx~
+@519 = ~Pour la meilleure experience de jeu avec Refinements, veuillez installer les composants suivants du mod ToBEx de Ascension64 (http://bit.ly/i8awTx) :~
+@520 = ~Appliquer les penalites des Assassins et des Chasseurs de primes aux kits similaires [C]~
+@521 = ~Appliquer le bonus au niveau effectif de lancement des sorts [C]~
+@522 = ~Correctif pour Kit Trigger~
+@523 = ~Correctif pour AddKit~
 
 ////////////////////////////////////////////////////////
 //Monk HLAs for Balthazar

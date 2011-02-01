@@ -128,7 +128,7 @@ LANGUAGE ~English~ ~languages/english~ ~refinements/languages/english/setup.tra~
                                        ~refinements/languages/english/miscscripts.tra~
                                        ~refinements/languages/english/prompts.tra~
 
-LANGUAGE ~French, by Sir Crapoilleau~ ~languages/french~   ~refinements/languages/english/setup.tra~
+LANGUAGE ~French, by Sir Crapoilleau and Anomaly~ ~languages/french~   ~refinements/languages/english/setup.tra~
                                        ~refinements/languages/english/miscscripts.tra~
                                        ~refinements/languages/english/prompts.tra~
                                        ~refinements/languages/french/setup.tra~
