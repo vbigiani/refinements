@@ -11,6 +11,13 @@
 // 		END
 // 	END
 
+// Install ToBEx
+ACTION_IF (FILE_EXISTS ~bgmain.exe~) THEN BEGIN
+  OUTER_SPRINT TOBEX_MOD_DIRECTORY "./refinements"
+  LOAD_TRA "%TOBEX_MOD_DIRECTORY%/TobEx_redist/TobEx.tra"
+  ACTION_INCLUDE "%TOBEX_MOD_DIRECTORY%/TobEx_redist/TobEx.tpa"
+END
+
 APPEND ~stats.ids~ ~128 WIZARD_PROTECTION_FROM_MAGIC_WEAPONS~
 UNLESS ~WIZARD_PROTECTION_FROM_MAGIC_WEAPONS~
 // emulates Detectable spells
@@ -450,7 +457,7 @@ SAY UNIDENTIFIED_DESC @140
 
 COPY ~refinements/Hlab/Thief/copy~	  	~override~
 // ToBEx Assassin and Bounty Hunter
-ACTION_IF MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 810 THEN BEGIN
+ACTION_IF FILE_EXISTS ~bgmain.exe~ THEN BEGIN
   COPY_EXISTING ~luth2.2da~ ~override~
                 ~luth3.2da~ ~override~
     SET_2DA_ENTRY 11 1 10 AP_TG#USSC
@@ -1344,7 +1351,7 @@ COPY ~refinements/Hlab/Multiclass/TG#UNIO.SPL~	 ~override/TG#UNIO.SPL~
 SAY NAME1 @512
 SAY NAME2 @512
 // ToBEx 'Apply Casting Level Bonus' check
-PATCH_IF MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 50 THEN BEGIN
+PATCH_IF FILE_EXISTS ~bgmain.exe~ THEN BEGIN
   SAY UNIDENTIFIED_DESC @513
 END ELSE BEGIN
   SAY UNIDENTIFIED_DESC @514
@@ -1355,20 +1362,7 @@ WRITE_SHORT   0x98   TG#HOLA
 COPY_EXISTING ~LI#FLPA.SPL~ ~override~
 WRITE_LONG 450 TB#Paladinhood
 
-ACTION_IF !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 810) || !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 50)
-    || (barbsCanDualclass && (!(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 750) || !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 820)))
+ACTION_IF !(FILE_EXISTS ~bgmain.exe~)
 THEN BEGIN
-    PRINT @519
-    ACTION_IF  !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 810) THEN BEGIN
-      PRINT @520
-    END
-    ACTION_IF  !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 50) THEN BEGIN
-      PRINT @521
-    END
-    ACTION_IF barbsCanDualclass && !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 750) THEN BEGIN
-      PRINT @522
-    END
-    ACTION_IF barbsCanDualclass && !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 820) THEN BEGIN
-      PRINT @523
-    END
+    PRINT @524
 END

@@ -1310,6 +1310,12 @@ Additionally, the Cleric/Mage himself gains immunity to spell failure effects an
 @521 = ~Apply Casting Level Bonus [C]~
 @522 = ~Kit Trigger Fix~
 @523 = ~AddKit Actions Fix~
+@524 = ~For the best experience you need the Windows client of BG2.
+
+If you are using GemRB report this and I'll investigate compatibility.
+If you are using an Intel Mac get the Windows version of BG2 and run it via Wine.
+If you are using a PowerPC Mac you're SOL.
+~
 
 ////////////////////////////////////////////////////////
 //Monk HLAs for Balthazar

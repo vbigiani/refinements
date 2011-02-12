@@ -80,7 +80,7 @@ COPY_EXISTING_REGEXP GLOB ~.*\.itm~ ~override~
 		WRITE_BYTE ~0x20~ (~%byte2%~ BAND ~0b10111101~)
 		WRITE_SHORT 0x2f current BOR 0b00100000
     // ToBEx Assassin and Bounty Hunter
-    PATCH_IF !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 810) THEN BEGIN
+    PATCH_IF !(FILE_EXISTS ~bgmain.exe~) THEN BEGIN
       WRITE_SHORT 0x2b current2 BOR 0b00001100
     END
   END
@@ -102,7 +102,7 @@ COPY_EXISTING ~DUALCLAS.2DA~     ~override/DUALCLAS.2DA~
       READ_2DA_ENTRY_FORMER _dualclas i 3 barbToMage
       READ_2DA_ENTRY_FORMER _dualclas i 4 barbToThief
       barbsCanDualclass = barbToMage || barbToThief
-      PATCH_IF !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 750) && !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 820) THEN BEGIN
+      PATCH_IF !(FILE_EXISTS ~bgmain.exe~) THEN BEGIN
         SET_2DA_ENTRY i 3 7 0
         SET_2DA_ENTRY i 4 7 0
       END
@@ -195,7 +195,7 @@ OUTER_FOR (i = 1; i <= 6; i +=1) BEGIN
   OUTER_TEXT_SPRINT kitwildmage ~~
 
   // ToBEx Wildmage check
-  ACTION_IF MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 750 THEN BEGIN
+  ACTION_IF (FILE_EXISTS ~bgmain.exe~) THEN BEGIN
     OUTER_SET numberofmagekits = 10
     OUTER_TEXT_SPRINT kitwildmage ~Kit(Player%i%,WILDMAGE)~
   END
@@ -216,7 +216,7 @@ COPY_EXISTING - kitlist.2da ~/tmp/kitlist.2da~
     	END
     END
   // ToBEx Barbarian check
-	PATCH_IF ~%oldName%~ STRING_COMPARE_CASE ~BARBARIAN~ || ((MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 750) && (MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 820)) BEGIN
+	PATCH_IF ~%oldName%~ STRING_COMPARE_CASE ~BARBARIAN~ || (FILE_EXISTS ~bgmain.exe~) BEGIN
 		PATCH_IF ((class = 2) || (class = 4) || (class = 3)) &&
 			(FILE_CONTAINS_EVALUATED (~dualclas.2da~ ~%oldName%~)) &&
 					(~%oldName%~ STRING_COMPARE_CASE ~yrkensai~) BEGIN
@@ -249,7 +249,7 @@ COPY_EXISTING - kitlist.2da ~/tmp/kitlist.2da~
 		  READ_2DA_ENTRY_FORMER _kitlist kitnumber 7 unusable
       
       // ToBEx Assassin and Bounty Hunter check
-		  PATCH_IF ((unusable != 0x00040000) && (unusable != 0x00080000)) || (MOD_IS_INSTALLED ~SETUP-TOBEXCONFIG.TP2~ 810) BEGIN
+		  PATCH_IF ((unusable != 0x00040000) && (unusable != 0x00080000)) || (FILE_EXISTS ~bgmain.exe~) BEGIN
         SET_2DA_ENTRY_LATER   kitlist kitnumber 7 unusable | 0x00000020
 		  END
 		  INNER_ACTION BEGIN
@@ -261,7 +261,7 @@ COPY_EXISTING - kitlist.2da ~/tmp/kitlist.2da~
         
         // ToBEx kitlist limit
         OUTER_SPRINT tmp EVALUATE_BUFFER ~%oldKit%tw~
-        ACTION_IF EVALUATE_BUFFER ~%tmp%~ > 255 && !(MOD_IS_INSTALLED ~setup-tobexconfig.tp2~ 10) THEN BEGIN
+        ACTION_IF EVALUATE_BUFFER ~%tmp%~ > 255 && !(FILE_EXISTS ~bgmain.exe~) THEN BEGIN
           PRINT @517 
           FAIL @518
         END
