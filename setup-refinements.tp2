@@ -326,9 +326,7 @@ COPY_EXISTING ~CLCK09.ITM~	 ~override/CLCK09.ITM~
               ~CLCK13.ITM~	 ~override/CLCK13.ITM~
               ~CLCK14.ITM~	 ~override/CLCK14.ITM~
 	READ_STRREF DESC desc
-	SAY_EVALUATED DESC ~%desc%
-Monk
-~
+	SAY_EVALUATED DESC @807
 	WRITE_LONG 0x1e 0x40725ec0
 
 
