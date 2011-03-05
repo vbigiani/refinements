@@ -385,9 +385,6 @@ INCLUDE ~refinements/lib/kit.tpa~
 
 /* Paladin */
 
-EXTEND_TOP ~Baldur.bcs~   ~refinements/Hlab/Paladin/FALLEN.BAF~
-EXTEND_TOP ~Baldur25.bcs~   ~refinements/Hlab/Paladin/FALLEN.BAF~
-
 COPY ~refinements/Hlab/Paladin/copy~	 	~override~
 COPY ~refinements/Hlab/Paladin/TG#EXOR.SPL~     ~override/TG#EXOR.SPL~
 SAY NAME1 @120
@@ -412,6 +409,9 @@ SAY UNIDENTIFIED_DESC @129
 WRITE_BYTE 0x27 TB#Paladinhood
 COPY ~refinements/Hlab/Paladin/TG#HOL1.SPL~     ~override/TG#HOL1.SPL~
 WRITE_SHORT   0x98   ~%TG#HOLA%~
+
+EXTEND_TOP ~Baldur.bcs~   ~refinements/Hlab/Paladin/FALLEN.BAF~
+EXTEND_TOP ~Baldur25.bcs~   ~refinements/Hlab/Paladin/FALLEN.BAF~
 
 
 

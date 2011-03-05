@@ -96,24 +96,24 @@ COPY - ~refinements/shield/special~ ~refinements/shield/special~
 
 
 DEFINE_ASSOCIATIVE_ARRAY armor_keywords BEGIN
-dam_slash => "Slashing Damage Resistance: +"
-dam_pierc => "Piercing Damage Resistance: +"
-dam_blunt => "Blunt Damage Resistance: +"
-dam_missi => "Missile Damage Resistance: +"
-dex_penal => "Dexterity Penalty: "
-mov_penal => "Movement Rate Penalty: "
-spe_failu => "Spellcasting Failure Rate: +"
-pic_penal => "Pickpocketing Penalty: "
-loc_penal => "Lockpicking Penalty: "
-tra_penal => "Trap Removal Penalty: "
-sil_penal => "Move Silently Penalty: "
-hid_penal => "Hide in Shadows Penalty: "
+w_dam_slash => "Slashing Damage Resistance: +"
+w_dam_pierc => "Piercing Damage Resistance: +"
+w_dam_blunt => "Blunt Damage Resistance: +"
+w_dam_missi => "Missile Damage Resistance: +"
+w_dex_penal => "Dexterity Penalty: "
+w_mov_penal => "Movement Rate Penalty: "
+w_spe_failu => "Spellcasting Failure Rate: +"
+w_pic_penal => "Pickpocketing Penalty: "
+w_loc_penal => "Lockpicking Penalty: "
+w_tra_penal => "Trap Removal Penalty: "
+w_sil_penal => "Move Silently Penalty: "
+w_hid_penal => "Hide in Shadows Penalty: "
 END
 
 DEFINE_ASSOCIATIVE_ARRAY shield_keywords BEGIN
-ac_bonus => "AC bonus: +"
-mi_bonus => "Missile AC bonus: +"
-pi_bonus => "Piercing AC bonus: +"
-mo_penal => "Movement Rate Penalty: "
-de_penal => "Dexterity Penalty: "
+w_ac_bonus => "AC bonus: +"
+w_mi_bonus => "Missile AC bonus: +"
+w_pi_bonus => "Piercing AC bonus: +"
+w_mo_penal => "Movement Rate Penalty: "
+w_de_penal => "Dexterity Penalty: "
 END

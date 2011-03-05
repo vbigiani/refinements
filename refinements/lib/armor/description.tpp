@@ -25,6 +25,9 @@
 					INNER_PATCH_SAVE desc ~%desc%~ BEGIN
 						SPRINT message ~~
 						PHP_EACH armor_keywords AS var => text BEGIN
+              INNER_PATCH_SAVE var ~%var%~ BEGIN
+                DELETE_BYTES 0 2
+              END
 							SET varval = EVALUATE_BUFFER ~%%var%%~
 							PATCH_IF EVALUATE_BUFFER ~%var%~ != 0 THEN BEGIN
 								SPRINT message ~%message%%text%%varval%~
@@ -42,6 +45,9 @@
 					INNER_PATCH_SAVE desc ~%desc%~ BEGIN
 						SPRINT message ~~
 						PHP_EACH shield_keywords AS var => text BEGIN
+              INNER_PATCH_SAVE var ~%var%~ BEGIN
+                DELETE_BYTES 0 2
+              END
 							SET varval = EVALUATE_BUFFER ~%%var%%~
 							SPRINT newmsg ~~
 							PATCH_IF EVALUATE_BUFFER ~%var%~ != 0 THEN BEGIN

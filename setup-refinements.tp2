@@ -9,6 +9,8 @@ BACKUP ~refinements/backup~
 AUTHOR ~http://forums.spellholdstudios.net/index.php?showforum=116~
 NO_IF_EVAL_BUG
 
+// MODDER setup_tra none
+
 ASK_EVERY_COMPONENT
 AUTO_TRA ~refinements/languages/english~
 AUTO_TRA ~refinements/%s~
