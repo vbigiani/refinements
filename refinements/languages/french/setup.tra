@@ -1406,6 +1406,12 @@ De plus, le clerc/mage gagne l'immunité aux effets d'échec de sort et l'immunité
 @521 = ~Appliquer le bonus au niveau effectif de lancement des sorts [C]~
 @522 = ~Correctif pour Kit Trigger~
 @523 = ~Correctif pour AddKit~
+@524 = ~Pour une meilleure experience de jeu il vous faut la version Windows de BG2.
+
+Si vous utilisez GemRB signalez-le et j'enqueterai sur la compatibilite.
+Si vous utilisez un Intel Mac procurez-vous la version Windows de BG2 et lancez-la via Wine.
+Si vous utilisez un PowerPC Mac vous etes FICHU.
+~
 
 ////////////////////////////////////////////////////////
 //Monk HLAs for Balthazar
