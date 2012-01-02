@@ -352,6 +352,7 @@
           <p>The following core engine changes are discussed:</p>
           <ul>
             <li><a href="#engine-arenas">Arenas Game Type</a></li>
+            <li><a href="#engine-casting">Casting Graphics and Sounds</a></li>
             <li><a href="#engine-dead-statics">Dead Static Animations</a></li>
             <li><a href="#engine-dialogue-bar">Dialogue Bar</a></li>
             <li><a href="#engine-effect-stacking">Effect Stacking Behaviour</a></li>
@@ -400,6 +401,11 @@
             <li>Summoned creatures turn enemy when hit by opposing players</li>
           </ul>
           <hr />
+          <a name="engine-casting" id="engine-casting"></a><h3>Casting Graphics and Sounds</h3>
+          <p>Normally, female gender uses a female casting sound, other and niether gender use an unvoiced casting sound, and all other genders use a male casting sound. This caused problems with spells like Project Image where illusory female creatures used male casting sounds.</p>
+          <p>TobEx fixes this bug by modifying the way that the gender of casting sound selection is handled. Specifically, male gender uses a male casting sound, while all other genders check the Sex field (0x237) in the CRE file format. If the Sex field is male (1), a male casting sound is used. If the Sex field is female (2), a female casting sound is used. For any other value in the Sex field, an unvoiced casting sound is used. In order to do this, TobEx also ensures that the Sex field is correctly set during character generation, and patches some characters and creatures (a la BG2 Fixpack) so that their Sex field is correct.</p>
+          <p>TobEx also fixes a bug where the Mental Speed stat is not considered when determining whether to play a casting sound at all, whether to play a gendered or unvoiced casting sound, and whether to play a casting animation.</p>
+          <hr />
           <a name="engine-dead-statics" id="engine-dead-statics"></a><h3>Dead Static Animations</h3>
           <p>TobEx fixes a bug where dead static animations are still valid scripting targets. Normally, this causes bugs where a creature in berserk amongst dead static animations will permanently remain in berserk, breaking game transitions.</p>
           <hr />
@@ -410,8 +416,7 @@
           <p>TobEx allows modmakers to modify the way that effect opcodes stack. This hack is currently in beta and has a number of problems. Please do not use it.</p>
           <hr />
           <a name="engine-gaining-xp" id="engine-gaining-xp"></a><h3>Gaining Experience</h3>
-          <p>Normally, Throne of Bhaal gives the party 110% of the experience actually coded into creatures and given by the AddExperienceParty() action opcode. However, the amount coded into creatures is reported in the dialogue bar. TobEx fixes this issue.</p>
-          <p><strong>Option:</strong> TobEx gives the option of giving the party the exact amount of experience actually coded into creatures and given by the AddExperienceParty() action opcode instead of the 110%.</p>
+          <p><strong>Option:</strong> Normally, Throne of Bhaal gives the party 110% of the experience actually coded into creatures and given by the AddExperienceParty() action opcode. However, the amount coded into creatures (100%) is reported in the dialogue bar. TobEx gives the option of fixing this issue and giving the party the coded amount of experience (100%) in these situations.</p>
           <hr />
           <a name="engine-inventory-pause" id="ruleset-inventory-pause"></a><h3>Inventory Screen Pausing</h3>
           <p><strong>Option:</strong> TobEx gives the option of disabling a forced game pause when the inventory screen is opened in single player. The behavior mimics that of multiplayer.</p>
@@ -490,6 +495,7 @@
             <li><a href="#ruleset-hla">High Level Abilities (HLAs)</a></li>
             <li><a href="#ruleset-hp-tables">Hit Point Tables</a></li>
             <li><a href="#ruleset-item-restrictions">Item Restrictions</a></li>
+            <li><a href="#ruleset-mage-spells">Mage Spells</a></li>
             <li><a href="#ruleset-magical-weapons">Magical Weapons</a></li>
             <li><a href="#ruleset-mirror-images">Mirror Images</a></li>
             <li><a href="#ruleset-priest-spells">Priest Spells</a></li>
@@ -625,6 +631,11 @@
             <p>Item MISC84 cannot be removed from "Minsc"'s equipment slots or inventory slots, and can only be equipped by "Minsc".</p>
           </div>
           <hr />
+          <a name="ruleset-mage-spells" id="ruleset-mage-spells"></a><h3>Mage Spells</h3>
+          <p>TobEx allows the extension of the limit of possible mage spells selectable for mages and sorcerers by externalising the number of spells selectable to SPELLS.2DA. The cap for level 1-8 spells can be set to 99, while the cap for level 9 spells can be set to 199, for which spells 100-199 refer to SPWI0**.SPL.</p>
+          <p>If this hack is used, it is recommended you use this hack with Externalize Mage Spell Hiding. Otherwise, unwanted spells will show up on spell selection screens. Also, assuming you provide maximum values for the number of spells in SPELLS.2DA, you should add to HIDESPL.2DA the following vanilla Throne of Bhaal spells:</p>
+          <p class="important">SPWI298-299<br />SPWI399<br />SPWI483-491, 493-499<br />SPWI590-97<br />SPWI853, 888, 897-899<br />SPWI926-965, 979-999<br />SPWI001-027, 050-056</p>
+          <hr />
           <a name="ruleset-magical-weapons" id="ruleset-magical-weapons"></a><h3>Magical Weapons</h3>
           <p>TobEx allows modmakers to create magical weapons that do not get dispelled in the magical weapon slot. Also refer to the <a href="#effects-58">Dispel Magic effect</a> section.</p>
           <hr />
@@ -728,7 +739,7 @@
           <i>TobEx optimises this trigger by greatly reducing the amount of overhead associated with checking bags. TobEx fixes a bug in single player where this trigger opcode behaved exactly the same as the PartyHasItem() trigger opcode.</i></p>
           <hr />
           <a name="triggers-40bb" id="triggers-40bb"></a><p><strong>0x40BB Kit(O:Object*,I:Kit*KIT)</strong><br />
-          <i>TobEx fixes this trigger opcode so that the full dword of I:Kit is checked against the creature rather than just the low word</i></p>
+          <i>TobEx fixes this trigger opcode so that the full dword of I:Kit is checked against the creature rather than just the low word. To preserve original behaviour, if an I:Kit value of 0 is used, only the low word is checked against.</i></p>
           <hr />
            <a name="triggers-4100" id="triggers-4100"></a><p><strong>0x4100 NextTriggerObject(O:Object*)</strong><br />
           <i>New</i><br />
@@ -803,32 +814,26 @@
           <h2>Actions</h2>
           <p>TobEx makes changes to the following script action opcodes:</p>
           <ul>
-            <li><a href="#actions-30">30 SetGlobal(S:Name*,S:Area*,I:Value*)</a></li>
             <li><a href="#actions-34">34 UseItem(S:Object*,O:Target*)</a></li>
             <li><a href="#actions-97">97 UseItemPoint(S:Item,P:Target*,I:Ability*)</a></li>
-            <li><a href="#actions-109">109 IncrementGlobal(S:Name*,S:Area*,I:Value*)</a></li>
             <li><a href="#actions-174">174 EquipRanged()</a></li>
             <li><a href="#actions-274">274 AddKit(I:Kit*KIT)</a></li>
             <li><a href="#actions-289">289 AddSuperKit(I:Kit*KIT)</a></li>
-            <li><a href="#actions-307">307 SG(S:Name*,I:Num*)</a></li>
             <li><a href="#actions-317">317 PlaySong(I:Song*)</a></li>
           </ul>
           <p>TobEx adds the following new script action opcodes:</p>
           <ul>
             <li><a href="#actions-352">352 LoseGame()</a></li>
+            <li><a href="#actions-353">353 DialogueSetGlobal(S:Name*,S:Area*,I:Value*)</a></li>
+            <li><a href="#actions-354">354 DialogueIncrementGlobal(S:Name*,S:Area*,I:Value*)</a></li>
+            <li><a href="#actions-355">355 DialogueSG(S:Name*,I:Num*)</a></li>
           </ul>
-          <hr />
-          <a name="actions-30" id="actions-30"></a><p><strong>30 SetGlobal(S:Name*,S:Area*,I:Value*)</strong><br />
-          <i>TobEx modifies this action opcode in dialogue only to set variables immediately instead of being added through the dialogue owner's action queue. This allows variables to be set instantaneously and checked immediately afterwards in the same dialogue. ActionOverride() is supported.</i></p>
           <hr />
           <a name="actions-34" id="actions-34"></a><p><strong>34 UseItem(S:Object*,O:Target*)</strong><br />
           <i>TobEx modifies this action opcode indirectly by allowing custom animation sequences to be played on the creature using the item. This is controlled by ITEMANIM.2DA and is item ability-specific. Also refer to the <a href="#animations-using-items">Animation Sequences when Using Items</a> section.</i></p>
           <hr />
           <a name="actions-97" id="actions-97"></a><p><strong>97 UseItemPoint(S:Item,P:Target*,I:Ability*)</strong><br />
           <i>TobEx modifies this action opcode indirectly by allowing custom animation sequences to be played on the creature using the item. This is controlled by ITEMANIM.2DA and is item ability-specific. Also refer to the <a href="#animations-using-items">Animation Sequences when Using Items</a> section.</i></p>
-          <hr />
-          <a name="actions-109" id="actions-109"></a><p><strong>109 IncrementGlobal(S:Name*,S:Area*,I:Value*)</strong><br />
-          <i>TobEx modifies this action opcode in dialogue only to set variables immediately instead of being added through the dialogue owner's action queue. This allows variables to be set instantaneously and checked immediately afterwards in the same dialogue. ActionOverride() is supported.</i></p>
           <hr />
           <a name="actions-174" id="actions-174"></a><p><strong>174 EquipRanged()</strong><br />
           <i>TobEx fixes this action opcode so that one-handed ranged weapons are equipped with this action when a shield is currently equipped</i></p>
@@ -839,15 +844,30 @@
           <a name="actions-289" id="actions-289"></a><p><strong>289 AddSuperKit(I:Kit*KIT)</strong><br />
           <i>Fixed so the full dword of I:Kit is saved into the creature rather than the low word. This specifically allows setting BARBARIAN (0x40000000) and WILDMAGE (0x80000000) kits.</i></p>
           <hr />
-          <a name="actions-307" id="actions-307"></a><p><strong>307 SG(S:Name*,I:Num*)</strong><br />
-          <i>TobEx modifies this action opcode in dialogue only to set variables immediately instead of being added through the dialogue owner's action queue. This allows variables to be set instantaneously and checked immediately afterwards in the same dialogue. ActionOverride() is supported.</i></p>
-          <hr />
           <a name="actions-317" id="actions-317"></a><p><strong>317 PlaySong(I:Song*)</strong><br />
           <i>TobEx modifies this action opcode to allow songs with index greater than 127 to be played, allowing modmakers to fully utilise an extended SONGLIST.2DA. Also refer to the <a href="#engine-music">Music Song List</a> section.</i></p>
           <hr />
           <a name="actions-352" id="actions-352"></a><p><strong>352 LoseGame()</strong><br />
           <i>New</i><br />
           Plays the ending cutscene as if the protagonist died. If the action is used in a pausing dialogue, the ending cutscene will play after the dialogue ends. This action does nothing in the arenas game type.</p>
+          <hr />
+          <a name="actions-353" id="actions-353"></a><p><strong>353 DialogueSetGlobal(S:Name*,S:Area*,I:Value*)</strong><br />
+          <i>New</i><br />
+          Sets the variable 'Name' in the scope 'Area' to 'Value' immediately instead of being added through the dialogue owner's action queue. This allows variables to be set instantaneously and checked immediately afterwards in the same dialogue. ActionOverride() is supported. If used outside dialogue, this action behaves exactly as SetGlobal().<br />
+          <br />
+          Limitations: Variables become set asynchronously to the order in which the action is present on the script block. This can cause issues when an action is purposely sandwiched between two modifications of the same variable.</p>
+          <hr />
+          <a name="actions-354" id="actions-354"></a><p><strong>354 DialogueIncrementGlobal(S:Name*,S:Area*,I:Value*)</strong><br />
+          <i>New</i><br />
+          Increments the variable 'Name' in the scope 'Area' by 'Value' immediately instead of being added through the dialogue owner's action queue. This allows variables to be set instantaneously and checked immediately afterwards in the same dialogue. ActionOverride() is supported. If used outside dialogue, this action behaves exactly as IncrementGlobal().<br />
+          <br />
+          Limitations: Variables become set asynchronously to the order in which the action is present on the script block. This can cause issues when an action is purposely sandwiched between two modifications of the same variable.</p>
+          <hr />
+          <a name="actions-355" id="actions-355"></a><p><strong>355 DialogueSG(S:Name*,I:Num*)</strong><br />
+          <i>New</i><br />
+          Sets the global variable 'Name' to 'Num' immediately instead of being added through the dialogue owner's action queue. This allows variables to be set instantaneously and checked immediately afterwards in the same dialogue. ActionOverride() is supported. If used outside dialogue, this action behaves exactly as SG().<br />
+          <br />
+          Limitations: Variables become set asynchronously to the order in which the action is present on the script block. This can cause issues when an action is purposely sandwiched between two modifications of the same variable.</p>
           <address>
             <span class="footer">TobEx &gt; Actions</span> &#8226;<a href="#top">BACK TO TOP</a>
           </address>
@@ -1326,7 +1346,7 @@
           128 Level 8<br />
           256 Level 9<br />
           512 Double spells</p>
-          <p>For a 'Spell Level' of 0, the amount of spell slots is doubled for the level specified by the 'Slot Amount Modifier' value and all levels below. For a 'Spell Level' of 512, the amount of spell slots is doubled for the level(s) specified by the 'Slot Amount Modifier' field. The target creature(s) must have at least 1 slot at the selected level to have their slot count changed. If the resultant slot count is negative, the creature is given 12 slots.<br />
+          <p>For a 'Spell Level' of 0, the amount of spell slots is doubled for the level specified by the 'Slot Amount Modifier' value and all levels below. For a 'Spell Level' of 512, the amount of spell slots is doubled for the level(s) specified by the 'Slot Amount Modifier' field, where a value of 0 is level 1 and a value of 8 is level 9. The target creature(s) must have at least 1 slot at the selected level to have their slot count changed. If the resultant slot count is negative, the creature is given 12 slots.<br />
           <br />
           'Statistic Modifier' can be positive or negative.</p>
           <hr />
@@ -1342,8 +1362,7 @@
           1 Flat Value Modifier -> Strength = 'Statistic Modifier' value<br />
           2 Percentage Modifier -> Strength = (Strength * 'Statistic Modifier' value) / 100<br />
           3 Strength Spell</p>
-          <p>For a Type of 0 (Cumulative Modifier), unit increments from 17 upwards occurs as 17 -> 18 -> 18/01 -> 18/51 -> 18/76 -> 18/91 -> 18/00 -> 19 -> ...<br />
-          For a Type of 3 (Strength Spell), strength is modified as per Icewind Dale Strength spell behaviour, externalised to CLSSPLAB.2DA, in which 1Dx strength is gained up to a maximum of 18/&lt;STREX value&gt; depending on the player's class (defaults to 1D6 if class is not present), where x is specified by the STR column. Unit increments from 17 upwards occurs as 17 -> 18 -> 18/10 -> 18/20 -> 18/30 -> 18/40 -> 18/50 -> 18/60 -> 18/70 -> 18/80 -> 18/90 -> 18/00. The 'Statistic Modifier' value overrides the CLSSPLAB.2DA entry, specifying the die size and allowing a maximum strength of 18/00.<br />
+          <p>For a Type of 3 (Strength Spell), strength is modified as per Icewind Dale Strength spell behaviour, externalised to CLSSPLAB.2DA, in which 1Dx strength is gained up to a maximum of 18/&lt;STREX value&gt; depending on the player's class (defaults to 1D6 if class is not present), where x is specified by the STR column. Unit increments between 18 and 19 depend on differences detected in the STRMODEX.2DA table. The 'Statistic Modifier' value overrides the CLSSPLAB.2DA entry, specifying the die size and allowing a maximum strength of 18/00.<br />
           <br />
           FlameWing's description of Strength Spell: "IWD1/P&P Strength Spell With a slight change, in that param1 != 0 means dice size to roll for all classes and allows exceptional strength bonuses for non-warrior classes. For example, param1 = 4 rolls a d4 for strength increase, similar to P&P Strength of Stone spell. In all cases, strength cannot become 19 or more."</p>
           <hr />
@@ -1456,10 +1475,10 @@
           Applies the modifier value specified by the 'Statistic Modifier' field in the style specified by the 'Type' field.<br />
           <br />
           Known values for 'Type' are:</p>
-          <p class="important">0   Cumulative Modifier -> Value = Value + 'Statistic Modifier' value<br />
+          <p class="important">0   Instantaneous Cumulative Modifier -> Value = Value + 'Statistic Modifier' value<br />
           1   Flat Value Modifier -> Value = 'Statistic Modifier' value<br />
           2   Percentage Modifier -> Value = (Value * 'Statistic Modifier' value) / 100<br />
-          3   Instantaneous Cumulative Modifier -> Value = Value + 'Statistic Modifier' value</p>
+          3   Cumulative Modifier -> Value = Value + 'Statistic Modifier' value</p>
           <p>For a non-permanent timing, the instantaneous cumulative modifier immediately adds the 'Statistic Modifier' value, unlike the cumulative modifier which adds the 'Statistic Modifier' after all effects are applied. The former has the disadvantage that it will be overriden by any subsequent flat value modifiers. Percentage modifiers override all other modifiers.</p>
           <hr />
           <a name="effects-177" id="effects-177"></a><p><strong>#177 (0x0B1)  Use EFF File [177]</strong><br />

@@ -46,6 +46,18 @@ Descriptions
 352 LoseGame()
 Plays the ending cutscene as if the protagonist died. If the action is used in a pausing dialogue, the ending cutscene will play after the dialogue ends. This action does nothing in the arenas game type.
 
+353 DialogueSetGlobal(S:Name*,S:Area*,I:Value*)
+Sets the variable 'Name' in the scope 'Area' to 'Value' immediately instead of being added through the dialogue owner's action queue. This allows variables to be set instantaneously and checked immediately afterwards in the same dialogue. ActionOverride() is supported. If used outside dialogue, this action behaves exactly as SetGlobal().
+Limitations: Variables become set asynchronously to the order in which the action is present on the script block. This can cause issues when an action is purposely sandwiched between two modifications of the same variable.
+
+354 DialogueIncrementGlobal(S:Name*,S:Area*,I:Value*)
+Increments the variable 'Name' in the scope 'Area' by 'Value' immediately instead of being added through the dialogue owner's action queue. This allows variables to be set instantaneously and checked immediately afterwards in the same dialogue. ActionOverride() is supported. If used outside dialogue, this action behaves exactly as IncrementGlobal().
+Limitations: Variables become set asynchronously to the order in which the action is present on the script block. This can cause issues when an action is purposely sandwiched between two modifications of the same variable.
+
+355 DialogueSG(S:Name*,I:Num*)
+Sets the global variable 'Name' to 'Num' immediately instead of being added through the dialogue owner's action queue. This allows variables to be set instantaneously and checked immediately afterwards in the same dialogue. ActionOverride() is supported. If used outside dialogue, this action behaves exactly as SG().
+Limitations: Variables become set asynchronously to the order in which the action is present on the script block. This can cause issues when an action is purposely sandwiched between two modifications of the same variable.
+
 Options:
 -0: disabled
 -1: enabled
@@ -107,6 +119,8 @@ Options:
 Logs assertion failures in the game to console and TobEx.log (with timestamp)
 These are logged even when the game is unable to display them
 Assertions will display a return address to facilitate debugging
+The following are also changed:
+-Missing spell icons for spells in the spell selection screen correctly display an assertion failure
 Does not require "Logging On=1" in baldur.ini
 
 Options:
@@ -179,18 +193,6 @@ Options:
 -----710 Verbose Logging [D]
 Prints to console and logs excessive amounts of internal TobEx debug messages
 Do not use this unless you are troubleshooting and need to report TobEx debug messages
-
-Options:
--0: disabled
--1: enabled
-
-/////////////////////////////////////// DIALOGUE
-
------1180 Instantly Set Dialogue Variables [M]
-Dialogue actions containing SetGlobal(), IncrementGlobal(), SG(), including through ActionOverride(), will set the variables immediately instead of being added through the dialogue owner's action queue
-This allows interactive updates to responses by dialogue transitions
-
-Limitations: Variables become set asynchronously to the order in which the action is present on the script block. This could possibly cause issues, but so far none have been identified.
 
 Options:
 -0: disabled
@@ -423,7 +425,7 @@ Options:
 
 -----160 Configurable Damage Effect Bypasses Mirror Images [C, M]
 (Identical to tob_hacks, SCS, SCSII, Spell Revisions)
-Adds new bit 24 to effect feature block save type 'Bypass Mirror Images'
+Adds new bit 24 to item ability flag 'Bypass Mirror Images'
 Only for the damage effect opcode, if this bit is set, the mirror image check is skipped when checking saving throw
 
 Options:
@@ -656,10 +658,10 @@ Description:
 Applies the modifier value specified by the 'Statistic Modifier' field in the style specified by the 'Type' field.
 
 Known values for 'Type' are:
-0   Cumulative Modifier -> Value = Value + 'Statistic Modifier' value
+0   Instantaneous Cumulative Modifier -> Value = Value + 'Statistic Modifier' value
 1   Flat Value Modifier -> Value = 'Statistic Modifier' value
 2   Percentage Modifier -> Value = (Value * 'Statistic Modifier' value) / 100
-3   Instantaneous Cumulative Modifier -> Value = Value + 'Statistic Modifier' value
+3   Cumulative Modifier -> Value = Value + 'Statistic Modifier' value
 
 For a non-permanent timing, the instantaneous cumulative modifier immediately adds the 'Statistic Modifier' value, unlike the cumulative modifier which adds the 'Statistic Modifier' after all effects are applied. The former has the disadvantage that it will be overriden by any subsequent flat value modifiers. Percentage modifiers override all other modifiers.
 
@@ -876,8 +878,7 @@ Known values for 'Type' are:
 2 Percentage Modifier -> Strength = (Strength * 'Statistic Modifier' value) / 100
 3 Strength Spell
 
-For a Type of 0 (Cumulative Modifier), unit increments from 17 upwards occurs as 17 -> 18 -> 18/01 -> 18/51 -> 18/76 -> 18/91 -> 18/00 -> 19 -> ...
-For a Type of 3 (Strength Spell), strength is modified as per Icewind Dale Strength spell behaviour, externalised to CLSSPLAB.2DA, in which 1Dx strength is gained up to a maximum of 18/<STREX value> depending on the player's class (defaults to 1D6 if class is not present), where x is specified by the STR column. Unit increments from 17 upwards occurs as 17 -> 18 -> 18/10 -> 18/20 -> 18/30 -> 18/40 -> 18/50 -> 18/60 -> 18/70 -> 18/80 -> 18/90 -> 18/00. The 'Statistic Modifier' value overrides the CLSSPLAB.2DA entry, specifying the die size and allowing a maximum strength of 18/00.
+For a Type of 3 (Strength Spell), strength is modified as per Icewind Dale Strength spell behaviour, externalised to CLSSPLAB.2DA, in which 1Dx strength is gained up to a maximum of 18/<STREX value> depending on the player's class (defaults to 1D6 if class is not present), where x is specified by the STR column. Unit increments between 18 and 19 depend on differences detected in the STRMODEX.2DA table. The 'Statistic Modifier' value overrides the CLSSPLAB.2DA entry, specifying the die size and allowing a maximum strength of 18/00.
 
 FlameWing's description of Strength Spell:
 "IWD1/P&P Strength Spell With a slight change, in that param1 != 0 means dice size to roll for all classes and allows exceptional strength bonuses for non-warrior classes. For example, param1 = 4 rolls a d4 for strength increase,
@@ -965,14 +966,6 @@ Options:
 -0: disabled
 -1: enabled
 
------180 Correct Experience Reporting [F]
-Fixes a bug where the game incorrectly reports the amount of experience gained by the party
-While the party normally gains 110% experience of that coded in creatures, the game reports the 100% amount instead
-
-Options:
--0: disabled
--1: enabled
-
 -----950 Custom Shadows of Amn Starting Experience [C, T]
 (overrides any mods that directly modify the starting experience in the executable, including Baldur's Gate Trilogy-WeiDU)
 Allows setting a custom amount of starting experience for Shadows of Amn
@@ -1015,6 +1008,7 @@ Options:
 
 -----930 Disable Experience Boost [T]
 Disables the hard-coded feature where the party gains 110% of the experience actually coded in creatures
+Also, fixes a bug where the game incorrectly reports the amount of experience gained by the party
 
 Options:
 -0: disabled
@@ -1144,6 +1138,28 @@ ENCUMBER.2DA
 Description
 THRESHOLD: The percentage weight above which [ROWNAME] applies. If the THRESHOLD is set to 0, [ROWNAME] never applies. If the THRESHOLD is set to a negative number, the value is treated as invalid and the default hard-coded value is applied.
 [ROWNAME]: Either LOW_ENCUMBRANCE (slowed) or HIGH_ENCUMBRANCE (cannot move)
+
+Options:
+-0: disabled
+-1: enabled
+
+-----1180 Externalise Mage Spells Cap [M]
+Externalises the number of spells cap per level of mage spells to SPELLS.2DA
+The cap for level 1-8 spells can be set to 99
+The cap for level 9 spells can be set to 199, for which spells 100-199 refer to SPWI0**.SPL
+
+Modding Note
+If this hack is used, it is recommended you use this hack with Externalize Mage Spell Hiding
+Otherwise, unwanted spells will show up on spell selection screens
+Also, assuming you provide maximum values for the number of spells in SPELLS.2DA,
+you should add to HIDESPL.2DA the following vanilla Throne of Bhaal spells:
+SPWI298-299
+SPWI399
+SPWI483-491, 493-499
+SPWI590-97
+SPWI853, 888, 897-899
+SPWI926-965, 979-999
+SPWI001-027, 050-056
 
 Options:
 -0: disabled
@@ -1445,6 +1461,19 @@ Options:
 -1: enabled
 
 /////////////////////////////////////// SPELLS
+
+-----180 Casting Fixes [F]
+Fixes a number of issues with casting sounds and graphics:
+1. Modifies the way that the gender of casting sound selection is handled
+Normally, female gender uses female sound, other and niether gender uses unvoiced sound, and all other genders uses male sound
+This caused problems with spells like Project Image where illusory female creatures used male casting sounds
+This hack modifies so that female gender uses female sound, other and niether gender uses unvoiced sound, male gender uses male sound, and all other genders check the Sex field (0x237) in the CRE file format. If the Sex field is male, male sound is used. If female, female sound is used. For any other Sex field, an unvoiced sound is used
+
+2. Takes into account the MENTALSPEED stat when determining whether to play a casting sound at all, whether to play a gendered or unvoiced casting sound, and whether to play the casting animation
+
+Options:
+-0: disabled
+-1: enabled
 
 -----1010 Configurable Spells Can Be Unvoiced [M]
 Adds new bit 25 to spell flags 'Can Be Cast When Silenced'
